@@ -1,4 +1,25 @@
-#!/bin/sh
+#!/bin/tcsh
+# Copyright (c) 2008 California Institute of Technology.
+# ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+#
+# $Id$
 
-cd /Users/mattmann/src/cas-crawler/trunk/target/cas-crawler-0.0.0/bin/cas-crawler-0.0.0/bin
-./met_extractor_crawler --fileManagerUrl http://localhost:9000 --productPath /Users/mattmann/Desktop/eCAS_Data/Pancreatic/ --clientTransfer gov.nasa.jpl.oodt.cas.filemgr.datatransfer.RemoteDataTransferFactory --metExtractorPath /Users/mattmann/bin/ecas_met_extractor --metExtractorConfigPath /Users/mattmann/src/ecas-demo/trunk/src/conf/PancreaticDataConfig.met.xml
+set ORIG_DIR = $cwd
+set DIR = `dirname $0`
+cd $DIR
+set DIR_PATH = `pwd`
+
+if ( $#argv != 2 ) then
+	echo "Usage: $0 <filemgr url> <seldi data dir path>"
+	exit 1
+else
+	cd $DIR_PATH/../crawler/bin
+	./met_extractor_crawler \
+	--fileManagerUrl $1 \
+	 --productPath $2 \
+	 --clientTransfer gov.nasa.jpl.oodt.cas.filemgr.datatransfer.LocalDataTransferFactory \
+	 --metExtractorPath $EDRN_ECAS_HOME/scripts/ecas_met_extractor \
+	 --metExtractorConfigPath $EDRN_ECAS_HOME/aux/met_def/ecas.misc.pancreatic.copyandrewrite.conf \
+	 --metOutputDir $EDRN_ECAS_HOME/met_output_dir/ \
+	 --unique
+endif
