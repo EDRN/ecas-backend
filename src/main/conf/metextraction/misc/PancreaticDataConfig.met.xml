@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+<keyval type="vector">
+  <key>SiteId</key>
+  <val>167</val>
+</keyval>
+<keyval type="vector">
+  <key>PI</key>
+  <val>Lokshin, Anna, Ph.D.</val>
+</keyval>
+<keyval type="vector">
+  <key>Institution</key>
+  <val>University of Pittsburgh Cancer Instititute</val>
+</keyval>
+<keyval type="vector">
+  <key>StudyId</key>
+  <val>167-Lokshin-2</val>
+</keyval>
+<keyval type="vector">
+ <key>StudyDescription</key>
+ <val>Pancreatic cancer biomarker discovery study using multianalyte LabMAP profiling</val>
+</keyval>
+<keyval type="vector">
+  <key>StudyBackground</key>
+  <val><![CDATA[Early detection of pancreatic cancer might improve clinical outcome. Some studies 
+  have shown the role of cytokines as a new group of tumor markers for pancreatic cancer. We hypothesized 
+  that a panel comprised of multiple cytokines, which individually may not show strong correlation with 
+  the disease, might provide higher diagnostic power.]]></val>
+</keyval>
+<keyval type="vector">
+  <key>StudyMethods</key>
+  <val>To evaluate the diagnostic utility of cytokine panel, we used a novel multianalyte LabMAP 
+  profiling technology that allows simultaneous measurement of multiple markers.</val>
+</keyval>
+<keyval type="vector">
+  <key>StudyConclusion</key>
+  <val>The presented data show that simultaneous testing of a panel of serum cytokines and CA-125 
+  using LabMAP technology may present a promising approach for pancreatic cancer detection.</val>
+</keyval>
+<keyval type="vector">
+  <key>ResearchSupport</key>
+  <val>N N.I.H., Extramural</val>
+  <val>U.S. Gov't, Non-P.H.S</val>
+  <val>U.S. Gov't, P.H.S.</val>
+</keyval>
+<keyval type="vector">
+  <key>GrantSupport</key>
+  <val>1R01 CA098642-01A1/CA/NCI</val>
+  <val>R03 CA102888/CA/NCI</val>
+</keyval>
+<keyval type="vector">
+  <key>AnalysisId</key>
+  <val>167-Lokshin-2-Immunoassay-Pancreatic</val>
+</keyval> 
+<keyval type="vector">
+  <key>AnalysisDescription</key>
+  <val>Multianalyte LabMAP profiling</val>
+</keyval>
+<keyval type="vector">
+  <key>Technology</key>
+  <val>Multiplexed bead-based Luminex LabMAP assay</val>
+</keyval>
+<keyval type="vector">
+  <key>ProtocolId</key>
+  <val>Luminex</val>
+</keyval>
+<keyval type="vector">
+  <key>ProtocolType</key>
+  <val>Immunoassay</val>
+</keyval>
+<keyval type="vector">
+  <key>Software</key>
+  <val>Predictive Value of Tests</val>
+  <val>ROC Curve</val>
+</keyval>
+<keyval type="vector">
+  <key>Organism</key>
+  <val>Human</val>
+</keyval>
+<keyval type="vector">
+  <key>OrganSite</key>
+  <val>Pancreatic</val>
+</keyval>
+<keyval type="vector">
+  <key>Specimen</key>
+  <val>Serum</val>
+</keyval>
+<keyval type="vector">
+  <key>ClinicalDiagnosis</key>
+  <val>Pancreatic Cancer</val>
+</keyval>
+<keyval type="vector">
+  <key>StudyType</key>
+  <val>Case-Control Studies</val>
+</keyval>
+<keyval type="vector">
+  <key>AnalysisType</key>
+  <val>Protein Expression</val>
+</keyval>
+<keyval type="vector">
+  <key>MarkerType</key>
+  <val>CA-125 Antigen</val>
+  <val>Cytokines</val>
+  <val>Tumor Markers, Biological</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenType</key>
+  <val>CA-125 Antigen/blood</val>
+  <val>Cytokines/blood</val>
+  <val>Tumor Markers, Biological/blood</val>
+</keyval>
+<keyval type="vector">
+  <key>Gender</key>
+  <val>Female</val>
+</keyval>
+<keyval type="vector">
+  <key>ResearchType</key>
+  <val>Pancreatic Neoplasms/blood</val>
+  <val>Pancreatic Neoplasms/diagnosis</val>
+  <val>Pancreatic Neoplasms/pathology</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductType</key>
+  <val>PancreaticData</val>
+</keyval>
+<keyval type="vector">
+  <key>FileLocation</key>
+  <val>/some/path</val>
+</keyval>
+<keyval type="vector">
+  <key>Filename</key>
+  <val>some_name</val>
+</keyval>
+</cas:metadata>

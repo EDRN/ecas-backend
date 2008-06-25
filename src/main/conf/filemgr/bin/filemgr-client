@@ -1,0 +1,19 @@
+#!/bin/sh
+# Copyright (c) 2007 California Institute of Technology.
+# ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+#
+# $Id$
+
+
+JAVA=`which java`
+export JAVA
+DIR=`dirname $0`
+export DIR
+cd $DIR
+DIR_PATH=`pwd`
+set DIR_PATH
+
+$JAVA -Djava.ext.dirs=$DIR_PATH/../lib \
+-Dgov.nasa.jpl.oodt.cas.filemgr.properties=$DIR_PATH/../etc/filemgr.properties \
+-Djava.util.logging.config.file=$DIR_PATH/../etc/logging.properties \
+gov.nasa.jpl.oodt.cas.filemgr.system.XmlRpcFileManagerClient $*

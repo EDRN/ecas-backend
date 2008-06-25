@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+<keyval type="vector">
+  <key>SiteId</key>
+  <val>81</val>
+</keyval>
+<keyval type="vector">
+  <key>PI</key>
+  <val>Marks, Jeffrey, Ph.D.</val>
+</keyval>
+<keyval type="vector">
+  <key>Institution</key>
+  <val>Duke University Medical Center</val>
+</keyval>
+<keyval type="vector">
+  <key>StudyId</key>
+  <val>81-Marks-1</val>
+</keyval>
+<keyval type="vector">
+ <key> StudyDescription</key>
+ <val>Breast cancer biomarker discovery study using multianalyte LabMAP profiling</val>
+</keyval>
+<keyval type="vector">
+  <key>StudyBackground</key>
+  <val><![CDATA[Early detection of breast cancer might improve clinical outcome. Some studies have 
+  shown the role of cytokines as a new group of tumor markers for breast cancer. We hypothesized 
+  that a panel comprised of multiple cytokines, which individually may not show strong correlation 
+  with the disease, might provide higher diagnostic power.]]></val>
+</keyval>
+<keyval type="vector">
+  <key>StudyMethods</key>
+  <val>To evaluate the diagnostic utility of cytokine panel, we used a novel multianalyte LabMAP profiling 
+  technology that allows simultaneous measurement of multiple markers.</val>
+</keyval>
+<keyval type="vector">
+  <key>AnalysisId</key>
+  <val>81-Marks-1-Immunoassay-Breast</val>
+</keyval> 
+<keyval type="vector">
+  <key>AnalysisDescription</key>
+  <val>Multianalyte LabMAP profiling</val>
+</keyval>
+<keyval type="vector">
+  <key>Technology</key>
+  <val>Multiplexed bead-based Luminex LabMAP assay</val>
+</keyval>
+<keyval type="vector">
+  <key>ProtocolId</key>
+  <val>Luminex</val>
+</keyval>
+<keyval type="vector">
+  <key>ProtocolType</key>
+  <val>Immunoassay</val>
+</keyval>
+<keyval type="vector">
+  <key>Software</key>
+  <val>Predictive Value of Tests; ROC Curve</val>
+</keyval>
+<keyval type="vector">
+  <key>Organism</key>
+  <val>Human</val>
+</keyval>
+<keyval type="vector">
+  <key>OrganSite</key>
+  <val>Breast</val>
+</keyval>
+<keyval type="vector">
+  <key>Specimen</key>
+  <val>Serum</val>
+</keyval>
+<keyval type="vector">
+  <key>ClinicalDiagnosis</key>
+  <val>Breast Cancer</val>
+</keyval>
+<keyval type="vector">
+  <key>StudyType</key>
+  <val>Case-Control Studies</val>
+</keyval>
+<keyval type="vector">
+  <key>AnalysisType</key>
+  <val>Protein Expression</val>
+</keyval>
+<keyval type="vector">
+  <key>MarkerType</key>
+  <val>CA-125 Antigen; Cytokines</val>
+  <val>Tumor Markers, Biological</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenType</key>
+  <val>CA-125 Antigen/blood</val>
+  <val>Cytokines/blood</val>
+  <val>Tumor Markers, Biological/blood</val>
+</keyval>
+<keyval type="vector">
+  <key>Gender</key>
+  <val>Female</val>
+</keyval>
+<keyval type="vector">
+  <key>ResearchType</key>
+  <val>Breast Neoplasms/blood</val>
+  <val>Breast Neoplasms/diagnosis</val>
+  <val>Breast Neoplasms/pathology</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductType</key>
+  <val>BreastData</val>
+</keyval>
+<keyval type="vector">
+  <key>FileLocation</key>
+  <val>/some/path</val>
+</keyval>
+<keyval type="vector">
+  <key>Filename</key>
+  <val>some_name</val>
+</keyval>
+</cas:metadata>

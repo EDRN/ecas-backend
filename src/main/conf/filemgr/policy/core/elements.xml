@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Copyright 2006 California Institute of Technology. ALL RIGHTS
+	RESERVED. U.S. Government Sponsorship acknowledged.	
+-->
+<cas:elements xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+	<element id="urn:oodt:ProductId" name="CAS.ProductId">
+		<dcElement>Identifier</dcElement>
+		<description>A Product's unique identifier within the CAS namespace.</description>   
+	</element>
+	<element id="urn:oodt:ProductName" name="CAS.ProductName">
+		<dcElement>Title</dcElement>
+		<description>A Product's name within the CAS namespace.</description>   
+	</element>
+	<element id="urn:oodt:ProductReceivedTime" name="CAS.ProductReceivedTime">
+		<dcElement/>
+		<description>The ISO 8601 formatted time that the Product was received.</description>   
+	</element>
+</cas:elements> 

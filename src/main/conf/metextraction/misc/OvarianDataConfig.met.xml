@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+<keyval type="vector">
+  <key>SiteId</key>
+  <val>167</val>
+</keyval>
+<keyval type="vector">
+  <key>PI</key>
+  <val>Lokshin, Anna, Ph.D.</val>
+</keyval>
+<keyval type="vector">
+  <key>Institution</key>
+  <val>University of Pittsburgh Cancer Instititute</val>
+</keyval>
+<keyval type="vector">
+  <key>StudyId</key>
+  <val>167-Lokshin-1</val>
+</keyval>
+<keyval type="vector">
+ <key> StudyDescription</key>
+ <val>Ovarian cancer biomarker discovery study using multianalyte LabMAP profiling</val>
+</keyval>
+<keyval type="vector">
+  <key>StudyBackground</key>
+  <val><![CDATA[Early detection of ovarian cancer might improve clinical outcome. Some studies have shown the role of cytokines as a new group of tumor markers for ovarian cancer. We hypothesized that a panel comprised of multiple cytokines, which individually may not show strong correlation with the disease, might provide higher diagnostic power.]]></val>
+</keyval>
+<keyval type="vector">
+  <key>StudyMethods</key>
+  <val>To evaluate the diagnostic utility of cytokine panel, we used a novel multianalyte LabMAP profiling technology that allows simultaneous measurement of multiple markers.</val>
+</keyval>
+<keyval type="vector">
+  <key>StudyResults</key>
+  <val><![CDATA[Concentrations of 24 cytokines (cytokines/chemokines, growth, and angiogenic factors) in combination with cancer antigen-125 (CA-125), were measured in sera of 44 patients with early-stage ovarian cancer, 45 healthy women, and 37 patients with benign pelvic tumors. Six markers, i.e., interleukin (IL)-6, IL-8, epidermal growth factor (EGF), vascular endothelial growth factor (VEGF), monocyte chemoattractant protein-1 (MCP-1), and CA-125, showed significant differences in serum concentrations between ovarian cancer and control groups. Out of this group, IL-6, IL-8, VEGF, EGF, and CA-125, were used in a classification tree analysis that resulted in 84% sensitivity at 95% specificity. The receiver operator characteristic curve created using the combination of markers produced sensitivities between 90% and 100% in the area of 80% to 90% specificity, whereas the receiver operator characteristic curve for CA-125 alone resulted in sensitivities of 70% to 80%. The classification tree analysis for discrimination of benign condition from ovarian cancer used CA-125, granulocyte colony-stimulating factor (G-CSF), IL-6, EGF, and VEGF resulting in 86.5% sensitivity and 93.0% specificity.]]></val>
+</keyval>
+<keyval type="vector">
+  <key>StudyConclusion</key>
+  <val>The presented data show that simultaneous testing of a panel of serum cytokines and CA-125 using LabMAP technology may present a promising approach for ovarian cancer detection.</val>
+</keyval>
+<keyval type="vector">
+  <key>ResearchSupport</key>
+  <val>N N.I.H., Extramural; U.S. Gov't, Non-P.H.S.; U.S. Gov't, P.H.S.</val>
+</keyval>
+<keyval type="vector">
+  <key>GrantSupport</key>
+  <val>1R01 CA098642-01A1/CA/NCI; R03 CA102888/CA/NCI</val>
+</keyval>
+<keyval type="vector">
+  <key>PublicationId</key>
+  <val>192-Liu-1-PMID16042785</val>
+</keyval>
+<keyval type="vector">
+  <key>PublicationAuthors</key>
+  <val>Gorelik E</val>
+  <val>Landsittel DP</val>
+  <val>Marrangoni AM</val>
+  <val>Modugno F</val>
+  <val>Velikokhatnaya L</val>
+  <val>Winans MT</val>
+  <val>Bigbee WL</val>
+  <val>Herberman RB</val>
+  <val>Lokshin AE</val>
+</keyval>
+<keyval type="vector">
+  <key>PublicationContact</key>
+  <val>Department of Pathology and Immunology, University of Pittsburg School of Medicine and University of Pittsburgh Cancer Institute, Pittsburgh, PA 15213, USA.</val>
+</keyval>
+<keyval type="vector">
+  <key>PublicationTitle</key>
+  <val>Multiplexed immunobead-based cytokine profiling for early detection of ovarian cancer.</val>
+</keyval>
+<keyval type="vector">
+  <key>Journal</key>
+  <val>Cancer Epidemiol Biomarkers Prev. 2005 Apr;14(4):981-7.</val>
+</keyval>
+<keyval type="vector">
+  <key>PublicationPubMedId</key>
+  <val>15824174</val>
+</keyval>
+<keyval type="vector">
+  <key>AnalysisId</key>
+  <val>167-Lokshin-1-Immunoassay-Ovarian</val>
+</keyval> 
+<keyval type="vector">
+  <key>AnalysisDescription</key>
+  <val>Multianalyte LabMAP profiling</val>
+</keyval>
+<keyval type="vector">
+  <key>Technology</key>
+  <val>Multiplexed bead-based Luminex LabMAP assay</val>
+</keyval>
+<keyval type="vector">
+  <key>ProtocolId</key>
+  <val>Luminex</val>
+</keyval>
+<keyval type="vector">
+  <key>ProtocolType</key>
+  <val>Immunoassay</val>
+</keyval>
+<keyval type="vector">
+  <key>Software</key>
+  <val>Predictive Value of Tests</val>
+  <val>ROC Curve</val>
+</keyval>
+<keyval type="vector">
+  <key>Organism</key>
+  <val>Human</val>
+</keyval>
+<keyval type="vector">
+  <key>OrganSite</key>
+  <val>Ovarian</val>
+</keyval>
+<keyval type="vector">
+  <key>Specimen</key>
+  <val>Serum</val>
+</keyval>
+<keyval type="vector">
+  <key>ClinicalDiagnosis</key>
+  <val>Ovarian Cancer</val>
+</keyval>
+<keyval type="vector">
+  <key>StudyType</key>
+  <val>Case-Control Studies</val>
+</keyval>
+<keyval type="vector">
+  <key>AnalysisType</key>
+  <val>Protein Expression</val>
+</keyval>
+<keyval type="vector">
+  <key>MarkerType</key>
+  <val>CA-125 Antigen</val>
+  <val>Cytokines</val>
+  <val>Tumor Markers, Biological</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenType</key>
+  <val>CA-125 Antigen/blood</val>
+  <val>Cytokines/blood</val>
+  <val>Tumor Markers, Biological/blood</val>
+</keyval>
+<keyval type="vector">
+  <key>Gender</key>
+  <val>Female</val>
+</keyval>
+<keyval type="vector">
+  <key>ResearchType</key>
+  <val>Ovarian Neoplasms/blood</val>
+  <val>Ovarian Neoplasms/diagnosis</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductType</key>
+  <val>OvarianData</val>
+</keyval>
+<keyval type="vector">
+  <key>FileLocation</key>
+  <val>/Users/mattmann/Desktop/eCAS_Data/Ovarian/Anna_Lokshin_1</val>
+</keyval>
+<keyval type="vector">
+  <key>Filename</key>
+  <val>167-Lokshin-1-Immunoassay-Ovarian-1.xls</val>
+</keyval>
+</cas:metadata>

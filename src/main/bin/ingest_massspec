@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd /Users/mattmann/src/cas-crawler/trunk/target/cas-crawler-0.0.0/bin/cas-crawler-0.0.0/bin
+./met_extractor_crawler --fileManagerUrl http://localhost:9000 --productPath /Users/mattmann/Desktop/eCAS_Data/MassSpec/ --clientTransfer gov.nasa.jpl.oodt.cas.filemgr.datatransfer.RemoteDataTransferFactory --metExtractorPath /Users/mattmann/bin/ecas_met_extractor --metExtractorConfigPath /Users/mattmann/src/ecas-demo/trunk/src/conf/MassSpecDataConfig.met.xml

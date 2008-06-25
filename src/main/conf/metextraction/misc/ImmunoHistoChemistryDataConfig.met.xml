@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+<keyval type="vector">
+  <key>SiteId</key>
+  <val>192</val>
+</keyval>
+<keyval type="vector">
+  <key>PI</key>
+  <val>Liu, Alvin Y., Ph.D.</val>
+</keyval>
+<keyval type="vector">
+  <key>Institution</key>
+  <val>University of Washington</val>
+</keyval>
+<keyval type="vector">
+  <key>StudyId</key>
+  <val>192-Liu-2</val>
+</keyval>
+<keyval type="vector">
+ <key> StudyDescription</key>
+ <val>We are investigating the molecular basis of cell-cell interaction in the 
+ differentiation of epithelial cells of the human bladder. Our approach involves 
+ cell-type identification by CD cell surface molecules, isolation of specific cell 
+ populations, gene expression analysis, and functional test of candidate genes in a 
+ cell culture system.</val>
+</keyval>
+<keyval type="vector">
+  <key>StudyBackground</key>
+  <val><![CDATA[Stromal mesenchyme cells play an important role in epithelial differentiation 
+  and likely in cancer as well. Induction of epithelial differentiation is organ-specific, and 
+  the genes responsible could be identified through a comparative genomic analysis of the stromal 
+  cells from two different organs. These genes might be aberrantly expressed in cancer since cancer 
+  could be viewed as due to a defect in stromal signaling. We propose to identify the prostate stromal 
+  genes by analysis of differentially expressed genes between prostate and bladder stromal cells, and 
+  to examine their expression in prostate cancer.]]></val>
+</keyval>
+<keyval type="vector">
+  <key>StudyMethods</key>
+  <val>Immunohistochemistry using antibodies to cluster designation (CD) cell surface antigens was 
+  first used to characterize the stromas of the prostate and bladder. Stromal cells were prepared from 
+  either prostate or bladder tissue for cell culture. RNA was isolated from the cultured cells and analyzed 
+  by DNA microarrays. Expression of candidate genes in normal prostate and prostate cancer was examined by RT-PCR. </val>
+</keyval>
+<keyval type="vector">
+  <key>StudyResults</key>
+  <val><![CDATA[The bladder stroma was phenotypically different from that of the prostate. Most notable was the presence 
+  of a layer of CD13+ cells adjacent to the urothelium. This structural feature was also seen in the mouse bladder. The 
+  prostate stroma was uniformly CD13-. A number of differentially expressed genes between prostate and bladder stromal 
+  cells were identified. One prostate gene, proenkephalin (PENK), was of interest because it encodes a hormone. Secreted 
+  proteins such as hormones and bioactive peptides are known to mediate cell-cell signaling. Prostate stromal expression 
+  of PENK was verified by an antibody raised against a PENK peptide, by RT-PCR analysis of laser-capture microdissected 
+  stromal cells, and by database analysis. Gene expression analysis showed that PENK expression was down-regulated in prostate cancer.]]></val>
+</keyval>
+<keyval type="vector">
+  <key>StudyConclusion</key>
+  <val>Our findings show that the histologically similar stromas of the prostate and bladder are phenotypically different, 
+  and express organ-specific genes. The importance of these genes in epithelial development is suggested by their abnormal 
+  expression in cancer. Among the candidates is the hormone PENK and the down-regulation of PENK expression in cancer suggests 
+  a possible association with cancer development.</val>
+ </keyval>
+<keyval type="vector">
+  <key>ResearchSupport</key>
+  <val>N.I.H., Extramural</val>
+</keyval>
+<keyval type="vector">
+  <key>GrantSupport</key>
+  <val>CA85859/CA/NCI</val>
+  <val>CA98699/CA/NCI</val>
+  <val>DK63630/DK/NIDDK</val>
+  <val>DK65260/DK/NIDDK</val>
+</keyval>
+<keyval type="vector">
+  <key>PublicationId</key>
+  <val>192-Liu-2-PMID16343351</val>
+</keyval>
+<keyval type="vector">
+  <key>PublicationAuthors</key>
+  <val>Goo YA</val>
+  <val>Goodlett DR</val>
+  <val>Pascal LE</val>
+  <val>Worthington KD</val>
+  <val>Vessella RL</val>
+  <val>True LD</val>
+  <val>Liu AY</val>
+</keyval>
+<keyval type="vector">
+  <key>PublicationContact</key>
+  <val>Department of Urology, University of Washington, Seattle, WA, USA. youngah@u.washington.edu</val>
+</keyval>
+<keyval type="vector">
+  <key>PublicationTitle</key>
+  <val>Stromal mesenchyme cell genes of the human prostate and bladder.</val>
+</keyval>
+<keyval type="vector">
+  <key>Journal</key>
+  <val>BMC Urol. 2005 Dec 12;5:17.</val>
+</keyval>
+<keyval type="vector">
+  <key>PublicationPubMedId</key>
+  <val>16343351</val>
+</keyval>
+<keyval type="vector">
+  <key>AnalysisId</key>
+  <val>192-Liu-2-IHC-Prostate</val>
+</keyval> 
+<keyval type="vector">
+  <key>AnalysisDescription</key>
+  <val>CD marker expression profile of prostate cancer cells for investigating the molecular basis 
+  of cell-cell interaction in the differentiation of epithelial cells of the human</val>
+</keyval>
+<keyval type="vector">
+  <key>Technology</key>
+  <val>Immunohistochemistry</val>
+</keyval>
+<keyval type="vector">
+  <key>ProtocolId</key>
+  <val>UESC Specimen Prep 1</val>
+</keyval>
+<keyval type="vector">
+  <key>ProtocolType</key>
+  <val>Immunoassay</val>
+</keyval>
+<keyval type="vector">
+  <key>Software</key>
+  <val>Predictive Value of Tests; ROC Curve</val>
+</keyval>
+<keyval type="vector">
+  <key>ProtocolType</key>
+  <val>Immunostain Specimen Preparation</val>
+</keyval>
+<keyval type="vector">
+  <key>ProtocolDescription</key>
+  <val>http://scgap.systemsbiology.net/resources/protocols.php</val>
+</keyval>
+<keyval type="vector">
+  <key>Organism</key>
+  <val>Human</val>
+</keyval>
+<keyval type="vector">
+  <key>OrganSite</key>
+  <val>Prostate</val>
+</keyval>
+<keyval type="vector">
+  <key>Specimen</key>
+  <val>Prostate Tissue</val>
+</keyval>
+<keyval type="vector">
+  <key>ClinicalDiagnosis</key>
+  <val>Prostate Cancer</val>
+</keyval>
+<keyval type="vector">
+  <key>DiagnosisDescription</key>
+  <val>Prostate Adenocarinoma</val>
+</keyval>
+<keyval type="vector">
+  <key>StudyType</key>
+  <val>Prostate/cytology</val>
+</keyval>
+<keyval type="vector">
+  <key>AnalysisType</key>
+  <val>Gene Expression</val>
+</keyval>
+<keyval type="vector">
+  <key>MarkerType</key>
+  <val>Stromal Cells</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenType</key>
+  <val>Cells, Cultured</val>
+</keyval>
+<keyval type="vector">
+  <key>Gender</key>
+  <val>Male</val>
+</keyval>
+<keyval type="vector">
+  <key>ResearchType</key>
+  <val>Prostatic Neoplasms/genetics</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductType</key>
+  <val>ImmunohistochemistryData</val>
+</keyval>
+<keyval type="vector">
+  <key>FileLocation</key>
+  <val>/some/path</val>
+</keyval>
+<keyval type="vector">
+  <key>Filename</key>
+  <val>some_name</val>
+</keyval>
+</cas:metadata>

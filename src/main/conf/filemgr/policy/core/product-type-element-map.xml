@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Copyright 2006 California Institute of Technology. ALL RIGHTS
+	RESERVED. U.S. Government Sponsorship acknowledged.	
+-->
+<cas:producttypemap xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+	<!--  can set the "parent" attribute on types below to allow inheritance of elements between the types -->
+	<type id="urn:oodt:GenericFile">
+		<element id="urn:oodt:ProductReceivedTime"/>
+		<element id="urn:oodt:ProductName"/>
+		<element id="urn:oodt:ProductId"/>
+	</type>
+</cas:producttypemap>

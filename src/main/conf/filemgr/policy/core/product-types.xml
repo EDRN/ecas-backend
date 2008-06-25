@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Copyright 2006 California Institute of Technology. ALL RIGHTS
+	RESERVED. U.S. Government Sponsorship acknowledged.	
+-->
+<cas:producttypes xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+	<type id="urn:oodt:GenericFile" name="GenericFile">
+		<repositoryPath>@REPO_URL@</repositoryPath>
+		<versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.BasicVersioner</versionerClass>
+		<description>The default product type for any kind of file.</description>
+	</type>
+</cas:producttypes>

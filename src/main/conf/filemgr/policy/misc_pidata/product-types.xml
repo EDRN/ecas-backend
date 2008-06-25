@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cas:producttypes xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+ <!-- <type id="urn:oodt:GenericFile" name="GenericFile">
+    <repositoryPath>file:///tmp/files</repositoryPath>
+    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.BasicVersioner</versionerClass>
+    <description>The default product type for any kind of file.</description>
+  </type>
+  -->
+
+  <!--  EDRN Product Types -->
+  <type id="urn:edrn:MicroarrayData" name="MicroarrayData">
+    <repositoryPath>file:///tmp/files/Microarray</repositoryPath>
+    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.SingleFileBasicVersioner</versionerClass>
+    <description>Alvin Liu's Microarray data.</description>  
+  </type>
+  <type id="urn:edrn:ImmunohistochemistryData" name="ImmunohistochemistryData">
+    <repositoryPath>file:///tmp/files/Immunohistochemistry</repositoryPath>
+    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.SingleFileBasicVersioner</versionerClass>
+    <description>Alvin Liu's Immunohistochemistry data.</description>    
+  </type>
+  <type id="urn:edrn:OvarianData" name="OvarianData">
+    <repositoryPath>file:///tmp/files/Ovarian</repositoryPath>
+    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.SingleFileBasicVersioner</versionerClass>
+    <description>Ovarian data.</description>     
+  </type>
+  <type id="urn:edrn:PancreaticData" name="PancreaticData">
+    <repositoryPath>file:///tmp/files/Immunohistochemistry</repositoryPath>
+    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.SingleFileBasicVersioner</versionerClass>
+    <description>Pancreatic data.</description>     
+  </type>
+  <type id="urn:edrn:BreastData" name="BreastData">
+    <repositoryPath>file:///tmp/files/Breast</repositoryPath>
+    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.SingleFileBasicVersioner</versionerClass>
+    <description>Breast data.</description>     
+  </type>
+  <type id="urn:edrn:FishData" name="FishData">
+    <repositoryPath>file:///tmp/files/Fish</repositoryPath>
+    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.SingleFileBasicVersioner</versionerClass>
+    <description>Fish data.</description>     
+  </type>
+  <type id="urn:edrn:MassSpecData" name="MassSpecData">
+    <repositoryPath>file:///tmp/files/MassSpec</repositoryPath>
+    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.SingleFileBasicVersioner</versionerClass>
+    <description>Mass Spectrometry data.</description>     
+  </type>
+</cas:producttypes>

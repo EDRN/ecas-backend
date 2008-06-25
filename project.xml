@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- 
+Copyright 2006 California Institute of Technology. ALL RIGHTS
+RESERVED. U.S. Government Sponsorship acknowledged.
+
+$Id: project.xml,v 1.10 2006/05/26 18:24:36 kelly Exp $
+-->
+<project>
+	<extend>${defaults.xml}</extend>
+	<id>backend</id>
+	<name>E-CAS Backend</name>
+	<currentVersion>0.0.0</currentVersion>
+	<shortDescription>EDRN Catalog/Archive Backend</shortDescription>
+	<description>
+		The Early Detection Research Network (EDRN) deploys a Catalog and Archive Service (CAS) known
+		as E-CAS.  E-CAS comes in two parts: a web-based user interface and a backend storage system.
+		This component is the backend storage system.  It provides authenticated XML-RPC-based
+		interfaces for both the user interface as well as for programs (such as ingest scripts) to
+		manipulate the catalog/archive.
+	</description>
+	<dependencies>
+        <dependency>
+            <groupId>oodt</groupId>
+            <artifactId>cas-filemgr</artifactId>
+            <version>1.1.0</version>
+            <type>jar</type>
+            <url>http://oodt.jpl.nasa.gov/</url>
+        </dependency>
+        <dependency>
+            <groupId>oodt</groupId>
+            <artifactId>cas-metadata</artifactId>
+            <version>1.1.0</version>
+            <type>jar</type>
+            <url>http://oodt.jpl.nasa.gov/</url>
+        </dependency>
+        <dependency>
+            <groupId>oodt</groupId>
+            <artifactId>edm-commons</artifactId>
+            <version>2.2.10</version>
+            <type>jar</type>
+            <url>http://oodt.jpl.nasa.gov/</url>
+        </dependency>
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.0.4</version>
+            <type>jar</type>
+            <url>http://jakarta.apache.org/commons/logging/</url>
+        </dependency>
+        <dependency>
+            <groupId>commons-httpclient</groupId>
+            <artifactId>commons-httpclient</artifactId>
+            <version>3.0</version>
+            <type>jar</type>
+            <url>http://jakarta.apache.org/commons/httpclient/</url>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>1.1</version>
+            <type>jar</type>
+            <url>http://jakarta.apache.org/commons/io/</url>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.3</version>
+            <type>jar</type>
+            <url>http://jakarta.apache.org/commons/codec/</url>
+        </dependency>
+        <dependency>
+           <groupId>commons-dbcp</groupId>
+           <artifactId>commons-dbcp</artifactId>
+           <version>1.2.1</version>
+           <type>jar</type>
+           <url>http://jakarta.apache.org/commons/dbcp/</url>        
+        </dependency>
+        <dependency>
+           <groupId>commons-collections</groupId>
+           <artifactId>commons-collections</artifactId>
+           <version>2.1</version>
+           <type>jar</type>
+           <url>http://jakarta.apache.org/commons/pool/</url>        
+        </dependency>
+        <dependency>
+           <groupId>commons-pool</groupId>
+           <artifactId>commons-pool</artifactId>
+           <version>1.2</version>
+           <type>jar</type>
+           <url>http://jakarta.apache.org/commons/pool/</url>        
+        </dependency>
+        <dependency>
+           <groupId>lucene</groupId>
+           <artifactId>lucene</artifactId>
+           <version>1.4.3</version>
+           <type>jar</type>
+           <url>http://lucene.apache.org</url>        
+        </dependency>     
+        <dependency>
+           <groupId>jug</groupId>
+           <artifactId>jug-asl</artifactId>
+           <version>2.0.0</version>
+           <type>jar</type>
+           <url>http://jug.safehaus.org</url>        
+        </dependency>
+        <dependency>
+              <groupId>xmlrpc</groupId>
+              <artifactId>xmlrpc</artifactId>
+              <version>1.1</version>
+              <url>http://ws.apache.org/xmlrpc/</url>
+        </dependency>
+		<dependency>
+			<groupId>jython</groupId>
+			<artifactId>jython</artifactId>
+			<version>2.2a1</version>
+			<url>http://www.jython.org/</url>
+		</dependency>
+	</dependencies>
+	<build>
+		<sourceDirectory>${basedir}/src/main/java</sourceDirectory>
+		<unitTestSourceDirectory>${basedir}/src/test/java</unitTestSourceDirectory>
+	</build>
+</project>

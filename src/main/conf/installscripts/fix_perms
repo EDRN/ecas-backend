@@ -1,0 +1,14 @@
+#!/bin/tcsh
+# Copyright (c) 2007 California Institute of Technology.
+# ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+#
+# $Id$
+
+set ORIG_DIR = $cwd
+set DIR = `dirname $0`
+cd $DIR
+set DIR_PATH = `pwd`
+
+chmod +x $DIR_PATH/../crawler/bin/*
+chmod +x $DIR_PATH/../filemgr/bin/*
+chmod +x $DIR_PATH/../scripts/*

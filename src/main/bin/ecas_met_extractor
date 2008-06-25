@@ -1,0 +1,3 @@
+#!/bin/sh
+
+java -Djava.ext.dirs=../lib gov.nasa.jpl.oodt.cas.metadata.extractors.CopyAndRewriteExtractor $*

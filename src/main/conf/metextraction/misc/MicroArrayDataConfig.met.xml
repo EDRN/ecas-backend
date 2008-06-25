@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+<keyval type="vector">
+  <key>SiteId</key>
+  <val>192</val>
+</keyval>
+<keyval type="vector">
+  <key>PI</key>
+  <val>Liu, Alvin Y., Ph.D.</val>
+</keyval>
+<keyval type="vector">
+  <key>Institution</key>
+  <val>University of Washington</val>
+</keyval>
+<keyval type="vector">
+  <key>StudyId</key>
+  <val>192-Liu-1</val>
+</keyval>
+<keyval type="vector">
+ <key> StudyDescription</key>
+ <val>Transcriptome profiling experiments with LNCaP and C4-2 human prostate cancer cell 
+ lines with the aim of identifying genes associated with prostate cancer progression</val>
+</keyval>
+<keyval type="vector">
+  <key>StudyBackground</key>
+  <val><![CDATA[Affymetrix GeneChip Array and Massively Parallel Signature Sequencing (MPSS) 
+  are two high throughput methodologies used to profile transcriptomes. Each method has certain 
+  strengths and weaknesses; however, no comparison has been made between the data derived from Affymetrix 
+  arrays and MPSS. In this study, two lineage-related prostate cancer cell lines, LNCaP and C4-2, were 
+  used for transcriptome analysis with the aim of identifying genes associated with prostate cancer progression.]]></val>
+</keyval>
+<keyval type="vector">
+  <key>StudyMethods</key>
+  <val>Affymetrix GeneChip array and MPSS analyses were performed. Data was analyzed with GeneSpring 6.2 and in-house perl scripts. Expression array results were verified with RT-PCR.</val>
+</keyval>
+<keyval type="vector">
+  <key>StudyResults</key>
+  <val><![CDATA[Comparison of the data revealed that both technologies detected genes the other did not. 
+  In LNCaP, 3,180 genes were only detected by Affymetrix and 1,169 genes were only detected by MPSS. Similarly, 
+  in C4-2, 4,121 genes were only detected by Affymetrix and 1,014 genes were only detected by MPSS. Analysis of the 
+  combined transcriptomes identified 66 genes unique to LNCaP cells and 33 genes unique to C4-2 cells. Expression 
+  analysis of these genes in prostate cancer specimens showed CA1 to be highly expressed in bone metastasis but not 
+  expressed in primary tumor and EPHA7 to be expressed in normal prostate and primary tumor but not bone metastasis.]]></val>
+</keyval>
+<keyval type="vector">
+  <key>StudyConclusion</key>
+  <val>Our data indicates that transcriptome profiling with a single methodology will not fully assess the expression of all genes in a cell line. A combination of transcription profiling technologies such as DNA array and MPSS provides a more robust means to assess the expression profile of an RNA sample. Finally, genes that were differentially expressed in cell lines were also differentially expressed in primary prostate cancer and its metastases.</val>
+ </keyval>
+<keyval type="vector">
+  <key>ResearchSupport</key>
+  <val>N.I.H., Extramural</val>
+  <val>Non-U.S. Gov't</val>
+  <val>U.S. Gov't, P.H.S</val>
+</keyval>
+<keyval type="vector">
+  <key>GrantSupport</key>
+  <val>CA85859/CA/NCI</val>
+  <val>CA98699/CA/NCI</val>
+  <val>DK63630/DK/NIDDK</val>
+</keyval>
+<keyval type="vector">
+  <key>PublicationId</key>
+  <val>192-Liu-1-PMID16042785</val>
+</keyval>
+<keyval type="vector">
+  <key>PublicationAuthors</key>
+  <val>Oudes AJ</val>
+  <val>Roach JC</val>
+  <val>Walashek LS</val>
+  <val>Eichner LJ</val>
+  <val>True LD</val>
+  <val>Vessella RL</val>
+  <val>Liu AY</val> 
+</keyval>
+<keyval type="vector">
+  <key>PublicationContact</key>
+  <val>Institute for Systems Biology, Seattle, USA. aoudes@systemsbiology.org</val>
+</keyval>
+<keyval type="vector">
+  <key>PublicationTitle</key>
+  <val>Application of Affymetrix array and Massively Parallel Signature Sequencing for identification of genes involved in prostate cancer progression</val>
+</keyval>
+<keyval type="vector">
+  <key>Journal</key>
+  <val>BMC Cancer. 2005 Jul 22;5:86.</val>
+</keyval>
+<keyval type="vector">
+  <key>PublicationPubMedId</key>
+  <val>16042785</val>
+</keyval>
+<keyval type="vector">
+  <key>AnalysisId</key>
+  <val>192-Liu-1-Affymetrix-Prostate</val>
+</keyval> 
+<keyval type="vector">
+  <key>AnalysisDescription</key>
+  <val>Affymetrix GeneChip Array analysis was performed. Expression array results were verified with RT-PCR.</val>
+</keyval>
+<keyval type="vector">
+  <key>Technology</key>
+  <val>Affymetrix GeneChip Array</val>
+</keyval>
+<keyval type="vector">
+  <key>ProtocolId</key>
+  <val>Affymetrix chip HG-U133_Plus_2</val>
+</keyval>
+<keyval type="vector">
+  <key>ProtocolType</key>
+  <val>Gene Expression Profiling</val>
+</keyval>
+<keyval type="vector">
+  <key>Software</key>
+  <val>Data was analyzed with GeneSpring 6.2 and in-house perl scripts</val>
+</keyval>
+<keyval type="vector">
+  <key>Organism</key>
+  <val>Human</val>
+</keyval>
+<keyval type="vector">
+  <key>OrganSite</key>
+  <val>Prostate</val>
+</keyval>
+<keyval type="vector">
+  <key>Specimen</key>
+  <val>Prostate Tissue</val>
+</keyval>
+<keyval type="vector">
+  <key>ClinicalDiagnosis</key>
+  <val>Prostate Cancer</val>
+</keyval>
+<keyval type="vector">
+  <key>StudyType</key>
+  <val>Gene Expression Regulation, Neoplastic</val>
+  <val>Disease Progression</val>
+</keyval>
+<keyval type="vector">
+  <key>AnalysisType</key>
+  <val>Oligonucleotide Array Sequence Analysis/methods</val>
+</keyval>
+<keyval type="vector">
+  <key>MarkerType</key>
+  <val>Transcription, Genetic</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenType</key>
+  <val>Cell Line, Tumor</val>
+</keyval>
+<keyval type="vector">
+  <key>Gender</key>
+  <val>Male</val>
+</keyval>
+<keyval type="vector">
+  <key>ResearchType</key>
+  <val>Prostatic Neoplasms/genetics</val>
+  <val>Prostatic Neoplasms/pathology</val>
+  <val>Prostatic Neoplasms/diagnosis</val>
+  <val>Computational Biology</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductType</key>
+  <val>MicroarrayData</val>
+</keyval>
+<keyval type="vector">
+  <key>FileLocation</key>
+  <val>/some/path</val>
+</keyval>
+<keyval type="vector">
+  <key>Filename</key>
+  <val>some_name</val>
+</keyval>
+</cas:metadata>
