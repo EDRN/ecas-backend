@@ -1,58 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
 <keyval type="vector">
-  <key>SiteId</key>
-  <val>63</val>
-</keyval>
-<keyval type="vector">
-  <key>PI</key>
-  <val>Barker, Peter E., Ph.D., M.S., B.A.</val>
-</keyval>
-<keyval type="vector">
-  <key>Institution</key>
-  <val>National Institute of Standards and Technology</val>
-</keyval>
-<keyval type="vector">
-  <key>StudyId</key>
-  <val>63-Barker-1</val>
-</keyval>
-<keyval type="vector">
- <key>StudyDescription</key>
- <val>To standardize a fluorescence in situ hybridization (FISH) modification of the 
- mutagen sensitivity assay (MSA), scoring criteria were evaluated by web-based validation.</val>
-</keyval>
-<keyval type="vector">
-  <key>StudyBackground</key>
-  <val><![CDATA[In chromosome breakage assays, validated, universal criteria for selection of cells 
-  and classification of chromosome aberrations may enhance their utility for cancer susceptibility 
-  screening. To standardize a fluorescence in situ hybridization (FISH) modification of the mutagen 
-  sensitivity assay (MSA), scoring criteria were evaluated by web-based validation. Two hundred digital 
-  FISH images were assigned random identification numbers. With this set of images, criteria for inclusion 
-  of cells and measurement of the frequency of abnormal cells were evaluated by eight observers, all of 
-  whom had five or more years of experience. Observers included doctoral and MS/BS level cytogeneticists, 
-  and were drawn from a randomized pool of 54 volunteers. Questions addressed were: (1) how uniformly were 
-  criteria applied to analysis of a standard digital FISH image set and (2) did concordance vary with 
-  educational level? These data suggest inter-rater agreement within a factor of 2 for average breakage 
-  frequency, but revealed greater variability in cell selection. These results aid in estimating the 
-  components of assay variance due to definitions, technical parameters and biological variables.]]></val>
-</keyval>
-<keyval type="vector">
-  <key>StudyMethods</key>
-  <val>Two hundred digital FISH images were assigned random identification numbers. With this set of 
-  images, criteria for inclusion of cells and measurement of the frequency of abnormal cells were evaluated 
-  by eight observers, all of whom had five or more years of experience.</val>
-</keyval>
-<keyval type="vector">
-  <key>StudyResults</key>
-  <val>inter-rater agreement within a factor of 2 for average breakage frequency, but revealed greater 
-  variability in cell selection. These results aid in estimating the components of assay variance due 
-  to definitions, technical parameters and biological variables.</val>
-</keyval>
-<keyval type="vector">
-  <key>GrantSupport</key>
-  <val>Y1-CN-010-01</val>
-</keyval>
-<keyval type="vector">
   <key>PublicationId</key>
   <val>63-Barker-1-PMID15279836</val>
 </keyval>
@@ -78,10 +26,6 @@
 <keyval type="vector">
   <key>PublicationPubMedId</key>
   <val>15279836</val>
-</keyval>
-<keyval type="vector">
-  <key>AnalysisId</key>
-  <val>63-Barker-1-MSA</val>
 </keyval> 
 <keyval type="vector">
   <key>Technology</key>
@@ -100,7 +44,7 @@
   <val>Human</val>
 </keyval>
 <keyval type="vector">
-  <key>Specimen</key>
+  <key>SpecimenId</key>
   <val>Blood</val>
 </keyval>
 <keyval type="vector">
@@ -125,14 +69,6 @@
 </keyval>
 <keyval type="vector">
   <key>ProductType</key>
-  <val>FishData</val>
-</keyval>
-<keyval type="vector">
-  <key>FileLocation</key>
-  <val>/some/path</val>
-</keyval>
-<keyval type="vector">
-  <key>Filename</key>
-  <val>some_name</val>
+  <val>NISTFishMSAData</val>
 </keyval>
 </cas:metadata>

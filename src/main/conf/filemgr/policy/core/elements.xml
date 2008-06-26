@@ -1,19 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-	Copyright 2006 California Institute of Technology. ALL RIGHTS
-	RESERVED. U.S. Government Sponsorship acknowledged.	
+<!-- 
+	Copyright (c) 2008 California Institute of Technology.
+	ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+	
+	$Id$
+	
+	Author: Chris A. Mattmann
+	Description: Core lement policy for eCAS Products.
 -->
 <cas:elements xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
 	<element id="urn:oodt:ProductId" name="CAS.ProductId">
 		<dcElement>Identifier</dcElement>
-		<description>A Product's unique identifier within the CAS namespace.</description>   
+		<description>
+			A Product's unique identifier within the CAS namespace.
+		</description>
 	</element>
 	<element id="urn:oodt:ProductName" name="CAS.ProductName">
 		<dcElement>Title</dcElement>
-		<description>A Product's name within the CAS namespace.</description>   
+		<description>
+			A Product's name within the CAS namespace.
+		</description>
 	</element>
-	<element id="urn:oodt:ProductReceivedTime" name="CAS.ProductReceivedTime">
-		<dcElement/>
-		<description>The ISO 8601 formatted time that the Product was received.</description>   
+	<element id="urn:oodt:ProductReceivedTime"
+		name="CAS.ProductReceivedTime">
+		<dcElement />
+		<description>
+			The ISO 8601 formatted time that the Product was received.
+		</description>
 	</element>
-</cas:elements> 
+	<element id="urn:oodt:Filename" name="Filename">
+		<description>
+			The names of the files that represent this product.
+		</description>
+		<dcElement />
+	</element>
+	<element id="urn:oodt:FileLocation" name="FileLocation">
+		<description>
+			The locations of the files that represent this product.
+		</description>
+		<dcElement />
+	</element>
+	<element id="urn:oodt:ProductType" name="ProductType">
+		<description>Type of file.</description>
+		<dcElement />
+	</element>
+	<element id="urn:edrn:ProtocolId" name="ProtocolId">
+		<description>
+			EDRN protocol identifiers associated with this product,
+			i.e., pointers to associated EDRN protocols.
+		</description>
+		<dcElement />
+	</element>
+	<element id="urn:edrn:DatasetId" name="DatasetId">
+		<description>
+			A pointer to the eCAS dataset (if any) that this product
+			belongs to.
+		</description>
+		<dcElement />
+	</element>
+	<element id="urn:edrn:SiteId" name="SiteId">
+		<description>
+			Pointers to EDRN sites that provided data encapsulated
+			within this product.
+		</description>
+		<dcElement />
+	</element>
+	<element id="urn:edrn:OrganId" name="OrganId">
+		<description>
+			Pointers to organs that this product contains data about.
+		</description>
+		<dcElement />
+	</element>
+	<element id="urn:edrn:SpecimenId" name="SpecimenId">
+		<description>
+			Pointers to any associated specimens in a freezer that this
+			product data is associated with.
+		</description>
+		<dcElement />
+	</element>
+</cas:elements>

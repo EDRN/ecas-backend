@@ -1,67 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Copyright (c) 2008 California Institute of Technology.
+  ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+  
+  $Id$
+  
+  Author: Chris A. Mattmann
+  Description: Product Type/Element policy for miscallenous data sets acquired
+  from EDRN PIs by Tina Xiao.
+-->
 <cas:producttypemap xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
- <!--  can set the "parent" attribute on types below to allow inheritance
-       of elements between the types 
+  <!--  can set the "parent" attribute on types below to allow inheritance
+    of elements between the types 
   -->
-   <type id="urn:oodt:GenericFile">
-       <element id="urn:oodt:ProductReceivedTime"/>
-       <element id="urn:oodt:ProductName"/>
-       <element id="urn:oodt:ProductId"/>
-       <element id="urn:oodt:ProductType"/>
-       <element id="urn:oodt:Filename"/>
-       <element id="urn:oodt:FileLocation"/>
-  </type>
-  
-  <!--  Generic eCAS File Parent class for all eCAS Files -->
- <type id="urn:edrn:eCASFile" parent="urn:oodt:GenericFile">
-    <element id="urn:edrn:SiteId"/>
-    <element id="urn:edrn:PI"/>
-    <element id="urn:edrn:Institution"/>
-    <element id="urn:edrn:StudyId"/>
-    <element id="urn:edrn:StudyDescription"/>
-    <element id="urn:edrn:StudyBackground"/>
-    <element id="urn:edrn:StudyMethods"/>
-    <element id="urn:edrn:StudyResults"/>
-    <element id="urn:edrn:StudyConclusion"/>
-    <element id="urn:edrn:StudyResearchSupport"/>
-    <element id="urn:edrn:StudyGrantSupport"/>
-    <element id="urn:edrn:PublicationId"/>
-    <element id="urn:edrn:PublicationAuthors"/>
-    <element id="urn:edrn:PublicationContact"/>
-    <element id="urn:edrn:PublicationTitle"/>
-    <element id="urn:edrn:PublicationJournal"/>
-    <element id="urn:edrn:PublicationPubMedId"/>
-    <element id="urn:edrn:AnalysisId"/>
-    <element id="urn:edrn:AnalysisDescription"/>
-    <element id="urn:edrn:Technology"/>
-    <element id="urn:edrn:ProtocolId"/>
-    <element id="urn:edrn:ProtocolType"/>
-    <element id="urn:edrn:ProtocolDescription"/>
-    <element id="urn:edrn:ProtocolDeviations"/>
-    <element id="urn:edrn:Software"/>
-    <element id="urn:edrn:Organism"/>
-    <element id="urn:edrn:OrganSite"/>
-    <element id="urn:edrn:Specimen"/>
-    <element id="urn:edrn:ClinicalDiagnosis"/>
-    <element id="urn:edrn:DiagnosisDescription"/>
-    <element id="urn:edrn:StudyType"/>
-    <element id="urn:edrn:AnalysisType"/>
-    <element id="urn:edrn:MarkerType"/>
-    <element id="urn:edrn:SpecimenType"/>
-    <element id="urn:edrn:Gender"/>
-    <element id="urn:edrn:ResearchType"/>
-  </type>
-  
+
   <!--  Actual EDRN Product Types -->
-  <type id="urn:edrn:MicroarrayData" parent="urn:edrn:eCASFile"/>
-  <type id="urn:edrn:ImmunohistochemistryData" parent="urn:edrn:eCASFile"/>
-  <type id="urn:edrn:OvarianData" parent="urn:edrn:eCASFile"/>
-  <type id="urn:edrn:PancreaticData" parent="urn:edrn:eCASFile"/>
-  <type id="urn:edrn:BreastData" parent="urn:edrn:eCASFile"/>
-  <type id="urn:edrn:FishData" parent="urn:edrn:eCASFile"/>
-  <type id="urn:edrn:MassSpecData" parent="urn:edrn:eCASFile"/>
-  
-  
-  
-  
+  <type id="urn:edrn:UWashTransProfileMicroarrayData"
+    parent="urn:edrn:eCASFile" />
+  <type id="urn:edrn:UWashImmunohistochemistryData" parent="urn:edrn:eCASFile" />
+  <type id="urn:edrn:UPittLabMAPOvarianData" parent="urn:edrn:eCASFile" />
+  <type id="urn:edrn:UPittLabMAPPancreaticData" parent="urn:edrn:eCASFile" />
+  <type id="urn:edrn:DukeLabMAPBreastData" parent="urn:edrn:eCASFile" />
+  <type id="urn:edrn:NISTFishMSAData" parent="urn:edrn:eCASFile" />
+
+
 </cas:producttypemap>

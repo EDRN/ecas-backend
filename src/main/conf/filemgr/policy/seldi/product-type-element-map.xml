@@ -14,25 +14,6 @@
 		of elements between the types 
 	-->
 
-	<!--  Virtual Type: the superclass of all CAS files -->
-	<type id="urn:oodt:CASFile">
-		<element id="urn:oodt:ProductReceivedTime" />
-		<element id="urn:oodt:ProductName" />
-		<element id="urn:oodt:ProductId" />
-		<element id="urn:oodt:FileLocation" />
-		<element id="urn:oodt:Filename" />
-		<element id="urn:oodt:ProductType" />
-	</type>
-
-    <!--  Another Virtual Type: this is the superclass of all eCAS files -->
-	<type id="urn:edrn:eCASFile" parent="urn:oodt:CASFile">
-		<element id="urn:edrn:ProtocolId" />
-		<element id="urn:edrn:DatasetId" />
-		<element id="urn:edrn:SiteId" />
-		<element id="urn:edrn:OrganId" />
-		<element id="urn:edrn:SpecimenId" />
-	</type>
-
     <type id="urn:edrn:SELDI_EVMSProcessedData"
 		parent="urn:edrn:eCASFile" />
 

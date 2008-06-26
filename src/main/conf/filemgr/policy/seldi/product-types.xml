@@ -251,48 +251,5 @@
 	         <val>16</val>
 	       </keyval>
 	    </metadata>
-	 </type>  
-	<type id="urn:edrn:eCASFile" name="eCASFile">
-		<repositoryPath>file://[EDRN_ECAS_HOME]/products/seldi/etc</repositoryPath>
-		<versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner</versionerClass>
-		<description>SELDI Phase II analysis and results.</description>
-	    <metadata>
-	      <keyval>
-	        <key>Title</key>
-	        <val>SELDI EVMS UnProcessed Data</val>
-	      </keyval>
-	      <keyval>
-	        <key>Date</key>
-	        <val>2007-08-07T15:46:00.000Z</val>
-	      </keyval>
-	      <keyval>
-	        <key>Author</key>
-	        <val>Dale McLerran</val>
-	      </keyval>
-	      <keyval>
-	         <key>ProtocolId</key>
-	         <val>110</val>
-	       </keyval>
-	       <keyval>
-	         <key>DatasetId</key>
-	         <val>urn:edrn:SELDI_PhaseIIAnalysisData</val>
-	       </keyval>
-	       <keyval>
-	         <key>SiteId</key>
-	         <val>142</val>
-	         <val>75</val>
-	         <val>92</val>
-	         <val>65</val>
-	         <val>83</val>
-	         <val>88</val>
-	         <val>92</val>
-	         <val>108</val>
-	         <val>131</val>
-	       </keyval>
-	       <keyval>
-	         <key>OrganId</key>
-	         <val>16</val>
-	       </keyval>
-	    </metadata>
 	 </type>
 </cas:producttypes>

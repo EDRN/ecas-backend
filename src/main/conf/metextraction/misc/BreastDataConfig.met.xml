@@ -1,42 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
 <keyval type="vector">
-  <key>SiteId</key>
-  <val>81</val>
-</keyval>
-<keyval type="vector">
-  <key>PI</key>
-  <val>Marks, Jeffrey, Ph.D.</val>
-</keyval>
-<keyval type="vector">
-  <key>Institution</key>
-  <val>Duke University Medical Center</val>
-</keyval>
-<keyval type="vector">
-  <key>StudyId</key>
-  <val>81-Marks-1</val>
-</keyval>
-<keyval type="vector">
- <key> StudyDescription</key>
- <val>Breast cancer biomarker discovery study using multianalyte LabMAP profiling</val>
-</keyval>
-<keyval type="vector">
-  <key>StudyBackground</key>
-  <val><![CDATA[Early detection of breast cancer might improve clinical outcome. Some studies have 
-  shown the role of cytokines as a new group of tumor markers for breast cancer. We hypothesized 
-  that a panel comprised of multiple cytokines, which individually may not show strong correlation 
-  with the disease, might provide higher diagnostic power.]]></val>
-</keyval>
-<keyval type="vector">
-  <key>StudyMethods</key>
-  <val>To evaluate the diagnostic utility of cytokine panel, we used a novel multianalyte LabMAP profiling 
-  technology that allows simultaneous measurement of multiple markers.</val>
-</keyval>
-<keyval type="vector">
-  <key>AnalysisId</key>
-  <val>81-Marks-1-Immunoassay-Breast</val>
-</keyval> 
-<keyval type="vector">
   <key>AnalysisDescription</key>
   <val>Multianalyte LabMAP profiling</val>
 </keyval>
@@ -61,11 +25,11 @@
   <val>Human</val>
 </keyval>
 <keyval type="vector">
-  <key>OrganSite</key>
+  <key>OrganId</key>
   <val>Breast</val>
 </keyval>
 <keyval type="vector">
-  <key>Specimen</key>
+  <key>SpecimenId</key>
   <val>Serum</val>
 </keyval>
 <keyval type="vector">
@@ -103,14 +67,6 @@
 </keyval>
 <keyval type="vector">
   <key>ProductType</key>
-  <val>BreastData</val>
-</keyval>
-<keyval type="vector">
-  <key>FileLocation</key>
-  <val>/some/path</val>
-</keyval>
-<keyval type="vector">
-  <key>Filename</key>
-  <val>some_name</val>
+  <val>DukeLabMAPBreastData</val>
 </keyval>
 </cas:metadata>

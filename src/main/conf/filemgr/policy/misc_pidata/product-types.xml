@@ -1,46 +1,507 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Copyright (c) 2008 California Institute of Technology.
+  ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+  
+  $Id$
+  
+  Author: Chris A. Mattmann
+  Description: Product Type policy for miscallenous data sets acquired
+  from EDRN PIs by Tina Xiao.
+-->
 <cas:producttypes xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
- <!-- <type id="urn:oodt:GenericFile" name="GenericFile">
-    <repositoryPath>file:///tmp/files</repositoryPath>
-    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.BasicVersioner</versionerClass>
-    <description>The default product type for any kind of file.</description>
+  <type id="urn:edrn:UWashTransProfileMicroarrayData" name="UWashTransProfileMicroarrayData">
+    <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner</versionerClass>
+    <description>Transcriptome profiling experiments with LNCaP and C4-2 human prostate cancer cell lines 
+    with the aim of identifying genes associated with prostate cancer progression.
+    </description>
+    <metadata>
+      <keyval>
+        <key>Title</key>
+        <val>Alvin Liu's Microarray data obtained by Tina Xiao.</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2008-06-24T20:12:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>Author</key>
+        <val>Alvin Liu</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>Tina Xiao</val>
+      </keyval>
+     <keyval>
+         <key>StudyBackground</key>
+         <val><![CDATA[Affymetrix GeneChip Array and Massively Parallel Signature Sequencing (MPSS) 
+         are two high throughput methodologies used to profile transcriptomes. Each method has certain 
+         strengths and weaknesses; however, no comparison has been made between the data derived from Affymetrix 
+         arrays and MPSS. In this study, two lineage-related prostate cancer cell lines, LNCaP and C4-2, were 
+         used for transcriptome analysis with the aim of identifying genes associated with prostate cancer progression.]]>
+         </val>
+     </keyval>
+     <keyval>
+        <key>StudyMethods</key>
+        <val>Affymetrix GeneChip array and MPSS analyses were performed. Data was analyzed with GeneSpring 6.2 
+        and in-house perl scripts. Expression array results were verified with RT-PCR.
+        </val>
+     </keyval>
+     <keyval>
+        <key>StudyResults</key>
+        <val><![CDATA[Comparison of the data revealed that both technologies detected genes the other did not. 
+        In LNCaP, 3,180 genes were only detected by Affymetrix and 1,169 genes were only detected by MPSS. Similarly, 
+        in C4-2, 4,121 genes were only detected by Affymetrix and 1,014 genes were only detected by MPSS. Analysis of the 
+        combined transcriptomes identified 66 genes unique to LNCaP cells and 33 genes unique to C4-2 cells. Expression 
+        analysis of these genes in prostate cancer specimens showed CA1 to be highly expressed in bone metastasis but not 
+        expressed in primary tumor and EPHA7 to be expressed in normal prostate and primary tumor but not bone metastasis.]]>
+        </val>
+     </keyval>
+     <keyval>
+        <key>StudyConclusion</key>
+        <val>Our data indicates that transcriptome profiling with a single methodology will not fully assess the expression of all genes in a cell line. A combination of transcription profiling technologies such as DNA array and MPSS provides a more robust means to assess the expression profile of an RNA sample. Finally, genes that were differentially expressed in cell lines were also differentially expressed in primary prostate cancer and its metastases.
+        </val>
+     </keyval>
+     <keyval>
+        <key>ResearchSupport</key>
+        <val>N.I.H., Extramural</val>
+        <val>Non-U.S. Gov't</val>
+        <val>U.S. Gov't, P.H.S</val>
+     </keyval>
+     <keyval>
+        <key>GrantSupport</key>
+        <val>CA85859/CA/NCI</val>
+        <val>CA98699/CA/NCI</val>
+        <val>DK63630/DK/NIDDK</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
+        <val>114</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:UWashTransProfileMicroarrayData</val>
+      </keyval>
+      <keyval>
+        <key>SiteId</key>
+        <val>192</val>
+      </keyval>
+      <keyval>
+        <key>OrganId</key>
+        <val>Prostate</val>
+      </keyval>
+    </metadata>
   </type>
-  -->
 
-  <!--  EDRN Product Types -->
-  <type id="urn:edrn:MicroarrayData" name="MicroarrayData">
-    <repositoryPath>file:///tmp/files/Microarray</repositoryPath>
-    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.SingleFileBasicVersioner</versionerClass>
-    <description>Alvin Liu's Microarray data.</description>  
+  <type id="urn:edrn:UWashImmunohistochemistryData" name="UWashImmunohistochemistryData">
+    <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner</versionerClass>
+    <description>Data capturing investigation of the molecular basis of cell-cell interaction in the differentiation 
+    of epithelial cells of the human bladder. The approach involves cell-type identification by CD cell 
+    surface molecules, isolation of specific cell populations, gene expression analysis, and functional 
+    test of candidate genes in a cell culture system.</description>
+    <metadata>
+      <keyval>
+        <key>Title</key>
+        <val>Alvin Liu's Immunohistochemistry data obtained by Tina Xiao.</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2008-06-24T20:12:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>Author</key>
+        <val>Alvin Liu</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>Tina Xiao</val>
+      </keyval>
+      <keyval>
+        <key> StudyDescription</key>
+        <val>We are investigating the molecular basis of cell-cell interaction in the 
+        differentiation of epithelial cells of the human bladder. Our approach involves 
+        cell-type identification by CD cell surface molecules, isolation of specific cell 
+        populations, gene expression analysis, and functional test of candidate genes in a 
+        cell culture system.
+        </val>
+     </keyval>
+     <keyval>
+        <key>StudyBackground</key>
+        <val><![CDATA[Stromal mesenchyme cells play an important role in epithelial differentiation 
+        and likely in cancer as well. Induction of epithelial differentiation is organ-specific, and 
+        the genes responsible could be identified through a comparative genomic analysis of the stromal 
+        cells from two different organs. These genes might be aberrantly expressed in cancer since cancer 
+        could be viewed as due to a defect in stromal signaling. We propose to identify the prostate stromal 
+        genes by analysis of differentially expressed genes between prostate and bladder stromal cells, and 
+        to examine their expression in prostate cancer.]]>
+        </val>
+     </keyval>
+     <keyval>
+        <key>StudyMethods</key>
+        <val>Immunohistochemistry using antibodies to cluster designation (CD) cell surface antigens was 
+        first used to characterize the stromas of the prostate and bladder. Stromal cells were prepared from 
+        either prostate or bladder tissue for cell culture. RNA was isolated from the cultured cells and analyzed 
+        by DNA microarrays. Expression of candidate genes in normal prostate and prostate cancer was examined by RT-PCR.
+        </val>
+     </keyval>
+     <keyval>
+        <key>StudyResults</key>
+        <val><![CDATA[The bladder stroma was phenotypically different from that of the prostate. Most notable was the presence 
+        of a layer of CD13+ cells adjacent to the urothelium. This structural feature was also seen in the mouse bladder. The 
+        prostate stroma was uniformly CD13-. A number of differentially expressed genes between prostate and bladder stromal 
+        cells were identified. One prostate gene, proenkephalin (PENK), was of interest because it encodes a hormone. Secreted 
+        proteins such as hormones and bioactive peptides are known to mediate cell-cell signaling. Prostate stromal expression 
+        of PENK was verified by an antibody raised against a PENK peptide, by RT-PCR analysis of laser-capture microdissected 
+        stromal cells, and by database analysis. Gene expression analysis showed that PENK expression was down-regulated in prostate cancer.]]>
+        </val>
+     </keyval>
+     <keyval>
+        <key>StudyConclusion</key>
+        <val>Our findings show that the histologically similar stromas of the prostate and bladder are phenotypically different, 
+        and express organ-specific genes. The importance of these genes in epithelial development is suggested by their abnormal 
+        expression in cancer. Among the candidates is the hormone PENK and the down-regulation of PENK expression in cancer suggests 
+        a possible association with cancer development.
+        </val>
+      </keyval>
+      <keyval>
+         <key>ResearchSupport</key>
+         <val>N.I.H., Extramural</val>
+      </keyval>
+      <keyval>
+         <key>GrantSupport</key>
+         <val>CA85859/CA/NCI</val>
+         <val>CA98699/CA/NCI</val>
+         <val>DK63630/DK/NIDDK</val>
+         <val>DK65260/DK/NIDDK</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
+        <val>201</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:UWashImmunohistochemistryData</val>
+      </keyval>
+      <keyval>
+        <key>SiteId</key>
+        <val>192</val>
+      </keyval>
+      <keyval>
+        <key>OrganId</key>
+        <val>Prostate</val>
+      </keyval>
+    </metadata>
   </type>
-  <type id="urn:edrn:ImmunohistochemistryData" name="ImmunohistochemistryData">
-    <repositoryPath>file:///tmp/files/Immunohistochemistry</repositoryPath>
-    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.SingleFileBasicVersioner</versionerClass>
-    <description>Alvin Liu's Immunohistochemistry data.</description>    
+  
+  <type id="urn:edrn:UPittLabMAPOvarianData" name="UPittLabMAPOvarianData">
+    <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner</versionerClass>
+    <description>Ovarian cancer biomarker discovery study data using multianalyte LabMAP profiling.</description>
+    <metadata>
+      <keyval>
+        <key>Title</key>
+        <val>Anna Lokshin Ovarian data obtained by Tina Xiao.</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2008-06-24T20:12:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>Author</key>
+        <val>Anna Lokshin</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>Tina Xiao</val>
+      </keyval>
+      <keyval>
+        <key>StudyBackground</key>
+        <val><![CDATA[Early detection of ovarian cancer might improve 
+        clinical outcome. Some studies have shown the role of cytokines as a 
+        new group of tumor markers for ovarian cancer. We hypothesized that a 
+        panel comprised of multiple cytokines, which individually may not show 
+        strong correlation with the disease, might provide higher diagnostic power.]]>
+        </val>
+       </keyval>
+       <keyval>
+        <key>StudyMethods</key>
+        <val>To evaluate the diagnostic utility of cytokine panel, we used a novel multianalyte 
+        LabMAP profiling technology that allows simultaneous measurement of multiple 
+        markers.
+        </val>
+       </keyval>
+       <keyval>
+        <key>StudyResults</key>
+        <val><![CDATA[Concentrations of 24 cytokines (cytokines/chemokines, growth, and angiogenic 
+        factors) in combination with cancer antigen-125 (CA-125), were measured in sera of 44 patients 
+        with early-stage ovarian cancer, 45 healthy women, and 37 patients with benign pelvic tumors. 
+        Six markers, i.e., interleukin (IL)-6, IL-8, epidermal growth factor (EGF), vascular endothelial 
+        growth factor (VEGF), monocyte chemoattractant protein-1 (MCP-1), and CA-125, showed significant 
+        differences in serum concentrations between ovarian cancer and control groups. Out of this group, 
+        IL-6, IL-8, VEGF, EGF, and CA-125, were used in a classification tree analysis that resulted in 
+        84% sensitivity at 95% specificity. The receiver operator characteristic curve created using the 
+        combination of markers produced sensitivities between 90% and 100% in the area of 80% to 90% 
+        specificity, whereas the receiver operator characteristic curve for CA-125 alone resulted in 
+        sensitivities of 70% to 80%. The classification tree analysis for discrimination of benign 
+        condition from ovarian cancer used CA-125, granulocyte colony-stimulating factor (G-CSF), IL-6, 
+        EGF, and VEGF resulting in 86.5% sensitivity and 93.0% specificity.]]>
+        </val>
+      </keyval>
+      <keyval>
+        <key>StudyConclusion</key>
+        <val>The presented data show that simultaneous testing of a panel of serum cytokines and CA-125 
+        using LabMAP technology may present a promising approach for ovarian cancer detection.
+        </val>
+      </keyval>
+      <keyval>
+        <key>ResearchSupport</key>
+        <val>N N.I.H., Extramural</val>
+        <val>U.S. Gov't, Non-P.H.S.</val>
+        <val>U.S. Gov't, P.H.S.</val>
+     </keyval>
+     <keyval>
+        <key>GrantSupport</key>
+        <val>1R01 CA098642-01A1/CA/NCI</val>
+        <val>R03 CA102888/CA/NCI</val>
+     </keyval>
+      <keyval>
+        <key>ProtocolId</key>
+        <val>119</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:UPittLabMAPOvarianData</val>
+      </keyval>
+      <keyval>
+        <key>SiteId</key>
+        <val>5</val>
+        <val>70</val>
+        <val>87</val>
+        <val>167</val>
+        <val>231</val>
+        <val>235</val>
+        <val>236</val>
+        <val>237</val>
+        <val>238</val>
+        <val>246</val>        
+      </keyval>
+      <keyval>
+        <key>OrganId</key>
+        <val>Ovary</val>
+      </keyval>
+    </metadata>
   </type>
-  <type id="urn:edrn:OvarianData" name="OvarianData">
-    <repositoryPath>file:///tmp/files/Ovarian</repositoryPath>
-    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.SingleFileBasicVersioner</versionerClass>
-    <description>Ovarian data.</description>     
+  
+  <type id="urn:edrn:UPittLabMAPPancreaticData" name="UPittLabMAPPancreaticData">
+    <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner</versionerClass>
+    <description>Pancreatic cancer biomarker discovery study using multianalyte LabMAP profiling.</description>
+    <metadata>
+      <keyval>
+        <key>Title</key>
+        <val>Anna Lokshin Pancreatic data obtained by Tina Xiao.</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2008-06-24T20:12:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>Author</key>
+        <val>Anna Lokshin</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>Tina Xiao</val>
+      </keyval>
+      <keyval>
+        <key>StudyBackground</key>
+        <val><![CDATA[Early detection of pancreatic cancer might improve clinical outcome. Some studies 
+        have shown the role of cytokines as a new group of tumor markers for pancreatic cancer. We hypothesized 
+        that a panel comprised of multiple cytokines, which individually may not show strong correlation with 
+        the disease, might provide higher diagnostic power.]]></val>
+      </keyval>
+      <keyval>
+        <key>StudyMethods</key>
+        <val>To evaluate the diagnostic utility of cytokine panel, we used a novel multianalyte LabMAP 
+        profiling technology that allows simultaneous measurement of multiple markers.</val>
+      </keyval>
+      <keyval>
+        <key>StudyConclusion</key>
+        <val>The presented data show that simultaneous testing of a panel of serum cytokines and CA-125 
+        using LabMAP technology may present a promising approach for pancreatic cancer detection.</val>
+      </keyval>
+      <keyval>
+        <key>ResearchSupport</key>
+        <val>N N.I.H., Extramural</val>
+        <val>U.S. Gov't, Non-P.H.S</val>
+        <val>U.S. Gov't, P.H.S.</val>
+      </keyval>
+      <keyval>
+        <key>GrantSupport</key>
+        <val>1R01 CA098642-01A1/CA/NCI</val>
+        <val>R03 CA102888/CA/NCI</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
+        <val>234</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:UPittLabMAPPancreaticData</val>
+      </keyval>
+      <keyval>
+        <key>SiteId</key>
+        <val>167</val>
+        <val>191</val>      
+      </keyval>
+      <keyval>
+        <key>OrganId</key>
+        <val>Pancreas</val>
+      </keyval>
+    </metadata>
   </type>
-  <type id="urn:edrn:PancreaticData" name="PancreaticData">
-    <repositoryPath>file:///tmp/files/Immunohistochemistry</repositoryPath>
-    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.SingleFileBasicVersioner</versionerClass>
-    <description>Pancreatic data.</description>     
+  
+  <type id="urn:edrn:DukeLabMAPBreastData" name="DukeLabMAPBreastData">
+    <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner</versionerClass>
+    <description>Breast cancer biomarker discovery study using multianalyte LabMAP profiling.</description>
+    <metadata>
+      <keyval>
+        <key>Title</key>
+        <val>Jeffrey Marks Breast data obtained by Tina Xiao.</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2008-06-24T20:12:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>Author</key>
+        <val>Jeffrey Marks</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>Tina Xiao</val>
+      </keyval>
+      <keyval>
+        <key>StudyBackground</key>
+        <val><![CDATA[Early detection of breast cancer might improve clinical outcome. Some studies have 
+        shown the role of cytokines as a new group of tumor markers for breast cancer. We hypothesized 
+        that a panel comprised of multiple cytokines, which individually may not show strong correlation 
+        with the disease, might provide higher diagnostic power.]]></val>
+      </keyval>
+      <keyval>
+        <key>StudyMethods</key>
+        <val>To evaluate the diagnostic utility of cytokine panel, we used a novel multianalyte LabMAP profiling 
+        technology that allows simultaneous measurement of multiple markers.</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
+        <val>70</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:DukeLabMAPBreastData</val>
+      </keyval>
+      <keyval>
+        <key>SiteId</key>
+        <val>81</val>     
+      </keyval>
+      <keyval>
+        <key>OrganId</key>
+        <val>Breast</val>
+      </keyval>
+    </metadata>
   </type>
-  <type id="urn:edrn:BreastData" name="BreastData">
-    <repositoryPath>file:///tmp/files/Breast</repositoryPath>
-    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.SingleFileBasicVersioner</versionerClass>
-    <description>Breast data.</description>     
+  
+  <type id="urn:edrn:NISTFishMSAData" name="NISTFishMSAData">
+    <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner</versionerClass>
+    <description><![CDATA[In chromosome breakage assays, validated, universal criteria for selection of cells 
+  and classification of chromosome aberrations may enhance their utility for cancer susceptibility 
+  screening. To standardize a fluorescence in situ hybridization (FISH) modification of the mutagen 
+  sensitivity assay (MSA), scoring criteria were evaluated by web-based validation. Two hundred digital 
+  FISH images were assigned random identification numbers. With this set of images, criteria for inclusion 
+  of cells and measurement of the frequency of abnormal cells were evaluated by eight observers, all of 
+  whom had five or more years of experience. Observers included doctoral and MS/BS level cytogeneticists, 
+  and were drawn from a randomized pool of 54 volunteers. Questions addressed were: (1) how uniformly were 
+  criteria applied to analysis of a standard digital FISH image set and (2) did concordance vary with 
+  educational level? These data suggest inter-rater agreement within a factor of 2 for average breakage 
+  frequency, but revealed greater variability in cell selection. These results aid in estimating the 
+  components of assay variance due to definitions, technical parameters and biological variables.]]>
+  </description>
+    <metadata>
+      <keyval>
+        <key>Title</key>
+        <val>Peter Barker Fish data obtained by Tina Xiao.</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2008-06-24T20:12:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>Author</key>
+        <val>Peter Barker</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>Tina Xiao</val>
+      </keyval>
+      <keyval>
+       <key>StudyDescription</key>
+       <val>To standardize a fluorescence in situ hybridization (FISH) modification of the 
+       mutagen sensitivity assay (MSA), scoring criteria were evaluated by web-based validation.</val>
+      </keyval>
+      <keyval>
+        <key>StudyBackground</key>
+        <val><![CDATA[In chromosome breakage assays, validated, universal criteria for selection of cells 
+        and classification of chromosome aberrations may enhance their utility for cancer susceptibility 
+        screening. To standardize a fluorescence in situ hybridization (FISH) modification of the mutagen 
+        sensitivity assay (MSA), scoring criteria were evaluated by web-based validation. Two hundred digital 
+        FISH images were assigned random identification numbers. With this set of images, criteria for inclusion 
+        of cells and measurement of the frequency of abnormal cells were evaluated by eight observers, all of 
+        whom had five or more years of experience. Observers included doctoral and MS/BS level cytogeneticists, 
+        and were drawn from a randomized pool of 54 volunteers. Questions addressed were: (1) how uniformly were 
+        criteria applied to analysis of a standard digital FISH image set and (2) did concordance vary with 
+        educational level? These data suggest inter-rater agreement within a factor of 2 for average breakage 
+        frequency, but revealed greater variability in cell selection. These results aid in estimating the 
+        components of assay variance due to definitions, technical parameters and biological variables.]]></val>
+      </keyval>
+      <keyval>
+        <key>StudyMethods</key>
+        <val>Two hundred digital FISH images were assigned random identification numbers. With this set of 
+        images, criteria for inclusion of cells and measurement of the frequency of abnormal cells were evaluated 
+        by eight observers, all of whom had five or more years of experience.</val>
+      </keyval>
+      <keyval>
+        <key>StudyResults</key>
+        <val>inter-rater agreement within a factor of 2 for average breakage frequency, but revealed greater 
+        variability in cell selection. These results aid in estimating the components of assay variance due 
+        to definitions, technical parameters and biological variables.</val>
+      </keyval>
+      <keyval>
+        <key>GrantSupport</key>
+        <val>Y1-CN-010-01</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
+        <val>54</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:NISTFishMSAData</val>
+      </keyval>
+      <keyval>
+        <key>SiteId</key>
+        <val>63</val>
+        <val>85</val>     
+      </keyval>
+      <keyval>
+        <key>OrganId</key>
+        <val>Unknown</val>
+      </keyval>
+    </metadata>
   </type>
-  <type id="urn:edrn:FishData" name="FishData">
-    <repositoryPath>file:///tmp/files/Fish</repositoryPath>
-    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.SingleFileBasicVersioner</versionerClass>
-    <description>Fish data.</description>     
-  </type>
-  <type id="urn:edrn:MassSpecData" name="MassSpecData">
-    <repositoryPath>file:///tmp/files/MassSpec</repositoryPath>
-    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.SingleFileBasicVersioner</versionerClass>
-    <description>Mass Spectrometry data.</description>     
-  </type>
+  
 </cas:producttypes>
