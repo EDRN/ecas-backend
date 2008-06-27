@@ -3,7 +3,9 @@
 //
 //$Id$
 
-package gov.nasa.jpl.edrn.ecas.seldi.met;
+package gov.nasa.jpl.edrn.ecas.metextraction;
+
+import java.text.SimpleDateFormat;
 
 /**
  * @author mattmann
@@ -52,5 +54,16 @@ public interface SELDIMetadata {
   public static final String ORGAN_ID = "OrganId";
 
   public static final String SPECIMEN_ID = "SpecimenId";
+  
+
+  /* the date format of the input metadata */
+  public static final String inputDataDateFormat = "MM/dd/yy";
+
+  /* our date format parser */
+  public static final SimpleDateFormat inputDataDateFormatter = new SimpleDateFormat(
+          inputDataDateFormat);
+
+  /* the delimeter for the input metadata */
+  public static final String FIELD_DELIMETER = ",";
 
 }
