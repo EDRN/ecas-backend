@@ -39,7 +39,17 @@
       <plugin>
         <groupId>gov.nasa.jpl.oodt.cas.filemgr.install</groupId>
         <artifactId>maven-fm-install-plugin</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0</version>
+        <configuration>
+          <fmDistributionFile>src/main/conf/filemgr/dist/cas-filemgr-1.6.0-dev.tar.gz</fmDistributionFile>
+          <customPolicyDirs>
+            <param>../../policy/filemgr/core</param>
+            <param>../../policy/filemgr/seldi</param>
+            <param>../../policy/filemgr/misc_pidata</param>
+          </customPolicyDirs>
+          <customConfigurationDir>src/main/conf/filemgr/configuration</customConfigurationDir>
+          <fmInstallationDir>/usr/local/ecas/filemgr</fmInstallationDir>
+        </configuration>
       </plugin>
     </plugins>
   </build>
