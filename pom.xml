@@ -43,9 +43,9 @@
         <configuration>
           <fmDistributionFile>src/main/conf/filemgr/dist/cas-filemgr-1.6.0-dev.tar.gz</fmDistributionFile>
           <customPolicyDirs>
-            <param>src/main/conf/policy/filemgr/core</param>
-            <param>src/main/conf/policy/filemgr/seldi</param>
-            <param>src/main/conf/policy/filemgr/misc_pidata</param>
+            <param>src/main/conf/filemgr/policy/core</param>
+            <param>src/main/conf/filemgr/policy/seldi</param>
+            <param>src/main/conf/filemgr/policy/misc_pidata</param>
           </customPolicyDirs>
           <customConfigurationDir>src/main/conf/filemgr/configuration</customConfigurationDir>
           <fmInstallationDir>/usr/local/ecas/filemgr</fmInstallationDir>
