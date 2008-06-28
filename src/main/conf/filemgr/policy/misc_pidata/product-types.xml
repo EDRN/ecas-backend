@@ -119,12 +119,12 @@
         <val>Tina Xiao</val>
       </keyval>
       <keyval>
-        <key> StudyDescription</key>
-        <val>We are investigating the molecular basis of cell-cell interaction in the 
+        <key>StudyDescription</key>
+        <val><![CDATA[We are investigating the molecular basis of cell-cell interaction in the 
         differentiation of epithelial cells of the human bladder. Our approach involves 
         cell-type identification by CD cell surface molecules, isolation of specific cell 
         populations, gene expression analysis, and functional test of candidate genes in a 
-        cell culture system.
+        cell culture system.]]>
         </val>
      </keyval>
      <keyval>
@@ -140,10 +140,10 @@
      </keyval>
      <keyval>
         <key>StudyMethods</key>
-        <val>Immunohistochemistry using antibodies to cluster designation (CD) cell surface antigens was 
+        <val><![CDATA[Immunohistochemistry using antibodies to cluster designation (CD) cell surface antigens was 
         first used to characterize the stromas of the prostate and bladder. Stromal cells were prepared from 
         either prostate or bladder tissue for cell culture. RNA was isolated from the cultured cells and analyzed 
-        by DNA microarrays. Expression of candidate genes in normal prostate and prostate cancer was examined by RT-PCR.
+        by DNA microarrays. Expression of candidate genes in normal prostate and prostate cancer was examined by RT-PCR.]]>
         </val>
      </keyval>
      <keyval>
@@ -159,10 +159,10 @@
      </keyval>
      <keyval>
         <key>StudyConclusion</key>
-        <val>Our findings show that the histologically similar stromas of the prostate and bladder are phenotypically different, 
+        <val><![CDATA[Our findings show that the histologically similar stromas of the prostate and bladder are phenotypically different, 
         and express organ-specific genes. The importance of these genes in epithelial development is suggested by their abnormal 
         expression in cancer. Among the candidates is the hormone PENK and the down-regulation of PENK expression in cancer suggests 
-        a possible association with cancer development.
+        a possible association with cancer development.]]>
         </val>
       </keyval>
       <keyval>
