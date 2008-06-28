@@ -16,6 +16,18 @@
     <description>Transcriptome profiling experiments with LNCaP and C4-2 human prostate cancer cell lines 
     with the aim of identifying genes associated with prostate cancer progression.
     </description>
+    <metExtractors>
+      <extractor
+        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+    </metExtractors>
     <metadata>
       <keyval>
         <key>Title</key>
@@ -101,6 +113,18 @@
     of epithelial cells of the human bladder. The approach involves cell-type identification by CD cell 
     surface molecules, isolation of specific cell populations, gene expression analysis, and functional 
     test of candidate genes in a cell culture system.</description>
+    <metExtractors>
+      <extractor
+        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+    </metExtractors>
     <metadata>
       <keyval>
         <key>Title</key>
@@ -199,6 +223,18 @@
     <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
     <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner</versionerClass>
     <description>Ovarian cancer biomarker discovery study data using multianalyte LabMAP profiling.</description>
+    <metExtractors>
+      <extractor
+        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+    </metExtractors> 
     <metadata>
       <keyval>
         <key>Title</key>
@@ -298,6 +334,18 @@
     <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
     <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner</versionerClass>
     <description>Pancreatic cancer biomarker discovery study using multianalyte LabMAP profiling.</description>
+    <metExtractors>
+      <extractor
+        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+    </metExtractors>
     <metadata>
       <keyval>
         <key>Title</key>
@@ -367,6 +415,18 @@
     <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
     <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner</versionerClass>
     <description>Breast cancer biomarker discovery study using multianalyte LabMAP profiling.</description>
+    <metExtractors>
+      <extractor
+        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+    </metExtractors>
     <metadata>
       <keyval>
         <key>Title</key>
@@ -431,6 +491,18 @@
   frequency, but revealed greater variability in cell selection. These results aid in estimating the 
   components of assay variance due to definitions, technical parameters and biological variables.]]>
   </description>
+    <metExtractors>
+      <extractor
+        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+    </metExtractors>
     <metadata>
       <keyval>
         <key>Title</key>
@@ -511,6 +583,18 @@
     is to use state-of-the-art protein profiling technology to further develop and validate a 
     serum-based screening method for prostate cancer.]]>
   </description>
+    <metExtractors>
+      <extractor
+        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+    </metExtractors>
     <metadata>
       <keyval>
         <key>Title</key>

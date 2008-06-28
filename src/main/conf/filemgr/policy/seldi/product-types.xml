@@ -24,6 +24,18 @@
 		for the mass region from 4 to 8 KDa, and 8 for the mass range from 8 to 40 KDa. Detected peaks and their 
 		intensity values were then exported into excel spreadsheets.
 		</description>
+        <metExtractors>
+          <extractor
+            class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+            <configuration>
+              <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+              <property name="nsAware" value="true" />
+              <property name="elementNs" value="CAS" />
+              <property name="elements"
+                value="ProductReceivedTime,ProductName,ProductId" />
+            </configuration>
+          </extractor>
+        </metExtractors>
 	    <metadata>
 	      <keyval>
 	        <key>Title</key>
@@ -105,6 +117,18 @@
 		&quot;Peaks&quot; software. Raw time of flight values were then exported as combined spread sheets 	
 		representing many individual spectra produced from serum samples in each study. These files are comma 
 		delimited (csv).</description>
+        <metExtractors>
+          <extractor
+            class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+            <configuration>
+              <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+              <property name="nsAware" value="true" />
+              <property name="elementNs" value="CAS" />
+              <property name="elements"
+                value="ProductReceivedTime,ProductName,ProductId" />
+            </configuration>
+          </extractor>
+        </metExtractors>
 	    <metadata>
 	      <keyval>
 	        <key>Title</key>
@@ -183,6 +207,18 @@
 		<description>Processed SELDI bioprocessor output from UAB 
 		(EDRN Site 75).
 		</description>
+        <metExtractors>
+          <extractor
+            class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+            <configuration>
+              <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+              <property name="nsAware" value="true" />
+              <property name="elementNs" value="CAS" />
+              <property name="elements"
+                value="ProductReceivedTime,ProductName,ProductId" />
+            </configuration>
+          </extractor>
+        </metExtractors>
 	    <metadata>
 	      <keyval>
 	        <key>Title</key>
