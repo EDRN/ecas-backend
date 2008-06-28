@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+<keyval type="vector">
+  <key>Technology</key>
+  <val><![CDATA[SELDI-TOF-MS, Protein Biosystem II model outfitted with the metal affinity (IMAC3-Cu) 
+  ProteinChip®, Biomek® 2000 Workstation liquid-handling robot (Beckman Instruments)]]></val>
+</keyval>
+<keyval type="vector">
+  <key>ProtocolType</key>
+  <val>Protein profiling</val>
+</keyval>
+<keyval type="vector">
+  <key>ProtocolDescription</key>
+  <val>SELDI Phase I: Assay Validation-Prostate</val>
+</keyval>
+<keyval type="vector">
+  <key>Organism</key>
+  <val>Human</val>
+</keyval>
+<keyval type="vector">
+  <key>OrganId</key>
+  <val>Prostate</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenId</key>
+  <val>Serum</val>
+</keyval>
+<keyval type="vector">
+  <key>StudyType</key>
+  <val>Protein Profiling</val>
+</keyval>
+<keyval type="vector">
+  <key>ClinicalDiagnosis</key>
+  <val>Prostate Carcinoma</val>
+</keyval>
+<keyval type="vector">
+  <key>AnalysisType</key>
+  <val>SELDI-TOF-MS</val>
+</keyval>
+<keyval type="vector">
+  <key>MarkerType</key>
+  <val>Protein</val>
+</keyval>
+<keyval type="vector">
+  <key>Gender</key>
+  <val>Male</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductType</key>
+  <val>EVMSSELDIPhaseITOFMSData</val>
+</keyval>
+</cas:metadata>
