@@ -563,6 +563,7 @@
         <val><![CDATA[These results demonstrate that "between-laboratory" reproducibility of SELDI-TOF-MS serum profiling approaches that of 
         "within-laboratory" reproducibility as determined by measuring discrete m/z peaks over time and across laboratories.]]></val>
       </keyval>
+      <keyval>
         <key>ProtocolId</key>
         <val>109</val>
       </keyval>
