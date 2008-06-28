@@ -14,16 +14,13 @@
 		of elements between the types 
 	-->
 
-    <type id="urn:edrn:SELDI_EVMSProcessedData"
+    <type id="urn:edrn:EVMSSELDIPhaseIIProcessedData"
 		parent="urn:edrn:eCASFile" />
 
-	<type id="urn:edrn:SELDI_EVMSUnProcessedData"
+	<type id="urn:edrn:EVMSSELDIPhaseIIProcessedData"
 		parent="urn:edrn:eCASFile" />
 
-    <type id="urn:edrn:SELDI_UABProcessedData"
-		parent="urn:edrn:eCASFile" />
-		
-	<type id="urn:edrn:SELDI_PhaseIIAnalysisData"
-		parent="urn:edrn:eCASFile" />		
+    <type id="urn:edrn:UABSELDIPhaseIIProcessedData"
+		parent="urn:edrn:eCASFile" />	
 		
 </cas:producttypemap>
