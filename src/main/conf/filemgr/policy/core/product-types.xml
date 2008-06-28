@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Copyright (c) 2008 California Institute of Technology.
+  ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+  
+  $Id$
+  
+  Author: Chris A. Mattmann
+  Description: Core Product Type policy for eCAS data sets.
+-->
+<cas:producttypes xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+	<type id="urn:edrn:eCASFile" name="eCASFile">
+		<repositoryPath>file://[EDRN_REPO_HOME]/archive/misc</repositoryPath>
+		<versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner</versionerClass>
+		<description>Unclassified eCAS data files.</description>
+	    <metadata>
+	      <keyval>
+	        <key>Title</key>
+	        <val>Unclassified eCAS files.</val>
+	      </keyval>
+	      <keyval>
+	        <key>Date</key>
+	        <val>2008-06-24T20:12:00.000Z</val>
+	      </keyval>
+	      <keyval>
+	        <key>Author</key>
+	        <val>Unknown</val>
+	      </keyval>
+	      <keyval>
+	         <key>ProtocolId</key>
+	         <val>Unknown</val>
+	       </keyval>
+	       <keyval>
+	         <key>DatasetId</key>
+	         <val>urn:edrn:eCASFile</val>
+	       </keyval>
+	       <keyval>
+	         <key>SiteId</key>
+	         <val>Unknown</val>
+	       </keyval>
+	       <keyval>
+	         <key>OrganId</key>
+	         <val>Unknown</val>
+	       </keyval>
+	    </metadata>
+	 </type>
+</cas:producttypes>
