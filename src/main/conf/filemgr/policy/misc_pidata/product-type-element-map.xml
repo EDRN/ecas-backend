@@ -22,6 +22,7 @@
   <type id="urn:edrn:UPittLabMAPPancreaticData" parent="urn:edrn:eCASFile" />
   <type id="urn:edrn:DukeLabMAPBreastData" parent="urn:edrn:eCASFile" />
   <type id="urn:edrn:NISTFishMSAData" parent="urn:edrn:eCASFile" />
+  <type id="urn:edrn:EVMSSELDIPhaseITOFMSData" parent="urn:edrn:eCASFile"/>
 
 
 </cas:producttypemap>
