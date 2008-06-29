@@ -5,6 +5,7 @@
 
 package gov.nasa.jpl.edrn.ecas.metextraction;
 
+//JDK imports
 import java.text.SimpleDateFormat;
 
 /**
@@ -12,7 +13,8 @@ import java.text.SimpleDateFormat;
  * @version $Revision$
  * 
  * <p>
- * Describe your class here
+ * Metadata while reading the SELDI xls file dontated
+ * by FHCRC.
  * </p>.
  */
 public interface SELDIMetadata {
