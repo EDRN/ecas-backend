@@ -16,6 +16,10 @@ import gov.nasa.jpl.oodt.cas.metadata.Metadata;
 import gov.nasa.jpl.oodt.cas.metadata.exceptions.MetExtractionException;
 import gov.nasa.jpl.oodt.cas.metadata.extractors.CmdLineMetExtractor;
 
+//EDRN imports
+import static gov.nasa.jpl.edrn.ecas.metadata.EDRNMetadata.*;
+import static gov.nasa.jpl.edrn.ecas.metadata.SELDIMetadata.*;
+
 /**
  * @author mattmann
  * @version $Revision$
@@ -29,8 +33,6 @@ public class SELDIMetExtractor extends CmdLineMetExtractor {
     /* our log stream */
     private static final Logger LOG = Logger.getLogger(SELDIMetExtractor.class
             .getName());
-
-    private static final String unidentifiedFile = "eCASFile";
 
     public SELDIMetExtractor() {
         super(new SELDIMetExtractorConfigReader());
@@ -75,6 +77,14 @@ public class SELDIMetExtractor extends CmdLineMetExtractor {
         if (met.getMetadata(PRODUCT_TYPE) == null) {
             met.replaceMetadata(PRODUCT_TYPE, unidentifiedFile);
         }
-    }
 
+        if (met.getMetadata(PRODUCT_TYPE).startsWith("SELDI_UAB")) {
+            met.addMetadata(SITE_SHORT_NAME, UAB_SHORT_NAME);
+        } else if (met.getMetadata(PRODUCT_TYPE).startsWith("SELDI_EVMS")) {
+            met.addMetadata(SITE_SHORT_NAME, EVMS_SHORT_NAME);
+        }
+
+        met.addMetadata(INSTRUMENT_ID, SELDI_II_INSTRUMENT_ID);
+        met.addMetadata(ORGAN_NAME, ORGAN_NAME_PROSTATE);
+    }
 }

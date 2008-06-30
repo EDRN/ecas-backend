@@ -19,11 +19,14 @@ import java.util.logging.Logger;
 //OODT imports
 import jpl.eda.util.DateConvert;
 import static gov.nasa.jpl.oodt.cas.filemgr.metadata.CoreMetKeys.*;
-import static gov.nasa.jpl.edrn.ecas.metextraction.SELDIMetadata.*;
+import static gov.nasa.jpl.edrn.ecas.metadata.SELDIMetadata.*;
 import gov.nasa.jpl.oodt.cas.metadata.MetExtractorConfig;
 import gov.nasa.jpl.oodt.cas.metadata.MetExtractorConfigReader;
 import gov.nasa.jpl.oodt.cas.metadata.Metadata;
 import gov.nasa.jpl.oodt.cas.metadata.exceptions.MetExtractorConfigReaderException;
+
+// EDRN imports
+import static gov.nasa.jpl.edrn.ecas.metadata.EDRNMetadata.*;
 
 /**
  * @author mattmann

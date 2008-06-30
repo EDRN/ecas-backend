@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
 <keyval type="vector">
+  <key>SiteShortName</key>
+  <val>evms</val>
+</keyval>
+<keyval type="vector">
   <key>Technology</key>
   <val><![CDATA[SELDI-TOF-MS, Protein Biosystem II model outfitted with the metal affinity (IMAC3-Cu) 
   ProteinChip®, Biomek® 2000 Workstation liquid-handling robot (Beckman Instruments)]]></val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentId</key>
+  <val>seldi1</val>
 </keyval>
 <keyval type="vector">
   <key>ProtocolType</key>
@@ -18,7 +26,7 @@
   <val>Human</val>
 </keyval>
 <keyval type="vector">
-  <key>OrganId</key>
+  <key>OrganName</key>
   <val>Prostate</val>
 </keyval>
 <keyval type="vector">

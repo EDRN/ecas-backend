@@ -3,7 +3,7 @@
 //
 //$Id$
 
-package gov.nasa.jpl.edrn.ecas.metextraction;
+package gov.nasa.jpl.edrn.ecas.metadata;
 
 //JDK imports
 import java.text.SimpleDateFormat;
@@ -42,20 +42,6 @@ public interface SELDIMetadata {
   public static final int PRODUCT_ORGAN_ID_COL = 10;
 
   public static final int PRODUCT_SPECIMEN_ID_COL = 11;
-
-  /* column names */
-
-  public static final String PRODUCT_DESCRIPTION = "ProductDescription";
-
-  public static final String DATASET_ID = "DatasetId";
-
-  public static final String PROTOCOL_ID = "ProtocolId";
-
-  public static final String SITE_ID = "SiteId";
-
-  public static final String ORGAN_ID = "OrganId";
-
-  public static final String SPECIMEN_ID = "SpecimenId";
   
 
   /* the date format of the input metadata */
@@ -67,5 +53,7 @@ public interface SELDIMetadata {
 
   /* the delimeter for the input metadata */
   public static final String FIELD_DELIMETER = ",";
+  
+  public static final String unidentifiedFile = "eCASFile";
 
 }

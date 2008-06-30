@@ -1,32 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
 <keyval type="vector">
-  <key>PublicationAuthors</key>
-  <val>Gorelik E</val>
-  <val>Landsittel DP</val>
-  <val>Marrangoni AM</val>
-  <val>Modugno F</val>
-  <val>Velikokhatnaya L</val>
-  <val>Winans MT</val>
-  <val>Bigbee WL</val>
-  <val>Herberman RB</val>
-  <val>Lokshin AE</val>
-</keyval>
-<keyval type="vector">
-  <key>PublicationContact</key>
-  <val>Department of Pathology and Immunology, University of Pittsburg School of Medicine and University of Pittsburgh Cancer Institute, Pittsburgh, PA 15213, USA.</val>
-</keyval>
-<keyval type="vector">
-  <key>PublicationTitle</key>
-  <val>Multiplexed immunobead-based cytokine profiling for early detection of ovarian cancer.</val>
-</keyval>
-<keyval type="vector">
-  <key>Journal</key>
-  <val>Cancer Epidemiol Biomarkers Prev. 2005 Apr;14(4):981-7.</val>
-</keyval>
-<keyval type="vector">
-  <key>PublicationPubMedId</key>
-  <val>15824174</val>
+  <key>SiteShortName</key>
+  <val>pitt</val>
 </keyval>
 <keyval type="vector">
   <key>AnalysisDescription</key>
@@ -35,6 +11,10 @@
 <keyval type="vector">
   <key>Technology</key>
   <val>Multiplexed bead-based Luminex LabMAP assay</val>
+</keyval>
+<keyval type="vector">
+   <key>InstrumentId</key>
+   <val>labmap</val>
 </keyval>
 <keyval type="vector">
   <key>ProtocolId</key>
@@ -54,7 +34,7 @@
   <val>Human</val>
 </keyval>
 <keyval type="vector">
-  <key>OrganId</key>
+  <key>OrganName</key>
   <val>Ovary</val>
 </keyval>
 <keyval type="vector">

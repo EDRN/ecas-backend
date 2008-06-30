@@ -1,38 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
 <keyval type="vector">
-  <key>PublicationAuthors</key>
-  <val>Oudes AJ</val>
-  <val>Roach JC</val>
-  <val>Walashek LS</val>
-  <val>Eichner LJ</val>
-  <val>True LD</val>
-  <val>Vessella RL</val>
-  <val>Liu AY</val> 
-</keyval>
-<keyval type="vector">
-  <key>PublicationContact</key>
-  <val>Institute for Systems Biology, Seattle, USA. aoudes@systemsbiology.org</val>
-</keyval>
-<keyval type="vector">
-  <key>PublicationTitle</key>
-  <val>Application of Affymetrix array and Massively Parallel Signature Sequencing for identification of genes involved in prostate cancer progression</val>
-</keyval>
-<keyval type="vector">
-  <key>Journal</key>
-  <val>BMC Cancer. 2005 Jul 22;5:86.</val>
-</keyval>
-<keyval type="vector">
-  <key>PublicationPubMedId</key>
-  <val>16042785</val>
-</keyval>
-<keyval type="vector">
-  <key>AnalysisDescription</key>
-  <val>Affymetrix GeneChip Array analysis was performed. Expression array results were verified with RT-PCR.</val>
+  <key>SiteShortName</key>
+  <val>wash</val>
 </keyval>
 <keyval type="vector">
   <key>Technology</key>
   <val>Affymetrix GeneChip Array</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentId</key>
+  <val>transprofile</val>
 </keyval>
 <keyval type="vector">
   <key>ProtocolId</key>
@@ -49,6 +27,10 @@
 <keyval type="vector">
   <key>Organism</key>
   <val>Human</val>
+</keyval>
+<keyval type="vector">
+  <key>OrganName</key>
+  <val>Prostate</val>
 </keyval>
 <keyval type="vector">
   <key>SpecimenId</key>

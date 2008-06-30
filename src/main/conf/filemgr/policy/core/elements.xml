@@ -65,6 +65,13 @@
 		</description>
 		<dcElement />
 	</element>
+    <element id="urn:edrn:SiteShortName" name="SiteShortName">
+      <description>
+        The 4 digit char code of the EDRN site that provided data encapsulated
+        within this product.
+      </description>
+      <dcElement />
+    </element>  
 	<element id="urn:edrn:OrganId" name="OrganId">
 		<description>
 			Pointers to organs that this product contains data about.
@@ -78,4 +85,11 @@
 		</description>
 		<dcElement />
 	</element>
+  <element id="urn:edrn:InstrumentId" name="InstrumentId">
+       <description>
+            The instrument technology that was used to process, analyze or 
+            capture the EDRN data.
+       </description>
+       <dcElement/>
+  </element>
 </cas:elements>

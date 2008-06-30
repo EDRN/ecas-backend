@@ -1,43 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
 <keyval type="vector">
-  <key>PublicationAuthors</key>
-  <val>Goo YA</val>
-  <val>Goodlett DR</val>
-  <val>Pascal LE</val>
-  <val>Worthington KD</val>
-  <val>Vessella RL</val>
-  <val>True LD</val>
-  <val>Liu AY</val>
-</keyval>
-<keyval type="vector">
-  <key>PublicationContact</key>
-  <val>Department of Urology, University of Washington, Seattle, WA, USA. youngah@u.washington.edu</val>
-</keyval>
-<keyval type="vector">
-  <key>PublicationTitle</key>
-  <val>Stromal mesenchyme cell genes of the human prostate and bladder.</val>
-</keyval>
-<keyval type="vector">
-  <key>Journal</key>
-  <val>BMC Urol. 2005 Dec 12;5:17.</val>
-</keyval>
-<keyval type="vector">
-  <key>PublicationPubMedId</key>
-  <val>16343351</val>
-</keyval>
-<keyval type="vector">
-  <key>AnalysisId</key>
-  <val>192-Liu-2-IHC-Prostate</val>
-</keyval> 
-<keyval type="vector">
-  <key>AnalysisDescription</key>
-  <val>CD marker expression profile of prostate cancer cells for investigating the molecular basis 
-  of cell-cell interaction in the differentiation of epithelial cells of the human</val>
+  <key>SiteShortName</key>
+  <val>wash</val>
 </keyval>
 <keyval type="vector">
   <key>Technology</key>
   <val>Immunohistochemistry</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentId</key>
+  <val>immuno</val>
 </keyval>
 <keyval type="vector">
   <key>ProtocolId</key>
@@ -64,7 +37,7 @@
   <val>Human</val>
 </keyval>
 <keyval type="vector">
-  <key>OrganId</key>
+  <key>OrganName</key>
   <val>Prostate</val>
 </keyval>
 <keyval type="vector">

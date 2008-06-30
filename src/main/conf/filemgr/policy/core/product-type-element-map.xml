@@ -27,5 +27,7 @@
 		<element id="urn:edrn:SiteId" />
 		<element id="urn:edrn:OrganId" />
 		<element id="urn:edrn:SpecimenId" />
+        <element id="urn:edrn:SiteShortName" />
+        <element id="urn:edrn:InstrumentId" />
 	</type>
 </cas:producttypemap>

@@ -1,32 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
 <keyval type="vector">
-  <key>PublicationId</key>
-  <val>63-Barker-1-PMID15279836</val>
+  <key>SiteShortName</key>
+  <val>nist</val>
 </keyval>
 <keyval type="vector">
-  <key>PublicationAuthors</key>
-  <val>Barker PE</val>
-  <val>Wang W</val>
-  <val>Wagner PD</val>
-  <val>Pinsky P</val>
+  <key>InstrumentId</key>
+  <val>fishmsa</val>
 </keyval>
-<keyval type="vector">
-  <key>PublicationContact</key>
-  <val>peter.barker@nist.gov</val>
-</keyval>
-<keyval type="vector">
-  <key>PublicationTitle</key>
-  <val>Inter-rater agreement on chromosome 5 breakage in FISH-based mutagen sensitivity assays (MSAs)</val>
-</keyval>
-<keyval type="vector">
-  <key>Journal</key>
-  <val>Mutat Res. 2004 Aug 8; 562(1-2):133-42.</val>
-</keyval>
-<keyval type="vector">
-  <key>PublicationPubMedId</key>
-  <val>15279836</val>
-</keyval> 
 <keyval type="vector">
   <key>Technology</key>
   <val>FISH-based mutagen sensitivity assays (MSAs)</val>
