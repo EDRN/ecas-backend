@@ -10,7 +10,7 @@ cd $DIR
 set DIR_PATH = `pwd`
 
 if ( $#argv != 2 ) then
-   echo "Usage: $0 <filemgr url> <breast data dir path>"
+   echo "Usage: $0 <filemgr url> <data dir path>"
    exit 1
 else
         cd $DIR_PATH/../crawler/bin
@@ -20,7 +20,7 @@ else
         --metExtractorConfig $EDRN_ECAS_HOME/aux/met_def/ecas.misc.fish.copyandrewrite.conf \
         --filemgrUrl $1 \
         --productPath $2 \
-        --failureDir /tmp/failed_ingest_files \
+        --failureDir /data/failed_ingest_files \
         --metFileExtension met \
         --actionIds DeleteDataFile,MoveDataFileToFailureDir,Unique
 endif
