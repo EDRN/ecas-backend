@@ -78,9 +78,9 @@ public class SELDIMetExtractor extends CmdLineMetExtractor {
             met.replaceMetadata(PRODUCT_TYPE, unidentifiedFile);
         }
 
-        if (met.getMetadata(PRODUCT_TYPE).startsWith("SELDI_UAB")) {
+        if (met.getMetadata(PRODUCT_TYPE).startsWith("UAB")) {
             met.addMetadata(SITE_SHORT_NAME, UAB_SHORT_NAME);
-        } else if (met.getMetadata(PRODUCT_TYPE).startsWith("SELDI_EVMS")) {
+        } else if (met.getMetadata(PRODUCT_TYPE).startsWith("EVMS")) {
             met.addMetadata(SITE_SHORT_NAME, EVMS_SHORT_NAME);
         }
 
