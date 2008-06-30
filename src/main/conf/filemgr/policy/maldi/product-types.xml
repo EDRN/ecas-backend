@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	Copyright (c) 2007 California Institute of Technology.
+	ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+	
+	$Id$
+	
+	Author: Chris A. Mattmann
+	Description: Product Type policy for eCAS that stores MALDI data
+	provided by Fred Hutchinson Cancer Research Center (FHCRC).
+-->
+<cas:producttypes xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+	<type id="urn:edrn:FHCRCMALDIDilutionProcessedData" name="FHCRCMALDIDilutionProcessedData">
+		<repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+		<versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+		<description>These data come from a dilution experiment aimed at elucidating which features in MALDI-TOF 
+        mass spectrometry data are informative for quantifying peptide content.  The details of the experiment are 
+        described in [1].  The primary dataset consists of 250 spectra collected from 5 different serum sources (5 
+        people from a health study), each subject to 10 different concentrations of a peptide mixture that contained 
+        several known peptides.  Each of the 50 prepared samples were spotted, randomly, 5 times each on a single plate 
+        producing a total of 5x10x5 = 250 spectra.  An additional 30 spectra arise from:  2 replicate spectra from each 
+        of the 10 concentrations of the peptide mixture, plus 2 replicates of serum-only spectra from each of the 5 
+        serum samples.
+        
+        NOTE:  An error was made during the process of randomly spotting samples to the plate:  one of the replicates from 
+        concentration 6 was spotted on top of a serum-only sample.  The result is that two spectra from this design are 
+        missing: serum 1, concentration 6, replicate 4 (column #36 in Spectra.txt), and serum 4, concentration 0, replicate 2.  
+        This left one empty spot on the plate (column #280 in Spectra.txt) to which we spotted a sample containing only cytochrome 
+        c.  The latter was not used in any subsequent analysis in [1], and no adjustment was made for former in the analysis in 
+        [1] (column &#35;36 was used as is).
+		</description>
+        <metExtractors>
+          <extractor
+            class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+            <configuration>
+              <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+              <property name="nsAware" value="true" />
+              <property name="elementNs" value="CAS" />
+              <property name="elements"
+                value="ProductReceivedTime,ProductName,ProductId" />
+            </configuration>
+          </extractor>
+        </metExtractors>
+	    <metadata>
+	      <keyval>
+	        <key>Title</key>
+	        <val>Fred Hutchinson Cancer Research Center (FHCRC) MALDI Dilution Processed Data</val>
+	      </keyval>
+	      <keyval>
+	        <key>Date</key>
+	        <val>2007-08-07T15:46:00.000Z</val>
+	      </keyval>
+	      <keyval>
+	        <key>Author</key>
+	        <val>Timothy W. Randolph</val>
+	      </keyval>
+	      <keyval>
+	        <key>DataCustodian</key>
+	        <val>Dale McLerran</val>
+	      </keyval>
+	      <keyval>
+	         <key>ProtocolId</key>
+	         <val>Unknown</val>
+	       </keyval>
+	       <keyval>
+	         <key>DatasetId</key>
+	         <val>urn:edrn:FHCRCMALDIDilutionProcessedData</val>
+	       </keyval>
+	       <keyval>
+	         <key>StudyObjective</key>
+	         <val>This work addresses the problem of extracting signal content from protein mass spectrometry data. 
+             A multiscale decomposition of these spectra is used to focus on local scale-based structure by defining 
+             scale-specific features. Quantification of features is accompanied by an efficient method for calculating 
+             the location of features which avoids estimation of signal-to-noise ratios or bandwidths.</val>
+	       </keyval>
+	       <keyval>
+	         <key>PlannedSampleSize</key>
+	         <val>The EDRN-Prostate-SELDI Investigational Collaboration (EPSIC) will implement a process to 
+	         synchronize SELDI output at the seven participating institutions using a single source of pooled 
+	         normal sera (QC). The target was to recruit 100 healthy males and 100 healthy females to donate 
+	         two tubes of blood. Pregnant women and subjects less than 110 pounds were excluded from the blood 
+	         collection. An IRB protocol was submitted two months in advance of the project. After IRB approval, 
+	         fliers were generated and posted at many locations (e.g., EVMS, hospitals, doctor's offices). The 
+	         blood was collected on November 6, 2002 from 7:30 am to 2:00 pm. A total of 360 healthy people (154 
+	         male and 206 female) donated two tubes of blood each to make quality control (QC) serum.</val>
+	       </keyval>
+	       <keyval>
+	         <key>SiteId</key>
+             <val>5</val>
+	         <val>142</val>
+	       </keyval>
+	       <keyval>
+	         <key>OrganId</key>
+	         <val>Unknown</val>
+	       </keyval>
+	    </metadata>
+	 </type>   
+</cas:producttypes>

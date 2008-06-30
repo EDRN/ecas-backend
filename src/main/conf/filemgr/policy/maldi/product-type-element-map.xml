@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	Copyright (c) 2007 California Institute of Technology.
+	ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+	
+	$Id$
+	
+	Author: Chris A. Mattmann
+	Description: Product Type to Element policy for eCAS that stores MALDI
+	data provided by Fred Hutchinson Cancer Research Center (FHCRC).
+-->
+<cas:producttypemap xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+	<!--  can set the "parent" attribute on types below to allow inheritance
+		of elements between the types 
+	-->
+
+    <type id="urn:edrn:FHCRCMALDIDilutionProcessedData"
+		parent="urn:edrn:eCASFile" />
+		
+</cas:producttypemap>

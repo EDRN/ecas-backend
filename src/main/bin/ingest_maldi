@@ -1,0 +1,41 @@
+#!/bin/tcsh
+# Copyright (c) 2008 California Institute of Technology.
+# ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+#
+# $Id$
+#
+# Sample call: ./ingest_maldi http://localhost:9000 /data/ingest/maldi/fhcrc DeleteDataFile,MoveDataFileToFailureDir,Unique
+
+set ORIG_DIR = $cwd
+set DIR = `dirname $0`
+cd $DIR
+set DIR_PATH = `pwd`
+
+if ( $#argv != 2 && $#argv != 3) then
+   echo "Usage: $0 <filemgr url> <data dir path> [<action ids>]"
+   exit 1
+else
+   set ACTIONS = $3
+   if ( $ACTIONS == "" ) then
+      cd $DIR_PATH/../crawler/bin
+      ./crawler_launcher \
+      --crawlerId MetExtractorProductCrawler \
+      --metExtractor gov.nasa.jpl.oodt.cas.metadata.extractors.CopyAndRewriteExtractor \
+      --metExtractorConfig $EDRN_ECAS_HOME/aux/met_def/ecas.maldi.copyandrewrite.conf \
+      --filemgrUrl $1 \
+      --productPath $2 \
+      --failureDir /data/failed_ingest_files \
+      --metFileExtension met
+   else
+      cd $DIR_PATH/../crawler/bin
+      ./crawler_launcher \
+      --crawlerId MetExtractorProductCrawler \
+      --metExtractor gov.nasa.jpl.oodt.cas.metadata.extractors.CopyAndRewriteExtractor \
+      --metExtractorConfig $EDRN_ECAS_HOME/aux/met_def/ecas.maldi.copyandrewrite.conf \
+      --filemgrUrl $1 \
+      --productPath $2 \
+      --failureDir /data/failed_ingest_files \
+      --metFileExtension met \
+      --actionIds $ACTIONS
+   endif
+endif

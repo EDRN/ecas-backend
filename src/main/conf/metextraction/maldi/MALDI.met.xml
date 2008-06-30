@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+<keyval type="vector">
+  <key>SiteShortName</key>
+  <val>fhcrc</val>
+</keyval>
+<keyval type="vector">
+  <key>AnalysisDescription</key>
+  <val>MALDI-TOF mass spectrometry dilution experiment</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentId</key>
+  <val>maldi</val>
+</keyval>
+<keyval type="vector">
+  <key>Technology</key>
+  <val>Matrix-assisted laser desorption/ionization (MALDI) tandem time-of-flight (TOF/TOF) technology</val>
+</keyval>
+<keyval type="vector">
+  <key>Software</key>
+  <val>Matlab</val>
+</keyval>
+<keyval type="vector">
+  <key>Organism</key>
+  <val>Human</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenId</key>
+  <val>Serum</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenType</key>
+  <val>Serum</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductType</key>
+  <val>FHCRCMALDIDilutionProcessedData</val>
+</keyval>
+</cas:metadata>
