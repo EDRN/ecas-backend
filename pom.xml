@@ -46,6 +46,7 @@
             <param>src/main/conf/filemgr/policy/core</param>
             <param>src/main/conf/filemgr/policy/seldi</param>
             <param>src/main/conf/filemgr/policy/misc_pidata</param>
+            <param>src/main/conf/filemgr/policy/maldi</param>
           </customPolicyDirs>
           <customConfigurationDir>src/main/conf/filemgr/configuration</customConfigurationDir>
           <fmInstallationDir>/usr/local/ecas/filemgr</fmInstallationDir>
