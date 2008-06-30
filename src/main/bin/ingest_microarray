@@ -10,16 +10,17 @@ cd $DIR
 set DIR_PATH = `pwd`
 
 if ( $#argv != 2 ) then
-	echo "Usage: $0 <filemgr url> <seldi data dir path>"
-	exit 1
+   echo "Usage: $0 <filemgr url> <breast data dir path>"
+   exit 1
 else
-	cd $DIR_PATH/../crawler/bin
-	./met_extractor_crawler \
-	--fileManagerUrl $1 \
-	 --productPath $2 \
-	 --clientTransfer gov.nasa.jpl.oodt.cas.filemgr.datatransfer.LocalDataTransferFactory \
-	 --metExtractorPath $EDRN_ECAS_HOME/scripts/ecas_met_extractor \
-	 --metExtractorConfigPath $EDRN_ECAS_HOME/aux/met_def/ecas.misc.microarray.copyandrewrite.conf \
-	 --metOutputDir $EDRN_ECAS_HOME/met_output_dir/ \
-	 --unique
+        cd $DIR_PATH/../crawler/bin
+        ./crawler_launcher \
+        --crawlerId MetExtractorProductCrawler \
+        --metExtractor gov.nasa.jpl.oodt.cas.metadata.extractors.CopyAndRewriteExtractor \
+        --metExtractorConfig $EDRN_ECAS_HOME/aux/met_def/ecas.misc.microarray.copyandrewrite.conf \
+        --filemgrUrl $1 \
+        --productPath $2 \
+        --failureDir /tmp/failed_ingest_files \
+        --metFileExtension met \
+        --actionIds DeleteDataFile,MoveDataFileToFailureDir,Unique
 endif
