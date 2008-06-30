@@ -27,7 +27,7 @@ import gov.nasa.jpl.edrn.ecas.util.InvalidDateException;
  * Describe your class here
  * </p>.
  */
-public abstract class EDRNProductVersioner extends MetadataBasedFileVersioner {
+public class EDRNProductVersioner extends MetadataBasedFileVersioner {
 
     private String filePathSpec = "/[SiteShortName]/[ProductReceivedDate]/[OrganName]/[InstrumentId]/[Filename]";
 
