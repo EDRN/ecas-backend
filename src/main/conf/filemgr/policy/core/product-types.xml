@@ -11,9 +11,7 @@
 <cas:producttypes xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
   <type id="urn:edrn:eCASFile" name="eCASFile">
     <repositoryPath>file://[EDRN_REPO_HOME]/archive/misc</repositoryPath>
-    <versionerClass>
-      gov.nasa.jpl.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner
-    </versionerClass>
+    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner</versionerClass>
     <description>Unclassified eCAS data files.</description>
     <metExtractors>
       <extractor
