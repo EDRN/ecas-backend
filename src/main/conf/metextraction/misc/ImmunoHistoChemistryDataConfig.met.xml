@@ -13,7 +13,7 @@
   <val>immuno</val>
 </keyval>
 <keyval type="vector">
-  <key>ProtocolId</key>
+  <key>ProtocolName</key>
   <val>UESC Specimen Prep 1</val>
 </keyval>
 <keyval type="vector">

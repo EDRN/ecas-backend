@@ -13,7 +13,7 @@
   <val>transprofile</val>
 </keyval>
 <keyval type="vector">
-  <key>ProtocolId</key>
+  <key>ProtocolName</key>
   <val>Affymetrix chip HG-U133_Plus_2</val>
 </keyval>
 <keyval type="vector">
