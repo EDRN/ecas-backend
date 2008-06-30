@@ -24,8 +24,8 @@
         
         NOTE:  An error was made during the process of randomly spotting samples to the plate:  one of the replicates from 
         concentration 6 was spotted on top of a serum-only sample.  The result is that two spectra from this design are 
-        missing: serum 1, concentration 6, replicate 4 (column #36 in Spectra.txt), and serum 4, concentration 0, replicate 2.  
-        This left one empty spot on the plate (column #280 in Spectra.txt) to which we spotted a sample containing only cytochrome 
+        missing: serum 1, concentration 6, replicate 4 (column number 36 in Spectra.txt), and serum 4, concentration 0, replicate 2.  
+        This left one empty spot on the plate (column number 280 in Spectra.txt) to which we spotted a sample containing only cytochrome 
         c.  The latter was not used in any subsequent analysis in [1], and no adjustment was made for former in the analysis in 
         [1] (column &#35;36 was used as is).
 		</description>
