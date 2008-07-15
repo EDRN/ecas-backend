@@ -21,9 +21,9 @@
         <enabled>true</enabled>
       </snapshots>
       <id>oodt-m1-repository</id>
-      <name>OODT Maven 1.x Repository</name>
+      <name>OODT Maven 2.x Repository</name>
       <url>http://oodt.jpl.nasa.gov/download/private</url>
-      <layout>legacy</layout>
+      <layout>default</layout>
     </repository>
   </repositories>
   <build>
@@ -37,9 +37,9 @@
         </configuration>
       </plugin>
       <plugin>
-        <groupId>gov.nasa.jpl.oodt.cas.filemgr.install</groupId>
+        <groupId>gov.nasa.jpl.oodt</groupId>
         <artifactId>maven-fm-install-plugin</artifactId>
-        <version>1.0.0</version>
+        <version>2.0.0-dev</version>
         <configuration>
           <fmDistributionFile>src/main/conf/filemgr/dist/cas-filemgr-1.6.0-dev.tar.gz</fmDistributionFile>
           <customPolicyDirs>
@@ -86,24 +86,6 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>commons-dbcp</groupId>
-      <artifactId>commons-dbcp</artifactId>
-      <version>1.2.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>commons-collections</groupId>
-      <artifactId>commons-collections</artifactId>
-      <version>2.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>commons-pool</groupId>
-      <artifactId>commons-pool</artifactId>
-      <version>1.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>org.apache.lucene</groupId>
       <artifactId>lucene-core</artifactId>
       <version>2.0.0</version>
@@ -113,12 +95,6 @@
       <groupId>jug</groupId>
       <artifactId>jug-asl</artifactId>
       <version>2.0.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>xmlrpc</groupId>
-      <artifactId>xmlrpc</artifactId>
-      <version>2.1-dev</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
