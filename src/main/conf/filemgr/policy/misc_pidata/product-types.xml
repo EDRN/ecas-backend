@@ -31,7 +31,7 @@
     <metadata>
       <keyval>
         <key>Title</key>
-        <val>Alvin Liu's Microarray data obtained by Tina Xiao.</val>
+        <val>University of Washington Microarray data.</val>
       </keyval>
       <keyval>
         <key>Date</key>
@@ -128,7 +128,7 @@
     <metadata>
       <keyval>
         <key>Title</key>
-        <val>Alvin Liu's Immunohistochemistry data obtained by Tina Xiao.</val>
+        <val>University of Washington Immunohistochemistry data.</val>
       </keyval>
       <keyval>
         <key>Date</key>
@@ -238,7 +238,7 @@
     <metadata>
       <keyval>
         <key>Title</key>
-        <val>Anna Lokshin Ovarian data obtained by Tina Xiao.</val>
+        <val>University of Pittsburg Ovarian data.</val>
       </keyval>
       <keyval>
         <key>Date</key>
@@ -349,7 +349,7 @@
     <metadata>
       <keyval>
         <key>Title</key>
-        <val>Anna Lokshin Pancreatic data obtained by Tina Xiao.</val>
+        <val>University of Pittsburg Pancreatic data.</val>
       </keyval>
       <keyval>
         <key>Date</key>
@@ -430,7 +430,7 @@
     <metadata>
       <keyval>
         <key>Title</key>
-        <val>Jeffrey Marks Breast data obtained by Tina Xiao.</val>
+        <val>Duke University Breast data.</val>
       </keyval>
       <keyval>
         <key>Date</key>
@@ -506,7 +506,7 @@
     <metadata>
       <keyval>
         <key>Title</key>
-        <val>Peter Barker Fish data obtained by Tina Xiao.</val>
+        <val>NIST Fish data.</val>
       </keyval>
       <keyval>
         <key>Date</key>
@@ -598,7 +598,7 @@
     <metadata>
       <keyval>
         <key>Title</key>
-        <val>John Semmes Mass Spec data obtained by Tina Xiao.</val>
+        <val>EVMS Mass Spec data.</val>
       </keyval>
       <keyval>
         <key>Date</key>

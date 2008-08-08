@@ -44,7 +44,7 @@
 	    <metadata>
 	      <keyval>
 	        <key>Title</key>
-	        <val>Fred Hutchinson Cancer Research Center (FHCRC) MALDI Dilution Processed Data</val>
+	        <val>FHCRC MALDI Dilution Processed Data</val>
 	      </keyval>
 	      <keyval>
 	        <key>Date</key>
@@ -60,7 +60,7 @@
 	      </keyval>
 	      <keyval>
 	         <key>ProtocolId</key>
-	         <val>Unknown</val>
+	         <val>67</val>
 	       </keyval>
 	       <keyval>
 	         <key>DatasetId</key>
