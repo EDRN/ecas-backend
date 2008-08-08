@@ -125,7 +125,7 @@
                <copy todir="${env.EDRN_ECAS_HOME}/scripts">
                  <fileset dir="src/main/bin" includes="*"/>               
                </copy>
-               <chmod dir="${env.EDRN_ECAS_HOME}/uchsc/scripts" perm="ugo+rx" includes="*"/>
+               <chmod dir="${env.EDRN_ECAS_HOME}/scripts" perm="ugo+rx" includes="*"/>
              </tasks>
            </configuration>
            <goals>
