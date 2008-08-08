@@ -15,5 +15,5 @@ if ( $#argv != 2 ) then
 else
 	cd $ORIG_DIR;
 	java -Djava.ext.dirs=$DIR_PATH/../lib:$DIR_PATH/../filemgr/lib: \
-	gov.nasa.jpl.edrn.ecas.seldi.met.SELDIMetExtractor "$1" "$2"
+	gov.nasa.jpl.edrn.ecas.metextraction.SELDIMetExtractor "$1" "$2"
 endif
