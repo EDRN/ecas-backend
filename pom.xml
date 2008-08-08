@@ -12,7 +12,7 @@
   <groupId>gov.nasa.jpl.edrn</groupId>
   <artifactId>ecas-backend</artifactId>
   <packaging>jar</packaging>
-  <version>0.0.0</version>
+  <version>0.1.0-dev</version>
   <name>E-CAS Backend</name>
   <url>http://ecas.jpl.nasa.gov/</url>
   <repositories>
@@ -38,19 +38,101 @@
       </plugin>
       <plugin>
         <groupId>gov.nasa.jpl.oodt</groupId>
-        <artifactId>maven-fm-install-plugin</artifactId>
+        <artifactId>maven-cas-install-plugin</artifactId>
         <version>2.0.0-dev</version>
-        <configuration>
-          <fmDistributionFile>src/main/conf/filemgr/dist/cas-filemgr-1.6.0-dev.tar.gz</fmDistributionFile>
-          <customPolicyDirs>
-            <param>src/main/conf/filemgr/policy/core</param>
-            <param>src/main/conf/filemgr/policy/seldi</param>
-            <param>src/main/conf/filemgr/policy/misc_pidata</param>
-            <param>src/main/conf/filemgr/policy/maldi</param>
-          </customPolicyDirs>
-          <customConfigurationDir>src/main/conf/filemgr/configuration</customConfigurationDir>
-          <fmInstallationDir>/usr/local/ecas/filemgr</fmInstallationDir>
-        </configuration>
+        <configuration/>
+        <executions>
+          <execution>
+            <id>install-filemgr</id>
+            <goals>
+              <goal>install</goal>
+            </goals>
+            <phase>install</phase> 
+            <configuration>
+              <casDistributionFile>src/main/conf/filemgr/dist/cas-filemgr-1.6.0-dev.tar.gz</casDistributionFile>
+              <customBinScripts>
+                <param>src/main/conf/filemgr/bin/filemgr</param>
+                <param>src/main/conf/filemgr/bin/filemgr-client</param>
+              </customBinScripts>
+              <customPolicyDirs>
+                <param>src/main/conf/filemgr/policy/core</param>
+                <param>src/main/conf/filemgr/policy/seldi</param>
+                <param>src/main/conf/filemgr/policy/misc_pidata</param>
+                <param>src/main/conf/filemgr/policy/maldi</param>
+              </customPolicyDirs>
+              <customConfigurationDir>src/main/conf/filemgr/configuration</customConfigurationDir>
+              <casInstallationDir>${env.EDRN_ECAS_HOME}/filemgr</casInstallationDir>
+              <customLibs>
+                <param>target/ecas-backend-0.1.0-dev.jar</param>
+              </customLibs>
+              <envVarReplaceFiles>
+               <param>
+                 <filepath>${env.EDRN_ECAS_HOME}/filemgr/etc/logging.properties</filepath>
+               </param>
+              </envVarReplaceFiles>
+            </configuration>  
+          </execution>
+          <execution>
+            <id>install-crawler</id>
+            <goals>
+              <goal>install</goal>
+            </goals>
+            <phase>install</phase>          
+            <configuration>
+              <casDistributionFile>src/main/conf/crawler/dist/cas-crawler-2.1.0.tar.gz</casDistributionFile>
+              <customPolicyDirs/>
+              <customConfigurationDir>src/main/conf/crawler/configuration</customConfigurationDir>
+              <casInstallationDir>${env.EDRN_ECAS_HOME}/crawler</casInstallationDir>
+              <customLibs>
+                <param>target/ecas-backend-0.1.0-dev.jar</param>
+              </customLibs>
+              <envVarReplaceFiles>
+                <param>
+                  <filepath>${env.EDRN_ECAS_HOME}/crawler/etc/logging.properties</filepath>
+                </param>
+              </envVarReplaceFiles>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <!--  customized ant file movements, attached to install phase -->
+      <plugin>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>install-met-config</id>
+            <phase>install</phase>
+            <configuration>
+              <tasks>
+                <copy todir="${env.EDRN_ECAS_HOME}/aux/met_def">
+                  <fileset dir="src/main/conf/metextraction/maldi" includes="*.conf"/>
+                  <fileset dir="src/main/conf/metextraction/maldi" includes="*.xml"/>
+                  <fileset dir="src/main/conf/metextraction/misc"  includes="*.xml"/>
+                  <fileset dir="src/main/conf/metextraction/misc"  includes="*.conf"/>
+                  <fileset dir="src/main/conf/metextraction/seldi" includes="*.csv"/>
+                </copy>
+              </tasks>
+            </configuration>
+            <goals>
+              <goal>run</goal>
+            </goals>
+          </execution>
+          <execution>
+           <id>install-scripts</id>
+           <phase>install</phase>
+           <configuration>
+             <tasks>
+               <copy todir="${env.EDRN_ECAS_HOME}/scripts">
+                 <fileset dir="src/main/bin" includes="*"/>               
+               </copy>
+               <chmod dir="${env.EDRN_ECAS_HOME}/uchsc/scripts" perm="ugo+rx" includes="*"/>
+             </tasks>
+           </configuration>
+           <goals>
+             <goal>run</goal>
+           </goals>
+         </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>
