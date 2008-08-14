@@ -38,6 +38,10 @@
         <val>2008-06-24T20:12:00.000Z</val>
       </keyval>
       <keyval>
+        <key>CollaborativeGroup</key>
+        <val>Prostate and Urologic</val>
+      </keyval>
+      <keyval>
         <key>Author</key>
         <val>Alvin Liu</val>
       </keyval>
@@ -137,6 +141,10 @@
       <keyval>
         <key>Author</key>
         <val>Alvin Liu</val>
+      </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>Prostate and Urologic</val>
       </keyval>
       <keyval>
         <key>DataCustodian</key>
@@ -248,6 +256,10 @@
         <key>Author</key>
         <val>Anna Lokshin</val>
       </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>Breast/GYN</val>
+      </keyval>      
       <keyval>
         <key>DataCustodian</key>
         <val>Tina Xiao</val>
@@ -364,6 +376,10 @@
         <val>Tina Xiao</val>
       </keyval>
       <keyval>
+        <key>CollaborativeGroup</key>
+        <val>GI and Other Associated</val>
+      </keyval>   
+      <keyval>
         <key>StudyBackground</key>
         <val><![CDATA[Early detection of pancreatic cancer might improve clinical outcome. Some studies 
         have shown the role of cytokines as a new group of tumor markers for pancreatic cancer. We hypothesized 
@@ -445,6 +461,10 @@
         <val>Tina Xiao</val>
       </keyval>
       <keyval>
+        <key>CollaborativeGroup</key>
+        <val>Breast/GYN</val>
+      </keyval>   
+      <keyval>
         <key>StudyBackground</key>
         <val><![CDATA[Early detection of breast cancer might improve clinical outcome. Some studies have 
         shown the role of cytokines as a new group of tumor markers for breast cancer. We hypothesized 
@@ -520,6 +540,10 @@
         <key>DataCustodian</key>
         <val>Tina Xiao</val>
       </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>N/A</val>
+      </keyval>   
       <keyval>
        <key>StudyDescription</key>
        <val>To standardize a fluorescence in situ hybridization (FISH) modification of the 
@@ -612,6 +636,10 @@
         <key>DataCustodian</key>
         <val>Tina Xiao</val>
       </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>Prostate and Urologic</val>
+      </keyval>   
       <keyval>
         <key>StudyBackground</key>
         <val><![CDATA[Protein expression profiling for differences indicative of early cancer has promise for improving 

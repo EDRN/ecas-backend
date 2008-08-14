@@ -53,6 +53,10 @@
 	        <key>DataCustodian</key>
 	        <val>Dale McLerran</val>
 	      </keyval>
+          <keyval>
+            <key>CollaborativeGroup</key>
+            <val>Prostate and Urologic</val>
+          </keyval>   
 	      <keyval>
 	         <key>ProtocolId</key>
 	         <val>110</val>
@@ -142,6 +146,10 @@
 	        <key>Author</key>
 	        <val>John Semmes</val>
 	      </keyval>
+          <keyval>
+            <key>CollaborativeGroup</key>
+            <val>Prostate and Urologic</val>
+          </keyval>
 	      <keyval>
 	        <key>DataCustodian</key>
 	        <val>Dale McLerran</val>
@@ -236,6 +244,10 @@
 	        <key>DataCustodian</key>
 	        <val>Dale McLerran</val>
 	      </keyval>
+          <keyval>
+            <key>CollaborativeGroup</key>
+            <val>Prostate and Urologic</val>
+          </keyval>
 	      <keyval>
 	         <key>ProtocolId</key>
 	         <val>110</val>
