@@ -100,6 +100,18 @@
         <artifactId>maven-antrun-plugin</artifactId>
         <executions>
           <execution>
+            <id>install-skel</id>
+            <phase>install</phase>
+            <configuration>
+              <tasks>
+                <mkdir dir="${env.EDRN_ECAS_HOME}/run"/>
+              </tasks>
+            </configuration>
+            <goals>
+              <goal>run</goal>
+            </goals>
+          </execution>
+          <execution>
             <id>install-met-config</id>
             <phase>install</phase>
             <configuration>

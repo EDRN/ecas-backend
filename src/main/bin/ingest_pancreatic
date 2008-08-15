@@ -25,7 +25,8 @@ else
       --filemgrUrl $1 \
       --productPath $2 \
       --failureDir /data/failed_ingest_files \
-      --metFileExtension met
+      --metFileExtension met \
+      --clientTransferer gov.nasa.jpl.oodt.cas.filemgr.datatransfer.LocalDataTransferFactory
    else
       cd $DIR_PATH/../crawler/bin
       ./crawler_launcher \
@@ -36,6 +37,7 @@ else
       --productPath $2 \
       --failureDir /data/failed_ingest_files \
       --metFileExtension met \
-      --actionIds $ACTIONS
+      --actionIds $ACTIONS \
+      --clientTransferer gov.nasa.jpl.oodt.cas.filemgr.datatransfer.LocalDataTransferFactory
    endif
 endif
