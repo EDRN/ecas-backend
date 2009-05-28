@@ -1,0 +1,104 @@
+EDRN JIRA site: http://oodt.jpl.nasa.gov/jira/browse/CA
+
+
+Release Notes - Early Detection of Cancer - Version eCAS beta 0.4.3 release - 05/25/2009
+
+
+
+** Task
+    * [CA-319] - update policy files to be more consistent with esis naming/format
+
+** Improvement
+    * [CA-321] - Update SELDI Phase II Metadata
+
+
+Release Notes - Early Detection of Cancer - Version eCAS 0.4.2 release - 03/29/2009
+
+** Bug
+    * [CA-259] - rename the N/A in study protocol
+
+
+** Task
+    * [CA-263] - Curate UPCI WHI disc5 data
+
+
+
+Release Notes - Early Detection of Cancer - Version eCAS beta 0.4.1 release - 03/05/2009
+
+** Bug
+    * [CA-237] - Fix met configuration files for Hanash and Tainsky data
+    * [CA-238] - Protocol ID for Hanash data is incorrect
+
+
+** Task
+    * [CA-235] - Curate Sam Hanash ROC curve data into eCAS 
+    * [CA-236] - Provide RDF from eCAS that links directly to eCAS browser dataset view
+
+** Improvement
+    * [CA-234] - Single Sign On for BMDB curator and eCAS Browser
+    
+    
+Release Notes - Early Detection of Cancer - Version eCAS beta 0.4.0 release - 02/19/2009
+
+** Bug
+    * [CA-192] - Problems when logging into eCAS using edrndemo or seldinonlin
+    * [CA-210] - eCAS leaves files in /tmp, filling it up
+    * [CA-228] - WHI disc4 policy should use EDRN protocol ID for WHI
+
+** New Feature
+    * [CA-104] - Disclaimer field needs to be added to all eCAS Dataset Metadata
+
+** Task
+    * [CA-122] - eCAS curation interface design
+    * [CA-185] - get LDAP authentication to work 
+    * [CA-193] - Remove Maldi from current protocol display and show under N/A protocol
+    * [CA-220] - organize data blob space
+    * [CA-225] - Load WHI data disc4 datasets
+
+** Improvement
+    * [CA-149] - Pagination of results in eCAS UI
+    * [CA-154] - Determine security standards to be used between eCAS and EKE
+    * [CA-178] - get rails to cooperate with apache
+    * [CA-208] - Add disclaimer text to data tab
+    * [CA-229] - Add in Organ and SiteId and Collaborative Group information for WHI
+
+
+
+Release Notes - Early Detection of Cancer - Version eCAS beta 0.3.0 release - 12/18/2008
+
+** Bug
+    * [CA-173] - referrencing staled edrndemo.org link
+
+** New Feature
+    * [CA-144] - Add Organ Collaborative Groups
+    * [CA-207] - Release Bill Grizzle Test EGFR and APC test data
+
+** Task
+    * [CA-205] - Install Tomcat WebDAV server on tumor/cancer for data delivery
+
+** Improvement
+    * [CA-206] - Revise interface to use BMDB look-and-feel
+
+
+
+Release Notes - Early Detection of Cancer - Version eCAS beta 0.2.0 release - 08/28/2008
+
+
+
+
+** Improvement
+    * [CA-152] - Make eCAS RDF dataset link point to the eCAS dataset page
+    * [CA-162] - Make namespace for eCAS datasets and met elements be urn:edrn:
+
+
+
+Release Notes - Early Detection of Cancer - Version eCAS beta 0.1.0 release - 08/07/2008
+
+
+
+
+** Improvement
+    * [CA-141] - Organize eCAS data on main eCAS splash page by Study/ProtocolId and then by Title
+    * [CA-142] - Make eCAS ui run off of environment variables in config.php
+
+
