@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Copyright (c) 2008 California Institute of Technology.
+  ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+  
+  $Id$
+  
+  Authors: John J. Tran and Chris A. Mattmann and Heather Kincaid
+  Description: Product Type policy for WHI data from:
+  1. Dr. Tainsky from Wayne State University
+  2. Dr. Bigbee from University of Pittsburgh Medical Center (UPMC)
+  3. Dr. Chan from Johns Hopkins Medical Center (JHU)
+  4. Dr. Chinnaiyan from University of Michigan (UMICH)
+-->
+
+<cas:producttypes xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+
+  <!--  first type -->
+
+  <type id="urn:edrn:WSUCellularSequencingUnprocessed" 
+        name="WSUCellularSequencingUnprocessed">
+   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+    <description>Cellular Sequencing Normalized data from Dr. Tainsky's lab at Wayne State University.</description>
+ 	<!--  cut and paste job for the most part... -->
+    <metExtractors>
+      <extractor
+        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+    </metExtractors>
+    <!--  fixed for all products of this type = ecas + esis meta excel spreadsheet -->
+    <metadata>
+      <keyval>
+        <key>DataSetName</key>
+        <val>WSU Cellular Sequencing Raw Data</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2009-02-10T18:24:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>LeadPI</key>
+        <val>Michael Tainsky</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>Bin Ye</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianPhone</key>
+        <val>555-555-5555</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>email address here</val>
+      </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>GI and Other Associated</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolName</key>
+        <val>126</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:WSUCellularSequencingUnprocessed</val>
+      </keyval>
+      <keyval>
+        <key>SiteName</key>
+		<val>232</val>
+      </keyval>
+ 	  <keyval>
+        <key>OrganSite</key>
+        <val>Colon</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>AnalyticMethods</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>StudyDesign</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>EligibilityCriteria</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ResultsAndColclusionSummary</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
+      </keyval>
+    </metadata>
+  </type>
+  
+  
+  <!--  second type -->
+  
+  <type id="urn:edrn:WSUCellularSequencingNormalized" 
+        name="WSUCellularSequencingNormalized">
+   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   
+   <description>Cellular Sequencing Normalized data from Dr. Tainsky's lab at Wayne State University</description>
+    <metExtractors>
+      <extractor
+        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+    </metExtractors>
+    <metadata>
+      <keyval>
+        <key>DataSetName</key>
+        <val>WSU Cellular Sequencing Normalized Data</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2009-02-10T18:24:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key> LeadPI</key>
+        <val>Michael Tainsky</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>Bin Ye</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianPhone</key>
+        <val>555-555-5555</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>email address here</val>
+      </keyval>
+       <keyval>
+        <key>CollaborativeGroup</key>
+        <val>GI and Other Associated</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolName</key>
+        <val>126</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:WSUCellularSequencingNormalized</val>
+      </keyval>
+      <keyval>
+        <key>SiteName</key>
+			<val>232</val>
+      </keyval>
+      <keyval>
+        <key>OrganSite</key>
+        <val>Colon</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>AnalyticMethods</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>StudyDesign</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>EligibilityCriteria</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ResultsAndColclusionSummary</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
+      </keyval>
+    </metadata>
+  </type>
+  
+  <!--  third type -->
+  
+  <type id="urn:edrn:UPittWHIMassSpecProcessedData" 
+        name="UPittWHIMassSpecProcessedData">
+   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <description>We processed individual and pooled samples through two mass spectrometry profiling platforms, 
+   Ciphergen Protein Chip reader PBScII, and Bruker Ultraflex TOF-TOF. Three analytical protocols were used, 
+   HMW with SPA matrix, LMW with CHCA matrix and LMW with SPA matrix. Each sample was run in duplicate. We used 
+   the sample name followed by '1' or '2' to label the duplicate spectra. Spectra generated using the same instrument 
+   settings and analytical protocols were preprocessed together. All data generated from the Ciphergen Protein 
+   Chip reader were preprocessed using Ciphergen Express and Protein Chip software. All MALDI TOF-TOF spectra were 
+   preprocessed using Bruker ClinproTools software. All spectra were preprocessed using the following sequential 
+   steps: baseline correction, recalibration/rescaling, smoothing, profile alignment and peak detection. The 
+   preprocessing output is a matrix which contains identified peaks (m/z) and corresponding peak intensities. 
+   All output files are .CSV format with peak position (m/z) as column header, sample number as raw header, and 
+   peak intensity as value.
+   
+   Fuzzy controls were employed while analyzing samples on the Bruker Ultraflex TOF-TOF. For LMW with CHCA matrix, 
+   null spectra were generated if no peaks with signal-to-noise ratio greater than 4 were detected within the 
+   mass-to-charge range of 1500 to 8000 Da after 40 subsequently failed judgments (failed to meet signal-to-noise 
+   ratio criteria). For LMW with SPA matrix, and HMW with SPA matrix, null spectra were generated if no peaks with 
+   signal-to-noise ratio greater than 5 were detected within the mass-to-charge range of 2000 to 10000 Da after 30 
+   subsequently failed judgments.
+   </description>
+    <metExtractors>
+      <extractor
+        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+    </metExtractors>
+    <metadata>
+      <keyval>
+        <key>DataSetName</key>
+        <val>University of Pittsburg Cancer Institute WHI Mass Spectrometry</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2009-04-07T11:06:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>LeadPI</key>
+        <val>William Bigbee</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianPhone</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>GI and Other Associated</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolName</key>
+        <val>126</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:UPittWHIMassSpecProcessedData</val>
+      </keyval>
+      <keyval>
+        <key>SiteName</key>
+            <val>65</val>
+      </keyval>
+      <keyval>
+        <key>OrganSite</key>
+        <val>Colon</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>AnalyticMethods</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>StudyDesign</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>EligibilityCriteria</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ResultsAndColclusionSummary</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
+      </keyval>
+    </metadata>
+  </type>
+
+  <!--  fourth type -->
+  
+  <type id="urn:edrn:UPittWHIMassSpecUnprocessedIndividualData" 
+        name="UPittWHIMassSpecUnprocessedIndividualData">
+   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <description>Individual samples through two mass spectrometry profiling platforms, 
+   Ciphergen Protein Chip reader PBScII, and Bruker Ultraflex TOF-TOF. Three analytical protocols were used, 
+   HMW with SPA matrix, LMW with CHCA matrix and LMW with SPA matrix. Each sample was run in duplicate. We used 
+   the sample name followed by '1' or '2' to label the duplicate spectra. Spectra generated using the same instrument 
+   settings and analytical protocols were preprocessed together. All data generated from the Ciphergen Protein 
+   Chip reader were preprocessed using Ciphergen Express and Protein Chip software. All MALDI TOF-TOF spectra were 
+   preprocessed using Bruker ClinproTools software. All spectra were preprocessed using the following sequential 
+   steps: baseline correction, recalibration/rescaling, smoothing, profile alignment and peak detection. The 
+   preprocessing output is a matrix which contains identified peaks (m/z) and corresponding peak intensities. 
+   All output files are .CSV format with peak position (m/z) as column header, sample number as raw header, and 
+   peak intensity as value.
+   
+   Fuzzy controls were employed while analyzing samples on the Bruker Ultraflex TOF-TOF. For LMW with CHCA matrix, 
+   null spectra were generated if no peaks with signal-to-noise ratio greater than 4 were detected within the 
+   mass-to-charge range of 1500 to 8000 Da after 40 subsequently failed judgments (failed to meet signal-to-noise 
+   ratio criteria). For LMW with SPA matrix, and HMW with SPA matrix, null spectra were generated if no peaks with 
+   signal-to-noise ratio greater than 5 were detected within the mass-to-charge range of 2000 to 10000 Da after 30 
+   subsequently failed judgments.
+   </description>
+    <metExtractors>
+      <extractor
+        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+    </metExtractors>
+    <metadata>
+      <keyval>
+        <key>DataSetName</key>
+        <val>University of Pittsburg Cancer Institute WHI Mass Spectrometry (unprocessed individual data)</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2009-04-07T11:06:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>LeadPI</key>
+        <val>William Bigbee</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>GI and Other Associated</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolName</key>
+        <val>126</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:UPittWHIMassSpecUnprocessedIndividualData</val>
+      </keyval>
+      <keyval>
+        <key>SiteName</key>
+            <val>65</val>
+      </keyval>
+      <keyval>
+        <key>OrganSite</key>
+        <val>Colon</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianPhone</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>AnalyticMethods</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>StudyDesign</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>EligibilityCriteria</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ResultsAndColclusionSummary</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
+      </keyval>
+    </metadata>
+  </type>
+  
+    <!--  fifth type -->
+  
+  <type id="urn:edrn:UPittWHIMassSpecUnprocessedPooledData" 
+        name="UPittWHIMassSpecUnprocessedPooledData">
+   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <description>Pooled samples through two mass spectrometry profiling platforms, 
+   Ciphergen Protein Chip reader PBScII, and Bruker Ultraflex TOF-TOF. Three analytical protocols were used, 
+   HMW with SPA matrix, LMW with CHCA matrix and LMW with SPA matrix. Each sample was run in duplicate. We used 
+   the sample name followed by '1' or '2' to label the duplicate spectra. Spectra generated using the same instrument 
+   settings and analytical protocols were preprocessed together. All data generated from the Ciphergen Protein 
+   Chip reader were preprocessed using Ciphergen Express and Protein Chip software. All MALDI TOF-TOF spectra were 
+   preprocessed using Bruker ClinproTools software. All spectra were preprocessed using the following sequential 
+   steps: baseline correction, recalibration/rescaling, smoothing, profile alignment and peak detection. The 
+   preprocessing output is a matrix which contains identified peaks (m/z) and corresponding peak intensities. 
+   All output files are .CSV format with peak position (m/z) as column header, sample number as raw header, and 
+   peak intensity as value.
+   
+   Fuzzy controls were employed while analyzing samples on the Bruker Ultraflex TOF-TOF. For LMW with CHCA matrix, 
+   null spectra were generated if no peaks with signal-to-noise ratio greater than 4 were detected within the 
+   mass-to-charge range of 1500 to 8000 Da after 40 subsequently failed judgments (failed to meet signal-to-noise 
+   ratio criteria). For LMW with SPA matrix, and HMW with SPA matrix, null spectra were generated if no peaks with 
+   signal-to-noise ratio greater than 5 were detected within the mass-to-charge range of 2000 to 10000 Da after 30 
+   subsequently failed judgments.
+   </description>
+    <metExtractors>
+      <extractor
+        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+    </metExtractors>
+    <metadata>
+      <keyval>
+        <key>DataSetName</key>
+        <val>University of Pittsburg Cancer Institute WHI Mass Spectrometry  (unprocessed pooled data)</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2009-04-07T11:06:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>LeadPI</key>
+        <val>William Bigbee</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>GI and Other Associated</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolName</key>
+        <val>126</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:UPittWHIMassSpecUnprocessedPooledData</val>
+      </keyval>
+      <keyval>
+        <key>SiteName</key>
+            <val>65</val>
+      </keyval>
+      <keyval>
+        <key>OrganSite</key>
+        <val>Colon</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianPhone</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>AnalyticMethods</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>StudyDesign</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>EligibilityCriteria</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ResultsAndColclusionSummary</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
+      </keyval>
+    </metadata>
+  </type>
+  
+  <!--  sixth type -->
+  
+  <type id="urn:edrn:UPittWHIMassSpecUnprocessedCalibratedIndividualData" 
+        name="UPittWHIMassSpecUnprocessedCalibratedIndividualData">
+   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <description>Calibrated individual samples through two mass spectrometry profiling platforms, 
+   Ciphergen Protein Chip reader PBScII, and Bruker Ultraflex TOF-TOF. Three analytical protocols were used, 
+   HMW with SPA matrix, LMW with CHCA matrix and LMW with SPA matrix. Each sample was run in duplicate. We used 
+   the sample name followed by '1' or '2' to label the duplicate spectra. Spectra generated using the same instrument 
+   settings and analytical protocols were preprocessed together. All data generated from the Ciphergen Protein 
+   Chip reader were preprocessed using Ciphergen Express and Protein Chip software. All MALDI TOF-TOF spectra were 
+   preprocessed using Bruker ClinproTools software. All spectra were preprocessed using the following sequential 
+   steps: baseline correction, recalibration/rescaling, smoothing, profile alignment and peak detection. The 
+   preprocessing output is a matrix which contains identified peaks (m/z) and corresponding peak intensities. 
+   All output files are .CSV format with peak position (m/z) as column header, sample number as raw header, and 
+   peak intensity as value.
+   
+   Fuzzy controls were employed while analyzing samples on the Bruker Ultraflex TOF-TOF. For LMW with CHCA matrix, 
+   null spectra were generated if no peaks with signal-to-noise ratio greater than 4 were detected within the 
+   mass-to-charge range of 1500 to 8000 Da after 40 subsequently failed judgments (failed to meet signal-to-noise 
+   ratio criteria). For LMW with SPA matrix, and HMW with SPA matrix, null spectra were generated if no peaks with 
+   signal-to-noise ratio greater than 5 were detected within the mass-to-charge range of 2000 to 10000 Da after 30 
+   subsequently failed judgments.
+   </description>
+    <metExtractors>
+      <extractor
+        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+    </metExtractors>
+    <metadata>
+      <keyval>
+        <key>DataSetName</key>
+        <val>University of Pittsburg Cancer Institute WHI Mass Spectrometry  (unprocessed calibrated individual data)</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2009-03-27T11:06:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>LeadPI</key>
+        <val>William Bigbee</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>GI and Other Associated</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolName</key>
+        <val>126</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:UPittWHIMassSpecUnprocessedCalibratedIndividualData</val>
+      </keyval>
+      <keyval>
+        <key>SiteName</key>
+            <val>65</val>
+     </keyval>
+      <keyval>
+        <key>OrganSite</key>
+        <val>Colon</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianPhone</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>AnalyticMethods</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>StudyDesign</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>EligibilityCriteria</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ResultsAndColclusionSummary</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
+      </keyval>
+    </metadata>
+  </type>
+  
+  <!--  Dan Chan -->
+   <type id="urn:edrn:JohnsHopkinsDanChan" 
+        name="JohnsHopkinsDanChan">
+   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <description>[description]</description>
+    <metExtractors>
+      <extractor
+        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+    </metExtractors>
+    <metadata>
+      <keyval>
+        <key>DataSetName</key>
+        <val>[title of data set - JohnsHopkinsDanChan]</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2009-04-10T11:06:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>LeadPI</key>
+        <val>Daniel W. Chan</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>GI and Other Associated</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolName</key>
+        <val>126</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:JohnsHopkinsDanChan</val>
+      </keyval>
+      <keyval>
+        <key>SiteName</key>
+            <val>200</val>
+     </keyval>
+      <keyval>
+        <key>OrganName</key>
+        <val>Colon</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianPhone</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>AnalyticMethods</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>StudyDesign</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>EligibilityCriteria</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ResultsAndColclusionSummary</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
+      </keyval>
+    </metadata>
+  </type>
+  
+  <!--   Arul Chinnaiyan  -->
+   <type id="urn:edrn:UmichNormalized" 
+        name="UmichNormalized">
+   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <description>[description]</description>
+    <metExtractors>
+      <extractor
+        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+    </metExtractors>
+    <metadata>
+      <keyval>
+        <key>DataSetName</key>
+        <val>[title of dataset UmichNormalized]</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2009-04-10T11:06:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>LeadPI</key>
+        <val>Arul Chinnaiyan</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>GI and Other Associated</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
+        <val>126</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:UmichNormalized</val>
+      </keyval>
+      <keyval>
+        <key>SiteName</key>
+            <val>188</val>
+      </keyval>
+      <keyval>
+        <key>OrganSite</key>
+        <val>Colon</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianPhone</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>AnalyticMethods</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>StudyDesign</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>EligibilityCriteria</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ResultsAndColclusionSummary</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
+      </keyval>
+    </metadata>
+  </type>
+  
+</cas:producttypes>

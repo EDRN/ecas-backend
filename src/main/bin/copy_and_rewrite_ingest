@@ -1,0 +1,53 @@
+#!/bin/sh
+# Copyright (c) 2008 California Institute of Technology.
+# ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+#
+# $Id$
+
+FM_URL=$1
+PRODUCT_PATH=$2
+CONFIG_FILE=$3
+ACTIONS=$4
+
+EXTRACTOR_CLASS=gov.nasa.jpl.oodt.cas.metadata.extractors.CopyAndRewriteExtractor
+
+ORIG_DIR=$cwd
+DIR=`dirname $0`
+
+displayUsage()
+{
+  echo "Usage: $0 <filemgr url> <data dir path> <config> [<action ids>]"
+  echo "Example:"
+  echo "$0 http://localhost:9000 \\"
+  echo "  /data/ingest/whi/disc_1 \\"
+  echo "  ecas.whi.bigbee.massspec.copyandrewrite.conf \\"
+  echo "  Unique"
+  exit 1
+}
+
+if [ -z $CONFIG_FILE ] ; then 
+  displayUsage
+else
+  if [ -z $ACTIONS ] ; then
+	ACTIONS_ARG=''    
+  fi
+  	ACTIONS_ARG="--actionIds $ACTIONS"
+fi
+
+cd $DIR
+export DIR_PATH=`pwd`
+      
+cd $DIR_PATH/../crawler/bin
+./crawler_launcher \
+      --crawlerId MetExtractorProductCrawler \
+      --metExtractor $EXTRACTOR_CLASS \
+      --metExtractorConfig $EDRN_ECAS_HOME/aux/met_def/$CONFIG_FILE \
+      --filemgrUrl $FM_URL \
+      --productPath $PRODUCT_PATH \
+      --failureDir /data/failed_ingest_files \
+      --metFileExtension met \
+      $ACTIONS_ARG \
+      --clientTransferer gov.nasa.jpl.oodt.cas.filemgr.datatransfer.LocalDataTransferFactory
+
+cd $ORIG_DIR
+

@@ -5,10 +5,12 @@
   
   $Id$
   
-  Author: Chris A. Mattmann
-  Description: Product Type policy for miscallenous data sets acquired
+  Author(s): Chris A. Mattmann, John J. Tran, and Heather L. Kincaid 
+  
+  Description: Product Type policy for miscellaneous data sets acquired
   from EDRN PIs by Tina Xiao.
 -->
+
 <cas:producttypes xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
   <type id="urn:edrn:UWashTransProfileMicroarrayData" name="UWashTransProfileMicroarrayData">
     <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
@@ -30,7 +32,7 @@
     </metExtractors>
     <metadata>
       <keyval>
-        <key>Title</key>
+        <key>DataSetName</key>
         <val>University of Washington Microarray data.</val>
       </keyval>
       <keyval>
@@ -42,13 +44,44 @@
         <val>Prostate and Urologic</val>
       </keyval>
       <keyval>
-        <key>Author</key>
+        <key>LeadPI</key>
         <val>Alvin Liu</val>
       </keyval>
       <keyval>
         <key>DataCustodian</key>
         <val>Tina Xiao</val>
       </keyval>
+      
+      <keyval>
+        <key>DataCustodianPhone</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>AnalyticMethods</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>StudyDesign</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>EligibilityCriteria</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ResultsAndColclusionSummary</key>
+        <val>TBD</val>
+      </keyval>
+      
+      
      <keyval>
          <key>StudyBackground</key>
          <val><![CDATA[Affymetrix GeneChip Array and Massively Parallel Signature Sequencing (MPSS) 
@@ -92,7 +125,7 @@
         <val>DK63630/DK/NIDDK</val>
       </keyval>
       <keyval>
-        <key>ProtocolId</key>
+        <key>ProtcolName</key>
         <val>114</val>
       </keyval>
       <keyval>
@@ -100,12 +133,20 @@
         <val>urn:edrn:UWashTransProfileMicroarrayData</val>
       </keyval>
       <keyval>
-        <key>SiteId</key>
+        <key>SiteName</key>
         <val>192</val>
       </keyval>
       <keyval>
-        <key>OrganId</key>
+        <key>OrganSite</key>
         <val>Prostate</val>
+      </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
       </keyval>
     </metadata>
   </type>
@@ -131,7 +172,7 @@
     </metExtractors>
     <metadata>
       <keyval>
-        <key>Title</key>
+        <key>DataSetName</key>
         <val>University of Washington Immunohistochemistry data.</val>
       </keyval>
       <keyval>
@@ -139,7 +180,7 @@
         <val>2008-06-24T20:12:00.000Z</val>
       </keyval>
       <keyval>
-        <key>Author</key>
+        <key>LeadPI</key>
         <val>Alvin Liu</val>
       </keyval>
       <keyval>
@@ -150,6 +191,36 @@
         <key>DataCustodian</key>
         <val>Tina Xiao</val>
       </keyval>
+      
+      <keyval>
+        <key>DataCustodianPhone</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>AnalyticMethods</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>StudyDesign</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>EligibilityCriteria</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ResultsAndColclusionSummary</key>
+        <val>TBD</val>
+      </keyval>
+  
       <keyval>
         <key>StudyDescription</key>
         <val><![CDATA[We are investigating the molecular basis of cell-cell interaction in the 
@@ -209,7 +280,7 @@
          <val>DK65260/DK/NIDDK</val>
       </keyval>
       <keyval>
-        <key>ProtocolId</key>
+        <key>ProtocolName</key>
         <val>201</val>
       </keyval>
       <keyval>
@@ -217,12 +288,20 @@
         <val>urn:edrn:UWashImmunohistochemistryData</val>
       </keyval>
       <keyval>
-        <key>SiteId</key>
+        <key>SiteName</key>
         <val>192</val>
       </keyval>
       <keyval>
-        <key>OrganId</key>
+        <key>OrganSite</key>
         <val>Prostate</val>
+      </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
       </keyval>
     </metadata>
   </type>
@@ -245,7 +324,7 @@
     </metExtractors> 
     <metadata>
       <keyval>
-        <key>Title</key>
+        <key>DataSetName</key>
         <val>University of Pittsburg Ovarian data.</val>
       </keyval>
       <keyval>
@@ -253,7 +332,7 @@
         <val>2008-06-24T20:12:00.000Z</val>
       </keyval>
       <keyval>
-        <key>Author</key>
+        <key>LeadPI</key>
         <val>Anna Lokshin</val>
       </keyval>
       <keyval>
@@ -263,6 +342,34 @@
       <keyval>
         <key>DataCustodian</key>
         <val>Tina Xiao</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianPhone</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>AnalyticMethods</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>StudyDesign</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>EligibilityCriteria</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ResultsAndColclusionSummary</key>
+        <val>TBD</val>
       </keyval>
       <keyval>
         <key>StudyBackground</key>
@@ -315,7 +422,7 @@
         <val>R03 CA102888/CA/NCI</val>
      </keyval>
       <keyval>
-        <key>ProtocolId</key>
+        <key>ProtocolName</key>
         <val>119</val>
       </keyval>
       <keyval>
@@ -323,21 +430,20 @@
         <val>urn:edrn:UPittLabMAPOvarianData</val>
       </keyval>
       <keyval>
-        <key>SiteId</key>
+        <key>SiteName</key>
         <val>5</val>
-        <val>70</val>
-        <val>87</val>
-        <val>167</val>
-        <val>231</val>
-        <val>235</val>
-        <val>236</val>
-        <val>237</val>
-        <val>238</val>
-        <val>246</val>        
       </keyval>
       <keyval>
-        <key>OrganId</key>
+        <key>OrganSite</key>
         <val>Ovary</val>
+      </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
       </keyval>
     </metadata>
   </type>
@@ -360,7 +466,7 @@
     </metExtractors>
     <metadata>
       <keyval>
-        <key>Title</key>
+        <key>DataSetname</key>
         <val>University of Pittsburg Pancreatic data.</val>
       </keyval>
       <keyval>
@@ -368,12 +474,40 @@
         <val>2008-06-24T20:12:00.000Z</val>
       </keyval>
       <keyval>
-        <key>Author</key>
+        <key>LeadPI</key>
         <val>Anna Lokshin</val>
       </keyval>
       <keyval>
         <key>DataCustodian</key>
         <val>Tina Xiao</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianPhone</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>AnalyticMethods</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>StudyDesign</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>EligibilityCriteria</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ResultsAndColclusionSummary</key>
+        <val>TBD</val>
       </keyval>
       <keyval>
         <key>CollaborativeGroup</key>
@@ -408,7 +542,7 @@
         <val>R03 CA102888/CA/NCI</val>
       </keyval>
       <keyval>
-        <key>ProtocolId</key>
+        <key>ProtocolName</key>
         <val>234</val>
       </keyval>
       <keyval>
@@ -416,13 +550,20 @@
         <val>urn:edrn:UPittLabMAPPancreaticData</val>
       </keyval>
       <keyval>
-        <key>SiteId</key>
+        <key>SiteName</key>
         <val>167</val>
-        <val>191</val>      
       </keyval>
       <keyval>
-        <key>OrganId</key>
+        <key>OrganSite</key>
         <val>Pancreas</val>
+      </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
       </keyval>
     </metadata>
   </type>
@@ -445,7 +586,7 @@
     </metExtractors>
     <metadata>
       <keyval>
-        <key>Title</key>
+        <key>DataSetName</key>
         <val>Duke University Breast data.</val>
       </keyval>
       <keyval>
@@ -453,8 +594,36 @@
         <val>2008-06-24T20:12:00.000Z</val>
       </keyval>
       <keyval>
-        <key>Author</key>
+        <key>LeadPI</key>
         <val>Jeffrey Marks</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianPhone</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>AnalyticMethods</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>StudyDesign</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>EligibilityCriteria</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ResultsAndColclusionSummary</key>
+        <val>TBD</val>
       </keyval>
       <keyval>
         <key>DataCustodian</key>
@@ -477,7 +646,7 @@
         technology that allows simultaneous measurement of multiple markers.</val>
       </keyval>
       <keyval>
-        <key>ProtocolId</key>
+        <key>ProtocolName</key>
         <val>70</val>
       </keyval>
       <keyval>
@@ -485,12 +654,20 @@
         <val>urn:edrn:DukeLabMAPBreastData</val>
       </keyval>
       <keyval>
-        <key>SiteId</key>
+        <key>SiteName</key>
         <val>81</val>     
       </keyval>
       <keyval>
-        <key>OrganId</key>
+        <key>OrganSite</key>
         <val>Breast</val>
+      </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
       </keyval>
     </metadata>
   </type>
@@ -525,7 +702,7 @@
     </metExtractors>
     <metadata>
       <keyval>
-        <key>Title</key>
+        <key>DataSetName</key>
         <val>NIST Fish data.</val>
       </keyval>
       <keyval>
@@ -533,12 +710,40 @@
         <val>2008-06-24T20:12:00.000Z</val>
       </keyval>
       <keyval>
-        <key>Author</key>
+        <key>LeadPI</key>
         <val>Peter Barker</val>
       </keyval>
       <keyval>
         <key>DataCustodian</key>
         <val>Tina Xiao</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianPhone</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>AnalyticMethods</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>StudyDesign</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>EligibilityCriteria</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ResultsAndColclusionSummary</key>
+        <val>TBD</val>
       </keyval>
       <keyval>
         <key>CollaborativeGroup</key>
@@ -581,7 +786,7 @@
         <val>Y1-CN-010-01</val>
       </keyval>
       <keyval>
-        <key>ProtocolId</key>
+        <key>ProtocolName</key>
         <val>54</val>
       </keyval>
       <keyval>
@@ -589,13 +794,20 @@
         <val>urn:edrn:NISTFishMSAData</val>
       </keyval>
       <keyval>
-        <key>SiteId</key>
-        <val>63</val>
-        <val>85</val>     
+        <key>SiteName</key>
+        <val>63</val>   
       </keyval>
       <keyval>
-        <key>OrganId</key>
+        <key>OrganSite</key>
         <val>Unknown</val>
+      </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
       </keyval>
     </metadata>
   </type>
@@ -621,7 +833,7 @@
     </metExtractors>
     <metadata>
       <keyval>
-        <key>Title</key>
+        <key>DataSetName</key>
         <val>EVMS Mass Spec data.</val>
       </keyval>
       <keyval>
@@ -629,8 +841,36 @@
         <val>2008-06-24T20:12:00.000Z</val>
       </keyval>
       <keyval>
-        <key>Author</key>
+        <key>LeadPI</key>
         <val>John Semmes</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianPhone</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>AnalyticMethods</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>StudyDesign</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>EligibilityCriteria</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ResultsAndColclusionSummary</key>
+        <val>TBD</val>
       </keyval>
       <keyval>
         <key>DataCustodian</key>
@@ -676,7 +916,7 @@
         "within-laboratory" reproducibility as determined by measuring discrete m/z peaks over time and across laboratories.]]></val>
       </keyval>
       <keyval>
-        <key>ProtocolId</key>
+        <key>ProtocolName</key>
         <val>109</val>
       </keyval>
       <keyval>
@@ -684,12 +924,20 @@
         <val>urn:edrn:EVMSSELDIPhaseITOFMSData</val>
       </keyval>
       <keyval>
-        <key>SiteId</key>
+        <key>SiteName</key>
         <val>92</val>    
       </keyval>
       <keyval>
-        <key>OrganId</key>
+        <key>OrganSite</key>
         <val>Prostate</val>
+      </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
       </keyval>
     </metadata>
   </type>

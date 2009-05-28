@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+<keyval type="vector">
+  <key>SiteShortName</key>
+  <val>ualb</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentId</key>
+  <!--  I took a guess here, I could be wrong -->
+  <val>immuno</val>
+</keyval>
+<keyval type="vector">
+  <key>Organism</key>
+  <val>Human</val>
+</keyval>
+<keyval type="vector">
+  <key>OrganName</key>
+  <val>Cervix</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenId</key>
+  <val>Unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenType</key>
+  <val>Unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductType</key>
+  <val>UABPreinvasiveNeoplasiaUnProcessedImages</val>
+</keyval>
+</cas:metadata>

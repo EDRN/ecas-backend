@@ -6,13 +6,17 @@
   $Id$
   
   Author(s): Chris A. Mattmann, John J. Tran, and Heather L. Kincaid
-  Description: Core Product Type policy for eCAS data sets.
+  Description: Product Type policy for Test data sets contributed from 
+  Bill Researcher's lab.
 -->
 <cas:producttypes xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
-  <type id="urn:edrn:eCASFile" name="eCASFile">
-    <repositoryPath>file://[EDRN_REPO_HOME]/archive/misc</repositoryPath>
-    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner</versionerClass>
-    <description>Unclassified eCAS data files.</description>
+  <type id="urn:edrn:TESTEGFRTranslocationUnprocessedImages" name="TESTEGFRTranslocationUnprocessedImages">
+   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+    <description>Epidermal Growth Factor Receptor (EGFR) TIF images demonstrating
+    translocation from the plasma membrane to the nucleus. Test image data contributed
+    by Bill Researcher et al.</description>
+ 	<!--  cut and paste job for the most part... -->
     <metExtractors>
       <extractor
         class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
@@ -25,18 +29,23 @@
         </configuration>
       </extractor>
     </metExtractors>
+    <!--  fixed for all products of this type = ecas + esis meta excel spreadsheet -->
     <metadata>
       <keyval>
         <key>DataSetName</key>
-        <val>Unclassified eCAS files.</val>
+        <val>TEST Test EGFR Translocation Data</val>
       </keyval>
       <keyval>
         <key>Date</key>
-        <val>2008-06-24T20:12:00.000Z</val>
+        <val>2008-12-16T18:24:00.000Z</val>
       </keyval>
       <keyval>
         <key>LeadPI</key>
-        <val>Unknown</val>
+        <val>Bill Researcher</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>Bill Researcher</val>
       </keyval>
             <keyval>
         <key>DataCustodianPhone</key>
@@ -67,16 +76,20 @@
         <val>TBD</val>
       </keyval>
       <keyval>
+        <key>CollaborativeGroup</key>
+        <val>Prostate and Urologic</val>
+      </keyval>
+      <keyval>
         <key>ProtocolName</key>
-        <val>Unknown</val>
+        <val>No Associated Protocol</val>
       </keyval>
       <keyval>
         <key>DatasetId</key>
-        <val>urn:edrn:eCASFile</val>
+        <val>urn:edrn:TESTEGFRTranslocationUnprocessedImages</val>
       </keyval>
       <keyval>
         <key>SiteName</key>
-        <val>Unknown</val>
+        <val>75</val> <!--  we might need to use an actual name instead of an ID/integer -->
       </keyval>
       <keyval>
         <key>OrganSite</key>
@@ -92,4 +105,5 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
       </keyval>
     </metadata>
   </type>
+  
 </cas:producttypes>

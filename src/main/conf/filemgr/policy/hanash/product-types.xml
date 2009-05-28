@@ -6,13 +6,22 @@
   $Id$
   
   Author(s): Chris A. Mattmann, John J. Tran, and Heather L. Kincaid
-  Description: Core Product Type policy for eCAS data sets.
+  Description: Product Type policy for WHI data from Dr. Samir Hanash from FHCRC.
 -->
+
 <cas:producttypes xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
-  <type id="urn:edrn:eCASFile" name="eCASFile">
-    <repositoryPath>file://[EDRN_REPO_HOME]/archive/misc</repositoryPath>
-    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner</versionerClass>
-    <description>Unclassified eCAS data files.</description>
+
+  <!--  first type -->
+
+  <type id="urn:edrn:FHCRCHanashAnnexinLamr" 
+        name="FHCRCHanashAnnexinLamr">
+   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+    <description>We have implemented a high throughput platform for quantitative analysis of 
+    serum autoantibodies which we have applied to lung cancer for discovery of novel antigens, 
+    and for validation in pre-diagnostic sera of autoantibodies to antigens previously defined 
+    based on analysis of sera collected at the time of diagnosis..</description>
+ 	<!--  cut and paste job for the most part... -->
     <metExtractors>
       <extractor
         class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
@@ -25,18 +34,23 @@
         </configuration>
       </extractor>
     </metExtractors>
+    <!--  fixed for all products of this type = ecas + esis meta excel spreadsheet -->
     <metadata>
       <keyval>
         <key>DataSetName</key>
-        <val>Unclassified eCAS files.</val>
+        <val>Hanash 3-marker panel for Lung Cancer</val>
       </keyval>
       <keyval>
         <key>Date</key>
-        <val>2008-06-24T20:12:00.000Z</val>
+        <val>2009-03-02T18:24:00.000Z</val>
       </keyval>
       <keyval>
         <key>LeadPI</key>
-        <val>Unknown</val>
+        <val>Samir Hanash</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>Vitor Faca</val>
       </keyval>
             <keyval>
         <key>DataCustodianPhone</key>
@@ -44,7 +58,7 @@
       </keyval>
       <keyval>
         <key>DataCustodianEmail</key>
-        <val>TBD</val>
+        <val>vfaca@fhcrc.org</val>
       </keyval>
       <keyval>
         <key>MethodDetails</key>
@@ -67,29 +81,35 @@
         <val>TBD</val>
       </keyval>
       <keyval>
+        <key>CollaborativeGroup</key>
+        <val>Lung and Upper Aerodigestive</val>
+      </keyval>
+      <keyval>
         <key>ProtocolName</key>
-        <val>Unknown</val>
+        <val>138</val>
       </keyval>
       <keyval>
         <key>DatasetId</key>
-        <val>urn:edrn:eCASFile</val>
+        <val>urn:edrn:FHCRCHanashAnnexinLamr</val>
       </keyval>
       <keyval>
         <key>SiteName</key>
-        <val>Unknown</val>
+		<val>151</val>
       </keyval>
-      <keyval>
+ 	  <keyval>
         <key>OrganSite</key>
-        <val>Unknown</val>
+        <val>Lung</val>
       </keyval>
       <keyval>
       	<key>DataDisclaimer</key>
       	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
-NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
-NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
-In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
       	</val>
       </keyval>
     </metadata>
   </type>
+  
+  
 </cas:producttypes>

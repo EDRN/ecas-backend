@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+  Copyright (c) 2008 California Institute of Technology.
+  ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+  
+  $Id$
+  
+  Author: John J. Tran
+  Description: meta extraction for BDL data from Dr. Samir Hanash.
+-->
+
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+<keyval type="vector">
+  <key>SiteShortName</key>
+  <val>fhcrc</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentId</key>
+  <val>msa</val>
+</keyval>
+<keyval type="vector">
+  <key>Organism</key>
+  <val>Human</val>
+</keyval>
+<keyval type="vector">
+  <key>OrganName</key>
+  <val>Lung</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenId</key>
+  <val>Serum</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenType</key>
+  <val>Serum</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductType</key>
+  <val>FHCRCHanashAnnexinLamr</val>
+</keyval>
+</cas:metadata>

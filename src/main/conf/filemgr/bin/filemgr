@@ -31,18 +31,21 @@ export CAS_FILEMGR_PROPS
 # See how we were called.
 case "$CMD" in
   start)
-        echo -n "Starting cas file manager: "
-        $JAVA -Xms256m -Xmx1024m -Djava.ext.dirs=${CAS_FILEMGR_HOME}/lib \
-        -Djava.util.logging.config.file=${CAS_FILEMGR_HOME}/etc/logging.properties \
-        -Dgov.nasa.jpl.oodt.cas.filemgr.properties=${CAS_FILEMGR_PROPS} \
-        gov.nasa.jpl.oodt.cas.filemgr.system.XmlRpcFileManager --portNum $SERVER_PORT &       
+        echo "Starting cas file manager: "
+        
+        EDRN_ECAS_HOME=$EDRN_ECAS_HOME EDRN_REPO_HOME=$EDRN_REPO_HOME \
+         $JAVA -Xms256m -Xmx1024m -Djava.ext.dirs=${CAS_FILEMGR_HOME}/lib \
+         -Djava.util.logging.config.file=${CAS_FILEMGR_HOME}/etc/logging.properties \
+         -Dgov.nasa.jpl.oodt.cas.filemgr.properties=${CAS_FILEMGR_PROPS} \
+         gov.nasa.jpl.edrn.ecas.backend.EDRNFileManager --portNum $SERVER_PORT &
+        
         echo $! >${RUN_HOME}/cas.filemgr.pid 
         echo "OK"
         sleep 5
         ;;
   stop)
-        echo -n "Shutting down cas file manager: "
-        kill `cat ${RUN_HOME}/cas.filemgr.pid`
+        echo "Shutting down cas file manager: "
+        EDRN_ECAS_HOME=$EDRN_ECAS_HOME EDRN_REPO_HOME=$EDRN_REPO_HOME kill `cat ${RUN_HOME}/cas.filemgr.pid`
         echo "OK"
         ;;
   restart)

@@ -5,7 +5,7 @@
 	
 	$Id$
 	
-	Author: Chris A. Mattmann
+    Author(s): Chris A. Mattmann, John J. Tran, and Heather L. Kincaid 
 	Description: Product Type policy for eCAS that stores SELDI data
 	provided by Fred Hutchinson Cancer Research Center (FHCRC).
 -->
@@ -38,7 +38,7 @@
         </metExtractors>
 	    <metadata>
 	      <keyval>
-	        <key>Title</key>
+	        <key>DataSetName</key>
 	        <val>SELDI EVMS Processed Data</val>
 	      </keyval>
 	      <keyval>
@@ -46,9 +46,37 @@
 	        <val>2007-08-07T15:46:00.000Z</val>
 	      </keyval>
 	      <keyval>
-	        <key>Author</key>
+	        <key>LeadPI</key>
 	        <val>John Semmes</val>
 	      </keyval>
+      <keyval>
+        <key>DataCustodianPhone</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>AnalyticMethods</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>StudyDesign</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>EligibilityCriteria</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ResultsAndColclusionSummary</key>
+        <val>TBD</val>
+      </keyval>
 	      <keyval>
 	        <key>DataCustodian</key>
 	        <val>Dale McLerran</val>
@@ -58,7 +86,7 @@
             <val>Prostate and Urologic</val>
           </keyval>   
 	      <keyval>
-	         <key>ProtocolId</key>
+	         <key>ProtocolName</key>
 	         <val>110</val>
 	       </keyval>
 	       <keyval>
@@ -73,16 +101,7 @@
 	       </keyval>
 	       <keyval>
 	         <key>SpecificAims</key>
-	         <val>Specific Aim IA/Phase IA - The EDRN-Prostate-SELDI Investigational Collaboration (EPSIC) 
-	         will implement a process to synchronize SELDI output at the seven participating institutions 
-	         using a single source of pooled normal sera (QC). Specific Aim IB/Phase IB - The EPSIC will 
-	         synchronize SELDI output at the seven participating institutions using prostate cancer/control 
-	         samples with verified presence of optimized diagnostic peaks. The reproducibility of QSTAR will 
-	         also be determined using the same samples and compared to that of the PBS-II data. Specific Aim 
-	         IC/Phase IC - The EPSIC will implement a seven-center collaboration to synchronize SELDI output 
-	         using a new and expanded cohort of prostate cancer cases and controls obtained from all sites. 
-	         The reproducibility of QSTAR will also be determined using the same samples and compared to that 
-	         of the PBS-II data.</val>
+	         <val>Specific Aim Phase II - The overall goal of Phase II is to develop and evaluate an algorithm for classifying cases and controls using 			protein profiles produced from SELDI-TOF-MS using serum collected from prostate cancer cases and non-cancer controls.			Objective 1 - Identification of biorepositories			Objective 2 - Generate protein profiles			Objective 3 - Construction of classifiers and development of algorithm.			Objective 4 – Validate the classifier constructed in Objective 3. If Objective 3, Aim 1, is successfully met</val>
 	       </keyval>
 	       <keyval>
 	         <key>PlannedSampleSize</key>
@@ -96,23 +115,25 @@
 	         male and 206 female) donated two tubes of blood each to make quality control (QC) serum.</val>
 	       </keyval>
 	       <keyval>
-	         <key>SiteId</key>
+	         <key>SiteName</key>
 	         <val>142</val>
-	         <val>75</val>
-	         <val>92</val>
-	         <val>65</val>
-	         <val>83</val>
-	         <val>88</val>
-	         <val>92</val>
-	         <val>108</val>
-	         <val>131</val>
 	       </keyval>
 	       <keyval>
-	         <key>OrganId</key>
+	         <key>OrganSite</key>
 	         <val>Prostate</val>
 	       </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
+      </keyval>
 	    </metadata>
 	 </type>   
+	 
+	 
 	<type id="urn:edrn:EVMSSELDIPhaseIIUnProcessedData" name="EVMSSELDIPhaseIIUnProcessedData">
 		<repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
 		<versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
@@ -135,7 +156,7 @@
         </metExtractors>
 	    <metadata>
 	      <keyval>
-	        <key>Title</key>
+	        <key>DataSetName</key>
 	        <val>SELDI EVMS UnProcessed Data</val>
 	      </keyval>
 	      <keyval>
@@ -143,7 +164,7 @@
 	        <val>2007-08-07T15:46:00.000Z</val>
 	      </keyval>
 	      <keyval>
-	        <key>Author</key>
+	        <key>LeadPI</key>
 	        <val>John Semmes</val>
 	      </keyval>
           <keyval>
@@ -155,7 +176,7 @@
 	        <val>Dale McLerran</val>
 	      </keyval>
 	      <keyval>
-	         <key>ProtocolId</key>
+	         <key>ProtocolName</key>
 	         <val>110</val>
 	       </keyval>
 	       <keyval>
@@ -170,15 +191,7 @@
 	       </keyval>
 	       <keyval>
 	         <key>SpecificAims</key>
-	         <val>Specific Aim IA/Phase IA - The EDRN-Prostate-SELDI Investigational Collaboration (EPSIC) will 
-	         implement a process to synchronize SELDI output at the seven participating institutions using a 
-	         single source of pooled normal sera (QC). Specific Aim IB/Phase IB - The EPSIC will synchronize 	
-	         SELDI output at the seven participating institutions using prostate cancer/control samples with 
-	         verified presence of optimized diagnostic peaks. The reproducibility of QSTAR will also be determined 
-	         using the same samples and compared to that of the PBS-II data. Specific Aim IC/Phase IC - The EPSIC will 
-	         implement a seven-center collaboration to synchronize SELDI output using a new and expanded cohort of 
-	         prostate cancer cases and controls obtained from all sites. The reproducibility of QSTAR will also be 
-	         determined using the same samples and compared to that of the PBS-II data.</val>
+	         <val>Specific Aim Phase II - The overall goal of Phase II is to develop and evaluate an algorithm for classifying cases and controls using 			protein profiles produced from SELDI-TOF-MS using serum collected from prostate cancer cases and non-cancer controls.			Objective 1 - Identification of biorepositories			Objective 2 - Generate protein profiles			Objective 3 - Construction of classifiers and development of algorithm.			Objective 4 – Validate the classifier constructed in Objective 3. If Objective 3, Aim 1, is successfully met</val>
 	       </keyval>
 	       <keyval>
 	         <key>PlannedSampleSize</key>
@@ -192,23 +205,24 @@
 	         (QC) serum.</val>
 	       </keyval>
 	       <keyval>
-	         <key>SiteId</key>
+	         <key>SiteName</key>
 	         <val>142</val>
-	         <val>75</val>
-	         <val>92</val>
-	         <val>65</val>
-	         <val>83</val>
-	         <val>88</val>
-	         <val>92</val>
-	         <val>108</val>
-	         <val>131</val>
 	       </keyval>
 	       <keyval>
-	         <key>OrganId</key>
+	         <key>OrganSite</key>
 	         <val>Prostate</val>
 	       </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
+      </keyval>
 	    </metadata>
 	 </type>  
+	 
 	<type id="urn:edrn:UABSELDIPhaseIIProcessedData" name="UABSELDIPhaseIIProcessedData">
 		<repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
 		<versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
@@ -229,7 +243,7 @@
         </metExtractors>
 	    <metadata>
 	      <keyval>
-	        <key>Title</key>
+	        <key>DataSetName</key>
 	        <val>SELDI UAB Processed Data</val>
 	      </keyval>
 	      <keyval>
@@ -237,19 +251,47 @@
 	        <val>2007-08-07T15:46:00.000Z</val>
 	      </keyval>
 	      <keyval>
-	        <key>Author</key>
+	        <key>LeadPI</key>
 	        <val>Bill Grizzle</val>
 	      </keyval>
 	      <keyval>
 	        <key>DataCustodian</key>
 	        <val>Dale McLerran</val>
 	      </keyval>
+      <keyval>
+        <key>DataCustodianPhone</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>AnalyticMethods</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>StudyDesign</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>EligibilityCriteria</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ResultsAndColclusionSummary</key>
+        <val>TBD</val>
+      </keyval>
           <keyval>
             <key>CollaborativeGroup</key>
             <val>Prostate and Urologic</val>
           </keyval>
 	      <keyval>
-	         <key>ProtocolId</key>
+	         <key>ProtocolName</key>
 	         <val>110</val>
 	       </keyval>
 	       <keyval>
@@ -263,14 +305,7 @@
 	       </keyval>
 	       <keyval>
 	         <key>SpecificAims</key>
-	         <val>Specific Aim IA/Phase IA - The EDRN-Prostate-SELDI Investigational Collaboration (EPSIC) will implement a 
-	         process to synchronize SELDI output at the seven participating institutions using a single source of pooled normal 
-	         sera (QC). Specific Aim IB/Phase IB - The EPSIC will synchronize SELDI output at the seven participating institutions 
-	         using prostate cancer/control samples with verified presence of optimized diagnostic peaks. The reproducibility of 
-	         QSTAR will also be determined using the same samples and compared to that of the PBS-II data. Specific Aim IC/Phase IC - 
-	         The EPSIC will implement a seven-center collaboration to synchronize SELDI output using a new and expanded cohort of 
-	         prostate cancer cases and controls obtained from all sites. The reproducibility of QSTAR will also be determined using the 
-	         same samples and compared to that of the PBS-II data.</val>
+	         <val>Specific Aim Phase II - The overall goal of Phase II is to develop and evaluate an algorithm for classifying cases and controls using 			protein profiles produced from SELDI-TOF-MS using serum collected from prostate cancer cases and non-cancer controls.			Objective 1 - Identification of biorepositories			Objective 2 - Generate protein profiles			Objective 3 - Construction of classifiers and development of algorithm.			Objective 4 – Validate the classifier constructed in Objective 3. If Objective 3, Aim 1, is successfully met</val>
 	       </keyval>
 	       <keyval>
 	         <key>PlannedSampleSize</key>
@@ -283,21 +318,21 @@
 	         quality control (QC) serum.</val>
 	       </keyval>
 	       <keyval>
-	         <key>SiteId</key>
+	         <key>SiteName</key>
 	         <val>142</val>
-	         <val>75</val>
-	         <val>92</val>
-	         <val>65</val>
-	         <val>83</val>
-	         <val>88</val>
-	         <val>92</val>
-	         <val>108</val>
-	         <val>131</val>
 	       </keyval>
 	       <keyval>
-	         <key>OrganId</key>
+	         <key>OrganSite</key>
 	         <val>Prostate</val>
 	       </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
+      </keyval>
 	    </metadata>
 	 </type>
 </cas:producttypes>

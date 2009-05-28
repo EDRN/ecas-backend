@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Copyright (c) 2008 California Institute of Technology.
+  ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+  
+  $Id$
+  
+  Authors: John J. Tran and Chris A. Mattmann
+  Description: Core Product Type/Element policy for test image data contributed by 
+  WHI.
+-->
+<cas:producttypemap xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+	<!--  can set the "parent" attribute on types below to allow inheritance of elements between the types -->
+
+	<type id="urn:edrn:WSUCellularSequencingNormalized" 
+          parent="urn:edrn:eCASFile"/>
+          
+    <type id="urn:edrn:WSUCellularSequencingUnprocessed"
+          parent="urn:edrn:eCASFile"/>
+          
+    <type id="urn:edrn:UPittWHIMassSpecProcessedData"
+          parent="urn:edrn:eCASFile"/>
+  
+  	<type id="urn:edrn:UPittWHIMassSpecUnprocessedIndividualData"
+  		  parent="urn:edrn:eCASFile"/>
+
+  	<type id="urn:edrn:UPittWHIMassSpecUnprocessedPooledData"
+  		  parent="urn:edrn:eCASFile"/>
+  		  
+  	<type id="urn:edrn:UPittWHIMassSpecUnprocessedCalibratedIndividualData"
+  		  parent="urn:edrn:eCASFile"/>
+  		  
+	<type id="urn:edrn:UmichNormalized"
+  		  parent="urn:edrn:eCASFile"/>
+  		  
+	<type id="urn:edrn:JohnsHopkinsDanChan"
+  		  parent="urn:edrn:eCASFile"/>
+  		  
+
+</cas:producttypemap>
