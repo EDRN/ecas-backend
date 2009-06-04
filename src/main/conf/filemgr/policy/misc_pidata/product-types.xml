@@ -79,9 +79,7 @@
       <keyval>
         <key>ResultsAndColclusionSummary</key>
         <val>TBD</val>
-      </keyval>
-      
-      
+      </keyval> 
      <keyval>
          <key>StudyBackground</key>
          <val><![CDATA[Affymetrix GeneChip Array and Massively Parallel Signature Sequencing (MPSS) 
@@ -466,7 +464,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
     </metExtractors>
     <metadata>
       <keyval>
-        <key>DataSetname</key>
+        <key>DataSetName</key>
         <val>University of Pittsburg Pancreatic data.</val>
       </keyval>
       <keyval>
