@@ -33,7 +33,7 @@
     <metadata>
       <keyval>
         <key>DataSetName</key>
-        <val>University of Washington Microarray data.</val>
+        <val>University of Washington Microarray Data</val>
       </keyval>
       <keyval>
         <key>Date</key>
@@ -171,7 +171,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
     <metadata>
       <keyval>
         <key>DataSetName</key>
-        <val>University of Washington Immunohistochemistry data.</val>
+        <val>University of Washington Immunohistochemistry Data</val>
       </keyval>
       <keyval>
         <key>Date</key>
@@ -323,7 +323,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
     <metadata>
       <keyval>
         <key>DataSetName</key>
-        <val>University of Pittsburg Ovarian data.</val>
+        <val>University of Pittsburg Ovarian Data</val>
       </keyval>
       <keyval>
         <key>Date</key>
@@ -465,7 +465,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
     <metadata>
       <keyval>
         <key>DataSetName</key>
-        <val>University of Pittsburg Pancreatic data.</val>
+        <val>University of Pittsburg Pancreatic Data</val>
       </keyval>
       <keyval>
         <key>Date</key>
@@ -585,7 +585,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
     <metadata>
       <keyval>
         <key>DataSetName</key>
-        <val>Duke University Breast data.</val>
+        <val>Duke University Breast Data</val>
       </keyval>
       <keyval>
         <key>Date</key>
@@ -701,7 +701,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
     <metadata>
       <keyval>
         <key>DataSetName</key>
-        <val>NIST Fish data.</val>
+        <val>NIST Fish Data</val>
       </keyval>
       <keyval>
         <key>Date</key>
@@ -832,7 +832,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
     <metadata>
       <keyval>
         <key>DataSetName</key>
-        <val>EVMS Mass Spec data.</val>
+        <val>EVMS Mass Spec Data</val>
       </keyval>
       <keyval>
         <key>Date</key>

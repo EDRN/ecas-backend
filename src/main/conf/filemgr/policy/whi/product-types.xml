@@ -249,7 +249,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
     <metadata>
       <keyval>
         <key>DataSetName</key>
-        <val>University of Pittsburg Cancer Institute WHI Mass Spectrometry</val>
+        <val>University of Pittsburg Cancer Institute WHI Mass Spectrometer</val>
       </keyval>
       <keyval>
         <key>Date</key>
@@ -362,7 +362,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
     <metadata>
       <keyval>
         <key>DataSetName</key>
-        <val>University of Pittsburg Cancer Institute WHI Mass Spectrometry (unprocessed individual data)</val>
+        <val>University of Pittsburg Cancer Institute Unprocessed Individual Data</val>
       </keyval>
       <keyval>
         <key>Date</key>
@@ -475,7 +475,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
     <metadata>
       <keyval>
         <key>DataSetName</key>
-        <val>University of Pittsburg Cancer Institute WHI Mass Spectrometry  (unprocessed pooled data)</val>
+        <val>University of Pittsburg Cancer Institute Unprocessed Pooled Data</val>
       </keyval>
       <keyval>
         <key>Date</key>
@@ -588,7 +588,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
     <metadata>
       <keyval>
         <key>DataSetName</key>
-        <val>University of Pittsburg Cancer Institute WHI Mass Spectrometry  (unprocessed calibrated individual data)</val>
+        <val>University of Pittsburg Cancer Institute Calibrated Individual Data</val>
       </keyval>
       <keyval>
         <key>Date</key>
@@ -666,7 +666,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
         name="JohnsHopkinsDanChan">
    <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
    <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
-   <description>[description]</description>
+   <description>TBD</description>
     <metExtractors>
       <extractor
         class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
@@ -682,7 +682,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
     <metadata>
       <keyval>
         <key>DataSetName</key>
-        <val>[title of data set - JohnsHopkinsDanChan]</val>
+        <val>John Hopkins Medical Institutions Mass Spectrometer Colon Unprocessed </val>
       </keyval>
       <keyval>
         <key>Date</key>

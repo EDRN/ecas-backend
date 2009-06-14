@@ -1,6 +1,26 @@
 EDRN JIRA site: http://oodt.jpl.nasa.gov/jira/browse/CA
 
 
+
+Release Notes - Early Detection of Cancer - Version eCAS beta 0.4.4 release - 06/14/2009
+
+** Bug
+    * [CA-322] - Fix UI to reflect new metadata
+    * [CA-335] - eCAS browser index page lists blank PIs
+    * [CA-336] - eCAS browser index page lists blank OrganSites
+
+
+** Task
+    * [CA-338] - Dataset Name for Johns Hoppkins is incorrect
+    * [CA-339] - Improvements to the UPitt DataSetName metadata field
+
+** Improvement
+    * [CA-337] - Consistent DataSet naming convention
+    * [CA-340] - Protocol ID for MALDI data can be defined now
+
+
+
+
 Release Notes - Early Detection of Cancer - Version eCAS beta 0.4.3 release - 05/25/2009
 
 
