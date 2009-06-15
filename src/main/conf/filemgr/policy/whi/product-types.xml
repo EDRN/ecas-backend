@@ -713,7 +713,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
             <val>200</val>
      </keyval>
       <keyval>
-        <key>OrganName</key>
+        <key>OrganSite</key>
         <val>Colon</val>
       </keyval>
       <keyval>
