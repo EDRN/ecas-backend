@@ -6,7 +6,7 @@
   $Id$
   
   Author(s): Chris A. Mattmann, John J. Tran, and Heather L. Kincaid
-  Description: Product Type policy for WHI data from Dr. Samir Hanash from FHCRC.
+  Description: Product Type policy for Validation of Protein Markers for Lung Cancer using CARET Sera data from Dr. Samir Hanash from FHCRC.
 -->
 
 <cas:producttypes xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
@@ -17,10 +17,7 @@
         name="FHCRCHanashAnnexinLamr">
    <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
    <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
-    <description>We have implemented a high throughput platform for quantitative analysis of 
-    serum autoantibodies which we have applied to lung cancer for discovery of novel antigens, 
-    and for validation in pre-diagnostic sera of autoantibodies to antigens previously defined 
-    based on analysis of sera collected at the time of diagnosis..</description>
+    <description>We have implemented a high throughput platform for quantitative analysis of serum autoantibodies, which we have applied to lung cancer for discovery of novel antigens and for validation in prediagnostic sera of autoantibodies to antigens previously defined based on analysis of sera collected at the time of diagnosis. RESULTS: We present evidence for the occurrence in lung cancer sera of autoantibodies to annexin I, 14-3-3 theta, and a novel lung cancer antigen, LAMR1, which precede onset of symptoms and diagnosis. </description>
  	<!--  cut and paste job for the most part... -->
     <metExtractors>
       <extractor
@@ -38,7 +35,7 @@
     <metadata>
       <keyval>
         <key>DataSetName</key>
-        <val>Hanash 3-marker panel for Lung Cancer</val>
+        <val>Autoantibody Biomarkers for Lung Cancer using CARET Sera</val>
       </keyval>
       <keyval>
         <key>Date</key>
@@ -50,35 +47,19 @@
       </keyval>
       <keyval>
         <key>DataCustodian</key>
-        <val>Vitor Faca</val>
-      </keyval>
-            <keyval>
-        <key>DataCustodianPhone</key>
-        <val>TBD</val>
+        <val>Ji Qiu</val>
       </keyval>
       <keyval>
         <key>DataCustodianEmail</key>
-        <val>vfaca@fhcrc.org</val>
+        <val>jiqiu@fhcrc.org</val>
       </keyval>
       <keyval>
         <key>MethodDetails</key>
-        <val>TBD</val>
+        <val>Proteins from human lung adenocarcinoma cell line A549 lysates were subjected to extensive fractionation. The resulting 1,824 fractions were spotted in duplicate on nitrocellulose-coated slides. The microarrays produced were used in a blinded validation study to determine whether annexin I, PGP9.5, and 14-3-3 theta antigens previously found to be targets of autoantibodies in newly diagnosed patients with lung cancer are associated with autoantibodies in sera collected at the presymptomatic stage and to determine whether additional antigens may be identified in prediagnostic sera. Individual sera collected from 85 patients within 1 year before a diagnosis of lung cancer and 85 matched controls from the Carotene and Retinol Efficacy Trial (CARET) cohort were hybridized to individual microarrays.</val>
       </keyval>
-      <keyval>
-        <key>AnalyticMethods</key>
-        <val>TBD</val>
-      </keyval>
-      <keyval>
-        <key>StudyDesign</key>
-        <val>TBD</val>
-      </keyval>
-      <keyval>
-        <key>EligibilityCriteria</key>
-        <val>TBD</val>
-      </keyval>
-      <keyval>
-        <key>ResultsAndConclusionSummary</key>
-        <val>TBD</val>
+     <keyval>
+        <key>ResultsAndColclusionSummary</key>
+        <val>Our findings suggest potential utility of an approach to diagnosis of lung cancer before onset of symptoms that includes screening for autoantibodies to defined antigens. </val>
       </keyval>
       <keyval>
         <key>CollaborativeGroup</key>
@@ -95,6 +76,10 @@
       <keyval>
         <key>SiteName</key>
 		<val>151</val>
+      </keyval>
+      <keyval>
+        <key>PubMedID</key>
+		<val>http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&amp;cmd=DetailsSearch&amp;term=18794547%5Buid%5D&amp;log$=activity</val>
       </keyval>
  	  <keyval>
         <key>OrganSite</key>
