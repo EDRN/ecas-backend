@@ -98,7 +98,7 @@
         <val>TBD</val>
       </keyval>
       <keyval>
-        <key>ResultsAndColclusionSummary</key>
+        <key>ResultsAndConclusionSummary</key>
         <val>TBD</val>
       </keyval>
       <keyval>
@@ -195,7 +195,7 @@
         <val>TBD</val>
       </keyval>
       <keyval>
-        <key>ResultsAndColclusionSummary</key>
+        <key>ResultsAndConclusionSummary</key>
         <val>TBD</val>
       </keyval>
       <keyval>
@@ -308,7 +308,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
         <val>TBD</val>
       </keyval>
       <keyval>
-        <key>ResultsAndColclusionSummary</key>
+        <key>ResultsAndConclusionSummary</key>
         <val>TBD</val>
       </keyval>
       <keyval>
@@ -421,7 +421,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
         <val>TBD</val>
       </keyval>
       <keyval>
-        <key>ResultsAndColclusionSummary</key>
+        <key>ResultsAndConclusionSummary</key>
         <val>TBD</val>
       </keyval>
       <keyval>
@@ -534,7 +534,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
         <val>TBD</val>
       </keyval>
       <keyval>
-        <key>ResultsAndColclusionSummary</key>
+        <key>ResultsAndConclusionSummary</key>
         <val>TBD</val>
       </keyval>
       <keyval>
@@ -647,7 +647,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
         <val>TBD</val>
       </keyval>
       <keyval>
-        <key>ResultsAndColclusionSummary</key>
+        <key>ResultsAndConclusionSummary</key>
         <val>TBD</val>
       </keyval>
       <keyval>
@@ -682,7 +682,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
     <metadata>
       <keyval>
         <key>DataSetName</key>
-        <val>John Hopkins Medical Institutions Mass Spectrometer Colon Unprocessed </val>
+        <val>John Hopkins Medical Institutions Mass Spectrometer Colon Unprocessed</val>
       </keyval>
       <keyval>
         <key>Date</key>
@@ -741,7 +741,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
         <val>TBD</val>
       </keyval>
       <keyval>
-        <key>ResultsAndColclusionSummary</key>
+        <key>ResultsAndConclusionSummary</key>
         <val>TBD</val>
       </keyval>
       <keyval>
