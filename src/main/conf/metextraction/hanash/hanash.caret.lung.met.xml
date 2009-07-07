@@ -51,4 +51,8 @@
   <key>DateProductFrozen</key>
   <val></val>
 </keyval>
+<keyval type="vector">
+  <key>ProductType</key>
+  <val>FHCRCHanashAnnexinLamr</val>
+</keyval>
 </cas:metadata>
