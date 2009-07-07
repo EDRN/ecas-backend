@@ -79,7 +79,7 @@
       </keyval>
       <keyval>
         <key>PubMedID</key>
-		<val>http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&amp;cmd=DetailsSearch&amp;term=18794547%5Buid%5D&amp;log$=activity</val>
+		<val>&lt;a href="http://www.ncbi.nlm.nih.gov/pubmed/18794547"&gt;http://www.ncbi.nlm.nih.gov/pubmed/18794547&lt;/a&gt;</val>
       </keyval>
  	  <keyval>
         <key>OrganSite</key>
