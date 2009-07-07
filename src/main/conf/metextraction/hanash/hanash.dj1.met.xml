@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+  Copyright (c) 2008 California Institute of Technology.
+  ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+  
+  $Id$
+  
+  Author: John J. Tran and Heather Kincaid
+  Description: meta extraction for DJ-1.pdf data from Dr. Samir Hanash.
+-->
+
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+<keyval type="vector">
+  <key>SiteShortName</key>
+  <val>fhcrc</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentDetails</key>
+  <val></val>
+</keyval>
+<keyval type="vector">
+  <key>DataStage</key>
+  <val>Processed</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductDescription</key>
+  <val>Box plots, microarray data, DJ-1 fraction</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductTitle</key>
+  <val>Autoantibody Biomarkers</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenType</key>
+  <val>Serum</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductFunction</key>
+  <val>Box plots, processed data</val>
+</keyval>
+<keyval type="vector">
+  <key>LabAnalysticMethods</key>
+  <val>Protein Microarray</val>
+</keyval>
+<keyval type="vector">
+  <key>MethodDetails</key>
+  <val>Proteins from human lung adenocarcinoma cell line A549 lysates were separated by anion exchange HPLC followed by reverse phase chromatography. Fractions were lyophilized and resuspended in printing buffer, then printed in duplicate onto nitrocellulose-coated slides. Serum samples were hybridized with protein microarrays unisng indirect immunofluorescence protocol. For mass-spectrometry analysis, samples were trypsin-digested and subjected to mass spectrometry analysis on an LTQ-Orbitrap.</val>
+</keyval>
+<keyval type="vector">
+  <key>DateProductFrozen</key>
+  <val></val>
+</keyval>
+<keyval type="vector">
+  <key>ProductType</key>
+  <val>FHCRCHanashAnnexinLamr</val>
+</keyval>
+</cas:metadata>
