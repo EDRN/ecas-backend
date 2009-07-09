@@ -5,8 +5,35 @@
 	
 	$Id$
 	
-	Author: John J. Tran
+	Author: Andrew Hart and John J. Tran
 	Description: Element policy for test image data contributed by Dr. Samir Hanash.
 -->
 <cas:elements xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+	<element id="urn:edrn:ecas:hanash:InstrumentDetails" name="InstrumentDetails">
+		<description>Details about the instrument used</description>
+	</element>
+	<element id="urn:edrn:ecas:hanash:DataStage" name="DataStage">
+                <description>Is the data processed or unprocessed</description>
+        </element>
+	<element id="urn:edrn:ecas:hanash:ProductDescription" name="ProductDescription">
+                <description>A short description of the product</description>
+        </element>	
+	<element id="urn:edrn:ecas:hanash:ProductTitle" name="ProductTitle">
+                <description>A title for the product</description>
+        </element>
+	<element id="urn:edrn:ecas:hanash:SpecimenType" name="SpecimenType">
+                <description>The type of specimen described</description>
+        </element>
+	<element id="urn:edrn:ecas:hanash:ProductFunction" name="ProductFunction">
+                <description>Details about the product data</description>
+        </element>
+	<element id="urn:edrn:ecas:hanash:LabAnalysticMethods" name="LabAnalysticMethods">
+		<description>Lab Analystic Methods</description>
+	</element>
+	<element id="urn:edrn:ecas:hanash:MethodDetail" name="MethodDetails">
+                <description>Details about the methods used</description>
+        </element>
+	<element id="urn:edrn:ecas:hanash:DateProductFrozen" name="DateProductFrozen">
+                <description>Last raw data submission</description>
+        </element>
 </cas:elements>
