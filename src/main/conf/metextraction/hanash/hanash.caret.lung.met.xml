@@ -16,8 +16,12 @@
   <val>fhcrc</val>
 </keyval>
 <keyval type="vector">
+  <key>InstrumentId</key>
+  <val>unknown</val>
+</keyval>
+<keyval type="vector">
   <key>InstrumentDetails</key>
-  <val></val>
+  <val>none</val>
 </keyval>
 <keyval type="vector">
   <key>DataStage</key>
@@ -49,7 +53,7 @@
 </keyval>
 <keyval type="vector">
   <key>DateProductFrozen</key>
-  <val></val>
+  <val>5/29/2007</val>
 </keyval>
 <keyval type="vector">
   <key>ProductType</key>
