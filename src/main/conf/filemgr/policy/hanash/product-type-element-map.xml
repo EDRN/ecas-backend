@@ -5,13 +5,22 @@
   
   $Id$
   
-  Author: John J. Tran
+  Author: Andrew Hart and John J. Tran
   Description: Core Product Type/Element policy for test image data contributed by Dr. Samir Hanash.
 -->
 <cas:producttypemap xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
 	<!--  can set the "parent" attribute on types below to allow inheritance of elements between the types -->
 
-	<type id="urn:edrn:FHCRCHanashAnnexinLamr" 
-          parent="urn:edrn:eCASFile"/>
+	<type id="urn:edrn:FHCRCHanashAnnexinLamr" parent="urn:edrn:eCASFile">
+		<element id="urn:edrn:ecas:hanash:InstrumentDetails"/>
+		<element id="urn:edrn:ecas:hanash:DataStage"/>
+		<element id="urn:edrn:ecas:hanash:ProductDescription"/>
+		<element id="urn:edrn:ecas:hanash:ProductTitle"/>
+		<element id="urn:edrn:ecas:hanash:SpecimenType"/>
+		<element id="urn:edrn:ecas:hanash:ProductFunction"/>
+		<element id="urn:edrn:ecas:hanash:LabAnalysticMethods"/>
+		<element id="urn:edrn:ecas:hanash:MethodDetails"/>
+		<element id="urn:edrn:ecas:hanash:DateProductFrozen"/>
+	</type>
   
 </cas:producttypemap>
