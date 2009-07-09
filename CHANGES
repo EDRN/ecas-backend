@@ -1,6 +1,18 @@
 EDRN JIRA site: http://oodt.jpl.nasa.gov/jira/browse/CA
 
 
+Release Notes - Early Detection of Cancer - Version eCAS beta 0.4.5 release - 07/09/2009
+
+
+
+** Task
+    * [CA-361] - Add Element/Product-type mapping for hanash data
+    * [CA-362] - Fix path and spelling issues in hanash met extractor config files
+
+
+
+
+
 
 Release Notes - Early Detection of Cancer - Version eCAS beta 0.4.4 release - 06/14/2009
 

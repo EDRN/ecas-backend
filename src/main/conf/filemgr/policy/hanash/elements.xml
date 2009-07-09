@@ -30,7 +30,7 @@
 	<element id="urn:edrn:ecas:hanash:LabAnalysticMethods" name="LabAnalysticMethods">
 		<description>Lab Analystic Methods</description>
 	</element>
-	<element id="urn:edrn:ecas:hanash:MethodDetail" name="MethodDetails">
+	<element id="urn:edrn:ecas:hanash:MethodDetails" name="MethodDetails">
                 <description>Details about the methods used</description>
         </element>
 	<element id="urn:edrn:ecas:hanash:DateProductFrozen" name="DateProductFrozen">
