@@ -127,6 +127,10 @@
         <val>114</val>
       </keyval>
       <keyval>
+        <key>ProtocolId</key>
+        <val>114</val>
+      </keyval>
+      <keyval>
         <key>DatasetId</key>
         <val>urn:edrn:UWashTransProfileMicroarrayData</val>
       </keyval>
@@ -282,6 +286,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
         <val>201</val>
       </keyval>
       <keyval>
+        <key>ProtocolId</key>
+        <val>201</val>
+      </keyval>
+      <keyval>
         <key>DatasetId</key>
         <val>urn:edrn:UWashImmunohistochemistryData</val>
       </keyval>
@@ -424,6 +432,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
         <val>119</val>
       </keyval>
       <keyval>
+        <key>ProtocolId</key>
+        <val>119</val>
+      </keyval>
+      <keyval>
         <key>DatasetId</key>
         <val>urn:edrn:UPittLabMAPOvarianData</val>
       </keyval>
@@ -544,6 +556,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
         <val>234</val>
       </keyval>
       <keyval>
+        <key>ProtocolId</key>
+        <val>234</val>
+      </keyval>
+      <keyval>
         <key>DatasetId</key>
         <val>urn:edrn:UPittLabMAPPancreaticData</val>
       </keyval>
@@ -645,6 +661,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
       </keyval>
       <keyval>
         <key>ProtocolName</key>
+        <val>70</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
         <val>70</val>
       </keyval>
       <keyval>
@@ -788,6 +808,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
         <val>54</val>
       </keyval>
       <keyval>
+        <key>ProtocolId</key>
+        <val>54</val>
+      </keyval>
+      <keyval>
         <key>DatasetId</key>
         <val>urn:edrn:NISTFishMSAData</val>
       </keyval>
@@ -915,6 +939,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
       </keyval>
       <keyval>
         <key>ProtocolName</key>
+        <val>109</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
         <val>109</val>
       </keyval>
       <keyval>

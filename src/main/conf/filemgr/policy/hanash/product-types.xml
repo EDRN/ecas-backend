@@ -70,6 +70,10 @@
         <val>138</val>
       </keyval>
       <keyval>
+        <key>ProtocolId</key>
+        <val>138</val>
+      </keyval>
+      <keyval>
         <key>DatasetId</key>
         <val>urn:edrn:FHCRCHanashAnnexinLamr</val>
       </keyval>

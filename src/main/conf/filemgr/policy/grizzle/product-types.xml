@@ -84,6 +84,10 @@
         <val>No Associated Protocol</val>
       </keyval>
       <keyval>
+        <key>ProtocolId</key>
+        <val>No Associated Protocol</val>
+      </keyval>
+      <keyval>
         <key>DatasetId</key>
         <val>urn:edrn:UABEGFRTranslocationUnprocessedImages</val>
       </keyval>
@@ -174,6 +178,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
       </keyval>
       <keyval>
         <key>ProtocolName</key>
+        <val>No Associated Protocol</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
         <val>No Associated Protocol</val>
       </keyval>
       <keyval>

@@ -113,6 +113,10 @@
 			<val>290</val>
 		</keyval>
 		<keyval>
+			<key>ProtocolId</key>
+			<val>290</val>
+		</keyval>
+		<keyval>
 			<key>DatasetId</key>
 			<val>urn:edrn:FHCRCMALDIDilutionProcessedData
 			</val>

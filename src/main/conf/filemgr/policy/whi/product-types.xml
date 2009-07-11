@@ -70,6 +70,10 @@
         <val>126</val>
       </keyval>
       <keyval>
+        <key>ProtocolId</key>
+        <val>126</val>
+      </keyval>
+      <keyval>
         <key>DatasetId</key>
         <val>urn:edrn:WSUCellularSequencingUnprocessed</val>
       </keyval>
@@ -164,6 +168,10 @@
       </keyval>
       <keyval>
         <key>ProtocolName</key>
+        <val>126</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
         <val>126</val>
       </keyval>
       <keyval>
@@ -280,6 +288,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
         <val>126</val>
       </keyval>
       <keyval>
+        <key>ProtocolId</key>
+        <val>126</val>
+      </keyval>
+      <keyval>
         <key>DatasetId</key>
         <val>urn:edrn:UPittWHIMassSpecProcessedData</val>
       </keyval>
@@ -382,6 +394,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
       </keyval>
       <keyval>
         <key>ProtocolName</key>
+        <val>126</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
         <val>126</val>
       </keyval>
       <keyval>
@@ -498,6 +514,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
         <val>126</val>
       </keyval>
       <keyval>
+        <key>ProtocolId</key>
+        <val>126</val>
+      </keyval>
+      <keyval>
         <key>DatasetId</key>
         <val>urn:edrn:UPittWHIMassSpecUnprocessedPooledData</val>
       </keyval>
@@ -611,6 +631,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
         <val>126</val>
       </keyval>
       <keyval>
+        <key>ProtocolId</key>
+        <val>126</val>
+      </keyval>
+      <keyval>
         <key>DatasetId</key>
         <val>urn:edrn:UPittWHIMassSpecUnprocessedCalibratedIndividualData</val>
       </keyval>
@@ -702,6 +726,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
       </keyval>
       <keyval>
         <key>ProtocolName</key>
+        <val>126</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
         <val>126</val>
       </keyval>
       <keyval>

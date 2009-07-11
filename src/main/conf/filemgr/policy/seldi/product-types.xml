@@ -89,6 +89,10 @@
 	         <key>ProtocolName</key>
 	         <val>110</val>
 	       </keyval>
+	      <keyval>
+	         <key>ProtocolId</key>
+	         <val>110</val>
+	       </keyval>
 	       <keyval>
 	         <key>DatasetId</key>
 	         <val>urn:edrn:EVMSSELDIPhaseIIProcessedData</val>
@@ -177,6 +181,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
 	      </keyval>
 	      <keyval>
 	         <key>ProtocolName</key>
+	         <val>110</val>
+	       </keyval>
+	      <keyval>
+	         <key>ProtocolId</key>
 	         <val>110</val>
 	       </keyval>
 	       <keyval>
@@ -292,6 +300,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
           </keyval>
 	      <keyval>
 	         <key>ProtocolName</key>
+	         <val>110</val>
+	       </keyval>
+	      <keyval>
+	         <key>ProtocolId</key>
 	         <val>110</val>
 	       </keyval>
 	       <keyval>
