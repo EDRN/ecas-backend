@@ -6,7 +6,7 @@
   
   $Id$
   
-  Author: John J. Tran
+  Author: John J. Tran and Heather Kincaid
   Description: meta extraction for BDL data from Dr. Samir Hanash.
 -->
 
@@ -52,12 +52,14 @@
   <val>Evaluation of the discriminatory capacity of selected fractions</val>
 </keyval>
 <keyval type="vector">
-  <key>LabAnalysticMethods</key>
+  <key>LabAnalyticMethods</key>
   <val>Protein Microarray</val>
 </keyval>
 <keyval type="vector">
   <key>MethodDetails</key>
-  <val>Proteins from human lung adenocarcinoma cell line A549 lysates were separated by anion exchange HPLC followed by reverse phase chromatography. Fractions were lyophilized and resuspended in printing buffer, then printed in duplicate onto nitrocellulose-coated slides. Serum samples were hybridized with protein microarrays unisng indirect immunofluorescence protocol. For mass-spectrometry analysis, samples were trypsin-digested and subjected to mass spectrometry analysis on an LTQ-Orbitrap.</val>
+  <val>Proteins from human lung adenocarcinoma cell line A549 lysates were subjected to extensive fractionation. The resulting 1,824 fractions were spotted in duplicate on nitrocellulose-coated slides. The microarrays produced were used in a blinded validation study to determine whether annexin I, PGP9.5, and 14-3-3 theta antigens previously found to be targets of autoantibodies in newly diagnosed patients with lung cancer are associated with autoantibodies in sera collected at the presymptomatic stage and to determine whether additional antigens may be identified in prediagnostic sera. Individual sera collected from 85 patients within 1 year before a diagnosis of lung cancer and 85 matched controls from the Carotene and Retinol Efficacy Trial (CARET) cohort were hybridized to individual microarrays.
+For combined analysis, the markers were integrated by a summation of dichotomized markers, whereby each marker was dichotomized by its optimal cutoff point, which corresponds to the minimum classification error rate. The 95% CI band of the receiver operating characteristic curve was estimated from 500 bootstrap procedures. The combination rule should be treated as a discovered biomarker and provides information on the complementarities of informative antigens.
+</val>
 </keyval>
 <keyval type="vector">
   <key>DateProductFrozen</key>

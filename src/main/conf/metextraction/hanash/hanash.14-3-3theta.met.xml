@@ -44,7 +44,7 @@
   <val>Box plots, processed data</val>
 </keyval>
 <keyval type="vector">
-  <key>LabAnalysticMethods</key>
+  <key>LabAnalyticMethods</key>
   <val>Protein Microarray</val>
 </keyval>
 <keyval type="vector">
