@@ -77,7 +77,7 @@ The combination rule should be treated as a discovered biomarker and provides in
         <val>138</val>
       </keyval>
       <keyval>
-        <key>ProtocolId</key>
+        <key>ProtocolID</key>
         <val>138</val>
       </keyval>
       <keyval>
