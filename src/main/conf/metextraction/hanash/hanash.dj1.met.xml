@@ -29,7 +29,9 @@
 </keyval>
 <keyval type="vector">
   <key>ProductDescription</key>
-  <val>Box plots, microarray data, DJ-1 fraction</val>
+  <val>Box plots, microarray data, DJ-1 fraction. Samples were hybridized with A549 natural protein microarrays in three
+batches. Box plots and ROC analysis for all samples and samples in each
+individual batches were presented.</val>
 </keyval>
 <keyval type="vector">
   <key>ProductTitle</key>
