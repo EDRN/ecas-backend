@@ -1,6 +1,27 @@
 EDRN JIRA site: http://oodt.jpl.nasa.gov/jira/browse/CA
 
 
+
+Release Notes - Early Detection of Cancer - Version eCAS beta 0.4.6 release - 07/15/2009
+
+** Bug
+    * [CA-341] - eCAS policy for Dan Chan has incorrect OrganSite dataset key
+    * [CA-343] - RDF from eCAS has misnamed element "ResultsAndColclusionSummary"
+    * [CA-369] - Policy updates to eCAS datasets removed urn:edrn:ProtocolId
+
+** New Feature
+    * [CA-123] - Create prototype version of eCAS curation interface
+
+** Task
+    * [CA-260] - ingest disc 1 from WHI
+
+** Improvement
+    * [CA-284] - extend filemgr client and server to serve specific eCAS needs
+    * [CA-301] - Sort dataset met keys on dataset.php page
+    * [CA-331] - ECAS RDF output refers to sites & protocols by ID, should be by URI
+
+
+
 Release Notes - Early Detection of Cancer - Version eCAS beta 0.4.5 release - 07/09/2009
 
 
