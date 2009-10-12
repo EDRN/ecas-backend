@@ -159,6 +159,10 @@
 			<key>OrganSite</key>
 			<val>Prostate</val>
 		</keyval>
+    <keyval>
+      	<key>SecurityGroup</key>
+      	<val>cn=Principal Investigators,dc=edrn,dc=jpl,dc=nasa,dc=gov</val>
+    </keyval>
 		<keyval>
 			<key>DataDisclaimer</key>
 			<val>Data and information released from the National Cancer
