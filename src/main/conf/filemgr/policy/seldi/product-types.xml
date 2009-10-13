@@ -127,6 +127,10 @@
 	         <val>Prostate</val>
 	       </keyval>
     <keyval>
+    	<key>PublishState</key>
+    	<val>yes</val>
+    </keyval>
+    <keyval>
       	<key>SecurityGroup</key>
       	<val>cn=Principal Investigators,dc=edrn,dc=jpl,dc=nasa,dc=gov</val>
     </keyval>
@@ -224,6 +228,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
 	         <key>OrganSite</key>
 	         <val>Prostate</val>
 	       </keyval>
+    <keyval>
+    	<key>PublishState</key>
+    	<val>yes</val>
+    </keyval>
     <keyval>
       	<key>SecurityGroup</key>
       	<val>cn=Principal Investigators,dc=edrn,dc=jpl,dc=nasa,dc=gov</val>
@@ -345,6 +353,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
 	         <key>OrganSite</key>
 	         <val>Prostate</val>
 	       </keyval>
+    <keyval>
+    	<key>PublishState</key>
+    	<val>yes</val>
+    </keyval>
     <keyval>
       	<key>SecurityGroup</key>
       	<val>cn=Principal Investigators,dc=edrn,dc=jpl,dc=nasa,dc=gov</val>

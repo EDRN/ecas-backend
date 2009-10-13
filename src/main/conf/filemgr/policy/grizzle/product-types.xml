@@ -99,6 +99,10 @@
         <key>OrganSite</key>
         <val>Unknown</val>
       </keyval>
+    <keyval>
+    	<key>PublishState</key>
+    	<val>yes</val>
+    </keyval>
       <keyval>
       	<key>SecurityGroup</key>
       	<val>cn=Principal Investigators,dc=edrn,dc=jpl,dc=nasa,dc=gov</val>
@@ -200,6 +204,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
         <key>OrganSite</key>
         <val>Cervix</val>
       </keyval>
+    <keyval>
+    	<key>PublishState</key>
+    	<val>yes</val>
+    </keyval>
       <keyval>
       	<key>DataDisclaimer</key>
       	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.

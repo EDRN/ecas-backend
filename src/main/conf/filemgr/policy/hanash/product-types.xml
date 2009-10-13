@@ -105,6 +105,10 @@ The combination rule should be treated as a discovered biomarker and provides in
         <val>Lung</val>
       </keyval>
     <keyval>
+    	<key>PublishState</key>
+    	<val>yes</val>
+    </keyval>
+    <keyval>
       	<key>SecurityGroup</key>
       	<val>cn=Principal Investigators,dc=edrn,dc=jpl,dc=nasa,dc=gov</val>
     </keyval>

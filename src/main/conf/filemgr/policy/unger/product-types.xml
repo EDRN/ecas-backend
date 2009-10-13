@@ -87,7 +87,11 @@
 	<key>CollaborativeGroup</key>
 	<val>/* collaborative group description, e.g. lung and digestive tracts etc */</val>
       </keyval>
-          <keyval>
+    <keyval>
+    	<key>PublishState</key>
+    	<val>no</val>
+    </keyval>
+    <keyval>
       	<key>SecurityGroup</key>
       	<val>cn=Principal Investigators,dc=edrn,dc=jpl,dc=nasa,dc=gov</val>
     </keyval>
