@@ -1,4 +1,4 @@
-package gov.nasa.jpl.edrn.ecas.test;
+package gov.nasa.jpl.edrn.ecas.metadata;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

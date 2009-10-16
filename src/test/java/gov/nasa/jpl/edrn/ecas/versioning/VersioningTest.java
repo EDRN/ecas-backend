@@ -1,24 +1,23 @@
-package gov.nasa.jpl.edrn.ecas.test;
+package gov.nasa.jpl.edrn.ecas.versioning;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-
-public class MetExtractionTest 
+public class VersioningTest 
     extends TestCase
 {
-    public MetExtractionTest( String testName )
+    public VersioningTest( String testName )
     {
         super( testName );
     }
 
     public static Test suite()
     {
-        return new TestSuite( MetExtractionTest.class );
+        return new TestSuite( VersioningTest.class );
     }
 
-    public void testMetExtraction()
+    public void testApp()
     {
         assertTrue( true );
     }

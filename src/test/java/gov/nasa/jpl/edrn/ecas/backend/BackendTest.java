@@ -1,25 +1,25 @@
-package gov.nasa.jpl.edrn.ecas.test;
+package gov.nasa.jpl.edrn.ecas.backend;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-public class UtilTest 
+public class BackendTest 
     extends TestCase
 {
 
-	public UtilTest( String testName )
+	public BackendTest( String testName )
     {
         super( testName );
     }
 
     public static Test suite()
     {
-        return new TestSuite( UtilTest.class );
+        return new TestSuite( BackendTest.class );
     }
 
-    public void testUtil()
+    public void testBackendApp()
     {
-        assertTrue( true );
+    	assertTrue( true );
     }
 }
