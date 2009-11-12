@@ -2,6 +2,20 @@ EDRN JIRA site: http://oodt.jpl.nasa.gov/jira/browse/CA
 
 
 
+Release Notes - Early Detection of Cancer - Version eCAS beta 0.4.7 release - 11/11/2009
+
+
+
+** Improvement
+    * [CA-431] - bounce FM after update to metadata
+
+
+** Task
+    * [CA-423] - PublishState needed for metadata
+    * [CA-432] - Alvin Liu & Beth Unger metadata template
+
+
+
 Release Notes - Early Detection of Cancer - Version eCAS beta 0.4.6 release - 07/15/2009
 
 ** Bug
