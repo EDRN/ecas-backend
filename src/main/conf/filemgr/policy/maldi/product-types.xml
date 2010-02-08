@@ -163,6 +163,10 @@
     	<key>PublishState</key>
     	<val>yes</val>
     </keyval>
+    <keyval> 
+       <key>QAState</key>
+       <val>Under Review</val>
+    </keyval>
     <keyval>
       	<key>SecurityGroup</key>
       	<val>cn=Principal Investigators,dc=edrn,dc=jpl,dc=nasa,dc=gov</val>
