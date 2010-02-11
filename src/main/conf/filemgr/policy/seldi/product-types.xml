@@ -134,9 +134,10 @@
        <key>QAState</key>
        <val>Under Review</val>
     </keyval>
-    <keyval>
-      	<key>SecurityGroup</key>
-      	<val>cn=Principal Investigators,dc=edrn,dc=jpl,dc=nasa,dc=gov</val>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>Prostate and Urologic</val>
+       <val>Super User</val>
     </keyval>
       <keyval>
       	<key>DataDisclaimer</key>
@@ -240,9 +241,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
        <key>QAState</key>
        <val>Under Review</val>
     </keyval>
-    <keyval>
-      	<key>SecurityGroup</key>
-      	<val>cn=Principal Investigators,dc=edrn,dc=jpl,dc=nasa,dc=gov</val>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>Prostate and Urologic</val>
+       <val>Super User</val>
     </keyval>
       <keyval>
       	<key>DataDisclaimer</key>
@@ -369,9 +371,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
        <key>QAState</key>
        <val>Under Review</val>
     </keyval>
-    <keyval>
-      	<key>SecurityGroup</key>
-      	<val>cn=Principal Investigators,dc=edrn,dc=jpl,dc=nasa,dc=gov</val>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>Prostate and Urologic</val>
+       <val>Super User</val>
     </keyval>
       <keyval>
       	<key>DataDisclaimer</key>

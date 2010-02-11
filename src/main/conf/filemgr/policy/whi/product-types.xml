@@ -113,9 +113,10 @@
        <key>QAState</key>
        <val>Under Review</val>
     </keyval>
-    <keyval>
-      	<key>SecurityGroup</key>
-      	<val>cn=Principal Investigators,dc=edrn,dc=jpl,dc=nasa,dc=gov</val>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>GI and Other Associated</val>
+       <val>Super User</val>
     </keyval>
       <keyval>
       	<key>DataDisclaimer</key>
@@ -226,9 +227,10 @@
        <key>QAState</key>
        <val>Under Review</val>
     </keyval>
-    <keyval>
-      	<key>SecurityGroup</key>
-      	<val>cn=Principal Investigators,dc=edrn,dc=jpl,dc=nasa,dc=gov</val>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>GI and Other Associated</val>
+       <val>Super User</val>
     </keyval>
       <keyval>
       	<key>DataDisclaimer</key>
@@ -355,9 +357,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
        <key>QAState</key>
        <val>Under Review</val>
     </keyval>
-    <keyval>
-      	<key>SecurityGroup</key>
-      	<val>cn=Principal Investigators,dc=edrn,dc=jpl,dc=nasa,dc=gov</val>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>GI and Other Associated</val>
+       <val>Super User</val>
     </keyval>
       <keyval>
       	<key>DataDisclaimer</key>
@@ -484,9 +487,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
        <key>QAState</key>
        <val>Under Review</val>
     </keyval>
-    <keyval>
-      	<key>SecurityGroup</key>
-      	<val>cn=Principal Investigators,dc=edrn,dc=jpl,dc=nasa,dc=gov</val>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>GI and Other Associated</val>
+       <val>Super User</val>
     </keyval>
       <keyval>
       	<key>DataDisclaimer</key>
@@ -613,9 +617,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
        <key>QAState</key>
        <val>Under Review</val>
     </keyval>
-    <keyval>
-      	<key>SecurityGroup</key>
-      	<val>cn=Principal Investigators,dc=edrn,dc=jpl,dc=nasa,dc=gov</val>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>GI and Other Associated</val>
+       <val>Super User</val>
     </keyval>
       <keyval>
       	<key>DataDisclaimer</key>
@@ -742,9 +747,10 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
        <key>QAState</key>
        <val>Under Review</val>
     </keyval>
-    <keyval>
-      	<key>SecurityGroup</key>
-      	<val>cn=Principal Investigators,dc=edrn,dc=jpl,dc=nasa,dc=gov</val>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>GI and Other Associated</val>
+       <val>Super User</val>
     </keyval>
       <keyval>
       	<key>DataDisclaimer</key>
@@ -852,10 +858,11 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
        <key>QAState</key>
        <val>Under Review</val>
     </keyval>
-    <keyval>
-      	<key>SecurityGroup</key>
-      	<val>cn=Principal Investigators,dc=edrn,dc=jpl,dc=nasa,dc=gov</val>
-    </keyval>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>GI and Other Associated</val>
+       <val>Super User</val>
+     </keyval>
       <keyval>
       	<key>DataDisclaimer</key>
       	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.

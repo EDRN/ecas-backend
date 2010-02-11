@@ -112,9 +112,10 @@ The combination rule should be treated as a discovered biomarker and provides in
        <key>QAState</key>
        <val>Accepted</val>
     </keyval>
-    <keyval>
-      	<key>SecurityGroup</key>
-      	<val>cn=Principal Investigators,dc=edrn,dc=jpl,dc=nasa,dc=gov</val>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>Lung and Upper Aerodigestive</val>
+       <val>Super User</val>
     </keyval>
       <keyval>
       	<key>DataDisclaimer</key>
