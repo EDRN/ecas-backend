@@ -98,7 +98,7 @@ The combination rule should be treated as a discovered biomarker and provides in
       </keyval>
       <keyval>
         <key>PubMedID</key>
-		<val>&lt;a href="http://www.ncbi.nlm.nih.gov/pubmed/18794547"&gt;http://www.ncbi.nlm.nih.gov/pubmed/18794547&lt;/a&gt;</val>
+		<val>18794547</val>
       </keyval>
  	  <keyval>
         <key>OrganSite</key>
