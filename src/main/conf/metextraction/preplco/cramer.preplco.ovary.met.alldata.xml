@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+  Copyright (c) 2010 California Institute of Technology.
+  ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+  
+  $Id$
+  
+  Author: Chris A. Mattmann.
+  Description: product met def for prePLCO data.
+-->
+
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+<keyval type="vector">
+  <key>SiteShortName</key>
+  <val>bgwm</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentId</key>
+  <val>unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentDetails</key>
+  <val>none</val>
+</keyval>
+<keyval type="vector">
+  <key>DataStage</key>
+  <val>Processed</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductDescription</key>
+  <val>Pre-PLCO dataset. Mark Thornquist used this dataset to create the Final_data_set_unblinded_1-14-2008_a.xls 
+  and Final_data_set_unblinded_3-13-2008_a.xls datasets which were given out to the investigators.  This dataset 
+  contains the markers from all sites and all records are unblinded.
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>ProductTitle</key>
+  <val>Alldata_modified_12-27—2007.xls</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenType</key>
+  <val>Serum</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductFunction</key>
+  <val>The investigators used this dataset to develop multi-marker algorithms to identify cases.  The markers that were developed were 
+  later tested in the testing half of the dataset.
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>LabAnalyticMethods</key>
+  <val>See Method Details</val>
+</keyval>
+<keyval type="vector">
+  <key>MethodDetails</key>
+  <val>The marker values in this dataset are in their original scale (so they are not log transformed and centered and scaled).
+  The columns for HE4 &#163;1, HE4 &#163;2, SMRP &#163;1, SMRP &#163;2, YKL40 &#163;1, YKL40 &#163;2, IGF2 &#163;1, IGF2 &#163;2, DD-O110 &#163;1, 
+  DD-O110 &#163;2, DD-C248 &#163;1, DD-C248 &#163;2, DD-P108 &#163;1, DD-P108 &#163;2, DD-X065 &#163;1, DD-X065 &#163;2 should be removed.  These 
+  markers were measured twice by the Partners lab and only the means were supposed to have been reported.  The means for these markers are in the 
+  columns called HE4 mean, SMRP mean, YKL40 mean, IGF2 mean, DD-O110 mean, DD-C248 mean, DD-P108 mean, DD-X065 mean.
+  Dataset created by Mark Thornquist.
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>DateProductFrozen</key>
+  <val>N/A</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductType</key>
+  <val>BGWHCramerPrePLCOPhaseIIAnalysis</val>
+</keyval>
+</cas:metadata>
