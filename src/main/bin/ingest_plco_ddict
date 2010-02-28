@@ -4,7 +4,7 @@
 #
 # $Id$
 #
-# Sample call: sudo ./ingest_preplco_ddict http://localhost:9000 /data/ingest/plco/ddict Unique
+# Sample call: sudo ./ingest_plco_ddict http://localhost:9000 /data/ingest/plco/ddict Unique
 
 set ORIG_DIR = $cwd
 set DIR = `dirname $0`

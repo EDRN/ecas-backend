@@ -4,7 +4,7 @@
 #
 # $Id$
 #
-# Sample call: sudo ./ingest_preplco_nov13xls http://localhost:9000 /data/ingest/plco/nov13xls Unique
+# Sample call: sudo ./ingest_plco_nov13xls http://localhost:9000 /data/ingest/plco/nov13xls Unique
 
 set ORIG_DIR = $cwd
 set DIR = `dirname $0`

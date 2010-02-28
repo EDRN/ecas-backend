@@ -4,7 +4,7 @@
 #
 # $Id$
 #
-# Sample call: sudo ./ingest_preplco_sas http://localhost:9000 /data/ingest/plco/sas Unique
+# Sample call: sudo ./ingest_plco_sas http://localhost:9000 /data/ingest/plco/sas Unique
 
 set ORIG_DIR = $cwd
 set DIR = `dirname $0`
