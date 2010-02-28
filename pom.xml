@@ -63,6 +63,7 @@
                 <param>src/main/conf/filemgr/policy/whi</param>
                 <param>src/main/conf/filemgr/policy/hanash</param>
                 <param>src/main/conf/filemgr/policy/preplco</param>
+                <param>src/main/conf/filemgr/policy/plco</param>
               </customPolicyDirs>
               <customConfigurationDir>src/main/conf/filemgr/configuration</customConfigurationDir>
               <casInstallationDir>${env.EDRN_ECAS_HOME}/filemgr</casInstallationDir>
@@ -121,19 +122,13 @@
             <configuration>
               <tasks>
                 <copy todir="${env.EDRN_ECAS_HOME}/aux/met_def">
-                  <fileset dir="src/main/conf/metextraction/grizzle_apc" includes="*.conf"/>
-                  <fileset dir="src/main/conf/metextraction/grizzle_egfr" includes="*.xml"/>
-                  <fileset dir="src/main/conf/metextraction/grizzle_apc" includes="*.xml"/>
-                  <fileset dir="src/main/conf/metextraction/grizzle_egfr" includes="*.conf"/>
-                  <fileset dir="src/main/conf/metextraction/maldi" includes="*.conf"/>
-                  <fileset dir="src/main/conf/metextraction/maldi" includes="*.xml"/>
-                  <fileset dir="src/main/conf/metextraction/misc"  includes="*.xml"/>
-                  <fileset dir="src/main/conf/metextraction/misc"  includes="*.conf"/>
-                  <fileset dir="src/main/conf/metextraction/seldi" includes="*.csv"/>
-                  <fileset dir="src/main/conf/metextraction/whi"   includes="*.xml"/>
-                  <fileset dir="src/main/conf/metextraction/whi"   includes="*.conf"/>
-                  <fileset dir="src/main/conf/metextraction/hanash" includes="*.xml"/>
-                  <fileset dir="src/main/conf/metextraction/hanash" includes="*.conf"/>
+                  <fileset dir="src/main/conf/metextraction">
+                     <patternset id="met.extraction.conf.files">
+                        <include name="**/*.xml"/>
+                        <include name="**/*.conf"/>
+                        <include name="**/*.csv"/>
+                     </patternset>
+                 </fileset>
                 </copy>
               </tasks>
             </configuration>
