@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+  Copyright (c) 2010 California Institute of Technology.
+  ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+  
+  $Id$
+  
+  Author: Chris A. Mattmann.
+  Description: product met def for prePLCO data.
+-->
+
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+<keyval type="vector">
+  <key>SiteShortName</key>
+  <val>bgwm</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentId</key>
+  <val>unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentDetails</key>
+  <val>none</val>
+</keyval>
+<keyval type="vector">
+  <key>DataStage</key>
+  <val>Processed</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductDescription</key>
+  <val>Pre-PLCO dataset, training half of dataset unblinded as of 1-14-2008, testing half of dataset remained blinded. 
+      It contains the following four tabs: Biomarker Data, Demographic Data, Ppt Cancer Hx, Family Cancer Hx
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>ProductTitle</key>
+  <val>Final_data_set_unblinded_1-14-2008_a.xls</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenType</key>
+  <val>Serum</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductFunction</key>
+  <val>The investigators used this dataset to develop multi-marker algorithms to identify cases.  The markers that were developed were 
+  later tested in the testing half of the dataset.
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>LabAnalyticMethods</key>
+  <val>See Method Details</val>
+</keyval>
+<keyval type="vector">
+  <key>MethodDetails</key>
+  <val>This dataset contains records for all subjects, but only those in the training half are unblinded.  The remaining half in the 
+  testing set are missing case status.  The marker values have been standardized (Each marker was first log transformed to yield a normal 
+  distribution in the controls and then each was centered and scaled so that the controls had a mean of 0 and a standard deviation of 1).
+  This dataset was distributed to the group by Mark Thornquist.
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>DateProductFrozen</key>
+  <val>1-14-2008</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductType</key>
+  <val>BGWHCramerPrePLCOPhaseIIAnalysis</val>
+</keyval>
+</cas:metadata>
