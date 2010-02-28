@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+  Copyright (c) 2010 California Institute of Technology.
+  ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+  
+  $Id$
+  
+  Author: Chris A. Mattmann.
+  Description: product met def for PLCO data.
+-->
+
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+<keyval type="vector">
+  <key>SiteShortName</key>
+  <val>bgwm</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentId</key>
+  <val>unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentDetails</key>
+  <val>Excel conversion of original SAS file &quot;Harvard_markers_11132008.sas7bdat&quot;</val>
+</keyval>
+<keyval type="vector">
+  <key>DataStage</key>
+  <val>Processed</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductDescription</key>
+  <val>Contains the 7 markers measured by Partners on the PLCO specimens.
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>ProductTitle</key>
+  <val>Harvard_markers_11132008.xls</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenType</key>
+  <val>Serum</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductFunction</key>
+  <val>Allison Vitonis created this file on 11/13/2008 and sent it to Mark Thornquist so he could combine the 
+  Partners markers with the markers from the other sites. SAS file converted to Excel format by Kristen Anton.
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>LabAnalyticMethods</key>
+  <val>Partners used plate-based assay for B7-H4(Diadexus), HE4, and Kallikrein 6 (as described in (Diamandis EP, Scorilas A, Fracchioli S, 
+  Van Gramberen M, De Bruijn H, Henrik A, Soosaipillai A, Grass L, Yousef GM, Stenman UH, Massobrio M, Van Der Zee AG, Vergote I, and 
+  Katsaros D, Human kallikrein 6 (hK6): a new potential serum biomarker for diagnosis and prognosis of ovarian carcinoma. 
+  J Clin Oncol, 2003. 21(6): p. 1035-43)).  Platform-based assays (Roche) were used for CA125, CA15.3, CA72.4 and CA19.9.  Unless 
+  the volume was insufficient assays were run in duplicate and averaged.  These seven markers were chosen based on their performance 
+  in the phase II (pre-PLCO) data.</val>
+</keyval>
+<keyval type="vector">
+  <key>MethodDetails</key>
+  <val>Dataset contains the original values and the log transformed values for CA125, CA15.3, CA19.9, CA72.4, KLK6 (aka HK6), HE4, and 
+  OV110 (aka B7-H4).
+  
+  Created by Allison Vitonis
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>DateProductFrozen</key>
+  <val>11-13-2008</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductType</key>
+  <val>BGWHCramerPLCOPhaseIIIAnalysis</val>
+</keyval>
+</cas:metadata>
