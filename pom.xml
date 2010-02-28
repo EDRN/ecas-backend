@@ -62,6 +62,7 @@
                 <param>src/main/conf/filemgr/policy/grizzle</param>
                 <param>src/main/conf/filemgr/policy/whi</param>
                 <param>src/main/conf/filemgr/policy/hanash</param>
+                <param>src/main/conf/filemgr/policy/preplco</param>
               </customPolicyDirs>
               <customConfigurationDir>src/main/conf/filemgr/configuration</customConfigurationDir>
               <casInstallationDir>${env.EDRN_ECAS_HOME}/filemgr</casInstallationDir>
