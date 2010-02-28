@@ -121,8 +121,10 @@
             <configuration>
               <tasks>
                 <copy todir="${env.EDRN_ECAS_HOME}/aux/met_def">
-                  <fileset dir="src/main/conf/metextraction/grizzle" includes="*.conf"/>
-                  <fileset dir="src/main/conf/metextraction/grizzle" includes="*.xml"/>
+                  <fileset dir="src/main/conf/metextraction/grizzle_apc" includes="*.conf"/>
+                  <fileset dir="src/main/conf/metextraction/grizzle_egfr" includes="*.xml"/>
+                  <fileset dir="src/main/conf/metextraction/grizzle_apc" includes="*.xml"/>
+                  <fileset dir="src/main/conf/metextraction/grizzle_egfr" includes="*.conf"/>
                   <fileset dir="src/main/conf/metextraction/maldi" includes="*.conf"/>
                   <fileset dir="src/main/conf/metextraction/maldi" includes="*.xml"/>
                   <fileset dir="src/main/conf/metextraction/misc"  includes="*.xml"/>
