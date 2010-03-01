@@ -64,6 +64,7 @@
                 <param>src/main/conf/filemgr/policy/hanash</param>
                 <param>src/main/conf/filemgr/policy/preplco</param>
                 <param>src/main/conf/filemgr/policy/plco</param>
+                <param>src/main/conf/filemgr/policy/barrett</param>
               </customPolicyDirs>
               <customConfigurationDir>src/main/conf/filemgr/configuration</customConfigurationDir>
               <casInstallationDir>${env.EDRN_ECAS_HOME}/filemgr</casInstallationDir>
