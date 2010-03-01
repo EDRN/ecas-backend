@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+  Copyright (c) 2010 California Institute of Technology.
+  ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+  
+  $Id$
+  
+  Author: Chris A. Mattmann.
+  Description: product met def for Prostate Rapid PreVal data.
+-->
+
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+<keyval type="vector">
+  <key>SiteShortName</key>
+  <val>bidc</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentId</key>
+  <val>unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentDetails</key>
+  <val>unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>DataStage</key>
+  <val>Processed</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductDescription</key>
+  <val>Pre-validation study for prostate markers hk2, hk4 and hk11. Three markers (hk2, hk4 and hk11) were tested among 
+  123 samples (60 controls/ 63 cases). Among the cases, 33 had low Gleason grade (less than 7) and 30 had high Gleason grade 
+  (greather than or equal to 7). Three samples (cases) were missing due to QNS. 116 observations had PSA measured.
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>ProductTitle</key>
+  <val>Marker performance summary for prostate pre-validation study (Diamandis lab)</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenType</key>
+  <val>Serum</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductFunction</key>
+  <val>Marker performance summary for hk2, hk4 and hk11, including ROC curves, box plots and distribution plots.
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>LabAnalyticMethods</key>
+  <val>Three markers (hk2, hk4 and hk11) were measured among 123 samples (60 controls, 63 cases). Among the cases, 33 had 
+  low Gleason grade (less than 7) and 30 had high Gleason grade (greater than or equal to 7).</val>
+</keyval>
+<keyval type="vector">
+  <key>MethodDetails</key>
+  <val>In evaluating the performance of 163 markers, 3 samples (case) were missing due to QNS. 116 observations had PSA measured.
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>DateProductFrozen</key>
+  <val>N/A</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductType</key>
+  <val>BethIsraelSandaDataMarkerPerformanceSummary</val>
+</keyval>
+</cas:metadata>
