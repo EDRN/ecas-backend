@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Copyright (c) 2010 California Institute of Technology.
+  ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+  
+  $Id$
+  
+  Author(s): Chris A. Mattmann, Kristen Anton, Heather Kincaid
+  Description: Product Type policy for Barrett's Esophagus datasets.
+-->
+
+<cas:producttypes xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+
+  <type id="urn:edrn:HopkinsMeltzerBarrettMethylationProfiles" 
+        name="HopkinsMeltzerBarrettMethylationProfiles">
+   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+    <description>Barrett’s Esophagus Methylation Profile Analysis Data, from Phase II validation study of eight 
+    BE progression-prediction methylation biomarkers.</description>
+    <metExtractors>
+      <extractor
+        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+    </metExtractors>
+    <!--  fixed for all products of this type = ecas + esis meta excel spreadsheet -->
+    <metadata>
+      <keyval>
+        <key>DataSetName</key>
+        <val>Barrett’s Esophagus Methylation Profile Dataset</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2010-02-28T22:06:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>LeadPI</key>
+        <val>Stephen J. Meltzer, MD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>Stephen Meltzer</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>smeltzer@jhmi.edu</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>Laboratory:
+        
+        One hundred ninety-five Barrett’s Esophagus (BE) biopsies (145 nonprogressors and 50 progressors) were obtained from five participating 
+        centers: the Mayo Clinic at Rochester/Jacksonville, the University of Arizona, the University of North Carolina, and Johns Hopkins University. 
+        Bisulfite treatment was performed and promoter methylation levels of 8 genes (p16, HPP1, RUNX3, CDH13, TAC1, NELL1, AKAP12 and SST) were determined 
+        by qMSP on an ABI 7900 Sequence Detection (Taqman) System. ß- actin was used for normalization. A standard curve was generated using serial dilutions of 
+        CpGenome Universal Methylated DNA (CHEMICON, Temecula, CA). A normalized methylation value (NMV) for each gene of interest was defined as described.(11) 
+        Wetlab analysts (ZJ and YC) and all SJM laboratory personnel were blinded to specimen progressor or nonprogressor status.
+        
+        Statistical analysis:
+        
+        Associations between progression status and patient characteristics were tested using Student’s t-test or Chi-squared testing. Relationships between biomarkers 
+        and patient progression status were examined using Wilcoxon rank-sum testing. To evaluate the predictive utility of the markers, we constructed receiver operating 
+        characteristic (ROC) curves. ROC curve analyses were first conducted on individual markers, then in combination to determine whether a panel performed better than 
+        any single marker. Our algorithm rendered a single composite score, using the linear predictor from a binary regression model justified under the linearity assumption. 
+        The predictive accuracy of composite scores was evaluated based on a resampling algorithm: we randomly split data into a learning set containing 2/3 and a test set including 
+        1/3 of observations. The combination rule derived from the learning set produced two ROC curves, from the learning and test sets, respectively. Vertical differences between 
+        these two ROC curves yielded the overestimation of sensitivities at given specificities. This procedure was repeated 200 times, and these 200 differences were averaged to 
+        estimate the expected overfitting. 
+        
+        We also utilized predictiveness curves to display risk distribution as a function of the combined marker in the population. This curve represents a plot of risk associated with the vth quantile of the marker, 
+        P{D=1|Y =F-1(v)} vs. v, with F(·) the cumulative distribution of the marker. These plots display population proportions at different risk levels more clearly than do other metrics (like ROC curves). Since a 
+        case-control sample was studied, we used an external progression prevalence rate to calculate risk in the targeted screening population. To calibrate for future samples, a shrinkage coefficient estimated 
+        from the logistic regression model was applied to the linear predictors from which risk was calculated. All analyses were performed in R (http://www.r-project.org). Statistical data analysts (Y.Z., W.G., and Z.F.) 
+        were blinded to the identities of the 8 biomarkers.
+      </val>
+     </keyval>
+     <keyval>
+        <key>ResultsAndConclusionSummary</key>
+        <val>In the current study, with specificity at 0.9, sensitivities of progression prediction approached 50% based on both the 8-marker panel alone and 8-marker-plus-age panel in all three models. These findings indicate 
+        that even while performing at high specificity, these biomarker models predicted half of progressors to HGD and EAC that would not have been diagnosed earlier without using these biomarkers. 
+        
+        Based on age alone, with specificity at 90%, only 17.6%, 23.2% and 22.1% of progressors were predicted in the three models. However, with panels based on age plus biomarkers or on biomarkers alone, approximately 60%, 50% 
+        and 50% of progressors were accurately predicted in these three models. Predicted progressors represent patients in whom we can intercede earlier, resulting in higher cure rates. Finally, our combined risk model outperformed 
+        known risk in the general BE population (7.5% progression risk over 5 years), both in terms of negative predictive value (1.3% progression risk over 5 years for the low-risk group) and positive predictive value (27% progression 
+        risk over 5 years for the high-risk group).
+        
+        The current findings suggest that this 8-marker panel is more objective and quantifiable and possesses higher predictive sensitivity and specificity than do clinical features, including age.
+       </val>
+      </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>GI and Other Associated</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolName</key>
+        <val>137</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolID</key>
+        <val>137</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:HopkinsMeltzerBarrettMethylationProfiles</val>
+      </keyval>
+      <keyval>
+        <key>DateDatasetFrozen</key>
+        <val>N/A</val>
+      </keyval>
+      <keyval>
+        <key>SiteName</key>
+		<val>82</val>
+      </keyval>
+      <keyval>
+        <key>PubMedID</key>
+		<val>19435894</val>
+      </keyval>
+ 	  <keyval>
+        <key>OrganSite</key>
+        <val>Esophagus</val>
+      </keyval>
+    <keyval> 
+       <key>QAState</key>
+       <val>Under Review</val>
+    </keyval>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>GI and Other Associated</val>
+       <val>Super User</val>
+    </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
+      </keyval>
+    </metadata>
+  </type>
+  
+  
+</cas:producttypes>
