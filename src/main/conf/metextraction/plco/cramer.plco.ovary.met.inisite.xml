@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+  Copyright (c) 2010 California Institute of Technology.
+  ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+  
+  $Id$
+  
+  Author: Chris A. Mattmann.
+  Description: product met def for PLCO data.
+-->
+
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+<keyval type="vector">
+  <key>SiteShortName</key>
+  <val>bgwm</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentId</key>
+  <val>unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentDetails</key>
+  <val>unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>DataStage</key>
+  <val>Processed</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductDescription</key>
+  <val>Contains a listing of investigator initial, site and associated marker 
+  (decodes the file &quot;ovarian_marker_all_08_27_09_with_SLPI_02252010.xls&quot;)
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>ProductTitle</key>
+  <val>PLCO Biomarker analysis by site/investigator</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenType</key>
+  <val>unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductFunction</key>
+  <val>Claire Zhu and Allison Vitonis.  
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>LabAnalyticMethods</key>
+  <val>unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>MethodDetails</key>
+  <val>unknown
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>DateProductFrozen</key>
+  <val>2-25-2010</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductType</key>
+  <val>BGWHCramerPLCOPhaseIIIAnalysis</val>
+</keyval>
+</cas:metadata>

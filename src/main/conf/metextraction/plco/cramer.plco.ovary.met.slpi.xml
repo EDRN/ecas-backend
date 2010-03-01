@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+  Copyright (c) 2010 California Institute of Technology.
+  ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+  
+  $Id$
+  
+  Author: Chris A. Mattmann.
+  Description: product met def for PLCO data.
+-->
+
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+<keyval type="vector">
+  <key>SiteShortName</key>
+  <val>bgwm</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentId</key>
+  <val>unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentDetails</key>
+  <val>unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>DataStage</key>
+  <val>Processed</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductDescription</key>
+  <val>Contains the data for markers measured from all institutions validating markers with PLCO specimens
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>ProductTitle</key>
+  <val>PLCO Biomarker Performance Analysis – all institutions</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenType</key>
+  <val>Serum</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductFunction</key>
+  <val>Claire Zhu and Allison Vitonis.  
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>LabAnalyticMethods</key>
+  <val>unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>MethodDetails</key>
+  <val>PLCO datasets (Phase III):
+  The Phase III study was coordinated by the PLCO.  Sample collection, processing, shipping and storage were standardized 
+  across all screening sites.  Briefly, blood was drawn and processed within 2 hours into vials (~1.8ml) of serum/plasma, 
+  buffy coat and red blood cells. A unique specimen identification number was generated for each vial and daughter vial created.  
+  Vials were stored at -70 °C and shipped to the central biorepository overnight on dry ice for long-term storage at -70°C or -157 °C. 
+  
+  By June of 2006, 118 cases of invasive ovarian, primary peritoneal, and fallopian tube cancers with available samples had been confirmed. 
+  Tumors of “borderline malignancy” were excluded.    Serum samples most proximate to diagnosis were selected.  Controls were selected from 
+  a pool of healthy individuals who remained cancer free and were matched to cases by five year age categories at blood draw, calendar year 
+  of blood draw.  Women who reported a history of cancer or oophorectomy at baseline were excluded from control selection. For each case, 
+  8 healthy controls were selected: 4 randomly selected from a pool of all eligible controls and representing general population controls; 
+  2 with positive family history of breast or ovarian cancer; and 2 with history of an elevated CA125.  Sixty replicate pairs were randomly 
+  inserted into the batches for blinded QC; ten pairs of which had CA125 values greater than 25 U/ml.  
+  
+  PLCO serum samples to be allocated are at the PLCO biorepository in Frederick, Md. One vial containing 1.8ml of serum was pulled from the PLCO 
+  biorepository for each selected subject and was sent to the PLCO central processing lab for aliquoting. Aliquots of desired amounts for each 
+  investigator teams were made side by side in small batches to avoid repeated freeze-thaw, and to minimize variability in handling.  FHCRC 
+  received 0.3 ml, MDACC 0.1 ml, Partners two 0.6ml aliquots, and Pittsburgh 0.2 ml, and YUSM 0.2 ml.  Aliquots were labeled with a unique sample 
+  ID, and were randomly ordered such that cases and controls were evenly distributed, then packed into 81-cell freezer boxes and kept frozen. Prior 
+  to shipping, the laboratories were notified of the shipment 24 hours in advance. Aliquots were shipped overnight on dry ice.  A shipping manifest 
+  containing aliquot IDs was included in the package and was also emailed to the laboratories.  Each laboratory received aliquots of identical sets 
+  of samples. 
+  
+  Laboratory Assays
+  
+  Laboratory assays for the phase III PLCO study were conducted at the four separate laboratories by individuals who were blind to case or control 
+  status for both the phase II and phase III specimens.  Assays included single- or multi-plex Luminex bead assays, plate-based ELISA assays, platform-based 
+  (Roche E170) assays, and a mass spectroscopy-based system using surface enhanced antibody chips.  With the exceptions noted below, the assays used for the 
+  phase III specimens were also used for the phase II specimens.
+  
+  At FHCRC single-plex Luminex bead assays were used for all markers, details of which can be found in (Shah CA, Lowe KA, Paley P, Wallace E, Anderson GL, McIntosh 
+  MW, Andersen MR, Scholler N, Bergan LA, Thorpe JD, Urban N, and Drescher CW, Influence of ovarian cancer risk status on the diagnostic performance of the serum 
+  biomarkers mesothelin, HE4, and CA125. Cancer Epidemiol Biomarkers Prev, 2009. 18(5): p. 1365-72.).   The same assays were carried over into phase III except that 
+  a plate based assay for MMP-7 was introduced.  MDACC used a mass spectroscopy based system for its markers in both phases  further described in (Zhang Z, Bast RC, 
+  Jr., Yu Y, Li J, Sokoll LJ, Rai AJ, Rosenzweig JM, Cameron B, Wang YY, Meng XY, Berchuck A, Van Haaften-Day C, Hacker NF, de Bruijn HW, van der Zee AG, Jacobs IJ, Fung 
+  ET, and Chan DW, Three biomarkers identified from serum proteomic analysis for the detection of early stage ovarian cancer. Cancer Res, 2004. 64(16): p. 5882-90.). 
+  Partners used plate-based assay for B7-H4(Diadexus), DcR3(Diadexus), CA72.4, IGF 2, Mesothelin, HE4, and Kallikrein 6 (as described in (Diamandis EP, Scorilas A, Fracchioli S, 
+  Van Gramberen M, De Bruijn H, Henrik A, Soosaipillai A, Grass L, Yousef GM, Stenman UH, Massobrio M, Van Der Zee AG, Vergote I, and Katsaros D, Human kallikrein 6 (hK6): 
+  a new potential serum biomarker for diagnosis and prognosis of ovarian carcinoma. J Clin Oncol, 2003. 21(6): p. 1035-43)).  Platform-based assays (Roche) were used for CA125, 
+  CA15.3, CA19.9, and CEA.  Unless the volume was insufficient assays were run in duplicate and averaged.  Seven markers were carried over to phase III and these included 
+  B7H4, CA125, CA15.3, CA19.9, CA72.4, HE4, and HK 6.   The same assays were used except that a platform-based assay was available for CA72.4.   The two 0.3 aliquots were 
+  first combined and homogenized.  UPCI used a multi-plex bead assay system was used to evaluate 34 markers in phase II.  This technique is described in (Nolen B, Marrangoni 
+  A, Velikokhatnaya L, Prosser D, Winans M, Gorelik E, and Lokshin A, A serum based analysis of ovarian epithelial tumorigenesis. Gynecol Oncol, 2009. 112(1): p. 47-54).  For 
+  phase III, the number of markers was reduced to 8 but the same technique was used.  For the phase II markers included in the Yale panel, these markers were evaluated using a 
+  multi-plex bead system described in (Visintin I, Feng Z, Longton G, Ward DC, Alvero AB, Lai Y, Tenthorey J, Leiser A, Flores-Saaib R, Yu H, Azori M, Rutherford T, Schwartz PE, 
+  and Mor G, Diagnostic markers for early detection of ovarian cancer. Clin Cancer Res, 2008. 14(4): p. 1065-72).  For the phase III specimens the same markers were carried over 
+  but the analyses were performed by Laboratory Corporation of America.
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>DateProductFrozen</key>
+  <val>2-25-2010</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductType</key>
+  <val>BGWHCramerPLCOPhaseIIIAnalysis</val>
+</keyval>
+</cas:metadata>
