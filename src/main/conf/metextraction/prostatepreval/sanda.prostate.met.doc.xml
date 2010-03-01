@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+  Copyright (c) 2010 California Institute of Technology.
+  ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+  
+  $Id$
+  
+  Author: Chris A. Mattmann.
+  Description: product met def for Prostate Rapid PreVal data.
+-->
+
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+<keyval type="vector">
+  <key>SiteShortName</key>
+  <val>bidc</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentId</key>
+  <val>unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentDetails</key>
+  <val>unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>DataStage</key>
+  <val>Processed</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductDescription</key>
+  <val>ROC curves, distribution plots, data tables describing the performance of 
+  TSP for the early diagnosis of prostate cancer.
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>ProductTitle</key>
+  <val>Performance analysis of TSP for the early diagnosis of prostate cancer.</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenType</key>
+  <val>Serum</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductFunction</key>
+  <val>Description of TSP performance.
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>LabAnalyticMethods</key>
+  <val>unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>MethodDetails</key>
+  <val>60 controls and 63 cases (half with Gleaason score less than 7 and half with Gleason score greater than or equal to 7) 
+  were obtained from five participating centers. TSP came in both normalized and unnormalized format.  Each format had 
+  duplicate measures and the average was taken.
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>DateProductFrozen</key>
+  <val>N/A</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductType</key>
+  <val>BethIsraelSandaTSPPreval</val>
+</keyval>
+</cas:metadata>
