@@ -1,0 +1,21 @@
+#!/bin/tcsh
+# Copyright (c) 2010 California Institute of Technology.
+# ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+#
+# $Id$
+#
+# Sample call: sudo ./wipe_product_type BGWHCramerPrePLCOPhaseIIAnalysis
+
+set ORIG_DIR = $cwd
+set DIR = `dirname $0`
+cd $DIR
+set DIR_PATH = `pwd`
+
+if ( $#argv != 1 ) then
+   echo "Usage: $0 <product type name>"
+   exit 1
+else
+   java -Djava.ext.dirs=../lib gov.nasa.jpl.oodt.cas.filemgr.tools.QueryTool \
+   --query "ProductType:${1} --url http://localhost:9000  | java -Djava.ext.dirs=../lib \
+   gov.nasa.jpl.oodt.cas.filemgr.tools.DeleteProduct --read --fileManagerUrl http://localhost:9000
+endif
