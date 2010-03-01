@@ -22,5 +22,17 @@
 		<element id="urn:edrn:MethodDetails"/>
 		<element id="urn:edrn:DateProductFrozen"/>
 	</type>
+	
+	<type id="urn:edrn:BethIsraelSandaDataMarkerPerformanceSummary" parent="urn:edrn:eCASFile">
+		<element id="urn:edrn:InstrumentDetails"/>
+		<element id="urn:edrn:DataStage"/>
+		<element id="urn:edrn:ProductDescription"/>
+		<element id="urn:edrn:ProductTitle"/>
+		<element id="urn:edrn:SpecimenType"/>
+		<element id="urn:edrn:ProductFunction"/>
+		<element id="urn:edrn:LabAnalyticMethods"/>
+		<element id="urn:edrn:MethodDetails"/>
+		<element id="urn:edrn:DateProductFrozen"/>
+	</type>
   
 </cas:producttypemap>
