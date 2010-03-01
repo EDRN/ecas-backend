@@ -27,7 +27,7 @@
 	<element id="urn:edrn:ProductFunction" name="ProductFunction">
                 <description>Details about the product data</description>
         </element>
-	<element id="urn:edrn:LabAnalysticMethods" name="LabAnalysticMethods">
+	<element id="urn:edrn:LabAnalyticMethods" name="LabAnalyticMethods">
 		<description>Lab Analystic Methods</description>
 	</element>
 	<element id="urn:edrn:MethodDetails" name="MethodDetails">
