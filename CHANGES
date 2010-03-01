@@ -2,6 +2,25 @@ EDRN JIRA site: http://oodt.jpl.nasa.gov/jira/browse/CA
 
 
 
+Release Notes - Early Detection of Cancer - Version eCAS Backend beta 0.4.8 release - 03/01/2010
+
+
+
+** Improvement
+    * [CA-440] - Add QA State to eCAS Curator
+    * [CA-487] - Upgrade edrn-singlesignon to deal with LDAP groups
+
+** New Feature
+    * [CA-484] - Make dataset visibility conditional upon QAState "accepted" if user not logged in
+    * [CA-491] - Add AccessGrantedTo to super user and collab group as a start
+    * [CA-516] - Curate prePLCO data 
+    * [CA-517] - Curate PLCO data
+    * [CA-518] - Curate MeltzerBE data
+    * [CA-519] - Curate Prostate Rapid PreVal
+    * [CA-520] - Curate Prostate Marker Performance Data
+
+
+
 Release Notes - Early Detection of Cancer - Version eCAS beta 0.4.7 release - 11/11/2009
 
 
