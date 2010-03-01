@@ -4,7 +4,7 @@
 #
 # $Id$
 #
-# Sample call: sudo ./ingest_prostate_analysis http://localhost:9000 /data/ingest/prostatepreval/analysis Unique
+# Sample call: sudo ./ingest_prostatepreval_analysis http://localhost:9000 /data/ingest/prostatepreval/analysis Unique
 
 set ORIG_DIR = $cwd
 set DIR = `dirname $0`
