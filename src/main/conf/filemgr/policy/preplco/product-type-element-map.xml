@@ -18,7 +18,7 @@
 		<element id="urn:edrn:ProductTitle"/>
 		<element id="urn:edrn:SpecimenType"/>
 		<element id="urn:edrn:ProductFunction"/>
-		<element id="urn:edrn:LabAnalysticMethods"/>
+		<element id="urn:edrn:LabAnalyticMethods"/>
 		<element id="urn:edrn:MethodDetails"/>
 		<element id="urn:edrn:DateProductFrozen"/>
 	</type>
