@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+  Copyright (c) 2010 California Institute of Technology.
+  ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+  
+  $Id$
+  
+  Author: Chris A. Mattmann.
+  Description: product met def for Meltzer data.
+-->
+
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+<keyval type="vector">
+  <key>SiteShortName</key>
+  <val>hkns</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentId</key>
+  <val>unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentDetails</key>
+  <val>unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>DataStage</key>
+  <val>Processed</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductDescription</key>
+  <val>Contains the 8 markers measured for promoter methylation, as well as some demographics descriptors.
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>ProductTitle</key>
+  <val>Barrett’s Esophagus Methylation Profile Data</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenType</key>
+  <val>Tissue biopsy</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductFunction</key>
+  <val>Analysis data
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>LabAnalyticMethods</key>
+  <val>One hundred ninety-five Barrett's Esophagus (BE) biopsies (145 nonprogressors and 50 progressors) were obtained from five participating centers: 
+  the Mayo Clinic at Rochester/Jacksonville, the University of Arizona, the University of North Carolina, and Johns Hopkins University. 
+  Bisulfite treatment was performed and promoter methylation levels of 8 genes (p16, HPP1, RUNX3, CDH13, TAC1, NELL1, AKAP12 and SST) were determined by 
+  qMSP on an ABI 7900 Sequence Detection (Taqman) System. ß- actin was used for normalization. A standard curve was generated using serial dilutions of CpGenome 
+  Universal Methylated DNA (CHEMICON, Temecula, CA). A normalized methylation value (NMV) for each gene of interest was defined as described.(11) Wetlab analysts (ZJ 
+  and YC) and all SJM laboratory personnel were blinded to specimen progressor or nonprogressor status.
+</val>
+</keyval>
+<keyval type="vector">
+  <key>MethodDetails</key>
+  <val>Same as Dataset Method Details.
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>DateProductFrozen</key>
+  <val>N/A</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductType</key>
+  <val>HopkinsMeltzerBarrettMethylationProfiles</val>
+</keyval>
+</cas:metadata>
