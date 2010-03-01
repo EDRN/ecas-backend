@@ -48,11 +48,6 @@
 </keyval>
 <keyval type="vector">
   <key>LabAnalyticMethods</key>
-  <val>Dataset contains the original values and the log transformed values for CA125, CA15.3, CA19.9, CA72.4, KLK6 
-  (aka HK6), HE4, and OV110 (aka B7-H4).</val>
-</keyval>
-<keyval type="vector">
-  <key>MethodDetails</key>
   <val>Partners used plate-based assay for B7-H4 (Diadexus), HE4, and Kallikrein 6 (as described in (Diamandis EP, 
   Scorilas A, Fracchioli S, Van Gramberen M, De Bruijn H, Henrik A, Soosaipillai A, Grass L, Yousef GM, Stenman UH, 
   Massobrio M, Van Der Zee AG, Vergote I, and Katsaros D, Human kallikrein 6 (hK6): a new potential serum biomarker 
@@ -61,6 +56,12 @@
   and averaged.  These seven markers were chosen based on their performance in the phase II (pre-PLCO) data.  
   
   Created by Allison Vitonis 
+  </val>
+</keyval>
+<keyval type="vector">
+  <key>MethodDetails</key>
+  <val>Dataset contains the original values and the log transformed values for CA125, CA15.3, CA19.9, CA72.4, KLK6 
+  (aka HK6), HE4, and OV110 (aka B7-H4).
   </val>
 </keyval>
 <keyval type="vector">
