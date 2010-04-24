@@ -21,7 +21,7 @@
 </keyval>
 <keyval type="vector">
   <key>InstrumentDetails</key>
-  <val>unknown</val>
+  <val>N/A</val>
 </keyval>
 <keyval type="vector">
   <key>DataStage</key>
@@ -39,7 +39,7 @@
 </keyval>
 <keyval type="vector">
   <key>SpecimenType</key>
-  <val>unknown</val>
+  <val>N/A</val>
 </keyval>
 <keyval type="vector">
   <key>ProductFunction</key>
@@ -48,7 +48,7 @@
 </keyval>
 <keyval type="vector">
   <key>LabAnalyticMethods</key>
-  <val>unknown</val>
+  <val>N/A</val>
 </keyval>
 <keyval type="vector">
   <key>MethodDetails</key>
