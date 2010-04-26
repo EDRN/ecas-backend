@@ -1,6 +1,23 @@
 EDRN JIRA site: http://oodt.jpl.nasa.gov/jira/browse/CA
 
 
+Release Notes - Early Detection of Cancer - Version  eCAS Backend beta 0.4.9 release - 04/25/2010
+
+
+** Bug
+    * [CA-548] - Pubmed service doesn't handle malformed pub med IDs very well
+
+** Improvement
+    * [CA-527] - eCAS Metadata correction
+    * [CA-544] - Update eCAS Metadata for Biomarker Reviews - SPORE/PLCO
+    * [CA-545] - Update eCAS Metadata for Biomarker Reviews - Diamandis (hK makers)
+    * [CA-546] - Update eCAS Metadata for Biomarker Reviews - Haab (TSP)
+    * [CA-547] - Update eCAS Metadata for Biomarker Reviews - Meltzer
+
+
+
+
+
 
 Release Notes - Early Detection of Cancer - Version eCAS Backend beta 0.4.8 release - 03/01/2010
 

@@ -59,7 +59,7 @@
 </keyval>
 <keyval type="vector">
   <key>MethodDetails</key>
-  <val>Associations between progression status and patient characteristics were tested using Student’s t-test or Chi-squared testing. 
+  <val>Associations between progression status and patient characteristics were tested using Student's t-test or Chi-squared testing. 
   Relationships between biomarkers and patient progression status were examined using Wilcoxon rank-sum testing. To evaluate the predictive 
   utility of the markers, we constructed receiver operating characteristic (ROC) curves. ROC curve analyses were first conducted on individual
   markers, then in combination to determine whether a panel performed better than any single marker. Our algorithm rendered a single composite 

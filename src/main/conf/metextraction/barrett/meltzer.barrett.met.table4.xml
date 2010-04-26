@@ -50,7 +50,7 @@
 </keyval>
 <keyval type="vector">
   <key>LabAnalyticMethods</key>
-  <val>One hundred ninety-five Barrett’s Esophagus (BE) biopsies (145 nonprogressors and 50 progressors) were obtained from 
+  <val>One hundred ninety-five Barrett's Esophagus (BE) biopsies (145 nonprogressors and 50 progressors) were obtained from 
   five participating centers: the Mayo Clinic at Rochester/Jacksonville, the University of Arizona, the University of North Carolina, 
   and Johns Hopkins University. Bisulfite treatment was performed and promoter methylation levels of 8 genes (p16, HPP1, RUNX3, CDH13, 
   TAC1, NELL1, AKAP12 and SST) were determined by qMSP on an ABI 7900 Sequence Detection (Taqman) System. beta-actin was used for 
@@ -61,7 +61,7 @@
 </keyval>
 <keyval type="vector">
   <key>MethodDetails</key>
-  <val>Associations between progression status and patient characteristics were tested using Student’s t-test or Chi-squared testing. 
+  <val>Associations between progression status and patient characteristics were tested using Student's t-test or Chi-squared testing. 
   Relationships between biomarkers and patient progression status were examined using Wilcoxon rank-sum testing. To evaluate the predictive 
   utility of the markers, we constructed receiver operating characteristic (ROC) curves. ROC curve analyses were first conducted on individual 
   markers, then in combination to determine whether a panel performed better than any single marker. Our algorithm rendered a single composite 

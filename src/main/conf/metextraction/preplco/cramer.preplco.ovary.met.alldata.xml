@@ -36,7 +36,7 @@
 </keyval>
 <keyval type="vector">
   <key>ProductTitle</key>
-  <val>Alldata_modified_12-27—2007.xls</val>
+  <val>Alldata_modified_12-27-2007.xls</val>
 </keyval>
 <keyval type="vector">
   <key>SpecimenType</key>
@@ -54,11 +54,13 @@
 </keyval>
 <keyval type="vector">
   <key>MethodDetails</key>
-  <val>The marker values in this dataset are in their original scale (so they are not log transformed and centered and scaled).
-  The columns for HE4 &#163;1, HE4 &#163;2, SMRP &#163;1, SMRP &#163;2, YKL40 &#163;1, YKL40 &#163;2, IGF2 &#163;1, IGF2 &#163;2, DD-O110 &#163;1, 
-  DD-O110 &#163;2, DD-C248 &#163;1, DD-C248 &#163;2, DD-P108 &#163;1, DD-P108 &#163;2, DD-X065 &#163;1, DD-X065 &#163;2 should be removed.  These 
-  markers were measured twice by the Partners lab and only the means were supposed to have been reported.  The means for these markers are in the 
-  columns called HE4 mean, SMRP mean, YKL40 mean, IGF2 mean, DD-O110 mean, DD-C248 mean, DD-P108 mean, DD-X065 mean.
+  <val>The marker values in this dataset are in their original scale (so they are
+  not log transformed and centered and scaled). The columns for HE4&#x23;1, HE4&#x23;2,
+  SMRP &#x23;2, YKL40.&#x23;1, IGF2 &#x23;1, IGF2 &#x23;2, DD-O110 &#x23;1, DD-O110 &#x23;2,
+  DD-C248 &#x23;1, DD-C248 &#x23;2, DD-P108 &#x23;1, DD-P108 &#x23;2, DD-X065 &#x23;1, 
+  DD-X065 &#x23;2 should be removed. These markers were measured twice by the Parnters lab and
+  only the means were supposed to have been reported. The means for these markers are in the
+  columns called HE4 mean, SMRP mean, YKL40 mean, IGF2 mean, DD-O110 mean, DD-C248 mean, DD-P108 mean.
   Dataset created by Mark Thornquist.
   </val>
 </keyval>
