@@ -1,6 +1,20 @@
 EDRN JIRA site: http://oodt.jpl.nasa.gov/jira/browse/CA
 
 
+
+Release Notes - Early Detection of Cancer - Version eCAS Backend beta 0.4.9.1 release - 05/27/2010
+
+
+** Bug
+    * [CA-553] - TLS certificate for EDRN LDAP expired
+
+
+** New Feature
+    * [CA-565] - Ingest 4 new files for Meltzer Markers
+
+
+
+
 Release Notes - Early Detection of Cancer - Version  eCAS Backend beta 0.4.9 release - 04/25/2010
 
 
