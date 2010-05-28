@@ -9,4 +9,8 @@
 	Description: Element policy for Barrett's Esophagus.
 -->
 <cas:elements xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+  <element id="urn:edrn:RecommendedSoftware" name="RecommendedSoftware">
+    <dcElement/>
+    <description>list  any software that may be used to analyze, view, etc</description>
+  </element>
 </cas:elements>

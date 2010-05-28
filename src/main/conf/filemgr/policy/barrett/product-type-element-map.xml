@@ -21,6 +21,7 @@
 		<element id="urn:edrn:LabAnalyticMethods"/>
 		<element id="urn:edrn:MethodDetails"/>
 		<element id="urn:edrn:DateProductFrozen"/>
+		<element id="urn:edrn:RecommendedSoftware"/>
 	</type>
   
 </cas:producttypemap>
