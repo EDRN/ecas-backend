@@ -53,12 +53,12 @@
 </keyval>
 <keyval type="vector">
   <key>LabAnalyticMethods</key>
-  <val>One hundred ninety-five Barrett’s Esophagus (BE) biopsies (145 nonprogressors and 50 progressors) were 
+  <val>One hundred ninety-five Barrett's Esophagus (BE) biopsies (145 nonprogressors and 50 progressors) were 
   obtained from five participating centers: the Mayo Clinic at Rochester/Jacksonville, the University of Arizona, 
   the University of North Carolina, and Johns Hopkins University. 
   
   Bisulfite treatment was performed and promoter methylation levels of 8 genes (p16, HPP1, RUNX3, CDH13, TAC1, NELL1, 
-  AKAP12 and SST) were determined by qMSP on an ABI 7900 Sequence Detection (Taqman) System. ß- actin was used for 
+  AKAP12 and SST) were determined by qMSP on an ABI 7900 Sequence Detection (Taqman) System. beta- actin was used for 
   normalization. A standard curve was generated using serial dilutions of CpGenome Universal Methylated DNA (CHEMICON, 
   Temecula, CA). A normalized methylation value (NMV) for each gene of interest was defined as described.(11) Wetlab 
   analysts (ZJ and YC) and all SJM laboratory personnel were blinded to specimen progressor or nonprogressor status.
@@ -66,7 +66,7 @@
 </keyval>
 <keyval type="vector">
   <key>MethodDetails</key>
-  <val>Associations between progression status and patient characteristics were tested using Student’s t-test or 
+  <val>Associations between progression status and patient characteristics were tested using Student's t-test or 
   Chi-squared testing. Relationships between biomarkers and patient progression status were examined using Wilcoxon 
   rank-sum testing.
   
@@ -81,7 +81,7 @@
   overfitting.
   
   We also utilized predictiveness curves to display risk distribution as a function of the combined marker in the population. 
-  This curve represents a plot of risk associated with the vth quantile of the marker, P{D=1|Y =F-1(v)} vs. v, with F(·) the 
+  This curve represents a plot of risk associated with the vth quantile of the marker, P{D=1|Y =F-1(v)} vs. v, with F(.) the 
   cumulative distribution of the marker. These plots display population proportions at different risk levels more clearly than 
   do other metrics (like ROC curves). Since a case-control sample was studied, we used an external progression prevalence rate 
   to calculate risk in the targeted screening population. To calibrate for future samples, a shrinkage coefficient estimated from 
