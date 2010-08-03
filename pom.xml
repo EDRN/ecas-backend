@@ -66,6 +66,7 @@
                 <param>src/main/conf/filemgr/policy/plco</param>
                 <param>src/main/conf/filemgr/policy/barrett</param>
                 <param>src/main/conf/filemgr/policy/prostatepreval</param>
+                <param>src/main/conf/filemgr/policy/gls</param>
               </customPolicyDirs>
               <customConfigurationDir>src/main/conf/filemgr/configuration</customConfigurationDir>
               <casInstallationDir>${env.EDRN_ECAS_HOME}/filemgr</casInstallationDir>
