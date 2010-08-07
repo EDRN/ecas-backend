@@ -78,4 +78,7 @@
 	<element id="urn:edrn:SPECIMEN_METADATA_FHCRCProteomicsAnalyzedData" name="SPECIMEN_METADATA_FHCRCProteomicsAnalyzedData">
 		<description>TBD</description>
 	</element>
+	<element id="urn:edrn:SPECIMEN_METADATA_BCCAAffy6.0RawData" name="SPECIMEN_METADATA_BCCAAffy6.0RawData">
+		<description>TBD</description>
+	</element>
 </cas:elements>
