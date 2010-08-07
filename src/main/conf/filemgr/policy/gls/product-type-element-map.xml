@@ -106,5 +106,36 @@
 	   <element id="urn:edrn:SPECIMEN_METADATA_JHUMitochondrialDNAMutationSummarizedData"/>
 	</type>
 
+<!--
+  =============================================================================
+  USC_MethylationRawData
+  =============================================================================
+-->
+
+	<type id="urn:edrn:USC_MethylationRawData" parent="urn:edrn:eCASFile">
+	   <element id="urn:edrn:sampleId"/>
+	   <element id="urn:edrn:subjectId"/>
+	   <element id="urn:edrn:collectionDate"/>
+	   <element id="urn:edrn:collectedId"/>
+	   <element id="urn:edrn:banked"/>
+	   <element id="urn:edrn:SPECIMEN_AGE-COLLECTED_VALUE"/>
+	   <element id="urn:edrn:SPECIMEN_COLLECTION_DATE"/>
+	   <element id="urn:edrn:SPECIMEN_FREEZE-THAW-VALUE"/>
+	   <element id="urn:edrn:SPECIMEN_SPECOLL_LABEL2_TEXT"/>
+	   <element id="urn:edrn:SPECIMEN_SPECOLL_SOURCE_TEXT"/>
+	   <element id="urn:edrn:SPECIMEN_STORED_CODE"/>
+	   <element id="urn:edrn:SPECIMEN_STORED_CODE_TEXT"/>
+	   <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_CCDATACOMMENT_TEXT"/>
+	   <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_COMMENTS_TEXT"/>
+	   <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_CODE"/>
+	   <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_TEXT"/>
+	   <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_CODE"/>
+	   <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_TEXT"/>
+	   <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_CODE"/>
+	   <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_TEXT"/>
+	   <element id="urn:edrn:STUDY_PROTOCOL_SPECIMEN-ID-SITE_TEXT"/>
+	   <element id="urn:edrn:STUDY_SITE_SPECIMENREC_ID"/>
+	   <element id="urn:edrn:SPECIMEN_METADATA_USCMethylationRawData"/>
+	</type>
  
 </cas:producttypemap>

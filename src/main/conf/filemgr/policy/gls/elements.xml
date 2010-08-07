@@ -84,4 +84,7 @@
 	<element id="urn:edrn:SPECIMEN_METADATA_JHUMitochondrialDNAMutationSummarizedData" name="SPECIMEN_METADATA_SPECIMEN_METADATA_JHUMitochondrialDNAMutationSummarizedData">
 		<description>TBD</description>
 	</element>
+	<element id="urn:edrn:SPECIMEN_METADATA_USCMethylationRawData" name="SPECIMEN_METADATA_USCMethylationRawData">
+		<description>TBD</description>
+	</element>
 </cas:elements>
