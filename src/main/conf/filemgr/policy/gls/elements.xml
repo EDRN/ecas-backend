@@ -5,8 +5,8 @@
 	
 	$Id$
 	
-	Author: Chris A. Mattmann
-	Description: Element policy for prePLCO.
+	Author(s): Chris A. Mattmann, Andrew Hart
+	Description: Element policy for Canary data provided by GLS.
 -->
 <cas:elements xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
 	<element id="urn:edrn:sampleId" name="sampleId">
