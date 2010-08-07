@@ -79,7 +79,7 @@
       </keyval>
       <keyval>
         <key>DatasetId</key>
-        <val>urn:edrn:JHU_MitochondrialDNAMutationSummarized</val>
+        <val>urn:edrn:BCCA_Affy6.0RawData</val>
       </keyval>
       <keyval>
         <key>DateDatasetFrozen</key>
