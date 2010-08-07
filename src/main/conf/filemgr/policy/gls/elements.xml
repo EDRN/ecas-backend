@@ -81,4 +81,7 @@
 	<element id="urn:edrn:SPECIMEN_METADATA_BCCAAffy6.0RawData" name="SPECIMEN_METADATA_BCCAAffy6.0RawData">
 		<description>TBD</description>
 	</element>
+	<element id="urn:edrn:SPECIMEN_METADATA_JHUMitochondrialDNAMutationSummarizedData" name="SPECIMEN_METADATA_SPECIMEN_METADATA_JHUMitochondrialDNAMutationSummarizedData">
+		<description>TBD</description>
+	</element>
 </cas:elements>
