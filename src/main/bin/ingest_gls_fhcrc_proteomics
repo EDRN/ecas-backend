@@ -4,7 +4,7 @@
 #
 # $Id$
 #
-# Sample call: sudo ./ingest_gls_fhcrc_proteomics http://localhost:9000 /data/ingest/canary/FHCRC_ProteomicsAnalyzedData/ Unique
+# Sample call: sudo ./ingest_gls_fhcrc_proteomics http://localhost:9000 /data/ingest/canary/FHCRC_ProteomicsAnalyzedData/
 
 set ORIG_DIR = $cwd
 set DIR = `dirname $0`

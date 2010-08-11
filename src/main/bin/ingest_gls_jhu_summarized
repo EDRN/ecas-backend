@@ -4,7 +4,7 @@
 #
 # $Id$
 #
-# Sample call: sudo ./ingest_gls_jhu_summarized http://localhost:9000 /data/ingest/canary/JHU_MitochondrialDNAMutationSummarized/ Unique
+# Sample call: sudo ./ingest_gls_jhu_summarized http://localhost:9000 /data/ingest/canary/JHU_MitochondrialDNAMutationSummarized/
 
 set ORIG_DIR = $cwd
 set DIR = `dirname $0`
