@@ -7,7 +7,7 @@ package gov.nasa.jpl.edrn.ecas.tools;
 
 //OODT imports
 import gov.nasa.jpl.oodt.cas.metadata.Metadata;
-import gov.nasa.jpl.oodt.cas.filemgr.metadata.CoreMetKeys;
+import gov.nasa.jpl.oodt.cas.metadata.util.PathUtils;
 
 //JDK imports
 import java.io.File;
@@ -54,8 +54,10 @@ public class ExtractAndDownloadGLSUrls {
     for (File glsMetFile : glsMetFiles) {
       Metadata met = new Metadata(new FileInputStream(glsMetFile));
       // compute target path
-      String targetPath = glsMetDir + met.getMetadata("subjectId") + "/"
-          + met.getMetadata(CoreMetKeys.FILENAME);
+      String targetPathSpec = "/[FileLocation]/[subjectId]/[Filename]";
+      String targetPathMetSpec = "/[FileLocation]/[subjectId]/[Filename].met";
+      String targetPath = PathUtils.replaceEnvVariables(targetPathSpec, met);
+      String targetMetPath = PathUtils.replaceEnvVariables(targetPathMetSpec, met);
       String glsMetUrl = met.getMetadata("ProductLocation");
       System.out.println("Downloading [" + glsMetUrl + "] to file path: ["
           + targetPath + "]");
@@ -86,12 +88,9 @@ public class ExtractAndDownloadGLSUrls {
 
       if (downloadSuccess) {
         // move met file
-        String newMetFilePath = new File(targetPath).getParent()
-            + "/"
-            + new File(targetPath).getName()+".met";
         System.out.println("Moving met file: [" + glsMetFile.getAbsolutePath()
-            + "] to [" + newMetFilePath + "]");
-        FileUtils.copyFile(glsMetFile, new File(newMetFilePath));
+            + "] to [" + targetMetPath + "]");
+        FileUtils.copyFile(glsMetFile, new File(targetMetPath));
         glsMetFile.deleteOnExit();
 
       }
