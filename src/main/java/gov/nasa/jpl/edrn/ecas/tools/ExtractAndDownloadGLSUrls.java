@@ -88,8 +88,7 @@ public class ExtractAndDownloadGLSUrls {
         // move met file
         String newMetFilePath = new File(targetPath).getParent()
             + "/"
-            + glsMetFile.getName().substring(0,
-                glsMetFile.getName().lastIndexOf("."));
+            + new File(targetPath).getName()+".met";
         System.out.println("Moving met file: [" + glsMetFile.getAbsolutePath()
             + "] to [" + newMetFilePath + "]");
         FileUtils.copyFile(glsMetFile, new File(newMetFilePath));
