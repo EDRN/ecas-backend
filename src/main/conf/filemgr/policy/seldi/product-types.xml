@@ -239,7 +239,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
     </keyval>
      <keyval> 
        <key>QAState</key>
-       <val>Under Review</val>
+       <val>Accepted</val>
     </keyval>
     <keyval type="vector">
        <key>AccessGrantedTo</key>
@@ -369,7 +369,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
     </keyval>
     <keyval> 
        <key>QAState</key>
-       <val>Under Review</val>
+       <val>Accepted</val>
     </keyval>
     <keyval type="vector">
        <key>AccessGrantedTo</key>
