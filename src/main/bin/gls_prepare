@@ -1,0 +1,27 @@
+#!/bin/tcsh
+# Copyright (c) 2010 California Institute of Technology.
+# ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+#
+# $Id$
+#
+# Parses met files output from the GLS extractor and extracts out
+# the URL pointer to the data file. Prepares the staging area 
+# according to the product data file, its corresponding .met file, 
+# organized by subjectId (a unique field from GLS).
+
+
+set ORIG_DIR = $cwd
+set DIR = `dirname $0`
+cd $DIR
+set DIR_PATH = `pwd`
+
+if ( $#argv != 1 ) then
+   echo "Usage: $0 <gls met dir>"
+   exit 1
+else
+   java -Djava.ext.dirs=/usr/local/ecas/filemgr/lib:/usr/local/jdk/jre/lib/ext/ \
+   gov.nasa.jpl.edrn.ecas.tools.ExtractAndDownloadGLSUrls \
+   $1 \
+   edrnsync \
+   "edRnsync1234"
+endif
