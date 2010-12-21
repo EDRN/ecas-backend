@@ -9,75 +9,99 @@
 	Description: Element policy for Canary data provided by GLS.
 -->
 <cas:elements xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+
 	<element id="urn:edrn:sampleId" name="sampleId">
 		<description>TBD</description>
 	</element>
+
 	<element id="urn:edrn:subjectId" name="subjectId">
 		<description>TBD</description>
 	</element>
+
 	<element id="urn:edrn:collectionDate" name="collectionDate">
 		<description>TBD</description>
 	</element>
+
 	<element id="urn:edrn:collectedId" name="collectedId">
 		<description>TBD</description>
 	</element>
+
 	<element id="urn:edrn:banked" name="banked">
 		<description>TBD</description>
 	</element>
-	<element id="urn:edrn:SPECIMEN_AGE-COLLECTED_VALUE" name="SPECIMEN_AGE-COLLECTED_VALUE">
+
+	<element id="urn:edrn:SpecimenAgeCollectedValue" name="SpecimenAgeCollectedValue">
 		<description>TBD</description>
 	</element>
-	<element id="urn:edrn:SPECIMEN_COLLECTION_DATE" name="SPECIMEN_COLLECTION_DATE">
+
+	<element id="urn:edrn:SpecimenCollectionDate" name="SpecimenCollectionDate">
 		<description>TBD</description>
 	</element>
-	<element id="urn:edrn:SPECIMEN_FREEZE-THAW-VALUE" name="SPECIMEN_FREEZE-THAW-VALUE">
+
+	<element id="urn:edrn:SpecimenFreezeThawValue" name="SpecimenFreezeThawValue">
 		<description>TBD</description>
 	</element>
-	<element id="urn:edrn:SPECIMEN_SPECOLL_LABEL2_TEXT" name="SPECIMEN_SPECOLL_LABEL2_TEXT">
+
+	<element id="urn:edrn:SpecimenSpecollLabel2Text" name="SpecimenSpecollLabel2Text">
 		<description>TBD</description>
 	</element>	
-	<element id="urn:edrn:SPECIMEN_SPECOLL_SOURCE_TEXT" name="SPECIMEN_SPECOLL_SOURCE_TEXT">
+
+	<element id="urn:edrn:SpecimenSpecollSourceText" name="SpecimenSpecollSourceText">
 		<description>TBD</description>
 	</element>
-	<element id="urn:edrn:SPECIMEN_STORED_CODE" name="SPECIMEN_STORED_CODE">
+
+	<element id="urn:edrn:SpecimenStoredCode" name="SpecimenStoredCode">
 		<description>TBD</description>
 	</element>
-	<element id="urn:edrn:SPECIMEN_STORED_CODE_TEXT" name="SPECIMEN_STORED_CODE_TEXT">
+
+	<element id="urn:edrn:SpecimenStoredCodeText" name="SpecimenStoredCodeText">
 		<description>TBD</description>
 	</element>
-	<element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_CCDATACOMMENT_TEXT" name="SPECIMEN_STUDY_PROTOCOL_CCDATACOMMENT_TEXT">
+
+	<element id="urn:edrn:SpecimenStudyProtocolCcDataCommentText" name="SpecimenStudyProtocolCcDataCommentText">
 		<description>TBD</description>
 	</element>	
-	<element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_COMMENTS_TEXT" name="SPECIMEN_STUDY_PROTOCOL_COMMENTS_TEXT">
+
+	<element id="urn:edrn:SpecimenStudyProtocolCommentsText" name="SpecimenStudyProtocolCommentsText">
 		<description>TBD</description>
 	</element>
-	<element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_CODE" name="SPECIMEN_TISSUE_EGFRRESULT_CODE">
+
+	<element id="urn:edrn:SpecimenTissueEgfrResultCode" name="SpecimenTissueEgfrResultCode">
 		<description>TBD</description>
 	</element>
-	<element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_TEXT" name="SPECIMEN_TISSUE_EGFRRESULT_TEXT">
+
+	<element id="urn:edrn:SpecimenTissueEgfrResultText" name="SpecimenTissueEgfrResultText">
 		<description>TBD</description>
 	</element>
-	<element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_CODE" name="SPECIMEN_TISSUE_KRASRESULT_CODE">
+
+	<element id="urn:edrn:SpecimenTissueKrasResultCode" name="SpecimenTissueKrasResultCode">
 		<description>TBD</description>
 	</element>	
-	<element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_TEXT" name="SPECIMEN_TISSUE_KRASRESULT_TEXT">
+
+	<element id="urn:edrn:SpecimenTissueKrasResultText" name="SpecimenTissueKrasResultText">
 		<description>TBD</description>
 	</element>
-	<element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_CODE" name="SPECIMEN_TISSUE_TUMORNORMAL_CODE">
+
+	<element id="urn:edrn:SpecimenTissueTumorNormalCode" name="SpecimenTissueTumorNormalCode">
 		<description>TBD</description>
 	</element>
-	<element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_TEXT" name="SPECIMEN_TISSUE_TUMORNORMAL_TEXT">
+
+	<element id="urn:edrn:SpecimenTissueTumorNormalText" name="SpecimenTissueTumorNormalText">
 		<description>TBD</description>
 	</element>
-	<element id="urn:edrn:STUDY_PROTOCOL_SPECIMEN-ID-SITE_TEXT" name="STUDY_PROTOCOL_SPECIMEN-ID-SITE_TEXT">
+
+	<element id="urn:edrn:StudyProtocolSpecimenIdSiteText" name="StudyProtocolSpecimenIdSiteText">
 		<description>TBD</description>
 	</element>
-	<element id="urn:edrn:STUDY_SITE_SPECIMENREC_ID" name="STUDY_SITE_SPECIMENREC_ID">
+
+	<element id="urn:edrn:StudySiteSpecimenRecId" name="StudySiteSpecimenRecId">
 		<description>TBD</description>
 	</element>
+
 	<element id="urn:edrn:SPECIMEN_METADATA_FHCRCProteomicsAnalyzedData" name="SPECIMEN_METADATA_FHCRCProteomicsAnalyzedData">
 		<description>TBD</description>
 	</element>
+
 	<element id="urn:edrn:SPECIMEN_METADATA_BCCAAffy6.0RawData" name="SPECIMEN_METADATA_BCCAAffy6.0RawData">
 		<description>TBD</description>
 	</element>
@@ -96,11 +120,11 @@
 		<description>TBD</description>
 	</element>
 
-	<element id="urn:edrn:SPECIMEN_PROCESS_TIMECOLLECTTOFINAL_CODE" name="SPECIMEN_PROCESS_TIMECOLLECTTOFINAL_CODE">
+	<element id="urn:edrn:SpecimenProcessTimeCollectToFinalCode" name="SpecimenProcessTimeCollectToFinalCode">
 		<description>TBD</description>
 	</element>
 
-	<element id="urn:edrn:SPECIMEN_STORED_CODE" name="SPECIMEN_STORED_CODE">
+	<element id="urn:edrn:SpecimenStoredCode" name="SpecimenStoredCode">
 		<description>TBD</description>
 	</element>
 
