@@ -81,10 +81,27 @@
 	<element id="urn:edrn:SPECIMEN_METADATA_BCCAAffy6.0RawData" name="SPECIMEN_METADATA_BCCAAffy6.0RawData">
 		<description>TBD</description>
 	</element>
+
 	<element id="urn:edrn:SPECIMEN_METADATA_JHUMitochondrialDNAMutationSummarizedData" name="SPECIMEN_METADATA_SPECIMEN_METADATA_JHUMitochondrialDNAMutationSummarizedData">
 		<description>TBD</description>
 	</element>
 	<element id="urn:edrn:SPECIMEN_METADATA_USCMethylationRawData" name="SPECIMEN_METADATA_USCMethylationRawData">
 		<description>TBD</description>
 	</element>
+	
+
+        <!-- new canary datatype ingestion -->
+
+	<element id="urn:edrn:collectedDate" name="collectedDate">
+		<description>TBD</description>
+	</element>
+
+	<element id="urn:edrn:SPECIMEN_PROCESS_TIMECOLLECTTOFINAL_CODE" name="SPECIMEN_PROCESS_TIMECOLLECTTOFINAL_CODE">
+		<description>TBD</description>
+	</element>
+
+	<element id="urn:edrn:SPECIMEN_STORED_CODE" name="SPECIMEN_STORED_CODE">
+		<description>TBD</description>
+	</element>
+
 </cas:elements>
