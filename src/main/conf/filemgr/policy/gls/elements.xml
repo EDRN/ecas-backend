@@ -10,23 +10,23 @@
 -->
 <cas:elements xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
 
-	<element id="urn:edrn:sampleId" name="sampleId">
+	<element id="urn:edrn:SampleId" name="SampleId">
 		<description>TBD</description>
 	</element>
 
-	<element id="urn:edrn:subjectId" name="subjectId">
+	<element id="urn:edrn:SubjectId" name="SubjectId">
 		<description>TBD</description>
 	</element>
 
-	<element id="urn:edrn:collectionDate" name="collectionDate">
+	<element id="urn:edrn:CollectionDate" name="CollectionDate">
 		<description>TBD</description>
 	</element>
 
-	<element id="urn:edrn:collectedId" name="collectedId">
+	<element id="urn:edrn:CollectedId" name="CollectedId">
 		<description>TBD</description>
 	</element>
 
-	<element id="urn:edrn:banked" name="banked">
+	<element id="urn:edrn:Banked" name="Banked">
 		<description>TBD</description>
 	</element>
 
@@ -112,11 +112,10 @@
 	<element id="urn:edrn:SPECIMEN_METADATA_USCMethylationRawData" name="SPECIMEN_METADATA_USCMethylationRawData">
 		<description>TBD</description>
 	</element>
-	
 
         <!-- new canary datatype ingestion -->
 
-	<element id="urn:edrn:collectedDate" name="collectedDate">
+	<element id="urn:edrn:CollectedDate" name="CollectedDate">
 		<description>TBD</description>
 	</element>
 

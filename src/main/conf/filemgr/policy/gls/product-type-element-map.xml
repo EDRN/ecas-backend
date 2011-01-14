@@ -17,11 +17,11 @@
   =============================================================================
 -->
 	<type id="urn:edrn:BCCA_Affy6.0RawData" parent="urn:edrn:eCASFile">
-	   <element id="urn:edrn:sampleId"/>
-	   <element id="urn:edrn:subjectId"/>
-	   <element id="urn:edrn:collectionDate"/>
-	   <element id="urn:edrn:collectedId"/>
-	   <element id="urn:edrn:banked"/>
+	   <element id="urn:edrn:SampleId"/>
+	   <element id="urn:edrn:SubjectId"/>
+	   <element id="urn:edrn:CollectionDate"/>
+	   <element id="urn:edrn:CollectedId"/>
+	   <element id="urn:edrn:Banked"/>
 	   <element id="urn:edrn:SpecimenAgeCollectedValue"/>
 	   <element id="urn:edrn:SpecimenCollectionDate"/>
 	   <element id="urn:edrn:SpecimenFreezeThawValue"/>
@@ -49,11 +49,11 @@
 -->
 
 	<type id="urn:edrn:JHU_MitochondrialDNAMutationSummarized" parent="urn:edrn:eCASFile">
-	   <element id="urn:edrn:sampleId"/>
-	   <element id="urn:edrn:subjectId"/>
-	   <element id="urn:edrn:collectionDate"/>
-	   <element id="urn:edrn:collectedId"/>
-	   <element id="urn:edrn:banked"/>
+	   <element id="urn:edrn:SampleId"/>
+	   <element id="urn:edrn:SubjectId"/>
+	   <element id="urn:edrn:CollectionDate"/>
+	   <element id="urn:edrn:CollectedId"/>
+	   <element id="urn:edrn:Banked"/>
 	   <element id="urn:edrn:SpecimenAgeCollectedValue"/>
 	   <element id="urn:edrn:SpecimenCollectionDate"/>
 	   <element id="urn:edrn:SpecimenFreezeThawValue"/>
@@ -81,11 +81,11 @@
 -->
 
 	<type id="urn:edrn:USC_MethylationRawData" parent="urn:edrn:eCASFile">
-	   <element id="urn:edrn:sampleId"/>
-	   <element id="urn:edrn:subjectId"/>
-	   <element id="urn:edrn:collectionDate"/>
-	   <element id="urn:edrn:collectedId"/>
-	   <element id="urn:edrn:banked"/>
+	   <element id="urn:edrn:SampleId"/>
+	   <element id="urn:edrn:SubjectId"/>
+	   <element id="urn:edrn:CollectionDate"/>
+	   <element id="urn:edrn:CollectedId"/>
+	   <element id="urn:edrn:Banked"/>
 	   <element id="urn:edrn:SpecimenAgeCollectedValue"/>
 	   <element id="urn:edrn:SpecimenCollectionDate"/>
 	   <element id="urn:edrn:SpecimenFreezeThawValue"/>
@@ -103,7 +103,7 @@
 	   <element id="urn:edrn:SpecimenTissueTumorNormalText"/>
 	   <element id="urn:edrn:StudyProtocolSpecimenIdSiteText"/>
 	   <element id="urn:edrn:StudySiteSpecimenRecId"/>
-           <element id="urn:edrn:collectedDate"/>
+           <element id="urn:edrn:CollectedDate"/>
            <element id="urn:edrn:SpecimenProcessTimeCollectToFinalCode"/>
            <element id="urn:edrn:SPECIMEN_METADATA_USCMethylationRawData"/>
         </type>
@@ -115,11 +115,11 @@
 -->
 
 	<type id="urn:edrn:FHCRC_ProteomicsAnalyzedData" parent="urn:edrn:eCASFile">
-	   <element id="urn:edrn:sampleId"/>
-	   <element id="urn:edrn:subjectId"/>
-	   <element id="urn:edrn:collectionDate"/>
-	   <element id="urn:edrn:collectedId"/>
-	   <element id="urn:edrn:banked"/>
+	   <element id="urn:edrn:SampleId"/>
+	   <element id="urn:edrn:SubjectId"/>
+	   <element id="urn:edrn:CollectionDate"/>
+	   <element id="urn:edrn:CollectedId"/>
+	   <element id="urn:edrn:Banked"/>
 	   <element id="urn:edrn:SpecimenAgeCollectedValue"/>
 	   <element id="urn:edrn:SpecimenCollectionDate"/>
 	   <element id="urn:edrn:SpecimenFreezeThawValue"/>
@@ -137,7 +137,7 @@
 	   <element id="urn:edrn:SpecimenTissueTumorNormalText"/>
 	   <element id="urn:edrn:StudyProtocolSpecimenIdSiteText"/>
 	   <element id="urn:edrn:StudySiteSpecimenRecId"/>
-           <element id="urn:edrn:collectedDate"/>
+           <element id="urn:edrn:CollectedDate"/>
            <element id="urn:edrn:SpecimenProcessTimeCollectToFinalCode"/>
 	   <element id="urn:edrn:SPECIMEN_METADATA_FHCRCProteomicsAnalyzedData"/>
 	</type>
@@ -149,11 +149,11 @@
 -->
 
 	<type id="urn:edrn:FHCRC_TEWARI_Efficiencies" parent="urn:edrn:eCASFile">
-	   <element id="urn:edrn:sampleId"/>
-	   <element id="urn:edrn:subjectId"/>
-	   <element id="urn:edrn:collectionDate"/>
-	   <element id="urn:edrn:collectedId"/>
-	   <element id="urn:edrn:banked"/>
+	   <element id="urn:edrn:SampleId"/>
+	   <element id="urn:edrn:SubjectId"/>
+	   <element id="urn:edrn:CollectionDate"/>
+	   <element id="urn:edrn:CollectedId"/>
+	   <element id="urn:edrn:Banked"/>
 	   <element id="urn:edrn:SpecimenAgeCollectedValue"/>
 	   <element id="urn:edrn:SpecimenCollectionDate"/>
 	   <element id="urn:edrn:SpecimenFreezeThawValue"/>
@@ -171,7 +171,7 @@
 	   <element id="urn:edrn:SpecimenTissueTumorNormalText"/>
 	   <element id="urn:edrn:StudyProtocolSpecimenIdSiteText"/>
 	   <element id="urn:edrn:StudySiteSpecimenRecId"/>
-           <element id="urn:edrn:collectedDate"/>
+           <element id="urn:edrn:CollectedDate"/>
            <element id="urn:edrn:SpecimenProcessTimeCollectToFinalCode"/>
 	   <element id="urn:edrn:SPECIMEN_METADATA_FHCRC_TEWARI_Efficiencies"/>
 	</type>
@@ -182,11 +182,11 @@
   =============================================================================
 -->
 	<type id="urn:edrn:FHCRC_TEWARI_Raw_Cp_below_NoEnzRT" parent="urn:edrn:eCASFile">
-	   <element id="urn:edrn:sampleId"/>
-	   <element id="urn:edrn:subjectId"/>
-	   <element id="urn:edrn:collectionDate"/>
-	   <element id="urn:edrn:collectedId"/>
-	   <element id="urn:edrn:banked"/>
+	   <element id="urn:edrn:SampleId"/>
+	   <element id="urn:edrn:SubjectId"/>
+	   <element id="urn:edrn:CollectionDate"/>
+	   <element id="urn:edrn:CollectedId"/>
+	   <element id="urn:edrn:Banked"/>
 	   <element id="urn:edrn:SpecimenAgeCollectedValue"/>
 	   <element id="urn:edrn:SpecimenCollectionDate"/>
 	   <element id="urn:edrn:SpecimenFreezeThawValue"/>
@@ -204,7 +204,7 @@
 	   <element id="urn:edrn:SpecimenTissueTumorNormalText"/>
 	   <element id="urn:edrn:StudyProtocolSpecimenIdSiteText"/>
 	   <element id="urn:edrn:StudySiteSpecimenRecId"/>
-           <element id="urn:edrn:collectedDate"/>
+           <element id="urn:edrn:CollectedDate"/>
            <element id="urn:edrn:SpecimenProcessTimeCollectToFinalCode"/>
 	   <element id="urn:edrn:SPECIMEN_METADATA_FHCRC_TEWARI_Cp_below_NoEnzRT"/>
 	</type>
@@ -216,11 +216,11 @@
   =============================================================================
 -->
 	<type id="urn:edrn:FHCRC_TEWARI_Controls" parent="urn:edrn:eCASFile">
-	   <element id="urn:edrn:sampleId"/>
-	   <element id="urn:edrn:subjectId"/>
-	   <element id="urn:edrn:collectionDate"/>
-	   <element id="urn:edrn:collectedId"/>
-	   <element id="urn:edrn:banked"/>
+	   <element id="urn:edrn:SampleId"/>
+	   <element id="urn:edrn:SubjectId"/>
+	   <element id="urn:edrn:CollectionDate"/>
+	   <element id="urn:edrn:CollectedId"/>
+	   <element id="urn:edrn:Banked"/>
 	   <element id="urn:edrn:SpecimenAgeCollectedValue"/>
 	   <element id="urn:edrn:SpecimenCollectionDate"/>
 	   <element id="urn:edrn:SpecimenFreezeThawValue"/>
@@ -238,7 +238,7 @@
 	   <element id="urn:edrn:SpecimenTissueTumorNormalText"/>
 	   <element id="urn:edrn:StudyProtocolSpecimenIdSiteText"/>
 	   <element id="urn:edrn:StudySiteSpecimenRecId"/>
-           <element id="urn:edrn:collectedDate"/>
+           <element id="urn:edrn:CollectedDate"/>
            <element id="urn:edrn:SpecimenProcessTimeCollectToFinalCode"/>
 	   <element id="urn:edrn:SPECIMEN_METADATA_FHCRC_TEWARI_Controls"/>
 	</type>
@@ -249,11 +249,11 @@
   =============================================================================
 -->
 	<type id="urn:edrn:FHCRC_TEWARI_Raw_Cp_All" parent="urn:edrn:eCASFile">
-	   <element id="urn:edrn:sampleId"/>
-	   <element id="urn:edrn:subjectId"/>
-	   <element id="urn:edrn:collectionDate"/>
-	   <element id="urn:edrn:collectedId"/>
-	   <element id="urn:edrn:banked"/>
+	   <element id="urn:edrn:SampleId"/>
+	   <element id="urn:edrn:SubjectId"/>
+	   <element id="urn:edrn:CollectionDate"/>
+	   <element id="urn:edrn:CollectedId"/>
+	   <element id="urn:edrn:Banked"/>
 	   <element id="urn:edrn:SpecimenAgeCollectedValue"/>
 	   <element id="urn:edrn:SpecimenCollectionDate"/>
 	   <element id="urn:edrn:SpecimenFreezeThawValue"/>
@@ -271,7 +271,7 @@
 	   <element id="urn:edrn:SpecimenTissueTumorNormalText"/>
 	   <element id="urn:edrn:StudyProtocolSpecimenIdSiteText"/>
 	   <element id="urn:edrn:StudySiteSpecimenRecId"/>
-           <element id="urn:edrn:collectedDate"/>
+           <element id="urn:edrn:CollectedDate"/>
            <element id="urn:edrn:SpecimenProcessTimeCollectToFinalCode"/>
 	   <element id="urn:edrn:SPECIMEN_METADATA_FHCRC_TEWARI_Cp_All"/>
 	</type>
@@ -282,11 +282,11 @@
   =============================================================================
 -->
 	<type id="urn:edrn:UTSW_CopyNumberData" parent="urn:edrn:eCASFile">
-	   <element id="urn:edrn:sampleId"/>
-	   <element id="urn:edrn:subjectId"/>
-	   <element id="urn:edrn:collectionDate"/>
-	   <element id="urn:edrn:collectedId"/>
-	   <element id="urn:edrn:banked"/>
+	   <element id="urn:edrn:SampleId"/>
+	   <element id="urn:edrn:SubjectId"/>
+	   <element id="urn:edrn:CollectionDate"/>
+	   <element id="urn:edrn:CollectedId"/>
+	   <element id="urn:edrn:Banked"/>
 	   <element id="urn:edrn:SpecimenAgeCollectedValue"/>
 	   <element id="urn:edrn:SpecimenCollectionDate"/>
 	   <element id="urn:edrn:SpecimenFreezeThawValue"/>
@@ -304,7 +304,7 @@
 	   <element id="urn:edrn:SpecimenTissueTumorNormalText"/>
 	   <element id="urn:edrn:StudyProtocolSpecimenIdSiteText"/>
 	   <element id="urn:edrn:StudySiteSpecimenRecId"/>
-           <element id="urn:edrn:collectedDate"/>
+           <element id="urn:edrn:CollectedDate"/>
            <element id="urn:edrn:SpecimenProcessTimeCollectToFinalCode"/>
 	   <element id="urn:edrn:SPECIMEN_METADATA_UTSW_CopyNumberData"/>
 	</type>
@@ -316,11 +316,11 @@
   =============================================================================
 -->
 	<type id="urn:edrn:UTSW_MutationData" parent="urn:edrn:eCASFile">
-	   <element id="urn:edrn:sampleId"/>
-	   <element id="urn:edrn:subjectId"/>
-	   <element id="urn:edrn:collectionDate"/>
-	   <element id="urn:edrn:collectedId"/>
-	   <element id="urn:edrn:banked"/>
+	   <element id="urn:edrn:SampleId"/>
+	   <element id="urn:edrn:SubjectId"/>
+	   <element id="urn:edrn:CollectionDate"/>
+	   <element id="urn:edrn:CollectedId"/>
+	   <element id="urn:edrn:Banked"/>
 	   <element id="urn:edrn:SpecimenAgeCollectedValue"/>
 	   <element id="urn:edrn:SpecimenCollectionDate"/>
 	   <element id="urn:edrn:SpecimenFreezeThawValue"/>
@@ -338,7 +338,7 @@
 	   <element id="urn:edrn:SpecimenTissueTumorNormalText"/>
 	   <element id="urn:edrn:StudyProtocolSpecimenIdSiteText"/>
 	   <element id="urn:edrn:StudySiteSpecimenRecId"/>
-           <element id="urn:edrn:collectedDate"/>
+           <element id="urn:edrn:CollectedDate"/>
            <element id="urn:edrn:SpecimenProcessTimeCollectToFinalCode"/>
 	   <element id="urn:edrn:SPECIMEN_METADATA_UTSW_MutationData"/>
 	</type>
@@ -350,11 +350,11 @@
 -->
 
 	<type id="urn:edrn:UTSW_GeneExpressionAnalyzedData" parent="urn:edrn:eCASFile">
-	   <element id="urn:edrn:sampleId"/>
-	   <element id="urn:edrn:subjectId"/>
-	   <element id="urn:edrn:collectionDate"/>
-	   <element id="urn:edrn:collectedId"/>
-	   <element id="urn:edrn:banked"/>
+	   <element id="urn:edrn:SampleId"/>
+	   <element id="urn:edrn:SubjectId"/>
+	   <element id="urn:edrn:CollectionDate"/>
+	   <element id="urn:edrn:CollectedId"/>
+	   <element id="urn:edrn:Banked"/>
 	   <element id="urn:edrn:SpecimenAgeCollectedValue"/>
 	   <element id="urn:edrn:SpecimenCollectionDate"/>
 	   <element id="urn:edrn:SpecimenFreezeThawValue"/>
@@ -372,7 +372,7 @@
 	   <element id="urn:edrn:SpecimenTissueTumorNormalText"/>
 	   <element id="urn:edrn:StudyProtocolSpecimenIdSiteText"/>
 	   <element id="urn:edrn:StudySiteSpecimenRecId"/>
-           <element id="urn:edrn:collectedDate"/>
+           <element id="urn:edrn:CollectedDate"/>
            <element id="urn:edrn:SpecimenProcessTimeCollectToFinalCode"/>
 	</type>
 
@@ -383,11 +383,11 @@
 -->
 
 	<type id="urn:edrn:UTSW_GeneExpressionRawDataZipped" parent="urn:edrn:eCASFile">
-	   <element id="urn:edrn:sampleId"/>
-	   <element id="urn:edrn:subjectId"/>
-	   <element id="urn:edrn:collectionDate"/>
-	   <element id="urn:edrn:collectedId"/>
-	   <element id="urn:edrn:banked"/>
+	   <element id="urn:edrn:SampleId"/>
+	   <element id="urn:edrn:SubjectId"/>
+	   <element id="urn:edrn:CollectionDate"/>
+	   <element id="urn:edrn:CollectedId"/>
+	   <element id="urn:edrn:Banked"/>
 	   <element id="urn:edrn:SpecimenAgeCollectedValue"/>
 	   <element id="urn:edrn:SpecimenCollectionDate"/>
 	   <element id="urn:edrn:SpecimenFreezeThawValue"/>
@@ -405,7 +405,7 @@
 	   <element id="urn:edrn:SpecimenTissueTumorNormalText"/>
 	   <element id="urn:edrn:StudyProtocolSpecimenIdSiteText"/>
 	   <element id="urn:edrn:StudySiteSpecimenRecId"/>
-           <element id="urn:edrn:collectedDate"/>
+           <element id="urn:edrn:CollectedDate"/>
            <element id="urn:edrn:SpecimenProcessTimeCollectToFinalCode"/>	
 	   <element id="urn:edrn:SPECIMEN_METADATA_GeneExpressionRawDataZipped"/>
         </type>

@@ -17,7 +17,6 @@
   =============================================================================
 -->
 
-<!--
   <type id="urn:edrn:BCCA_Affy6.0RawData" 
         name="BCCA_Affy6.0RawData">
    <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
@@ -115,8 +114,6 @@
       </keyval>
     </metadata>
   </type> 
-
--->
 
 <!--
   =============================================================================
@@ -231,7 +228,6 @@
   =============================================================================
 -->
 
-<!--
   <type id="urn:edrn:JHU_MitochondrialDNAMutationSummarized" 
         name="JHU_MitochondrialDNAMutationSummarized">
    <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
@@ -330,7 +326,6 @@
     </metadata>
   </type>  
 
--->
 
 <!--
   =============================================================================
@@ -338,7 +333,6 @@
   =============================================================================
 -->
 
-<!--
   <type id="urn:edrn:USC_MethylationRawData" 
         name="USC_MethylationRawData">
    <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
@@ -436,7 +430,6 @@
       </keyval>
     </metadata>
   </type> 
--->
 
 
 <!--
@@ -580,25 +573,25 @@
     -->
 
     <keyval>
-      <key>studyName</key>
+      <key>StudyName</key>
       <val>Canary Never Smokers</val>
     </keyval>
     <keyval>
-      <key>studyId</key>
+      <key>StudyId</key>
 
       <val>173</val>
     </keyval>
     <keyval>
-      <key>investigatorName</key>
+      <key>InvestigatorName</key>
       <val>Dr. Adi Gazdar</val>
     </keyval>
     <keyval>
 
-      <key>description</key>
+      <key>Description</key>
       <val>40 NSCLC cell lines / 83 lung adenocarcinoma tumor pairs</val>
     </keyval>
     <keyval>
-      <key>technology</key>
+      <key>Technology</key>
       <val>Applied Biosystems GeneAmp PCR System 9700 instrument</val>
       <val>Applied Biosystems Big Dye Terminator 3.1 chemistry and AB capillary instrumentation</val>
 
@@ -606,19 +599,15 @@
       <val>Bio-Rad Experion Bioanalyzer</val>
       <val>Illumina iScan</val>
     </keyval>
-    <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
 
-    </keyval>
     <keyval>
-      <key>dataCustodian</key>
+      <key>DataCustodian</key>
       <val>Wei Zhang &lt;Wei1.zhang@utsouthwestern.edu&gt;</val>
       <val>Luc Girard &lt;luc.girard@utsouthwestern.edu</val>
     </keyval>
 
     <keyval>
-      <key>methodDetails</key>
+      <key>MethodDetails</key>
       <val>Cell lines: 
 
 Forty NSCLC cell lines from Dr. Adi Gazdar's lab  were studied. Among them, twenty were obtained from never or light smokers (defined as less than or equal to 15 pack year smoking history), and twenty from heavy smokers (defined as smokers who had more than or equal to 30 pack year smoking history.)
@@ -645,7 +634,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 </val>
     </keyval>
     <keyval>
-      <key>instrumentDetails</key>
+      <key>InstrumentDetails</key>
 
       <val>Applied Biosystems GeneAmp PCR System 9700 instrument</val>
       <val>Applied Biosystems Big Dye Terminator 3.1 chemistry and AB capillary instrumentation</val>
@@ -655,14 +644,14 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     </keyval>
 
     <keyval>
-      <key>recommendedSoftware</key>
+      <key>RecommendedSoftware</key>
       <val>MJ opticon monitor 3 analysis software</val>
       <val>Finch TV version 1.4.0</val>
       <val>R-Bioconductor, BRB-Array Tools, etc.</val>
     </keyval>
     <keyval>
 
-      <key>specimenType</key>
+      <key>SpecimenType</key>
       <val>NCSC Cell Lines and lung tumor samples</val>
     </keyval>
   </metadata>
@@ -809,48 +798,44 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     -->
 
     <keyval>
-      <key>studyName</key>
+      <key>StudyName</key>
       <val>Canary Never Smokers</val>
     </keyval>
     <keyval>
-      <key>studyId</key>
+      <key>StudyId</key>
 
       <val>173</val>
     </keyval>
     <keyval>
-      <key>investigatorName</key>
+      <key>InvestigatorName</key>
       <val>Muneesh Tewari</val>
     </keyval>
     <keyval>
 
-      <key>description</key>
+      <key>Description</key>
       <val>Exiqon microRNA PCR Human Panel I+II, V1 April-May 2010</val>
     </keyval>
     <keyval>
-      <key>technology</key>
+      <key>Technology</key>
       <val>Roche Light Cycler 480</val>
     </keyval>
 
     <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
-    </keyval>
-    <keyval>
-      <key>dataCustodian</key>
+      <key>DataCustodian</key>
       <val></val>
 
     </keyval>
     <keyval>
-      <key>methodDetails</key>
+      <key>MethodDetails</key>
       <val>microRNA PCR</val>
     </keyval>
     <keyval>
-      <key>instrumentDetails</key>
+      <key>InstrumentDetails</key>
 
       <val>Roche Light Cycler 480</val>
     </keyval>
     <keyval>
-      <key>specimenType</key>
+      <key>SpecimenType</key>
       <val>microRNA PCR</val>
     </keyval>
   </metadata>
@@ -997,48 +982,44 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     -->
 
     <keyval>
-      <key>studyName</key>
+      <key>StudyName</key>
       <val>Canary Never Smokers</val>
     </keyval>
     <keyval>
-      <key>studyId</key>
+      <key>StudyId</key>
 
       <val>173</val>
     </keyval>
     <keyval>
-      <key>investigatorName</key>
+      <key>InvestigatorName</key>
       <val>Muneesh Tewari</val>
     </keyval>
     <keyval>
 
-      <key>description</key>
+      <key>Description</key>
       <val>Exiqon microRNA PCR Human Panel I+II, V1 April-May 2010</val>
     </keyval>
     <keyval>
-      <key>technology</key>
+      <key>Technology</key>
       <val>Roche Light Cycler 480</val>
     </keyval>
 
     <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
-    </keyval>
-    <keyval>
-      <key>dataCustodian</key>
+      <key>DataCustodian</key>
       <val></val>
 
     </keyval>
     <keyval>
-      <key>methodDetails</key>
+      <key>MethodDetails</key>
       <val>microRNA PCR</val>
     </keyval>
     <keyval>
-      <key>instrumentDetails</key>
+      <key>InstrumentDetails</key>
 
       <val>Roche Light Cycler 480</val>
     </keyval>
     <keyval>
-      <key>specimenType</key>
+      <key>SpecimenType</key>
       <val>microRNA PCR</val>
     </keyval>
   </metadata>
@@ -1186,25 +1167,25 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     -->
 
     <keyval>
-      <key>studyName</key>
+      <key>StudyName</key>
       <val>Canary Never Smokers</val>
     </keyval>
     <keyval>
-      <key>studyId</key>
+      <key>StudyId</key>
 
       <val>173</val>
     </keyval>
     <keyval>
-      <key>investigatorName</key>
+      <key>InvestigatorName</key>
       <val>Dr. Adi Gazdar</val>
     </keyval>
     <keyval>
 
-      <key>description</key>
+      <key>Description</key>
       <val>40 NSCLC cell lines / 83 lung adenocarcinoma tumor pairs</val>
     </keyval>
     <keyval>
-      <key>technology</key>
+      <key>Technology</key>
       <val>Applied Biosystems GeneAmp PCR System 9700 instrument</val>
       <val>Applied Biosystems Big Dye Terminator 3.1 chemistry and AB capillary instrumentation</val>
 
@@ -1212,19 +1193,15 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
       <val>Bio-Rad Experion Bioanalyzer</val>
       <val>Illumina iScan</val>
     </keyval>
-    <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
 
-    </keyval>
     <keyval>
-      <key>dataCustodian</key>
+      <key>DataCustodian</key>
       <val>Wei Zhang &lt;Wei1.zhang@utsouthwestern.edu&gt;</val>
       <val>Luc Girard &lt;luc.girard@utsouthwestern.edu</val>
     </keyval>
 
     <keyval>
-      <key>methodDetails</key>
+      <key>MethodDetails</key>
       <val>Cell lines: 
 
 Forty NSCLC cell lines from Dr. Adi Gazdar's lab  were studied. Among them, twenty were obtained from never or light smokers (defined as less than or equal to 15 pack year smoking history), and twenty from heavy smokers (defined as smokers who had more than or equal to 30 pack year smoking history.)
@@ -1251,7 +1228,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 </val>
     </keyval>
     <keyval>
-      <key>instrumentDetails</key>
+      <key>InstrumentDetails</key>
 
       <val>Applied Biosystems GeneAmp PCR System 9700 instrument</val>
       <val>Applied Biosystems Big Dye Terminator 3.1 chemistry and AB capillary instrumentation</val>
@@ -1261,14 +1238,14 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     </keyval>
 
     <keyval>
-      <key>recommendedSoftware</key>
+      <key>RecommendedSoftware</key>
       <val>MJ opticon monitor 3 analysis software</val>
       <val>Finch TV version 1.4.0</val>
       <val>R-Bioconductor, BRB-Array Tools, etc.</val>
     </keyval>
     <keyval>
 
-      <key>specimenType</key>
+      <key>SpecimenType</key>
       <val>NCSC Cell Lines and lung tumor samples</val>
     </keyval>
   </metadata>
@@ -1416,25 +1393,25 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     -->
 
     <keyval>
-      <key>studyName</key>
+      <key>StudyName</key>
       <val>Canary Never Smokers</val>
     </keyval>
     <keyval>
-      <key>studyId</key>
+      <key>StudyId</key>
 
       <val>173</val>
     </keyval>
     <keyval>
-      <key>investigatorName</key>
+      <key>InvestigatorName</key>
       <val>Dr. Adi Gazdar</val>
     </keyval>
     <keyval>
 
-      <key>description</key>
+      <key>Description</key>
       <val>40 NSCLC cell lines / 83 lung adenocarcinoma tumor pairs</val>
     </keyval>
     <keyval>
-      <key>technology</key>
+      <key>Technology</key>
       <val>Applied Biosystems GeneAmp PCR System 9700 instrument</val>
       <val>Applied Biosystems Big Dye Terminator 3.1 chemistry and AB capillary instrumentation</val>
 
@@ -1443,18 +1420,13 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
       <val>Illumina iScan</val>
     </keyval>
     <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
-
-    </keyval>
-    <keyval>
-      <key>dataCustodian</key>
+      <key>DataCustodian</key>
       <val>Wei Zhang &lt;Wei1.zhang@utsouthwestern.edu&gt;</val>
       <val>Luc Girard &lt;luc.girard@utsouthwestern.edu</val>
     </keyval>
 
     <keyval>
-      <key>methodDetails</key>
+      <key>MethodDetails</key>
       <val>Cell lines: 
 
 Forty NSCLC cell lines from Dr. Adi Gazdar's lab  were studied. Among them, twenty were obtained from never or light smokers (defined as less than or equal to 15 pack year smoking history), and twenty from heavy smokers (defined as smokers who had more than or equal to 30 pack year smoking history.)
@@ -1481,7 +1453,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 </val>
     </keyval>
     <keyval>
-      <key>instrumentDetails</key>
+      <key>InstrumentDetails</key>
 
       <val>Applied Biosystems GeneAmp PCR System 9700 instrument</val>
       <val>Applied Biosystems Big Dye Terminator 3.1 chemistry and AB capillary instrumentation</val>
@@ -1491,14 +1463,14 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     </keyval>
 
     <keyval>
-      <key>recommendedSoftware</key>
+      <key>RecommendedSoftware</key>
       <val>MJ opticon monitor 3 analysis software</val>
       <val>Finch TV version 1.4.0</val>
       <val>R-Bioconductor, BRB-Array Tools, etc.</val>
     </keyval>
     <keyval>
 
-      <key>specimenType</key>
+      <key>SpecimenType</key>
       <val>NCSC Cell Lines and lung tumor samples</val>
     </keyval>
   </metadata>
@@ -1644,48 +1616,44 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     -->
 
     <keyval>
-      <key>studyName</key>
+      <key>StudyName</key>
       <val>Canary Never Smokers</val>
     </keyval>
     <keyval>
-      <key>studyId</key>
+      <key>StudyId</key>
 
       <val>173</val>
     </keyval>
     <keyval>
-      <key>investigatorName</key>
+      <key>InvestigatorName</key>
       <val>Muneesh Tewari</val>
     </keyval>
     <keyval>
 
-      <key>description</key>
+      <key>Description</key>
       <val>Exiqon microRNA PCR Human Panel I+II, V1 April-May 2010</val>
     </keyval>
     <keyval>
-      <key>technology</key>
+      <key>Technology</key>
       <val>Roche Light Cycler 480</val>
     </keyval>
 
     <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
-    </keyval>
-    <keyval>
-      <key>dataCustodian</key>
+      <key>DataCustodian</key>
       <val></val>
 
     </keyval>
     <keyval>
-      <key>methodDetails</key>
+      <key>MethodDetails</key>
       <val>microRNA PCR</val>
     </keyval>
     <keyval>
-      <key>instrumentDetails</key>
+      <key>InstrumentDetails</key>
 
       <val>Roche Light Cycler 480</val>
     </keyval>
     <keyval>
-      <key>specimenType</key>
+      <key>SpecimenType</key>
       <val>microRNA PCR</val>
     </keyval>
   </metadata>
@@ -1833,48 +1801,44 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     -->
 
     <keyval>
-      <key>studyName</key>
+      <key>StudyName</key>
       <val>Canary Never Smokers</val>
     </keyval>
     <keyval>
-      <key>studyId</key>
+      <key>StudyId</key>
 
       <val>173</val>
     </keyval>
     <keyval>
-      <key>investigatorName</key>
+      <key>InvestigatorName</key>
       <val>Muneesh Tewari</val>
     </keyval>
     <keyval>
 
-      <key>description</key>
+      <key>Description</key>
       <val>Exiqon microRNA PCR Human Panel I+II, V1 April-May 2010</val>
     </keyval>
     <keyval>
-      <key>technology</key>
+      <key>Technology</key>
       <val>Roche Light Cycler 480</val>
     </keyval>
 
     <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
-    </keyval>
-    <keyval>
-      <key>dataCustodian</key>
+      <key>DataCustodian</key>
       <val></val>
 
     </keyval>
     <keyval>
-      <key>methodDetails</key>
+      <key>MethodDetails</key>
       <val>microRNA PCR</val>
     </keyval>
     <keyval>
-      <key>instrumentDetails</key>
+      <key>InstrumentDetails</key>
 
       <val>Roche Light Cycler 480</val>
     </keyval>
     <keyval>
-      <key>specimenType</key>
+      <key>SpecimenType</key>
       <val>microRNA PCR</val>
     </keyval>
   </metadata>
@@ -2024,25 +1988,25 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     -->
 
     <keyval>
-      <key>studyName</key>
+      <key>StudyName</key>
       <val>Canary Never Smokers</val>
     </keyval>
     <keyval>
-      <key>studyId</key>
+      <key>StudyId</key>
 
       <val>173</val>
     </keyval>
     <keyval>
-      <key>investigatorName</key>
+      <key>InvestigatorName</key>
       <val>Dr. Adi Gazdar</val>
     </keyval>
     <keyval>
 
-      <key>description</key>
+      <key>Description</key>
       <val>40 NSCLC cell lines / 83 lung adenocarcinoma tumor pairs</val>
     </keyval>
     <keyval>
-      <key>technology</key>
+      <key>Technology</key>
       <val>Applied Biosystems GeneAmp PCR System 9700 instrument</val>
       <val>Applied Biosystems Big Dye Terminator 3.1 chemistry and AB capillary instrumentation</val>
 
@@ -2051,18 +2015,13 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
       <val>Illumina iScan</val>
     </keyval>
     <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
-
-    </keyval>
-    <keyval>
-      <key>dataCustodian</key>
+      <key>DataCustodian</key>
       <val>Wei Zhang &lt;Wei1.zhang@utsouthwestern.edu&gt;</val>
       <val>Luc Girard &lt;luc.girard@utsouthwestern.edu</val>
     </keyval>
 
     <keyval>
-      <key>methodDetails</key>
+      <key>MethodDetails</key>
       <val>Cell lines: 
 
 Forty NSCLC cell lines from Dr. Adi Gazdar's lab  were studied. Among them, twenty were obtained from never or light smokers (defined as less than or equal to 15 pack year smoking history), and twenty from heavy smokers (defined as smokers who had more than or equal to 30 pack year smoking history.)
@@ -2089,7 +2048,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 </val>
     </keyval>
     <keyval>
-      <key>instrumentDetails</key>
+      <key>InstrumentDetails</key>
 
       <val>Applied Biosystems GeneAmp PCR System 9700 instrument</val>
       <val>Applied Biosystems Big Dye Terminator 3.1 chemistry and AB capillary instrumentation</val>
@@ -2099,14 +2058,14 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     </keyval>
 
     <keyval>
-      <key>recommendedSoftware</key>
+      <key>RecommendedSoftware</key>
       <val>MJ opticon monitor 3 analysis software</val>
       <val>Finch TV version 1.4.0</val>
       <val>R-Bioconductor, BRB-Array Tools, etc.</val>
     </keyval>
     <keyval>
 
-      <key>specimenType</key>
+      <key>SpecimenType</key>
       <val>NCSC Cell Lines and lung tumor samples</val>
     </keyval>
   </metadata>

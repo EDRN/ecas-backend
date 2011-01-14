@@ -1,6 +1,32 @@
 EDRN JIRA site: http://oodt.jpl.nasa.gov/jira/browse/CA
 
 
+Release Notes - Early Detection of Cancer - Version eCAS Backend beta 0.4.9.2 release - 01/14/2011
+
+
+** Bug
+    * [CA-730] - commit code gls policy files on tumor
+
+
+** New Feature
+    * [CA-701] - Create product type config file for new GLS dataset UTSW_CopyNumberData
+    * [CA-705] - Create product type config file for new GLS dataset UTSW_GeneExpressionAnalyzedData
+    * [CA-706] - Create product type config file for new GLS dataset UTSW_GeneExpressionRawDataZipped
+    * [CA-707] - Create product type config file for new GLS dataset UTSW_MutationData
+    * [CA-708] - Create product type config file for new GLS dataset FHCRC_TEWARI_RawCpbelowNoEnzRT
+    * [CA-709] - Create product type config file for new GLS dataset FHCRC_TEWARI_RawCpAll
+    * [CA-710] - Create product type config file for new GLS dataset FHCRC_TEWARI_Controls
+    * [CA-711] - Create product type config file for new GLS dataset FHCRC_TEWARI_Efficiencies
+    * [CA-713] - Check in GLS prepare wrapper script
+
+** Task
+    * [CA-626] - Ingest Genologics data into eCAS
+    * [CA-651] - Set QAState to accepted for Alvin Liu data and for SELDI data
+
+
+
+
+
 
 Release Notes - Early Detection of Cancer - Version eCAS Backend beta 0.4.9.1 release - 05/27/2010
 
