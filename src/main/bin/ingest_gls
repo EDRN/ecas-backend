@@ -1,22 +1,21 @@
-## this script should be running out of the crawler directory
-## make sure that tumor can access /data/ingest/canary/* same copy as on 
-## tumor -- also productypes, elements, and maps should be commited to SVN
-## and FM is bounced on cancer
+#!/bin/tcsh
+# Copyright (c) 2011 California Institute of Technology.
+# ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+#
+# $Id$
+# 
+# Author: jtran
+# Description: This script should be run out of the crawler directory.
+# Make sure that you can access /data/ingest/canary/* from 
+# tumor -- also product types, elements, and ptype-element-map should be committed to SVN
+# the FM should be bounced on cancer
 
 ./crawler_launcher -cid StdProductCrawler -pp /data/ingest/canary/FHCRC_TEWARIControls -fm http://localhost:9000 -ct gov.nasa.jpl.oodt.cas.filemgr.datatransfer.LocalDataTransferFactory -mfx xml 
-
 ./crawler_launcher -cid StdProductCrawler -pp /data/ingest/canary/FHCRC_TEWARIEfficiencies -fm http://localhost:9000 -ct gov.nasa.jpl.oodt.cas.filemgr.datatransfer.LocalDataTransferFactory -mfx xml 
-
 ./crawler_launcher -cid StdProductCrawler -pp /data/ingest/canary/FHCRC_TEWARIRaw_Cp_All -fm http://localhost:9000 -ct gov.nasa.jpl.oodt.cas.filemgr.datatransfer.LocalDataTransferFactory -mfx xml 
-
 ./crawler_launcher -cid StdProductCrawler -pp /data/ingest/canary/FHCRC_TEWARIRaw_Cp_below_NoEnzRT -fm http://localhost:9000 -ct gov.nasa.jpl.oodt.cas.filemgr.datatransfer.LocalDataTransferFactory -mfx xml 
-
 ./crawler_launcher -cid StdProductCrawler -pp /data/ingest/canary/UTSW_CopyNumberData -fm http://localhost:9000 -ct gov.nasa.jpl.oodt.cas.filemgr.datatransfer.LocalDataTransferFactory -mfx xml 
-
 ./crawler_launcher -cid StdProductCrawler -pp /data/ingest/canary/UTSW_MutationData -fm http://localhost:9000 -ct gov.nasa.jpl.oodt.cas.filemgr.datatransfer.LocalDataTransferFactory -mfx xml 
-
 ./crawler_launcher -cid StdProductCrawler -pp /data/ingest/canary/UTSW_GeneExpressionAnalyzedData -fm http://localhost:9000 -ct gov.nasa.jpl.oodt.cas.filemgr.datatransfer.LocalDataTransferFactory -mfx xml 
-
 ./crawler_launcher -cid StdProductCrawler -pp /data/ingest/canary/UTSW_GeneExpressionRawDataZipped/ -fm http://localhost:9000 -ct gov.nasa.jpl.oodt.cas.filemgr.datatransfer.LocalDataTransferFactory -mfx xml 
-
 ./crawler_launcher -cid StdProductCrawler -pp /data/ingest/canary/FHCRC_ProteomicsAnalyzedData/metadata/ -fm http://localhost:9000 -ct gov.nasa.jpl.oodt.cas.filemgr.datatransfer.LocalDataTransferFactory -mfx xml 
