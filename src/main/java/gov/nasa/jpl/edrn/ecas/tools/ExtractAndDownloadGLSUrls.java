@@ -6,8 +6,9 @@
 package gov.nasa.jpl.edrn.ecas.tools;
 
 //OODT imports
-import gov.nasa.jpl.oodt.cas.metadata.Metadata;
-import gov.nasa.jpl.oodt.cas.metadata.util.PathUtils;
+import org.apache.oodt.cas.metadata.Metadata;
+import org.apache.oodt.cas.metadata.SerializableMetadata;
+import org.apache.oodt.cas.metadata.util.PathUtils;
 
 //JDK imports
 import java.io.File;
@@ -52,7 +53,7 @@ public class ExtractAndDownloadGLSUrls {
 
     File[] glsMetFiles = new File(glsMetDir).listFiles();
     for (File glsMetFile : glsMetFiles) {
-      Metadata met = new Metadata(new FileInputStream(glsMetFile));
+      Metadata met = new SerializableMetadata(new FileInputStream(glsMetFile));
       // compute target path
       String targetPathSpec = "/[FileLocation]/[subjectId]/[Filename]";
       String targetPathMetSpec = "/[FileLocation]/[subjectId]/[Filename].met";

@@ -15,13 +15,13 @@
 
   <type id="urn:edrn:FHCRCHanashAnnexinLamr" 
         name="FHCRCHanashAnnexinLamr">
-   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
     <description>We have implemented a high throughput platform for quantitative analysis of serum autoantibodies, which we have applied to lung cancer for discovery of novel antigens and for validation in prediagnostic sera of autoantibodies to antigens previously defined based on analysis of sera collected at the time of diagnosis. RESULTS: We present evidence for the occurrence in lung cancer sera of autoantibodies to annexin I, 14-3-3 theta, and a novel lung cancer antigen, LAMR1, which precede onset of symptoms and diagnosis. </description>
  	<!--  cut and paste job for the most part... -->
     <metExtractors>
       <extractor
-        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
         <configuration>
           <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
           <property name="nsAware" value="true" />
@@ -30,6 +30,16 @@
             value="ProductReceivedTime,ProductName,ProductId" />
         </configuration>
       </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
     </metExtractors>
     <!--  fixed for all products of this type = ecas + esis meta excel spreadsheet -->
     <metadata>

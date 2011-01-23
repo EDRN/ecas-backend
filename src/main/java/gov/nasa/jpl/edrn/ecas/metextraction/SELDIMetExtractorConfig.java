@@ -11,8 +11,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 //OODT imports
-import gov.nasa.jpl.oodt.cas.metadata.MetExtractorConfig;
-import gov.nasa.jpl.oodt.cas.metadata.Metadata;
+import org.apache.oodt.cas.metadata.MetExtractorConfig;
+import org.apache.oodt.cas.metadata.Metadata;
 
 /**
  * @author mattmann

@@ -19,13 +19,13 @@
 
   <type id="urn:edrn:WSUCellularSequencingUnprocessed" 
         name="WSUCellularSequencingUnprocessed">
-   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
     <description>Cellular Sequencing Normalized data from Dr. Tainsky's lab at Wayne State University.</description>
  	<!--  cut and paste job for the most part... -->
     <metExtractors>
       <extractor
-        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
         <configuration>
           <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
           <property name="nsAware" value="true" />
@@ -34,6 +34,16 @@
             value="ProductReceivedTime,ProductName,ProductId" />
         </configuration>
       </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
     </metExtractors>
     <!--  fixed for all products of this type = ecas + esis meta excel spreadsheet -->
     <metadata>
@@ -134,13 +144,13 @@
   
   <type id="urn:edrn:WSUCellularSequencingNormalized" 
         name="WSUCellularSequencingNormalized">
-   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
    
    <description>Cellular Sequencing Normalized data from Dr. Tainsky's lab at Wayne State University</description>
     <metExtractors>
       <extractor
-        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
         <configuration>
           <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
           <property name="nsAware" value="true" />
@@ -149,6 +159,16 @@
             value="ProductReceivedTime,ProductName,ProductId" />
         </configuration>
       </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
     </metExtractors>
     <metadata>
       <keyval>
@@ -247,8 +267,8 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
   
   <type id="urn:edrn:UPittWHIMassSpecProcessedData" 
         name="UPittWHIMassSpecProcessedData">
-   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
    <description>We processed individual and pooled samples through two mass spectrometry profiling platforms, 
    Ciphergen Protein Chip reader PBScII, and Bruker Ultraflex TOF-TOF. Three analytical protocols were used, 
    HMW with SPA matrix, LMW with CHCA matrix and LMW with SPA matrix. Each sample was run in duplicate. We used 
@@ -270,7 +290,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
    </description>
     <metExtractors>
       <extractor
-        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
         <configuration>
           <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
           <property name="nsAware" value="true" />
@@ -279,6 +299,16 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
             value="ProductReceivedTime,ProductName,ProductId" />
         </configuration>
       </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
     </metExtractors>
     <metadata>
       <keyval>
@@ -377,8 +407,8 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
   
   <type id="urn:edrn:UPittWHIMassSpecUnprocessedIndividualData" 
         name="UPittWHIMassSpecUnprocessedIndividualData">
-   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
    <description>Individual samples through two mass spectrometry profiling platforms, 
    Ciphergen Protein Chip reader PBScII, and Bruker Ultraflex TOF-TOF. Three analytical protocols were used, 
    HMW with SPA matrix, LMW with CHCA matrix and LMW with SPA matrix. Each sample was run in duplicate. We used 
@@ -400,7 +430,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
    </description>
     <metExtractors>
       <extractor
-        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
         <configuration>
           <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
           <property name="nsAware" value="true" />
@@ -409,6 +439,16 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
             value="ProductReceivedTime,ProductName,ProductId" />
         </configuration>
       </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
     </metExtractors>
     <metadata>
       <keyval>
@@ -507,8 +547,8 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
   
   <type id="urn:edrn:UPittWHIMassSpecUnprocessedPooledData" 
         name="UPittWHIMassSpecUnprocessedPooledData">
-   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
    <description>Pooled samples through two mass spectrometry profiling platforms, 
    Ciphergen Protein Chip reader PBScII, and Bruker Ultraflex TOF-TOF. Three analytical protocols were used, 
    HMW with SPA matrix, LMW with CHCA matrix and LMW with SPA matrix. Each sample was run in duplicate. We used 
@@ -530,7 +570,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
    </description>
     <metExtractors>
       <extractor
-        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
         <configuration>
           <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
           <property name="nsAware" value="true" />
@@ -539,6 +579,16 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
             value="ProductReceivedTime,ProductName,ProductId" />
         </configuration>
       </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
     </metExtractors>
     <metadata>
       <keyval>
@@ -637,8 +687,8 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
   
   <type id="urn:edrn:UPittWHIMassSpecUnprocessedCalibratedIndividualData" 
         name="UPittWHIMassSpecUnprocessedCalibratedIndividualData">
-   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
    <description>Calibrated individual samples through two mass spectrometry profiling platforms, 
    Ciphergen Protein Chip reader PBScII, and Bruker Ultraflex TOF-TOF. Three analytical protocols were used, 
    HMW with SPA matrix, LMW with CHCA matrix and LMW with SPA matrix. Each sample was run in duplicate. We used 
@@ -660,7 +710,7 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
    </description>
     <metExtractors>
       <extractor
-        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
         <configuration>
           <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
           <property name="nsAware" value="true" />
@@ -669,6 +719,16 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
             value="ProductReceivedTime,ProductName,ProductId" />
         </configuration>
       </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
     </metExtractors>
     <metadata>
       <keyval>
@@ -766,12 +826,12 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
   <!--  Dan Chan -->
    <type id="urn:edrn:JohnsHopkinsDanChan" 
         name="JohnsHopkinsDanChan">
-   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
    <description>TBD</description>
     <metExtractors>
       <extractor
-        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
         <configuration>
           <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
           <property name="nsAware" value="true" />
@@ -780,6 +840,16 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
             value="ProductReceivedTime,ProductName,ProductId" />
         </configuration>
       </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
     </metExtractors>
     <metadata>
       <keyval>

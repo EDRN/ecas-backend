@@ -11,8 +11,8 @@
 -->
 <cas:producttypes xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
 	<type id="urn:edrn:EVMSSELDIPhaseIIProcessedData" name="EVMSSELDIPhaseIIProcessedData">
-		<repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-		<versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
 		<description>Processed SELDI bioprocessor output from EVMS 
 		(Eastern Virginia Medical School), EDRN Site 92. Comma delimited file (csv) generated using Cipehergen's 
 		&quot;Peaks&quot; software. The baseline was smoothed using a window of 50 points and then subtracted 
@@ -25,16 +25,26 @@
 		intensity values were then exported into excel spreadsheets.
 		</description>
         <metExtractors>
-          <extractor
-            class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-            <configuration>
-              <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
-              <property name="nsAware" value="true" />
-              <property name="elementNs" value="CAS" />
-              <property name="elements"
-                value="ProductReceivedTime,ProductName,ProductId" />
-            </configuration>
-          </extractor>
+      <extractor
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
         </metExtractors>
 	    <metadata>
 	      <keyval>
@@ -152,24 +162,34 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
 	 
 	 
 	<type id="urn:edrn:EVMSSELDIPhaseIIUnProcessedData" name="EVMSSELDIPhaseIIUnProcessedData">
-		<repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-		<versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
 		<description>Unprocessed SELDI bioprocessor output from EVMS (Eastern Virginia Medical School), EDRN 
 		Site 92. Each spectra was calibrated and normalized to an external coefficient of 0.2 using Ciphergen's 
 		&quot;Peaks&quot; software. Raw time of flight values were then exported as combined spread sheets 	
 		representing many individual spectra produced from serum samples in each study. These files are comma 
 		delimited (csv).</description>
         <metExtractors>
-          <extractor
-            class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-            <configuration>
-              <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
-              <property name="nsAware" value="true" />
-              <property name="elementNs" value="CAS" />
-              <property name="elements"
-                value="ProductReceivedTime,ProductName,ProductId" />
-            </configuration>
-          </extractor>
+      <extractor
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
         </metExtractors>
 	    <metadata>
 	      <keyval>
@@ -258,22 +278,32 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
 	 </type>  
 	 
 	<type id="urn:edrn:UABSELDIPhaseIIProcessedData" name="UABSELDIPhaseIIProcessedData">
-		<repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-		<versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
 		<description>Processed SELDI bioprocessor output from UAB 
 		(EDRN Site 75).
 		</description>
         <metExtractors>
-          <extractor
-            class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-            <configuration>
-              <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
-              <property name="nsAware" value="true" />
-              <property name="elementNs" value="CAS" />
-              <property name="elements"
-                value="ProductReceivedTime,ProductName,ProductId" />
-            </configuration>
-          </extractor>
+      <extractor
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
         </metExtractors>
 	    <metadata>
 	      <keyval>

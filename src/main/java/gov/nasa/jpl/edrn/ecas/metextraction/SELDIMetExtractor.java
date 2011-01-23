@@ -11,10 +11,10 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 //OODT imports
-import static gov.nasa.jpl.oodt.cas.filemgr.metadata.CoreMetKeys.*;
-import gov.nasa.jpl.oodt.cas.metadata.Metadata;
-import gov.nasa.jpl.oodt.cas.metadata.exceptions.MetExtractionException;
-import gov.nasa.jpl.oodt.cas.metadata.extractors.CmdLineMetExtractor;
+import static org.apache.oodt.cas.filemgr.metadata.CoreMetKeys.*;
+import org.apache.oodt.cas.metadata.Metadata;
+import org.apache.oodt.cas.metadata.exceptions.MetExtractionException;
+import org.apache.oodt.cas.metadata.extractors.CmdLineMetExtractor;
 
 //EDRN imports
 import static gov.nasa.jpl.edrn.ecas.metadata.EDRNMetadata.*;
@@ -41,7 +41,7 @@ public class SELDIMetExtractor extends CmdLineMetExtractor {
     /*
      * (non-Javadoc)
      * 
-     * @see gov.nasa.jpl.oodt.cas.metadata.AbstractMetExtractor#extrMetadata(java.io.File)
+     * @see org.apache.oodt.cas.metadata.AbstractMetExtractor#extrMetadata(java.io.File)
      */
     @Override
     protected Metadata extrMetadata(File file) throws MetExtractionException {

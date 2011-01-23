@@ -10,12 +10,12 @@
 -->
 <cas:producttypes xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
   <type id="urn:edrn:eCASFile" name="eCASFile">
-    <repositoryPath>file://[EDRN_REPO_HOME]/archive/misc</repositoryPath>
-    <versionerClass>gov.nasa.jpl.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive/misc" />
+   <versioner class="gov.nasa.jpl.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner" />
     <description>Unclassified eCAS data files.</description>
     <metExtractors>
       <extractor
-        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
         <configuration>
           <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
           <property name="nsAware" value="true" />
@@ -24,6 +24,16 @@
             value="ProductReceivedTime,ProductName,ProductId" />
         </configuration>
       </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
     </metExtractors>
     <metadata>
       <keyval>

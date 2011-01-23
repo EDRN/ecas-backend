@@ -18,7 +18,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 //OODT imports
-import jpl.eda.util.DateConvert;
+import org.apache.oodt.commons.util.DateConvert;
 
 /**
  * @author mattmann

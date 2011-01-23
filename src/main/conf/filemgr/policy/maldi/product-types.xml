@@ -1,63 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<!--
-		Copyright (c) 2007 California Institute of Technology. ALL RIGHTS
-		RESERVED. U.S. Government Sponsorship acknowledged. 
-		
-		$Id$ 
-		
-	Author(s): Chris A. Mattmann, John J. Tran, and Heather L. Kincaid 
+<!--
+	Copyright (c) 2007 California Institute of Technology. 
+	ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged. 
 	
-	Description:
+	$Id$ 
+	
+	Author(s):
+	Chris A. Mattmann, John J. Tran, and Heather L. Kincaid Description:
 	Product Type policy for eCAS that stores MALDI data provided by Fred
 	Hutchinson Cancer Research Center (FHCRC).
-	-->
-
+-->
 <cas:producttypes xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
 	<type id="urn:edrn:FHCRCMALDIDilutionProcessedData" name="FHCRCMALDIDilutionProcessedData">
-		<repositoryPath>file://[EDRN_REPO_HOME]/archive
-		</repositoryPath>
-		<versionerClass>
-			gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner
-		</versionerClass>
+		<repository path="file://[EDRN_REPO_HOME]/archive" />
+		<versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
 		<description>These data come from a dilution experiment aimed at
 			elucidating which features in MALDI-TOF
-			mass spectrometry data are informative for quantifying peptide content.
-			The details of the experiment are
-			described in [1]. The primary dataset consists of 250 spectra collected from 5
+			mass spectrometry data are
+			informative for quantifying peptide content.
+			The details of the
+			experiment are
+			described in [1]. The primary dataset consists of 250
+			spectra collected from 5
 			different serum sources (5
-			people from a health study), each subject to 10 different concentrations of
-			a peptide mixture that contained
-			several known peptides. Each of the 50 prepared samples were spotted,
-			randomly, 5 times each on a single plate
-			producing a total of 5x10x5 = 250 spectra. An additional 30 spectra arise
+			people from a
+			health study), each subject to 10 different concentrations of
+			a
+			peptide mixture that contained
+			several known peptides. Each of the 50
+			prepared samples were spotted,
+			randomly, 5 times each on a single
+			plate
+			producing a total of 5x10x5 = 250 spectra. An additional 30
+			spectra arise
 			from: 2 replicate spectra from each
-			of the 10 concentrations of the peptide mixture, plus 2 replicates of
+			of the 10
+			concentrations of the peptide mixture, plus 2 replicates of
 			serum-only spectra from each of the 5
 			serum samples.
 
-			NOTE: An error was made during the process of randomly spotting samples to
-			the plate: one of the replicates from
-			concentration 6 was spotted on top of a serum-only sample. The result is that two
+			NOTE: An error was
+			made during the process of randomly spotting samples to
+			the plate: one
+			of the replicates from
+			concentration 6 was spotted on top of a
+			serum-only sample. The result is that two
 			spectra from this design are
 			missing: serum 1, concentration 6, replicate 4 (column number 36 in
 			Spectra.txt), and serum 4, concentration 0, replicate 2.
-			This left one empty spot on the plate (column number 280 in Spectra.txt)
-			to which we spotted a sample containing only cytochrome
-			c. The latter was not used in any subsequent analysis in [1], and no
-			adjustment was made for former in the analysis in
+			This left one
+			empty spot on the plate (column number 280 in Spectra.txt)
+			to which we
+			spotted a sample containing only cytochrome
+			c. The latter was not used
+			in any subsequent analysis in [1], and no
+			adjustment was made for
+			former in the analysis in
 			[1] (column &#35;36 was used as is).
 		</description>
         <metExtractors>
-          <extractor
-            class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-            <configuration>
-              <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
-              <property name="nsAware" value="true" />
-              <property name="elementNs" value="CAS" />
-              <property name="elements"
-                value="ProductReceivedTime,ProductName,ProductId" />
-            </configuration>
-          </extractor>
+      <extractor
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
         </metExtractors>
 	<metadata>
 		<keyval>

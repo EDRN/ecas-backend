@@ -17,13 +17,13 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 //OODT imports
-import jpl.eda.util.DateConvert;
-import static gov.nasa.jpl.oodt.cas.filemgr.metadata.CoreMetKeys.*;
+import org.apache.oodt.commons.util.DateConvert;
+import static org.apache.oodt.cas.filemgr.metadata.CoreMetKeys.*;
 import static gov.nasa.jpl.edrn.ecas.metadata.SELDIMetadata.*;
-import gov.nasa.jpl.oodt.cas.metadata.MetExtractorConfig;
-import gov.nasa.jpl.oodt.cas.metadata.MetExtractorConfigReader;
-import gov.nasa.jpl.oodt.cas.metadata.Metadata;
-import gov.nasa.jpl.oodt.cas.metadata.exceptions.MetExtractorConfigReaderException;
+import org.apache.oodt.cas.metadata.MetExtractorConfig;
+import org.apache.oodt.cas.metadata.MetExtractorConfigReader;
+import org.apache.oodt.cas.metadata.Metadata;
+import org.apache.oodt.cas.metadata.exceptions.MetExtractorConfigReaderException;
 
 // EDRN imports
 import static gov.nasa.jpl.edrn.ecas.metadata.EDRNMetadata.*;
@@ -45,7 +45,7 @@ public class SELDIMetExtractorConfigReader implements MetExtractorConfigReader {
     /*
      * (non-Javadoc)
      * 
-     * @see gov.nasa.jpl.oodt.cas.metadata.MetExtractorConfigReader#parseConfigFile(java.io.File)
+     * @see org.apache.oodt.cas.metadata.MetExtractorConfigReader#parseConfigFile(java.io.File)
      */
     public MetExtractorConfig parseConfigFile(File c)
             throws MetExtractorConfigReaderException {
