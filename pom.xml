@@ -12,7 +12,7 @@
   <groupId>gov.nasa.jpl.edrn</groupId>
   <artifactId>ecas-backend</artifactId>
   <packaging>jar</packaging> 
-  <version>0.1.0-dev</version>
+  <version>0.5.0-dev</version>
   <name>E-CAS Backend</name>
   <url>http://ecas.jpl.nasa.gov/</url>
   <repositories>
@@ -68,7 +68,7 @@
               <customConfigurationDir>src/main/conf/filemgr/configuration</customConfigurationDir>
               <casInstallationDir>${env.EDRN_ECAS_HOME}/filemgr</casInstallationDir>
               <customLibs>
-                <param>target/ecas-backend-0.1.0-dev.jar</param>
+                <param>target/${project.artifactId}-${project.version}.jar</param>
               </customLibs>
               <envVarReplaceFiles>
                <param>
@@ -89,7 +89,7 @@
               <customConfigurationDir>src/main/conf/crawler/configuration</customConfigurationDir>
               <casInstallationDir>${env.EDRN_ECAS_HOME}/crawler</casInstallationDir>
               <customLibs>
-                <param>target/ecas-backend-0.1.0-dev.jar</param>
+                <param>target/${project.artifactId}-${project.version}.jar</param>
               </customLibs>
               <envVarReplaceFiles>
                 <param>
