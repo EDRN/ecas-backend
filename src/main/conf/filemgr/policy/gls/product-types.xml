@@ -19,30 +19,19 @@
 
   <type id="urn:edrn:BCCA_Affy6.0RawData" 
         name="BCCA_Affy6.0RawData">
-   <repository path="file://[EDRN_REPO_HOME]/archive" />
-   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
     <description>Raw Affymetrix 6.0 Data from the B.C. Cancer Agency </description>
     <metExtractors>
       <extractor
-        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
         <configuration>
-          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
           <property name="nsAware" value="true" />
           <property name="elementNs" value="CAS" />
           <property name="elements"
             value="ProductReceivedTime,ProductName,ProductId" />
         </configuration>
       </extractor>
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
-        <configuration>
-          <!-- this property specifies whether you want the FILE_LOCATION field
-               computed by this extractor to replace any other FILE_LOCATION met 
-               attribute.
-           -->
-           <property name="replace" value="true"/>
-        </configuration>
-      </extractor>   
     </metExtractors>
     <metadata>
       <keyval>
@@ -134,12 +123,12 @@
 
   <type id="urn:edrn:FHCRC_ProteomicsAnalyzedData" 
         name="FHCRC_ProteomicsAnalyzedData">
-   <repository path="file://[EDRN_REPO_HOME]/archive" />
-   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
     <description>Analyzed Serum Proteomics data from Fred Hutchinson Cancer Research Center</description>
     <metExtractors>
       <extractor
-        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
         <configuration>
           <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
           <property name="nsAware" value="true" />
@@ -148,16 +137,6 @@
             value="ProductReceivedTime,ProductName,ProductId" />
         </configuration>
       </extractor>
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
-        <configuration>
-          <!-- this property specifies whether you want the FILE_LOCATION field
-               computed by this extractor to replace any other FILE_LOCATION met 
-               attribute.
-           -->
-           <property name="replace" value="true"/>
-        </configuration>
-      </extractor>   
     </metExtractors>
     <!--  fixed for all products of this type = ecas + esis meta excel spreadsheet -->
     <metadata>
@@ -251,30 +230,19 @@
 
   <type id="urn:edrn:JHU_MitochondrialDNAMutationSummarized" 
         name="JHU_MitochondrialDNAMutationSummarized">
-   <repository path="file://[EDRN_REPO_HOME]/archive" />
-   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
     <description>Summarized Mitochondrial DNA Mutation data from Johns Hopkins University</description>
     <metExtractors>
       <extractor
-        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
         <configuration>
-          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
           <property name="nsAware" value="true" />
           <property name="elementNs" value="CAS" />
           <property name="elements"
             value="ProductReceivedTime,ProductName,ProductId" />
         </configuration>
       </extractor>
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
-        <configuration>
-          <!-- this property specifies whether you want the FILE_LOCATION field
-               computed by this extractor to replace any other FILE_LOCATION met 
-               attribute.
-           -->
-           <property name="replace" value="true"/>
-        </configuration>
-      </extractor>   
     </metExtractors>
     <metadata>
       <keyval>
@@ -367,30 +335,19 @@
 
   <type id="urn:edrn:USC_MethylationRawData" 
         name="USC_MethylationRawData">
-   <repository path="file://[EDRN_REPO_HOME]/archive" />
-   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
     <description>Raw Methylation Data from the University of Southern California</description>
     <metExtractors>
       <extractor
-        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
         <configuration>
-          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
           <property name="nsAware" value="true" />
           <property name="elementNs" value="CAS" />
           <property name="elements"
             value="ProductReceivedTime,ProductName,ProductId" />
         </configuration>
       </extractor>
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
-        <configuration>
-          <!-- this property specifies whether you want the FILE_LOCATION field
-               computed by this extractor to replace any other FILE_LOCATION met 
-               attribute.
-           -->
-           <property name="replace" value="true"/>
-        </configuration>
-      </extractor>   
     </metExtractors>
     <metadata>
       <keyval>
@@ -482,30 +439,20 @@
 -->
 
 <type id="urn:edrn:UTSW_GeneExpressionRawDataZipped" name="UTSW_GeneExpressionRawDataZipped">
-   <repository path="file://[EDRN_REPO_HOME]/archive" />
-   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+  <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+  <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
   <description> 40 NSCLC cell lines / 83 lung adenocarcinoma tumor pairs </description>
   <metExtractors>
-      <extractor
-        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-        <configuration>
-          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
-          <property name="nsAware" value="true" />
-          <property name="elementNs" value="CAS" />
-          <property name="elements"
-            value="ProductReceivedTime,ProductName,ProductId" />
-        </configuration>
+    <extractor
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
       </extractor>
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
-        <configuration>
-          <!-- this property specifies whether you want the FILE_LOCATION field
-               computed by this extractor to replace any other FILE_LOCATION met 
-               attribute.
-           -->
-           <property name="replace" value="true"/>
-        </configuration>
-      </extractor>   
   </metExtractors>
 
   <metadata>
@@ -609,6 +556,22 @@
 
 	In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
     </keyval>
+
+    <!-- end: from other Canary-based Productype Protocol Information -->
+
+
+    <!--
+    <keyval>
+      <key>datasetName</key>
+      <val>UTSW_GeneExpressionRawDataZipped</val>
+    </keyval>
+
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>UTSW Gene Expression Raw Data Zipped</val>
+    </keyval>
+    -->
+
     <keyval>
       <key>StudyName</key>
       <val>Canary Never Smokers</val>
@@ -640,7 +603,7 @@
     <keyval>
       <key>DataCustodian</key>
       <val>Wei Zhang &lt;Wei1.zhang@utsouthwestern.edu&gt;</val>
-      <val>Luc Girard &lt;luc.girard@utsouthwestern.edu</val>
+      <val>Luc Girard &lt;luc.girard@utsouthwestern.edu&gt;</val>
     </keyval>
 
     <keyval>
@@ -702,30 +665,20 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 -->
 
 <type id="urn:edrn:FHCRC_TEWARI_Efficiencies" name="FHCRC_TEWARI_Efficiencies">
-   <repository path="file://[EDRN_REPO_HOME]/archive" />
-   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+  <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+  <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
   <description> Exiqon microRNA PCR Human Panel I+II, V1 April-May 2010 </description>
   <metExtractors>
-      <extractor
-        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-        <configuration>
-          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
-          <property name="nsAware" value="true" />
-          <property name="elementNs" value="CAS" />
-          <property name="elements"
-            value="ProductReceivedTime,ProductName,ProductId" />
-        </configuration>
+    <extractor 
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
       </extractor>
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
-        <configuration>
-          <!-- this property specifies whether you want the FILE_LOCATION field
-               computed by this extractor to replace any other FILE_LOCATION met 
-               attribute.
-           -->
-           <property name="replace" value="true"/>
-        </configuration>
-      </extractor>   
   </metExtractors>
 
   <metadata>
@@ -829,6 +782,21 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 
 	In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
     </keyval>
+
+    <!-- end: from other Canary-based Productype Protocol Information -->
+
+    <!--
+    <keyval>
+      <key>datasetName</key>
+      <val>FHCRC_TEWARI_Efficiencies</val>
+    </keyval>
+
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>FHCRC Tewari Efficiencies</val>
+    </keyval>
+    -->
+
     <keyval>
       <key>StudyName</key>
       <val>Canary Never Smokers</val>
@@ -881,30 +849,20 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 -->
 
 <type id="urn:edrn:FHCRC_TEWARI_Raw_Cp_below_NoEnzRT" name="FHCRC_TEWARI_Raw_Cp_below_NoEnzRT">
-   <repository path="file://[EDRN_REPO_HOME]/archive" />
-   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+  <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+  <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
   <description> Exiqon microRNA PCR Human Panel I+II, V1 April-May 2010 </description>
   <metExtractors>
-      <extractor
-        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-        <configuration>
-          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
-          <property name="nsAware" value="true" />
-          <property name="elementNs" value="CAS" />
-          <property name="elements"
-            value="ProductReceivedTime,ProductName,ProductId" />
-        </configuration>
+    <extractor 
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
       </extractor>
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
-        <configuration>
-          <!-- this property specifies whether you want the FILE_LOCATION field
-               computed by this extractor to replace any other FILE_LOCATION met 
-               attribute.
-           -->
-           <property name="replace" value="true"/>
-        </configuration>
-      </extractor>   
   </metExtractors>
 
   <metadata>
@@ -1008,6 +966,21 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 
 	In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
     </keyval>
+
+    <!-- end: from other Canary-based Productype Protocol Information -->
+
+    <!--
+    <keyval>
+      <key>datasetName</key>
+      <val>FHCRC_TEWARI_Raw_Cp_below_NoEnzRT</val>
+    </keyval>
+
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>FHCRC Tewari Raw Cp below No Enz RT</val>
+    </keyval>
+    -->
+
     <keyval>
       <key>StudyName</key>
       <val>Canary Never Smokers</val>
@@ -1061,30 +1034,20 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 -->
 
 <type id="urn:edrn:UTSW_CopyNumberData" name="UTSW_CopyNumberData">
-   <repository path="file://[EDRN_REPO_HOME]/archive" />
-   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+  <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+  <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
   <description> 40 NSCLC cell lines / 83 lung adenocarcinoma tumor pairs </description>
   <metExtractors>
-      <extractor
-        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-        <configuration>
-          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
-          <property name="nsAware" value="true" />
-          <property name="elementNs" value="CAS" />
-          <property name="elements"
-            value="ProductReceivedTime,ProductName,ProductId" />
-        </configuration>
+    <extractor 
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
       </extractor>
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
-        <configuration>
-          <!-- this property specifies whether you want the FILE_LOCATION field
-               computed by this extractor to replace any other FILE_LOCATION met 
-               attribute.
-           -->
-           <property name="replace" value="true"/>
-        </configuration>
-      </extractor>   
   </metExtractors>
 
   <metadata>
@@ -1188,6 +1151,21 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 
 	In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
     </keyval>
+
+    <!-- end: from other Canary-based Productype Protocol Information -->
+
+    <!--
+    <keyval>
+      <key>datasetName</key>
+      <val>UTSW_CopyNumberData</val>
+    </keyval>
+
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>UTSW Copy Number Data</val>
+    </keyval>
+    -->
+
     <keyval>
       <key>StudyName</key>
       <val>Canary Never Smokers</val>
@@ -1219,7 +1197,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     <keyval>
       <key>DataCustodian</key>
       <val>Wei Zhang &lt;Wei1.zhang@utsouthwestern.edu&gt;</val>
-      <val>Luc Girard &lt;luc.girard@utsouthwestern.edu</val>
+      <val>Luc Girard &lt;luc.girard@utsouthwestern.edu&gt;</val>
     </keyval>
 
     <keyval>
@@ -1281,30 +1259,20 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 -->
 
 <type id="urn:edrn:UTSW_MutationData" name="UTSW_MutationData">
-   <repository path="file://[EDRN_REPO_HOME]/archive" />
-   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+  <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+  <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
   <description> 40 NSCLC cell lines / 83 lung adenocarcinoma tumor pairs </description>
   <metExtractors>
-      <extractor
-        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-        <configuration>
-          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
-          <property name="nsAware" value="true" />
-          <property name="elementNs" value="CAS" />
-          <property name="elements"
-            value="ProductReceivedTime,ProductName,ProductId" />
-        </configuration>
+    <extractor 
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
       </extractor>
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
-        <configuration>
-          <!-- this property specifies whether you want the FILE_LOCATION field
-               computed by this extractor to replace any other FILE_LOCATION met 
-               attribute.
-           -->
-           <property name="replace" value="true"/>
-        </configuration>
-      </extractor>   
   </metExtractors>
 
   <metadata>
@@ -1408,6 +1376,22 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 
 	In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
     </keyval>
+
+    <!-- end: from other Canary-based Productype Protocol Information -->
+
+
+    <!--
+    <keyval>
+      <key>datasetName</key>
+      <val>UTSW_MutationData</val>
+    </keyval>
+
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>UTSW Mutation Data</val>
+    </keyval>
+    -->
+
     <keyval>
       <key>StudyName</key>
       <val>Canary Never Smokers</val>
@@ -1438,7 +1422,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     <keyval>
       <key>DataCustodian</key>
       <val>Wei Zhang &lt;Wei1.zhang@utsouthwestern.edu&gt;</val>
-      <val>Luc Girard &lt;luc.girard@utsouthwestern.edu</val>
+      <val>Luc Girard &lt;luc.girard@utsouthwestern.edu&gt;</val>
     </keyval>
 
     <keyval>
@@ -1499,30 +1483,20 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
   =============================================================================
 -->
 <type id="urn:edrn:FHCRC_TEWARI_Controls" name="FHCRC_TEWARI_Controls">
-   <repository path="file://[EDRN_REPO_HOME]/archive" />
-   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+  <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+  <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
   <description> Exiqon microRNA PCR Human Panel I+II, V1 April-May 2010 </description>
   <metExtractors>
-      <extractor
-        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-        <configuration>
-          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
-          <property name="nsAware" value="true" />
-          <property name="elementNs" value="CAS" />
-          <property name="elements"
-            value="ProductReceivedTime,ProductName,ProductId" />
-        </configuration>
+    <extractor 
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
       </extractor>
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
-        <configuration>
-          <!-- this property specifies whether you want the FILE_LOCATION field
-               computed by this extractor to replace any other FILE_LOCATION met 
-               attribute.
-           -->
-           <property name="replace" value="true"/>
-        </configuration>
-      </extractor>   
   </metExtractors>
 
   <metadata>
@@ -1626,6 +1600,21 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 
 	In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
     </keyval>
+
+    <!-- end: from other Canary-based Productype Protocol Information -->
+
+    <!--
+    <keyval>
+      <key>datasetName</key>
+      <val>FHCRC_TEWARI_Controls</val>
+    </keyval>
+
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>FHCRC Tewari Controls</val>
+    </keyval>
+    -->
+
     <keyval>
       <key>StudyName</key>
       <val>Canary Never Smokers</val>
@@ -1679,30 +1668,20 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 -->
 
 <type id="urn:edrn:FHCRC_TEWARI_Raw_Cp_All" name="FHCRC_TEWARI_Raw_Cp_All">
-   <repository path="file://[EDRN_REPO_HOME]/archive" />
-   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+  <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+  <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
   <description> Exiqon microRNA PCR Human Panel I+II, V1 April-May 2010 </description>
   <metExtractors>
-      <extractor
-        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-        <configuration>
-          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
-          <property name="nsAware" value="true" />
-          <property name="elementNs" value="CAS" />
-          <property name="elements"
-            value="ProductReceivedTime,ProductName,ProductId" />
-        </configuration>
+    <extractor 
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
       </extractor>
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
-        <configuration>
-          <!-- this property specifies whether you want the FILE_LOCATION field
-               computed by this extractor to replace any other FILE_LOCATION met 
-               attribute.
-           -->
-           <property name="replace" value="true"/>
-        </configuration>
-      </extractor>   
   </metExtractors>
 
   <metadata>
@@ -1806,6 +1785,21 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
   
 	In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
     </keyval>
+
+    <!-- end: from other Canary-based Productype Protocol Information -->
+
+    <!--
+    <keyval>
+      <key>datasetName</key>
+      <val>FHCRC_TEWARI_Raw_Cp_All</val>
+    </keyval>
+
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>FHCRC Tewari Raw Cp All</val>
+    </keyval>
+    -->
+
     <keyval>
       <key>StudyName</key>
       <val>Canary Never Smokers</val>
@@ -1860,30 +1854,20 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 -->
 
 <type id="urn:edrn:UTSW_GeneExpressionAnalyzedData" name="UTSW_GeneExpressionAnalyzedData">
-   <repository path="file://[EDRN_REPO_HOME]/archive" />
-   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+  <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
+  <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
   <description> 40 NSCLC cell lines / 83 lung adenocarcinoma tumor pairs </description>
   <metExtractors>
-      <extractor
-        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-        <configuration>
-          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
-          <property name="nsAware" value="true" />
-          <property name="elementNs" value="CAS" />
-          <property name="elements"
-            value="ProductReceivedTime,ProductName,ProductId" />
-        </configuration>
+    <extractor 
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
       </extractor>
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
-        <configuration>
-          <!-- this property specifies whether you want the FILE_LOCATION field
-               computed by this extractor to replace any other FILE_LOCATION met 
-               attribute.
-           -->
-           <property name="replace" value="true"/>
-        </configuration>
-      </extractor>   
   </metExtractors>
 
   <metadata>
@@ -1987,6 +1971,22 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
   
 	In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
     </keyval>
+
+    <!-- end: from other Canary-based Productype Protocol Information -->
+
+
+    <!--
+    <keyval>
+      <key>datasetName</key>
+      <val>UTSW_GeneExpressionAnalyzedData</val>
+    </keyval>
+
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>UTSW Gene Expression Analyzed Data</val>
+    </keyval>
+    -->
+
     <keyval>
       <key>StudyName</key>
       <val>Canary Never Smokers</val>
@@ -2017,7 +2017,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     <keyval>
       <key>DataCustodian</key>
       <val>Wei Zhang &lt;Wei1.zhang@utsouthwestern.edu&gt;</val>
-      <val>Luc Girard &lt;luc.girard@utsouthwestern.edu</val>
+      <val>Luc Girard &lt;luc.girard@utsouthwestern.edu&gt;</val>
     </keyval>
 
     <keyval>
