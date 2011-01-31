@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	$Id$ 
+	Author: mattmann 
+	Description: Installs eCAS ingest scripts 
+	and helper scripts to [EDRN_ECAS_HOME]/scripts.
+-->
+<project name="install_met_config" default="all">
+	<target name="all">
+		<copy todir="${env.EDRN_ECAS_HOME}/scripts">
+			<fileset dir="src/main/bin" includes="*" />
+		</copy>
+		<chmod dir="${env.EDRN_ECAS_HOME}/scripts" perm="ugo+rx"
+			includes="*" />
+	</target>
+</project>

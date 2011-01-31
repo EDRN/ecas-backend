@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  $Id$
+  
+  Author: mattmann
+  Description: Starts to build the EDRN eCAS 
+  deployment skeleton.
+-->
+<project name="install_skel" default="all">
+
+  <target name="all">
+   <mkdir dir="${env.EDRN_ECAS_HOME}/run"/>
+  </target>
+</project>
+  

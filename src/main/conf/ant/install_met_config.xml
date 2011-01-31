@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	$Id$ 
+	Author: mattmann 
+	Description: Installs eCAS met extractors 
+	to [EDRN_ECAS_HOME]/aux/met_def.
+-->
+<project name="install_met_config" default="all">
+
+	<target name="all">
+		<copy todir="${env.EDRN_ECAS_HOME}/aux/met_def">
+			<fileset dir="${basedir}/src/main/conf/metextraction">
+				<patternset id="met.extraction.conf.files">
+					<include name="**/*.xml" />
+					<include name="**/*.conf" />
+					<include name="**/*.csv" />
+				</patternset>
+			</fileset>
+		</copy>
+	</target>
+</project>

@@ -108,9 +108,12 @@
             <id>install-skel</id>
             <phase>install</phase>
             <configuration>
-              <tasks>
-                <mkdir dir="${env.EDRN_ECAS_HOME}/run"/>
-              </tasks>
+              <target>
+                <ant antfile="${basedir}/src/main/ant/install_skel.xml" inheritRefs="true" inheritAll="true">
+                  <property name="basedir" value="${basedir}"/>
+                  <property environment="env"/>
+                </ant>   
+              </target>
             </configuration>
             <goals>
               <goal>run</goal>
@@ -120,17 +123,12 @@
             <id>install-met-config</id>
             <phase>install</phase>
             <configuration>
-              <tasks>
-                <copy todir="${env.EDRN_ECAS_HOME}/aux/met_def">
-                  <fileset dir="src/main/conf/metextraction">
-                     <patternset id="met.extraction.conf.files">
-                        <include name="**/*.xml"/>
-                        <include name="**/*.conf"/>
-                        <include name="**/*.csv"/>
-                     </patternset>
-                 </fileset>
-                </copy>
-              </tasks>
+              <target>
+                <ant antfile="${basedir}/src/main/ant/install_met_config.xml" inheritRefs="true" inheritAll="true">
+                  <property name="basedir" value="${basedir}"/>
+                  <property environment="env"/>
+                </ant>   
+              </target>
             </configuration>
             <goals>
               <goal>run</goal>
@@ -140,12 +138,12 @@
            <id>install-scripts</id>
            <phase>install</phase>
            <configuration>
-             <tasks>
-               <copy todir="${env.EDRN_ECAS_HOME}/scripts">
-                 <fileset dir="src/main/bin" includes="*"/>               
-               </copy>
-               <chmod dir="${env.EDRN_ECAS_HOME}/scripts" perm="ugo+rx" includes="*"/>
-             </tasks>
+              <target>
+                <ant antfile="${basedir}/src/main/ant/install_scripts.xml" inheritRefs="true" inheritAll="true">
+                  <property name="basedir" value="${basedir}"/>
+                  <property environment="env"/>
+                </ant>   
+              </target>
            </configuration>
            <goals>
              <goal>run</goal>
