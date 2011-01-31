@@ -2,7 +2,7 @@
 <!--
 	$Id$ 
 	Author: mattmann 
-	Description: Installs eCAS met extractors 
+	Description: Installs eCAS met config 
 	to [EDRN_ECAS_HOME]/aux/met_def.
 -->
 <project name="install_met_config" default="all">
