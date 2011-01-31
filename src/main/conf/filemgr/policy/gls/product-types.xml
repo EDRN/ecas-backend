@@ -19,8 +19,8 @@
 
   <type id="urn:edrn:BCCA_Affy6.0RawData" 
         name="BCCA_Affy6.0RawData">
-   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
     <description>Raw Affymetrix 6.0 Data from the B.C. Cancer Agency </description>
     <metExtractors>
       <extractor
@@ -123,8 +123,8 @@
 
   <type id="urn:edrn:FHCRC_ProteomicsAnalyzedData" 
         name="FHCRC_ProteomicsAnalyzedData">
-   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
     <description>Analyzed Serum Proteomics data from Fred Hutchinson Cancer Research Center</description>
     <metExtractors>
       <extractor
@@ -230,8 +230,8 @@
 
   <type id="urn:edrn:JHU_MitochondrialDNAMutationSummarized" 
         name="JHU_MitochondrialDNAMutationSummarized">
-   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
     <description>Summarized Mitochondrial DNA Mutation data from Johns Hopkins University</description>
     <metExtractors>
       <extractor
@@ -335,8 +335,8 @@
 
   <type id="urn:edrn:USC_MethylationRawData" 
         name="USC_MethylationRawData">
-   <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-   <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
     <description>Raw Methylation Data from the University of Southern California</description>
     <metExtractors>
       <extractor
@@ -439,8 +439,8 @@
 -->
 
 <type id="urn:edrn:UTSW_GeneExpressionRawDataZipped" name="UTSW_GeneExpressionRawDataZipped">
-  <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-  <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
   <description> 40 NSCLC cell lines / 83 lung adenocarcinoma tumor pairs </description>
   <metExtractors>
     <extractor
@@ -665,8 +665,8 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 -->
 
 <type id="urn:edrn:FHCRC_TEWARI_Efficiencies" name="FHCRC_TEWARI_Efficiencies">
-  <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-  <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
   <description> Exiqon microRNA PCR Human Panel I+II, V1 April-May 2010 </description>
   <metExtractors>
     <extractor 
@@ -849,8 +849,8 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 -->
 
 <type id="urn:edrn:FHCRC_TEWARI_Raw_Cp_below_NoEnzRT" name="FHCRC_TEWARI_Raw_Cp_below_NoEnzRT">
-  <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-  <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
   <description> Exiqon microRNA PCR Human Panel I+II, V1 April-May 2010 </description>
   <metExtractors>
     <extractor 
@@ -1034,8 +1034,8 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 -->
 
 <type id="urn:edrn:UTSW_CopyNumberData" name="UTSW_CopyNumberData">
-  <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-  <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
   <description> 40 NSCLC cell lines / 83 lung adenocarcinoma tumor pairs </description>
   <metExtractors>
     <extractor 
@@ -1259,8 +1259,8 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 -->
 
 <type id="urn:edrn:UTSW_MutationData" name="UTSW_MutationData">
-  <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-  <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
   <description> 40 NSCLC cell lines / 83 lung adenocarcinoma tumor pairs </description>
   <metExtractors>
     <extractor 
@@ -1483,8 +1483,8 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
   =============================================================================
 -->
 <type id="urn:edrn:FHCRC_TEWARI_Controls" name="FHCRC_TEWARI_Controls">
-  <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-  <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
   <description> Exiqon microRNA PCR Human Panel I+II, V1 April-May 2010 </description>
   <metExtractors>
     <extractor 
@@ -1668,8 +1668,8 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 -->
 
 <type id="urn:edrn:FHCRC_TEWARI_Raw_Cp_All" name="FHCRC_TEWARI_Raw_Cp_All">
-  <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-  <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
   <description> Exiqon microRNA PCR Human Panel I+II, V1 April-May 2010 </description>
   <metExtractors>
     <extractor 
@@ -1854,8 +1854,8 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 -->
 
 <type id="urn:edrn:UTSW_GeneExpressionAnalyzedData" name="UTSW_GeneExpressionAnalyzedData">
-  <repositoryPath>file://[EDRN_REPO_HOME]/archive</repositoryPath>
-  <versionerClass>gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner</versionerClass>
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
   <description> 40 NSCLC cell lines / 83 lung adenocarcinoma tumor pairs </description>
   <metExtractors>
     <extractor 
