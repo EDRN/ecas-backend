@@ -103,13 +103,14 @@
       <!--  customized ant file movements, attached to install phase -->
       <plugin>
         <artifactId>maven-antrun-plugin</artifactId>
+        <version>1.6</version>
         <executions>
           <execution>
             <id>install-skel</id>
             <phase>install</phase>
             <configuration>
               <target>
-                <ant antfile="${basedir}/src/main/ant/install_skel.xml" inheritRefs="true" inheritAll="true">
+                <ant antfile="${basedir}/src/main/conf/ant/install_skel.xml" inheritRefs="true" inheritAll="true">
                   <property name="basedir" value="${basedir}"/>
                   <property environment="env"/>
                 </ant>   
@@ -124,7 +125,7 @@
             <phase>install</phase>
             <configuration>
               <target>
-                <ant antfile="${basedir}/src/main/ant/install_curator_extractors.xml" inheritRefs="true" inheritAll="true">
+                <ant antfile="${basedir}/src/main/conf/ant/install_curator_extractors.xml" inheritRefs="true" inheritAll="true">
                   <property name="basedir" value="${basedir}"/>
                   <property environment="env"/>
                 </ant>   
@@ -139,7 +140,7 @@
             <phase>install</phase>
             <configuration>
               <target>
-                <ant antfile="${basedir}/src/main/ant/install_met_config.xml" inheritRefs="true" inheritAll="true">
+                <ant antfile="${basedir}/src/main/conf/ant/install_met_config.xml" inheritRefs="true" inheritAll="true">
                   <property name="basedir" value="${basedir}"/>
                   <property environment="env"/>
                 </ant>   
@@ -154,7 +155,7 @@
            <phase>install</phase>
            <configuration>
               <target>
-                <ant antfile="${basedir}/src/main/ant/install_scripts.xml" inheritRefs="true" inheritAll="true">
+                <ant antfile="${basedir}/src/main/conf/ant/install_scripts.xml" inheritRefs="true" inheritAll="true">
                   <property name="basedir" value="${basedir}"/>
                   <property environment="env"/>
                 </ant>   

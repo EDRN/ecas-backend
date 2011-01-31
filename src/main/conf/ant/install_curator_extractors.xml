@@ -5,7 +5,7 @@
 	Description: Installs CAS curator met extractors 
 	to [EDRN_ECAS_HOME]/aux/met_def.
 -->
-<project name="install_met_config" default="all">
+<project name="install_curator_extractors" default="all">
 
 	<target name="all">
 		<mkdir dir="${env.EDRN_ECAS_HOME}/aux/met_def/cas_curator"/>
