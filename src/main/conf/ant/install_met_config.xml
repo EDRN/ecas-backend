@@ -8,6 +8,7 @@
 <project name="install_met_config" default="all">
 
 	<target name="all">
+	    <!-- add flatten attribute and set to true below to copy all files to same dir -->
 		<copy todir="${env.EDRN_ECAS_HOME}/aux/met_def">
 			<fileset dir="${basedir}/src/main/conf/metextraction">
 				<patternset id="met.extraction.conf.files">
