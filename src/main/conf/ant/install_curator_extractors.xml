@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	$Id$ 
+	Author: mattmann 
+	Description: Installs CAS curator met extractors 
+	to [EDRN_ECAS_HOME]/aux/met_def.
+-->
+<project name="install_met_config" default="all">
+
+	<target name="all">
+		<mkdir dir="${env.EDRN_ECAS_HOME}/aux/met_def/cas_curator"/>
+		<copy todir="${env.EDRN_ECAS_HOME}/aux/met_def/cas_curator/grizzle_apc">
+			<fileset dir="${basedir}/src/main/conf/metextraction/grizzle_apc">
+				<patternset id="grizzle.apc.met.extraction.conf.files">
+					<include name="**/*.xml" />
+			        <include name="**/*.conf" />					
+					<include name="**/*.properties"/>
+				</patternset>
+			</fileset>		
+		</copy>
+		<copy todir="${env.EDRN_ECAS_HOME}/aux/met_def/cas_curator/grizzle_egfr">
+			<fileset dir="${basedir}/src/main/conf/metextraction/grizzle_egfr">
+				<patternset id="grizzle.egfr.met.extraction.conf.files">
+					<include name="**/*.xml" />
+			        <include name="**/*.conf" />					
+					<include name="**/*.properties"/>
+				</patternset>
+			</fileset>		
+		</copy>		
+		<copy todir="${env.EDRN_ECAS_HOME}/aux/met_def/cas_curator/hanash_caret">
+			<fileset dir="${basedir}/src/main/conf/metextraction/hanash_caret">
+				<patternset id="hanash.caret.met.extraction.conf.files">
+					<include name="**/*.xml" />
+			        <include name="**/*.conf" />					
+					<include name="**/*.properties"/>
+				</patternset>
+			</fileset>		
+		</copy>
+		<copy todir="${env.EDRN_ECAS_HOME}/aux/met_def/cas_curator/hanash_pgp9">
+			<fileset dir="${basedir}/src/main/conf/metextraction/hanash_pgp9">
+				<patternset id="hanash.pgp9.met.extraction.conf.files">
+					<include name="**/*.xml" />
+			        <include name="**/*.conf" />					
+					<include name="**/*.properties"/>
+				</patternset>
+			</fileset>		
+		</copy>
+		<copy todir="${env.EDRN_ECAS_HOME}/aux/met_def/cas_curator/default_ecas_extractor">
+			<fileset dir="${basedir}/src/main/conf/metextraction/default_ecas_extractor">
+				<patternset id="hanash.pgp9.met.extraction.conf.files">
+					<include name="**/*.xml" />
+			        <include name="**/*.conf" />					
+					<include name="**/*.properties"/>
+				</patternset>
+			</fileset>		
+		</copy>
+	</target>
+</project>

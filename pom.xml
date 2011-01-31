@@ -120,6 +120,21 @@
             </goals>
           </execution>
           <execution>
+            <id>install-curator-extractors</id>
+            <phase>install</phase>
+            <configuration>
+              <target>
+                <ant antfile="${basedir}/src/main/ant/install_curator_extractors.xml" inheritRefs="true" inheritAll="true">
+                  <property name="basedir" value="${basedir}"/>
+                  <property environment="env"/>
+                </ant>   
+              </target>
+            </configuration>
+            <goals>
+              <goal>run</goal>
+            </goals>
+          </execution>
+          <execution>
             <id>install-met-config</id>
             <phase>install</phase>
             <configuration>
@@ -133,7 +148,7 @@
             <goals>
               <goal>run</goal>
             </goals>
-          </execution>
+          </execution>          
           <execution>
            <id>install-scripts</id>
            <phase>install</phase>
