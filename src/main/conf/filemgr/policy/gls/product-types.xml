@@ -24,7 +24,7 @@
     <description>Raw Affymetrix 6.0 Data from the B.C. Cancer Agency </description>
     <metExtractors>
       <extractor
-        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
         <configuration>
           <property name="nsAware" value="true" />
           <property name="elementNs" value="CAS" />
@@ -128,7 +128,7 @@
     <description>Analyzed Serum Proteomics data from Fred Hutchinson Cancer Research Center</description>
     <metExtractors>
       <extractor
-        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
         <configuration>
           <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
           <property name="nsAware" value="true" />
@@ -235,7 +235,7 @@
     <description>Summarized Mitochondrial DNA Mutation data from Johns Hopkins University</description>
     <metExtractors>
       <extractor
-        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
         <configuration>
           <property name="nsAware" value="true" />
           <property name="elementNs" value="CAS" />
@@ -340,7 +340,7 @@
     <description>Raw Methylation Data from the University of Southern California</description>
     <metExtractors>
       <extractor
-        class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
         <configuration>
           <property name="nsAware" value="true" />
           <property name="elementNs" value="CAS" />
@@ -444,7 +444,7 @@
   <description> 40 NSCLC cell lines / 83 lung adenocarcinoma tumor pairs </description>
   <metExtractors>
     <extractor
-      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+      class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
 
     <configuration>
       <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
@@ -670,7 +670,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
   <description> Exiqon microRNA PCR Human Panel I+II, V1 April-May 2010 </description>
   <metExtractors>
     <extractor 
-      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+      class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
 
     <configuration>
       <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
@@ -854,7 +854,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
   <description> Exiqon microRNA PCR Human Panel I+II, V1 April-May 2010 </description>
   <metExtractors>
     <extractor 
-      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+      class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
 
     <configuration>
       <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
@@ -1039,7 +1039,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
   <description> 40 NSCLC cell lines / 83 lung adenocarcinoma tumor pairs </description>
   <metExtractors>
     <extractor 
-      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+      class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
 
     <configuration>
       <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
@@ -1264,7 +1264,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
   <description> 40 NSCLC cell lines / 83 lung adenocarcinoma tumor pairs </description>
   <metExtractors>
     <extractor 
-      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+      class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
 
     <configuration>
       <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
@@ -1488,7 +1488,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
   <description> Exiqon microRNA PCR Human Panel I+II, V1 April-May 2010 </description>
   <metExtractors>
     <extractor 
-      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+      class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
 
     <configuration>
       <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
@@ -1673,7 +1673,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
   <description> Exiqon microRNA PCR Human Panel I+II, V1 April-May 2010 </description>
   <metExtractors>
     <extractor 
-      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+      class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
 
     <configuration>
       <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
@@ -1859,7 +1859,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
   <description> 40 NSCLC cell lines / 83 lung adenocarcinoma tumor pairs </description>
   <metExtractors>
     <extractor 
-      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+      class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
 
     <configuration>
       <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
