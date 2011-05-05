@@ -63,7 +63,7 @@
       </keyval>
       <keyval>
         <key>MethodDetails</key>
-        <val>60 controls and 63 cases (half with Gleaason score &lt;7 and half with Gleason score greather than or equal to 7) were obtained from five participating 
+        <val>60 controls and 63 cases (half with Gleaason score less than 7 and half with Gleason score greather than or equal to 7) were obtained from five participating 
         centers. TSP came in both normalized and unnormalized format.  Each format had duplicate measures and the average was taken.
       </val>
      </keyval>
