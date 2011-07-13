@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Copyright (c) 2008 California Institute of Technology.
+  ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+  
+  $Id$
+  
+  Authors: John J. Tran and Chris A. Mattmann and Heather Kincaid
+  Description: Product Type policy for WH2
+-->
+
+<cas:producttypes xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+  
+  <type id="urn:edrn:HarvardUniversity" name="HarvardUniversity">
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+    <description>We have implemented a high throughput platform for quantitative analysis of serum autoantibodies, which we have applied to lung cancer for discovery of novel antigens and for validation in prediagnostic sera of autoantibodies to antigens previously defined based on analysis of sera collected at the time of diagnosis. RESULTS: We present evidence for the occurrence in lung cancer sera of autoantibodies to annexin I, 14-3-3 theta, and a novel lung cancer antigen, LAMR1, which precede onset of symptoms and diagnosis. </description>
+ 	<!--  cut and paste job for the most part... -->
+    <metExtractors>
+      <extractor
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
+    </metExtractors>
+    <!--  fixed for all products of this type = ecas + esis meta excel spreadsheet -->
+    <metadata>
+      <keyval>
+        <key>DataSetName</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2009-03-02T18:24:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>LeadPI</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TDB</val>
+     </keyval>
+     <keyval>
+        <key>ResultsAndConclusionSummary</key>
+        <val>TDB</val>
+      </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolName</key>
+        <val>138</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolID</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:HarvardUniversity</val>
+      </keyval>
+      <keyval>
+        <key>DateDatasetFrozen</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>SiteName</key>
+		<val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>PubMedID</key>
+		<val>TBD</val>
+      </keyval>
+ 	  <keyval>
+        <key>OrganSite</key>
+        <val>TBD</val>
+      </keyval>
+    <keyval>
+    	<key>PublishState</key>
+    	<val>TBD</val>
+    </keyval>
+    <keyval> 
+       <key>QAState</key>
+       <val>TBD</val>
+    </keyval>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>Super User</val>
+    </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
+      </keyval>
+    </metadata>
+  </type>
+
+
+  <type id="urn:edrn:JohnHopkinsMedicalInstitutionsDataset" name="JohnHopkinsMedicalInstitutionsDataset">
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+    <description>We have implemented a high throughput platform for quantitative analysis of serum autoantibodies, which we have applied to lung cancer for discovery of novel antigens and for validation in prediagnostic sera of autoantibodies to antigens previously defined based on analysis of sera collected at the time of diagnosis. RESULTS: We present evidence for the occurrence in lung cancer sera of autoantibodies to annexin I, 14-3-3 theta, and a novel lung cancer antigen, LAMR1, which precede onset of symptoms and diagnosis. </description>
+ 	<!--  cut and paste job for the most part... -->
+    <metExtractors>
+      <extractor
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
+    </metExtractors>
+    <!--  fixed for all products of this type = ecas + esis meta excel spreadsheet -->
+    <metadata>
+      <keyval>
+        <key>DataSetName</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2009-03-02T18:24:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>LeadPI</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TDB</val>
+     </keyval>
+     <keyval>
+        <key>ResultsAndConclusionSummary</key>
+        <val>TDB</val>
+      </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolName</key>
+        <val>138</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolID</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:JohnHopkinsMedicalInstitutionsDataset</val>
+      </keyval>
+      <keyval>
+        <key>DateDatasetFrozen</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>SiteName</key>
+		<val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>PubMedID</key>
+		<val>TBD</val>
+      </keyval>
+ 	  <keyval>
+        <key>OrganSite</key>
+        <val>TBD</val>
+      </keyval>
+    <keyval>
+    	<key>PublishState</key>
+    	<val>TBD</val>
+    </keyval>
+    <keyval> 
+       <key>QAState</key>
+       <val>TBD</val>
+    </keyval>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>Super User</val>
+    </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
+      </keyval>
+    </metadata>
+  </type>
+
+  <type id="urn:edrn:KarmanosCancerInsituteDataset" name="KarmanosCancerInsituteDataset">
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+    <description>We have implemented a high throughput platform for quantitative analysis of serum autoantibodies, which we have applied to lung cancer for discovery of novel antigens and for validation in prediagnostic sera of autoantibodies to antigens previously defined based on analysis of sera collected at the time of diagnosis. RESULTS: We present evidence for the occurrence in lung cancer sera of autoantibodies to annexin I, 14-3-3 theta, and a novel lung cancer antigen, LAMR1, which precede onset of symptoms and diagnosis. </description>
+ 	<!--  cut and paste job for the most part... -->
+    <metExtractors>
+      <extractor
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
+    </metExtractors>
+    <!--  fixed for all products of this type = ecas + esis meta excel spreadsheet -->
+    <metadata>
+      <keyval>
+        <key>DataSetName</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2009-03-02T18:24:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>LeadPI</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TDB</val>
+     </keyval>
+     <keyval>
+        <key>ResultsAndConclusionSummary</key>
+        <val>TDB</val>
+      </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolName</key>
+        <val>138</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolID</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:KarmanosCancerInsituteDataset</val>
+      </keyval>
+      <keyval>
+        <key>DateDatasetFrozen</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>SiteName</key>
+		<val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>PubMedID</key>
+		<val>TBD</val>
+      </keyval>
+ 	  <keyval>
+        <key>OrganSite</key>
+        <val>TBD</val>
+      </keyval>
+    <keyval>
+    	<key>PublishState</key>
+    	<val>TBD</val>
+    </keyval>
+    <keyval> 
+       <key>QAState</key>
+       <val>TBD</val>
+    </keyval>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>Super User</val>
+    </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
+      </keyval>
+    </metadata>
+  </type>
+  <type id="urn:edrn:NorthEasternUniversity" name="NorthEasternUniversity">
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+    <description>We have implemented a high throughput platform for quantitative analysis of serum autoantibodies, which we have applied to lung cancer for discovery of novel antigens and for validation in prediagnostic sera of autoantibodies to antigens previously defined based on analysis of sera collected at the time of diagnosis. RESULTS: We present evidence for the occurrence in lung cancer sera of autoantibodies to annexin I, 14-3-3 theta, and a novel lung cancer antigen, LAMR1, which precede onset of symptoms and diagnosis. </description>
+ 	<!--  cut and paste job for the most part... -->
+    <metExtractors>
+      <extractor
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
+    </metExtractors>
+    <!--  fixed for all products of this type = ecas + esis meta excel spreadsheet -->
+    <metadata>
+      <keyval>
+        <key>DataSetName</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2009-03-02T18:24:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>LeadPI</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TDB</val>
+     </keyval>
+     <keyval>
+        <key>ResultsAndConclusionSummary</key>
+        <val>TDB</val>
+      </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolName</key>
+        <val>138</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolID</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:NorthEasternUniversity</val>
+      </keyval>
+      <keyval>
+        <key>DateDatasetFrozen</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>SiteName</key>
+		<val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>PubMedID</key>
+		<val>TBD</val>
+      </keyval>
+ 	  <keyval>
+        <key>OrganSite</key>
+        <val>TBD</val>
+      </keyval>
+    <keyval>
+    	<key>PublishState</key>
+    	<val>TBD</val>
+    </keyval>
+    <keyval> 
+       <key>QAState</key>
+       <val>TBD</val>
+    </keyval>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>Super User</val>
+    </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
+      </keyval>
+    </metadata>
+  </type>
+  <type id="urn:edrn:PacificNorthwestNationalLaboratory" name="PacificNorthwestNationalLaboratory">
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+    <description>We have implemented a high throughput platform for quantitative analysis of serum autoantibodies, which we have applied to lung cancer for discovery of novel antigens and for validation in prediagnostic sera of autoantibodies to antigens previously defined based on analysis of sera collected at the time of diagnosis. RESULTS: We present evidence for the occurrence in lung cancer sera of autoantibodies to annexin I, 14-3-3 theta, and a novel lung cancer antigen, LAMR1, which precede onset of symptoms and diagnosis. </description>
+ 	<!--  cut and paste job for the most part... -->
+    <metExtractors>
+      <extractor
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
+    </metExtractors>
+    <!--  fixed for all products of this type = ecas + esis meta excel spreadsheet -->
+    <metadata>
+      <keyval>
+        <key>DataSetName</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2009-03-02T18:24:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>LeadPI</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TDB</val>
+     </keyval>
+     <keyval>
+        <key>ResultsAndConclusionSummary</key>
+        <val>TDB</val>
+      </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolName</key>
+        <val>138</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolID</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:PacificNorthwestNationalLaboratory</val>
+      </keyval>
+      <keyval>
+        <key>DateDatasetFrozen</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>SiteName</key>
+		<val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>PubMedID</key>
+		<val>TBD</val>
+      </keyval>
+ 	  <keyval>
+        <key>OrganSite</key>
+        <val>TBD</val>
+      </keyval>
+    <keyval>
+    	<key>PublishState</key>
+    	<val>TBD</val>
+    </keyval>
+    <keyval> 
+       <key>QAState</key>
+       <val>TBD</val>
+    </keyval>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>Super User</val>
+    </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
+      </keyval>
+    </metadata>
+  </type>
+  <type id="urn:edrn:UniversityOfMichiganDataset" name="UniversityOfMichiganDataset">
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+    <description>We have implemented a high throughput platform for quantitative analysis of serum autoantibodies, which we have applied to lung cancer for discovery of novel antigens and for validation in prediagnostic sera of autoantibodies to antigens previously defined based on analysis of sera collected at the time of diagnosis. RESULTS: We present evidence for the occurrence in lung cancer sera of autoantibodies to annexin I, 14-3-3 theta, and a novel lung cancer antigen, LAMR1, which precede onset of symptoms and diagnosis. </description>
+ 	<!--  cut and paste job for the most part... -->
+    <metExtractors>
+      <extractor
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
+    </metExtractors>
+    <!--  fixed for all products of this type = ecas + esis meta excel spreadsheet -->
+    <metadata>
+      <keyval>
+        <key>DataSetName</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2009-03-02T18:24:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>LeadPI</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TDB</val>
+     </keyval>
+     <keyval>
+        <key>ResultsAndConclusionSummary</key>
+        <val>TDB</val>
+      </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolName</key>
+        <val>138</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolID</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:UniversityOfMichiganDataset</val>
+      </keyval>
+      <keyval>
+        <key>DateDatasetFrozen</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>SiteName</key>
+		<val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>PubMedID</key>
+		<val>TBD</val>
+      </keyval>
+ 	  <keyval>
+        <key>OrganSite</key>
+        <val>TBD</val>
+      </keyval>
+    <keyval>
+    	<key>PublishState</key>
+    	<val>TBD</val>
+    </keyval>
+    <keyval> 
+       <key>QAState</key>
+       <val>TBD</val>
+    </keyval>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>Super User</val>
+    </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
+      </keyval>
+    </metadata>
+  </type>
+  <type id="urn:edrn:UniversityOfPittsburghDataset" name="UniversityOfPittsburghDataset">
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+    <description>We have implemented a high throughput platform for quantitative analysis of serum autoantibodies, which we have applied to lung cancer for discovery of novel antigens and for validation in prediagnostic sera of autoantibodies to antigens previously defined based on analysis of sera collected at the time of diagnosis. RESULTS: We present evidence for the occurrence in lung cancer sera of autoantibodies to annexin I, 14-3-3 theta, and a novel lung cancer antigen, LAMR1, which precede onset of symptoms and diagnosis. </description>
+ 	<!--  cut and paste job for the most part... -->
+    <metExtractors>
+      <extractor
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
+    </metExtractors>
+    <!--  fixed for all products of this type = ecas + esis meta excel spreadsheet -->
+    <metadata>
+      <keyval>
+        <key>DataSetName</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2009-03-02T18:24:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>LeadPI</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TDB</val>
+     </keyval>
+     <keyval>
+        <key>ResultsAndConclusionSummary</key>
+        <val>TDB</val>
+      </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolName</key>
+        <val>138</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolID</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:UniversityOfPittsburghDataset</val>
+      </keyval>
+      <keyval>
+        <key>DateDatasetFrozen</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>SiteName</key>
+		<val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>PubMedID</key>
+		<val>TBD</val>
+      </keyval>
+ 	  <keyval>
+        <key>OrganSite</key>
+        <val>TBD</val>
+      </keyval>
+    <keyval>
+    	<key>PublishState</key>
+    	<val>TBD</val>
+    </keyval>
+    <keyval> 
+       <key>QAState</key>
+       <val>TBD</val>
+    </keyval>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>Super User</val>
+    </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
+      </keyval>
+    </metadata>
+  </type>
+  <type id="urn:edrn:WistarDataset" name="WistarDataset">
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+    <description>We have implemented a high throughput platform for quantitative analysis of serum autoantibodies, which we have applied to lung cancer for discovery of novel antigens and for validation in prediagnostic sera of autoantibodies to antigens previously defined based on analysis of sera collected at the time of diagnosis. RESULTS: We present evidence for the occurrence in lung cancer sera of autoantibodies to annexin I, 14-3-3 theta, and a novel lung cancer antigen, LAMR1, which precede onset of symptoms and diagnosis. </description>
+ 	<!--  cut and paste job for the most part... -->
+    <metExtractors>
+      <extractor
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
+    </metExtractors>
+    <!--  fixed for all products of this type = ecas + esis meta excel spreadsheet -->
+    <metadata>
+      <keyval>
+        <key>DataSetName</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2009-03-02T18:24:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>LeadPI</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TDB</val>
+     </keyval>
+     <keyval>
+        <key>ResultsAndConclusionSummary</key>
+        <val>TDB</val>
+      </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolName</key>
+        <val>138</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolID</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:WistarDataset</val>
+      </keyval>
+      <keyval>
+        <key>DateDatasetFrozen</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>SiteName</key>
+		<val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>PubMedID</key>
+		<val>TBD</val>
+      </keyval>
+ 	  <keyval>
+        <key>OrganSite</key>
+        <val>TBD</val>
+      </keyval>
+    <keyval>
+    	<key>PublishState</key>
+    	<val>TBD</val>
+    </keyval>
+    <keyval> 
+       <key>QAState</key>
+       <val>TBD</val>
+    </keyval>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>Super User</val>
+    </keyval>
+      <keyval>
+      	<key>DataDisclaimer</key>
+      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+      	</val>
+      </keyval>
+    </metadata>
+  </type>
+
+
+  
+  
+  
+</cas:producttypes>
