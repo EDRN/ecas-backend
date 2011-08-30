@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
-  Copyright (c) 2008 California Institute of Technology.
+  Copyright (c) 2011 California Institute of Technology.
   ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
   
   $Id$
@@ -13,28 +13,7 @@
 
   	<!--  new dataset base on WH2 collection  -->
   	
-  	<type id="urn:edrn:HarvardUniversity"
-  		  parent="urn:edrn:eCASFile"/>
-  		  
-  	<type id="urn:edrn:JohnHopkinsMedicalInstitutionsDataset"
-  		  parent="urn:edrn:eCASFile"/>
-  
-	<type id="urn:edrn:KarmanosCancerInsituteDataset"
-  		  parent="urn:edrn:eCASFile"/>
-  
-  	<type id="urn:edrn:NorthEasternUniversity"
-  		  parent="urn:edrn:eCASFile"/>
-  
-  	<type id="urn:edrn:PacificNorthwestNationalLaboratory"
-  		  parent="urn:edrn:eCASFile"/>
-  
-  	<type id="urn:edrn:UniversityOfMichiganDataset"
-  		  parent="urn:edrn:eCASFile"/>
-  
-  	<type id="urn:edrn:UniversityOfPittsburghDataset"
-  		  parent="urn:edrn:eCASFile"/>
-
-  	<type id="urn:edrn:WistarDataset"
+  	<type id="urn:edrn:WHIColonHarvardUniversityKucherlapati"
   		  parent="urn:edrn:eCASFile"/>
   		   
 </cas:producttypemap>
