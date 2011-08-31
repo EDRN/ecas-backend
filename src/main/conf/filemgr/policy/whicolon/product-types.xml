@@ -114,7 +114,7 @@
     </keyval>
     <keyval> 
        <key>QAState</key>
-       <val>Under Review</val>
+       <val>Accepted</val>
     </keyval>
     <keyval type="vector">
        <key>AccessGrantedTo</key>
@@ -242,7 +242,7 @@
     </keyval>
     <keyval> 
        <key>QAState</key>
-       <val>Under Review</val>
+       <val>Accepted</val>
     </keyval>
     <keyval type="vector">
        <key>AccessGrantedTo</key>
@@ -370,7 +370,7 @@
     </keyval>
     <keyval> 
        <key>QAState</key>
-       <val>Under Review</val>
+       <val>Accepted</val>
     </keyval>
     <keyval type="vector">
        <key>AccessGrantedTo</key>
@@ -498,7 +498,7 @@
     </keyval>
     <keyval> 
        <key>QAState</key>
-       <val>Under Review</val>
+       <val>Accepted</val>
     </keyval>
     <keyval type="vector">
        <key>AccessGrantedTo</key>
@@ -626,7 +626,7 @@
     </keyval>
     <keyval> 
        <key>QAState</key>
-       <val>Under Review</val>
+       <val>Accepted</val>
     </keyval>
     <keyval type="vector">
        <key>AccessGrantedTo</key>
@@ -754,7 +754,7 @@
     </keyval>
     <keyval> 
        <key>QAState</key>
-       <val>Under Review</val>
+       <val>Accepted</val>
     </keyval>
     <keyval type="vector">
        <key>AccessGrantedTo</key>
@@ -882,7 +882,7 @@
     </keyval>
     <keyval> 
        <key>QAState</key>
-       <val>Under Review</val>
+       <val>Accepted</val>
     </keyval>
     <keyval type="vector">
        <key>AccessGrantedTo</key>
@@ -1010,7 +1010,7 @@
     </keyval>
     <keyval> 
        <key>QAState</key>
-       <val>Under Review</val>
+       <val>Accepted</val>
     </keyval>
     <keyval type="vector">
        <key>AccessGrantedTo</key>
