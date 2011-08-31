@@ -1,21 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
 <keyval type="vector">
+  <key>DataStage</key>
+  <val>TBD</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductFunction</key>
+  <val>TBD</val>
+</keyval>
+<keyval type="vector">
+  <key>LabAnalyticMethods</key>
+  <val>TBD</val>
+</keyval>
+<keyval type="vector">
+  <key>MethodDetails</key>
+  <val>TBD</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductTitle</key>
+  <val>TBD</val>
+</keyval>
+<keyval type="vector">
+  <key>DateProductFrozen</key>
+  <val>TBD</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductDescription</key>
+  <val>TBD</val>
+</keyval>
+<keyval type="vector">
   <key>SiteShortName</key>
-  <val>4 character short name</val>
+  <val>3-4 character short name</val>
 </keyval>
 <keyval type="vector">
   <key>InstrumentId</key>
-  <!--  I took a guess here, I could be wrong -->
-  <val>immuno</val>
+  <val>Unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentDetails</key>
+  <val>Unknown</val>
 </keyval>
 <keyval type="vector">
   <key>Organism</key>
-  <val>Human</val>
+  <val>TBD</val>
 </keyval>
 <keyval type="vector">
   <key>OrganName</key>
   <val>One of the 4 collab groups, short name</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenType</key>
+  <val>TBD</val>
 </keyval>
 <keyval type="vector">
   <key>SpecimenId</key>
