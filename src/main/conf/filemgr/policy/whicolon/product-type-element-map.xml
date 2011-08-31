@@ -15,5 +15,14 @@
   	
   	<type id="urn:edrn:WHIColonHarvardUniversityKucherlapati"
   		  parent="urn:edrn:eCASFile"/>
+  		  
+    <type id="urn:edrn:WHIColonNortheasternUniversityHancock"
+          parent="urn:edrn:eCASFile"/>
+          
+    <type id="urn:edrn:WHIColonWistarSpeicher"  
+          parent="urn:edrn:eCASFile"/>
+          
+    <type id="urn:edrn:WHIColonUniversityofPittsburghBigbee"
+          parent="urn:edrn:eCASFile"/>
   		   
 </cas:producttypemap>
