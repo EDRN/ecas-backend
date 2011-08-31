@@ -57,10 +57,6 @@
   <val>Unknown</val>
 </keyval>
 <keyval type="vector">
-  <key>SpecimenType</key>
-  <val>Unknown</val>
-</keyval>
-<keyval type="vector">
   <key>ProductType</key>
   <val>Use name from File Manager Catalog.</val>
 </keyval>
