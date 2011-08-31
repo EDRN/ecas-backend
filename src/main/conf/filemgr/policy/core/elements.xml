@@ -85,14 +85,14 @@
 		</description>
 		<dcElement />
 	</element>
-  <element id="urn:edrn:InstrumentDetail" name="InstrumentDetail">
+  <element id="urn:edrn:InstrumentDetails" name="InstrumentDetails">
        <description>
             The instrument technology that was used to process, analyze or 
             capture the EDRN data.
        </description>
        <dcElement/>
   </element>
-  <element id="urn:edrn:AnalyticMethods" name="AnalyticMethods">
+  <element id="urn:edrn:LabAnalyticMethods" name="LabAnalyticMethods">
        <description>
             The analytic methods that were used to process, analyze or 
             capture the EDRN data.
@@ -123,5 +123,16 @@
        </description>
        <dcElement/>
   </element>
-
+  <element id="urn:edrn:DateProductFrozen" name="DateProductFrozen">
+       <description>TBD</description>
+       <dcElement/>
+  </element>
+  <element id="urn:edrn:ProductTitle" name="ProductTitle">
+       <description>TBD</description>
+       <dcElement/>
+  </element>
+  <element id="urn:edrn:MethodDetails" name="MethodDetails">
+       <description>TBD</description>
+       <dcElement/>
+  </element>
 </cas:elements>
