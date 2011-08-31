@@ -24,5 +24,17 @@
           
     <type id="urn:edrn:WHIColonUniversityofPittsburghBigbee"
           parent="urn:edrn:eCASFile"/>
+          
+    <type id="urn:edrn:WHIColonUniversityofMichiganChinnaiyan"
+          parent="urn:edrn:eCASFile"/>
+          
+    <type id="urn:edrn:WHIColonKarmanosCancerInstituteTainsky"
+          parent="urn:edrn:eCASFile"/>
+          
+    <type id="urn:edrn:WHIColonJohnsHopkinsMedicalInstitutionChan"
+          parent="urn:edrn:eCASFile"/>
+          
+    <type id="urn:edrn:WHIColonPacificNationalNorthwestLaboratoryCamp"
+          parent="urn:edrn:eCASFile"/>
   		   
 </cas:producttypemap>
