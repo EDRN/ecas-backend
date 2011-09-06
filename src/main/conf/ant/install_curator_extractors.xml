@@ -54,5 +54,14 @@
 				</patternset>
 			</fileset>		
 		</copy>
+		<copy todir="${env.EDRN_ECAS_HOME}/aux/met_def/cas_curator/whicolonchan">
+			<fileset dir="${basedir}/src/main/conf/metextraction/whicolonchan">
+				<patternset id="chan.whicolon.met.extraction.conf.files">
+					<include name="**/*.xml" />
+			        <include name="**/*.conf" />					
+					<include name="**/*.properties"/>
+				</patternset>
+			</fileset>		
+		</copy>
 	</target>
 </project>
