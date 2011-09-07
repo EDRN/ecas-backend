@@ -1,6 +1,31 @@
 EDRN JIRA site: http://oodt.jpl.nasa.gov/jira/browse/CA
 
 
+
+Release Notes - Early Detection of Cancer - Version eCAS Backend beta 0.4.9.3 release - 09/06/2011
+
+
+** Bug
+    * [CA-714] - missing </extractor> from canary 
+    * [CA-732] - Dataset met for GLS includes malformed output HTML data custodians
+    * [CA-766] - update from gov.nasa.jpl to org.apache references
+
+** Improvement
+    * [CA-446] - Remove EDRNFileManager and associated confiuration and move to cas-filemgr-1.8.0 release
+    * [CA-737] - Refactor inline Ant-based deployment of curator met extractors to use external Ant files
+    * [CA-761] - Change less than and greater than HTML entities in XML policy to use [ and ]
+
+** New Feature
+    * [CA-795] - Improve WHI Colon policy for eCAS
+
+** Task
+    * [CA-724] - Release data ingestion for Canary Dataset
+    * [CA-756] - automated canary data synchronization
+    * [CA-765] - canary 06-2011 ingestion
+
+
+
+
 Release Notes - Early Detection of Cancer - Version eCAS Backend beta 0.4.9.2 release - 01/14/2011
 
 
