@@ -2072,4 +2072,699 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 </type>
 
 
+<!--
+  =============================================================================
+  MTDNA_QUANTITATION_LEV4
+  =============================================================================
+-->
+<type id="urn:edrn:MTDNA_QUANTITATION_LEV4" name="MTDNA_QUANTITATION_LEV4">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description> TBD </description>
+  <metExtractors>
+    <extractor> 
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>  
+</metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>datasetName</key>
+      <val>MTDNA_QUANTITATION_LEV4</val>
+    </keyval>
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>MTDNA_QUANTITATION_LEV4 (Data - mtDNA Quantitation - Level 4 (Significant gene list))</val>
+    </keyval>
+    <keyval>
+      <key>studyName</key>
+      <val>Canary Never Smokers</val>
+    </keyval>
+    <keyval>
+      <key>studyId</key>
+      <val>173</val>
+    </keyval>
+    <keyval>
+      <key>investigatorName</key>
+      <val>Canary</val>
+    </keyval>
+    <keyval>
+      <key>technology</key>
+      <val>Affymetrix</val>
+    </keyval>
+    <keyval>
+      <key>accessGrantedTo</key>
+      <val>Canary</val>
+    </keyval>
+  </metadata>
+</type>
+
+<!--
+  =============================================================================
+  DNA_METHYLATION_LEV1
+  =============================================================================
+-->
+<type id="urn:edrn:DNA_METHYLATION_LEV1" name="DNA_METHYLATION_LEV1">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description> TBD </description>
+  <metExtractors>
+    <extractor>
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>
+  </metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>datasetName</key>
+      <val>DNA_METHYLATION_LEV1</val>
+    </keyval>
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>DNA_METHYLATION_LEV1 (Data - DNA Methylation - Level 1 (Raw))</val>
+    </keyval>
+    <keyval>
+      <key>studyName</key>
+      <val>Canary Never Smokers</val>
+    </keyval>
+    <keyval>
+      <key>studyId</key>
+      <val>173</val>
+    </keyval>
+    <keyval>
+      <key>investigatorName</key>
+      <val>Canary</val>
+    </keyval>
+    <keyval>
+      <key>technology</key>
+      <val>Affymetrix</val>
+    </keyval>
+    <keyval>
+      <key>accessGrantedTo</key>
+      <val>Canary</val>
+    </keyval>
+  </metadata>
+</type>
+
+<!--
+  =============================================================================
+  DNA_METHYLATION_LEV3
+  =============================================================================
+-->
+<type id="urn:edrn:DNA_METHYLATION_LEV3" name="DNA_METHYLATION_LEV3">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description> TBD </description>
+  <metExtractors>
+    <extractor>
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>
+  </metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>datasetName</key>
+      <val>DNA_METHYLATION_LEV3</val>
+    </keyval>
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>DNA_METHYLATION_LEV3 (Data - DNA Methylation - Level 3 (Gene-centric))</val>
+    </keyval>
+    <keyval>
+      <key>studyName</key>
+      <val>Canary Never Smokers</val>
+    </keyval>
+    <keyval>
+      <key>studyId</key>
+      <val>173</val>
+    </keyval>
+    <keyval>
+      <key>investigatorName</key>
+      <val>Canary</val>
+    </keyval>
+    <keyval>
+      <key>technology</key>
+      <val>Affymetrix</val>
+    </keyval>
+    <keyval>
+      <key>accessGrantedTo</key>
+      <val>Canary</val>
+    </keyval>
+  </metadata>
+</type>
+
+<!--
+  =============================================================================
+  COPY_NUMBER_LEV2
+  =============================================================================
+-->
+<type id="urn:edrn:COPY_NUMBER_LEV2" name="COPY_NUMBER_LEV2">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description> TBD </description>
+  <metExtractors>
+    <extractor>
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>
+  </metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>datasetName</key>
+      <val>COPY_NUMBER_LEV2</val>
+    </keyval>
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>COPY_NUMBER_LEV2 (Data - Copy Number - Level 2 (Processed))</val>
+    </keyval>
+    <keyval>
+      <key>studyName</key>
+      <val>Canary Never Smokers</val>
+    </keyval>
+    <keyval>
+      <key>studyId</key>
+      <val>173</val>
+    </keyval>
+    <keyval>
+      <key>investigatorName</key>
+      <val>Canary</val>
+    </keyval>
+    <keyval>
+      <key>technology</key>
+      <val>Affymetrix</val>
+    </keyval>
+    <keyval>
+      <key>accessGrantedTo</key>
+      <val>Canary</val>
+    </keyval>
+  </metadata>
+</type>
+
+<!--
+  =============================================================================
+  MUTATIONS_LEV1
+  =============================================================================
+-->
+<type id="urn:edrn:MUTATIONS_LEV1" name="MUTATIONS_LEV1">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description> TBD </description>
+  <metExtractors>
+    <extractor>
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>
+  </metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>datasetName</key>
+      <val>MUTATIONS_LEV1</val>
+    </keyval>
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>MUTATIONS_LEV1 (Data - Mutations - Level 1 (Raw))</val>
+    </keyval>
+    <keyval>
+      <key>studyName</key>
+      <val>Canary Never Smokers</val>
+    </keyval>
+    <keyval>
+      <key>studyId</key>
+      <val>173</val>
+    </keyval>
+    <keyval>
+      <key>investigatorName</key>
+      <val>Canary</val>
+    </keyval>
+    <keyval>
+      <key>technology</key>
+      <val>Affymetrix</val>
+    </keyval>
+    <keyval>
+      <key>accessGrantedTo</key>
+      <val>Canary</val>
+    </keyval>
+  </metadata>
+</type>
+
+<!--
+  =============================================================================
+  COPY_NUMBER_LEV3
+  =============================================================================
+-->
+<type id="urn:edrn:COPY_NUMBER_LEV3" name="COPY_NUMBER_LEV3">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description> TBD </description>
+  <metExtractors>
+    <extractor>
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>
+  </metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>datasetName</key>
+      <val>COPY_NUMBER_LEV3</val>
+    </keyval>
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>COPY_NUMBER_LEV3 (Data - Copy Number - Level 3 (Gene-centric))</val>
+    </keyval>
+    <keyval>
+      <key>studyName</key>
+      <val>Canary Never Smokers</val>
+    </keyval>
+    <keyval>
+      <key>studyId</key>
+      <val>173</val>
+    </keyval>
+    <keyval>
+      <key>investigatorName</key>
+      <val>Canary</val>
+    </keyval>
+    <keyval>
+      <key>technology</key>
+      <val>Affymetrix</val>
+    </keyval>
+    <keyval>
+      <key>accessGrantedTo</key>
+      <val>Canary</val>
+    </keyval>
+  </metadata>
+</type>
+
+<!-- BEGIN PRODUCTTYPE BLOCK -->
+<!--
+  =============================================================================
+  MIRNA_EXPRESSION_LEV1
+  =============================================================================
+-->
+<type id="urn:edrn:MIRNA_EXPRESSION_LEV1" name="MIRNA_EXPRESSION_LEV1">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description> TBD </description>
+  <metExtractors>
+    <extractor>
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>
+  </metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>datasetName</key>
+      <val>MIRNA_EXPRESSION_LEV1</val>
+    </keyval>
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>MIRNA_EXPRESSION_LEV1 (Data - miRNA Expression - Level 1 (Raw))</val>
+    </keyval>
+    <keyval>
+      <key>studyName</key>
+      <val>Canary Never Smokers</val>
+    </keyval>
+    <keyval>
+      <key>studyId</key>
+      <val>173</val>
+    </keyval>
+    <keyval>
+      <key>investigatorName</key>
+      <val>Canary</val>
+    </keyval>
+    <keyval>
+      <key>technology</key>
+      <val>Affymetrix</val>
+    </keyval>
+    <keyval>
+      <key>accessGrantedTo</key>
+      <val>Canary</val>
+    </keyval>
+  </metadata>
+</type>
+
+<!--
+  =============================================================================
+  MIRNA_EXPRESSION_LEV2
+  =============================================================================
+-->
+<type id="urn:edrn:MIRNA_EXPRESSION_LEV2" name="MIRNA_EXPRESSION_LEV2">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description> TBD </description>
+  <metExtractors>
+    <extractor>
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>
+  </metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>datasetName</key>
+      <val>MIRNA_EXPRESSION_LEV2</val>
+    </keyval>
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>MIRNA_EXPRESSION_LEV2 (Data - miRNA Expression - Level 2 (Processed))</val>
+    </keyval>
+    <keyval>
+      <key>studyName</key>
+      <val>Canary Never Smokers</val>
+    </keyval>
+    <keyval>
+      <key>studyId</key>
+      <val>173</val>
+    </keyval>
+    <keyval>
+      <key>investigatorName</key>
+      <val>Canary</val>
+    </keyval>
+    <keyval>
+      <key>technology</key>
+      <val>Affymetrix</val>
+    </keyval>
+    <keyval>
+      <key>accessGrantedTo</key>
+      <val>Canary</val>
+    </keyval>
+  </metadata>
+</type>
+
+<!--
+  =============================================================================
+  MIRNA_EXPRESSION_LEV3
+  =============================================================================
+-->
+<type id="urn:edrn:MIRNA_EXPRESSION_LEV3" name="MIRNA_EXPRESSION_LEV3">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description> TBD </description>
+  <metExtractors>
+    <extractor>
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>
+  </metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>datasetName</key>
+      <val>MIRNA_EXPRESSION_LEV3</val>
+    </keyval>
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>MIRNA_EXPRESSION_LEV3 (Data - miRNA Expression - Level 3 (Gene-centric))</val>
+    </keyval>
+    <keyval>
+      <key>studyName</key>
+      <val>Canary Never Smokers</val>
+    </keyval>
+    <keyval>
+      <key>studyId</key>
+      <val>173</val>
+    </keyval>
+    <keyval>
+      <key>investigatorName</key>
+      <val>Canary</val>
+    </keyval>
+    <keyval>
+      <key>technology</key>
+      <val>Affymetrix</val>
+    </keyval>
+    <keyval>
+      <key>accessGrantedTo</key>
+      <val>Canary</val>
+    </keyval>
+  </metadata>
+</type>
+
+
+
+<!--
+  =============================================================================
+  PLASMA_PROTEOME_LEV3
+  =============================================================================
+-->
+<type id="urn:edrn:PLASMA_PROTEOME_LEV3" name="PLASMA_PROTEOME_LEV3">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description> TBD </description>
+  <metExtractors>
+    <extractor>
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>
+  </metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>datasetName</key>
+      <val>PLASMA_PROTEOME_LEV3</val>
+    </keyval>
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>PLASMA_PROTEOME_LEV3 (Data - Plasma Proteome - Level 3 (Gene-centric))</val>
+    </keyval>
+    <keyval>
+      <key>studyName</key>
+      <val>Canary Never Smokers</val>
+    </keyval>
+    <keyval>
+      <key>studyId</key>
+      <val>173</val>
+    </keyval>
+    <keyval>
+      <key>investigatorName</key>
+      <val>Canary</val>
+    </keyval>
+    <keyval>
+      <key>technology</key>
+      <val>Affymetrix</val>
+    </keyval>
+    <keyval>
+      <key>accessGrantedTo</key>
+      <val>Canary</val>
+    </keyval>
+  </metadata>
+</type>
+
+
+
+<!--
+  =============================================================================
+  PROTEIN_ENRICHMENT_LEV2
+  =============================================================================
+-->
+<type id="urn:edrn:PROTEIN_ENRICHMENT_LEV2" name="PROTEIN_ENRICHMENT_LEV2">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description> TBD </description>
+  <metExtractors>
+    <extractor>
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>
+  </metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>datasetName</key>
+      <val>PROTEIN_ENRICHMENT_LEV2</val>
+    </keyval>
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>PROTEIN_ENRICHMENT_LEV2 (Data - Protein Enrichment - Level 2 (Processed))</val>
+    </keyval>
+    <keyval>
+      <key>studyName</key>
+      <val>Canary Never Smokers</val>
+    </keyval>
+    <keyval>
+      <key>studyId</key>
+      <val>173</val>
+    </keyval>
+    <keyval>
+      <key>investigatorName</key>
+      <val>Canary</val>
+    </keyval>
+    <keyval>
+      <key>technology</key>
+      <val>Affymetrix</val>
+    </keyval>
+    <keyval>
+      <key>accessGrantedTo</key>
+      <val>Canary</val>
+    </keyval>
+  </metadata>
+</type>
+
+
+<!--
+  =============================================================================
+  PROTEIN_ENRICHMENT_LEV3
+  =============================================================================
+-->
+<type id="urn:edrn:PROTEIN_ENRICHMENT_LEV3" name="PROTEIN_ENRICHMENT_LEV3">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description> TBD </description>
+  <metExtractors>
+    <extractor>
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>
+  </metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>datasetName</key>
+      <val>PROTEIN_ENRICHMENT_LEV3</val>
+    </keyval>
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>PROTEIN_ENRICHMENT_LEV3 (Data - Protein Enrichment - Level 3 (Gene-centric))</val>
+    </keyval>
+    <keyval>
+      <key>studyName</key>
+      <val>Canary Never Smokers</val>
+    </keyval>
+    <keyval>
+      <key>studyId</key>
+      <val>173</val>
+    </keyval>
+    <keyval>
+      <key>investigatorName</key>
+      <val>Canary</val>
+    </keyval>
+    <keyval>
+      <key>technology</key>
+      <val>Affymetrix</val>
+    </keyval>
+    <keyval>
+      <key>accessGrantedTo</key>
+      <val>Canary</val>
+    </keyval>
+  </metadata>
+</type>
+
+<!--
+  =============================================================================
+  GENE_EXPRESSION_LEV3
+  =============================================================================
+-->
+<type id="urn:edrn:GENE_EXPRESSION_LEV3" name="GENE_EXPRESSION_LEV3">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description> TBD </description>
+  <metExtractors>
+    <extractor>
+      class="gov.nasa.jpl.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>
+  </metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>datasetName</key>
+      <val>GENE_EXPRESSION_LEV3</val>
+    </keyval>
+    <keyval>
+      <key>prettyDatasetName</key>
+      <val>GENE_EXPRESSION_LEV3 (Data - Gene Expression - Level 3 (Gene-centric))</val>
+    </keyval>
+    <keyval>
+      <key>studyName</key>
+      <val>Canary Never Smokers</val>
+    </keyval>
+    <keyval>
+      <key>studyId</key>
+      <val>173</val>
+    </keyval>
+    <keyval>
+      <key>investigatorName</key>
+      <val>Canary</val>
+    </keyval>
+    <keyval>
+      <key>technology</key>
+      <val>Affymetrix</val>
+    </keyval>
+    <keyval>
+      <key>accessGrantedTo</key>
+      <val>Canary</val>
+    </keyval>
+  </metadata>
+</type>
+
 </cas:producttypes>

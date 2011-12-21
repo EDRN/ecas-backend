@@ -98,6 +98,10 @@
 		<description>TBD</description>
 	</element>
 
+        <element id="urn:edrn:PRESENTATION_DATA" name="PRESENTATION_DATA">
+                <description>TBD</description>
+        </element>
+
 	<element id="urn:edrn:SPECIMEN_METADATA_FHCRCProteomicsAnalyzedData" name="SPECIMEN_METADATA_FHCRCProteomicsAnalyzedData">
 		<description>TBD</description>
 	</element>
@@ -112,6 +116,43 @@
 	<element id="urn:edrn:SPECIMEN_METADATA_USCMethylationRawData" name="SPECIMEN_METADATA_USCMethylationRawData">
 		<description>TBD</description>
 	</element>
+
+        <element id="urn:edrn:SPECIMEN_METADATA_MTDNA_QUANTITATION_LEV4" name="SPECIMEN_METADATA_MTDNA_QUANTITATION_LEV4">
+                <description>TBD</description>
+        </element>
+        <element id="urn:edrn:SPECIMEN_METADATA_DNA_METHYLATION_LEV1" name="SPECIMEN_METADATA_DNA_METHYLATION_LEV1">
+                <description>TBD</description>
+        </element>
+        <element id="urn:edrn:SPECIMEN_METADATA_DNA_METHYLATION_LEV3" name="SPECIMEN_METADATA_DNA_METHYLATION_LEV3">
+                <description>TBD</description>
+        </element>
+        <element id="urn:edrn:SPECIMEN_METADATA_COPY_NUMBER_LEV2" name="SPECIMEN_METADATA_COPY_NUMBER_LEV2">
+                <description>TBD</description>
+        </element>
+        <element id="urn:edrn:SPECIMEN_METADATA_COPY_NUMBER_LEV3" name="SPECIMEN_METADATA_COPY_NUMBER_LEV3">
+                <description>TBD</description>
+        </element>
+        <element id="urn:edrn:SPECIMEN_METADATA_MIRNA_EXPRESSION_LEV1" name="SPECIMEN_METADATA_MIRNA_EXPRESSION_LEV1">
+                <description>TBD</description>
+        </element>
+        <element id="urn:edrn:SPECIMEN_METADATA_MIRNA_EXPRESSION_LEV2" name="SPECIMEN_METADATA_MIRNA_EXPRESSION_LEV2">
+                <description>TBD</description>
+        </element>
+        <element id="urn:edrn:SPECIMEN_METADATA_MIRNA_EXPRESSION_LEV3" name="SPECIMEN_METADATA_MIRNA_EXPRESSION_LEV3">
+                <description>TBD</description>
+        </element>
+        <element id="urn:edrn:SPECIMEN_METADATA_PLASMA_PROTEOME_LEV3" name="SPECIMEN_METADATA_PLASMA_PROTEOME_LEV3">
+                <description>TBD</description>
+        </element>
+        <element id="urn:edrn:SPECIMEN_METADATA_PROTEIN_ENRICHMENT_LEV2" name="SPECIMEN_METADATA_PROTEIN_ENRICHMENT_LEV2">
+                <description>TBD</description>
+        </element>
+        <element id="urn:edrn:SPECIMEN_METADATA_PROTEIN_ENRICHMENT_LEV3" name="SPECIMEN_METADATA_PROTEIN_ENRICHMENT_LEV3">
+                <description>TBD</description>
+        </element>
+        <element id="urn:edrn:SPECIMEN_METADATA_GENE_EXPRESSION_LEV3" name="SPECIMEN_METADATA_GENE_EXPRESSION_LEV3">
+                <description>TBD</description>
+        </element>
 
         <!-- new canary datatype ingestion -->
 
