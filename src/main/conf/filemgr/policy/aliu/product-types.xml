@@ -17,7 +17,7 @@
         name="UWashProstateAlvinLiu">
    <repository path="file://[EDRN_REPO_HOME]/archive" />
    <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
-    <description>We have implemented a high throughput platform for quantitative analysis of serum autoantibodies, which we have applied to lung cancer for discovery of novel antigens and for validation in prediagnostic sera of autoantibodies to antigens previously defined based on analysis of sera collected at the time of diagnosis. RESULTS: We present evidence for the occurrence in lung cancer sera of autoantibodies to annexin I, 14-3-3 theta, and a novel lung cancer antigen, LAMR1, which precede onset of symptoms and diagnosis. </description>
+    <description>Zip archives of the raw data from the MACS_sorted project.</description>
  	<!--  cut and paste job for the most part... -->
     <metExtractors>
       <extractor
