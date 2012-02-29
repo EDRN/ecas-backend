@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- 
+<?xml version="1.0" encoding="UTF-8"?><!-- 
   Copyright (c) 2010 California Institute of Technology.
   ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
-  
-  $Id$
   
   Author(s): Chris A. Mattmann
   Description: Product Type policy for Canary/GLS datasets.
@@ -69,11 +66,11 @@
       </keyval>
       <keyval>
         <key>ProtocolName</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
       <keyval>
         <key>ProtocolID</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
       <keyval>
         <key>DatasetId</key>
@@ -176,11 +173,11 @@
       </keyval>
       <keyval>
         <key>ProtocolName</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
       <keyval>
         <key>ProtocolID</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
       <keyval>
         <key>DatasetId</key>
@@ -280,11 +277,11 @@
       </keyval>
       <keyval>
         <key>ProtocolName</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
       <keyval>
         <key>ProtocolID</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
       <keyval>
         <key>DatasetId</key>
@@ -385,11 +382,11 @@
       </keyval>
       <keyval>
         <key>ProtocolName</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
       <keyval>
         <key>ProtocolID</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
       <keyval>
         <key>DatasetId</key>
@@ -502,12 +499,12 @@
 
       <keyval>
         <key>ProtocolName</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
 
       <keyval>
         <key>ProtocolID</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
 
       <keyval>
@@ -579,7 +576,7 @@
     <keyval>
       <key>StudyId</key>
 
-      <val>173</val>
+      <val>282</val>
     </keyval>
     <keyval>
       <key>InvestigatorName</key>
@@ -728,12 +725,12 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 
       <keyval>
         <key>ProtocolName</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
 
       <keyval>
         <key>ProtocolID</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
 
       <keyval>
@@ -804,7 +801,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     <keyval>
       <key>StudyId</key>
 
-      <val>173</val>
+      <val>282</val>
     </keyval>
     <keyval>
       <key>InvestigatorName</key>
@@ -912,12 +909,12 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 
       <keyval>
         <key>ProtocolName</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
 
       <keyval>
         <key>ProtocolID</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
 
       <keyval>
@@ -988,7 +985,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     <keyval>
       <key>StudyId</key>
 
-      <val>173</val>
+      <val>282</val>
     </keyval>
     <keyval>
       <key>InvestigatorName</key>
@@ -1097,12 +1094,12 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 
       <keyval>
         <key>ProtocolName</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
 
       <keyval>
         <key>ProtocolID</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
 
       <keyval>
@@ -1173,7 +1170,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     <keyval>
       <key>StudyId</key>
 
-      <val>173</val>
+      <val>282</val>
     </keyval>
     <keyval>
       <key>InvestigatorName</key>
@@ -1322,12 +1319,12 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 
       <keyval>
         <key>ProtocolName</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
 
       <keyval>
         <key>ProtocolID</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
 
       <keyval>
@@ -1399,7 +1396,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     <keyval>
       <key>StudyId</key>
 
-      <val>173</val>
+      <val>282</val>
     </keyval>
     <keyval>
       <key>InvestigatorName</key>
@@ -1546,12 +1543,12 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 
       <keyval>
         <key>ProtocolName</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
 
       <keyval>
         <key>ProtocolID</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
 
       <keyval>
@@ -1622,7 +1619,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     <keyval>
       <key>StudyId</key>
 
-      <val>173</val>
+      <val>282</val>
     </keyval>
     <keyval>
       <key>InvestigatorName</key>
@@ -1731,12 +1728,12 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 
       <keyval>
         <key>ProtocolName</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
 
       <keyval>
         <key>ProtocolID</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
 
       <keyval>
@@ -1807,7 +1804,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     <keyval>
       <key>StudyId</key>
 
-      <val>173</val>
+      <val>282</val>
     </keyval>
     <keyval>
       <key>InvestigatorName</key>
@@ -1917,12 +1914,12 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 
       <keyval>
         <key>ProtocolName</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
 
       <keyval>
         <key>ProtocolID</key>
-        <val>173</val>
+        <val>282</val>
       </keyval>
 
       <keyval>
@@ -1994,7 +1991,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     <keyval>
       <key>StudyId</key>
 
-      <val>173</val>
+      <val>282</val>
     </keyval>
     <keyval>
       <key>InvestigatorName</key>
@@ -2073,156 +2070,108 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 
 <!--
   =============================================================================
-  MTDNA_QUANTITATION_LEV4
+  COPY_NUMBER_LEV1
   =============================================================================
 -->
-<type id="urn:edrn:MTDNA_QUANTITATION_LEV4" name="MTDNA_QUANTITATION_LEV4">
+<type id="urn:edrn:COPY_NUMBER_LEV1" name="COPY_NUMBER_LEV1">
   <repository path="file://[EDRN_REPO_HOME]/archive"/>
   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
-  <description> TBD </description>
+  <description> EDRN Tumor Copy Number Data </description>
   <metExtractors>
     <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
     <configuration>
       <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
       <property name="nsAware" value="true"  />
       <property name="elementNs" value="CAS" />
-      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+      <property name="elements"  value="ProductType,ProductReceivedTime,ProductName,ProductId" />
     </configuration>
     </extractor>
   </metExtractors>
 
   <metadata>
     <keyval>
-      <key>datasetName</key>
-      <val>MTDNA_QUANTITATION_LEV4</val>
+      <key>ProtocolID</key>
+      <val>282</val>
     </keyval>
     <keyval>
-      <key>prettyDatasetName</key>
-      <val>MTDNA_QUANTITATION_LEV4 (Data - mtDNA Quantitation - Level 4 (Significant gene list))</val>
+      <key>ProtocolName</key>
+      <val>282</val>
     </keyval>
     <keyval>
-      <key>studyName</key>
-      <val>Canary Never Smokers</val>
+      <key>DatasetDescription</key>
+      <val>EDRN Tumor Copy Number Data</val>
     </keyval>
     <keyval>
-      <key>studyId</key>
-      <val>173</val>
+      <key>DataSetName</key>
+      <val>COPY_NUMBER_LEV1</val>
     </keyval>
     <keyval>
-      <key>investigatorName</key>
-      <val>Canary</val>
+      <key>DatasetId</key>
+      <val>urn:edrn:COPY_NUMBER_LEV1</val>
     </keyval>
     <keyval>
-      <key>technology</key>
-      <val>Affymetrix</val>
+      <key>DateDatasetFrozen</key>
+      <val></val>
     </keyval>
     <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
+      <key>LeadPI</key>
+      <val>Wan Lam</val>
     </keyval>
-  </metadata>
-</type>
+    <keyval>
+      <key>SiteName</key>
+      <val>519</val>
+    </keyval>
+    <keyval>
+      <key>SiteID</key>
+      <val>519</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodian</key>
+      <val>Kelsie Thu</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodianEmail</key>
+      <val>kthu@bccrc.ca</val>
+    </keyval>
+    <keyval>
+      <key>OrganSite</key>
+      <val>Lung</val>
+    </keyval>
+    <keyval>
+      <key>CollaborativeGroup</key>
+      <val>Lung and Upper Aerodigestive</val>
+    </keyval>
+    <keyval>
+      <key>PubMedID</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>QAState</key>
+      <val>Under Review</val>
+    </keyval>
+    <keyval>
+      <key>AccessGrantedTo</key>
+      <val>Lung and Upper Aerodigestive</val>
+      <val>Super User</val>
+    </keyval>
+    <keyval>
+      <key>MethodDetails</key>
+      <val>41 cell lines
+Raw SNP array data (CEL files = level 1) were imported and processed in Partek Genomics Suite software. Partek normalization includes background subtraction, probe length adjustment, fragment length adjustment, and GC content adjustment.  Analysis was performed following the &quot;Copy Number&quot; workflow using SNP array data for 72 normal HapMap individuals to create a baseline for copy number.  A matrix of normalized log2 intensity ratios (tumor cell line:HapMap baseline) for each probe in each sample was generated (level 2 data).  Genomic segmentation was performed in Partek to generate a list of segmental copy number alterations in each sample using a 50 marker minimum and a p-value threshold of 10-6 to define copy number altered regions. Segmentation data was parsed into a gene-centric matrix with estimated copy number values for each gene (level 3 data).  A copy number = 2 is copy neutral; copy number &lt; 2 is a loss and copy number &gt; 2 is a copy gain. Genes were mapped using base pair coordinates from a table of RefSeq annotated genes downloaded from the UCSC genome browser (March 2006 genome build). Gene accessions with ambiguous mapping were removed from the RefSeq table. For genes with multiple accessions, the accession with the longest transcript was used for mapping.
 
-<!--
-  =============================================================================
-  DNA_METHYLATION_LEV1
-  =============================================================================
--->
-<type id="urn:edrn:DNA_METHYLATION_LEV1" name="DNA_METHYLATION_LEV1">
-  <repository path="file://[EDRN_REPO_HOME]/archive"/>
-  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
-  <description> TBD </description>
-  <metExtractors>
-    <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-    <configuration>
-      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
-      <property name="nsAware" value="true"  />
-      <property name="elementNs" value="CAS" />
-      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
-    </configuration>
-    </extractor>
-  </metExtractors>
-
-  <metadata>
-    <keyval>
-      <key>datasetName</key>
-      <val>DNA_METHYLATION_LEV1</val>
+60 matched tumor normal pairs
+Raw SNP array data (CEL files = level 1) were imported and processed in Partek Genomics Suite software.  Partek normalization includes background subtraction, probe length adjustment, fragment length adjustment, and GC content adjustment.   Analysis was performed following the &quot;Copy Number&quot; workflow using a paired analysis.  A matrix of normalized log2 intensity ratios (tumor:normal) for each probe in each sample was generated (level 2 data).  Genomic segmentation was performed in Partek to generate a list of segmental copy number alterations in each sample using a 50 marker minimum and a p-value threshold of 10-6 to define copy number altered regions.  This data was parsed into a gene-centric matrix with estimated copy number values for each gene (level 3 data).  A copy number = 2 is copy neutral; copy number &lt; 2 is a loss and copy number &gt; 2 is a copy gain. Genes were mapped using base pair coordinates from a table of RefSeq annotated genes downloaded from the UCSC genome browser (March 2006 genome build). Gene accessions with ambiguous mapping were removed from the RefSeq table. For genes with multiple accessions, the accession with the longest transcript was used for mapping.</val>
     </keyval>
     <keyval>
-      <key>prettyDatasetName</key>
-      <val>DNA_METHYLATION_LEV1 (Data - DNA Methylation - Level 1 (Raw))</val>
+      <key>AnalyticResults</key>
+      <val>This dataset includes copy number data for 60 lung adenocarcinoma tumors and 41 lung cancer cell lines.</val>
     </keyval>
     <keyval>
-      <key>studyName</key>
-      <val>Canary Never Smokers</val>
-    </keyval>
-    <keyval>
-      <key>studyId</key>
-      <val>173</val>
-    </keyval>
-    <keyval>
-      <key>investigatorName</key>
-      <val>Canary</val>
-    </keyval>
-    <keyval>
-      <key>technology</key>
-      <val>Affymetrix</val>
-    </keyval>
-    <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
-    </keyval>
-  </metadata>
-</type>
-
-<!--
-  =============================================================================
-  DNA_METHYLATION_LEV3
-  =============================================================================
--->
-<type id="urn:edrn:DNA_METHYLATION_LEV3" name="DNA_METHYLATION_LEV3">
-  <repository path="file://[EDRN_REPO_HOME]/archive"/>
-  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
-  <description> TBD </description>
-  <metExtractors>
-    <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-    <configuration>
-      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
-      <property name="nsAware" value="true"  />
-      <property name="elementNs" value="CAS" />
-      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
-    </configuration>
-    </extractor>
-  </metExtractors>
-
-  <metadata>
-    <keyval>
-      <key>datasetName</key>
-      <val>DNA_METHYLATION_LEV3</val>
-    </keyval>
-    <keyval>
-      <key>prettyDatasetName</key>
-      <val>DNA_METHYLATION_LEV3 (Data - DNA Methylation - Level 3 (Gene-centric))</val>
-    </keyval>
-    <keyval>
-      <key>studyName</key>
-      <val>Canary Never Smokers</val>
-    </keyval>
-    <keyval>
-      <key>studyId</key>
-      <val>173</val>
-    </keyval>
-    <keyval>
-      <key>investigatorName</key>
-      <val>Canary</val>
-    </keyval>
-    <keyval>
-      <key>technology</key>
-      <val>Affymetrix</val>
-    </keyval>
-    <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
+      <key>DataDisclaimer</key>
+      <val>Data and information released from the National Cancer Institute (NCI) are provided on an &quot;AS IS&quot; basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
     </keyval>
   </metadata>
 </type>
@@ -2235,98 +2184,102 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 <type id="urn:edrn:COPY_NUMBER_LEV2" name="COPY_NUMBER_LEV2">
   <repository path="file://[EDRN_REPO_HOME]/archive"/>
   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
-  <description> TBD </description>
+  <description> EDRN Tumor Copy Number Data </description>
   <metExtractors>
     <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
     <configuration>
       <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
       <property name="nsAware" value="true"  />
       <property name="elementNs" value="CAS" />
-      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+      <property name="elements"  value="ProductType,ProductReceivedTime,ProductName,ProductId" />
     </configuration>
     </extractor>
   </metExtractors>
 
   <metadata>
     <keyval>
-      <key>datasetName</key>
+      <key>ProtocolID</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>ProtocolName</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>DatasetDescription</key>
+      <val>EDRN Tumor Copy Number Data</val>
+    </keyval>
+    <keyval>
+      <key>DataSetName</key>
       <val>COPY_NUMBER_LEV2</val>
     </keyval>
     <keyval>
-      <key>prettyDatasetName</key>
-      <val>COPY_NUMBER_LEV2 (Data - Copy Number - Level 2 (Processed))</val>
+      <key>DatasetId</key>
+      <val>urn:edrn:COPY_NUMBER_LEV2</val>
     </keyval>
     <keyval>
-      <key>studyName</key>
-      <val>Canary Never Smokers</val>
+      <key>DateDatasetFrozen</key>
+      <val></val>
     </keyval>
     <keyval>
-      <key>studyId</key>
-      <val>173</val>
+      <key>LeadPI</key>
+      <val>Wan Lam</val>
     </keyval>
     <keyval>
-      <key>investigatorName</key>
-      <val>Canary</val>
+      <key>SiteName</key>
+      <val>519</val>
     </keyval>
     <keyval>
-      <key>technology</key>
-      <val>Affymetrix</val>
+      <key>SiteID</key>
+      <val>519</val>
     </keyval>
     <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
+      <key>DataCustodian</key>
+      <val>Kelsie Thu</val>
     </keyval>
-  </metadata>
-</type>
+    <keyval>
+      <key>DataCustodianEmail</key>
+      <val>kthu@bccrc.ca</val>
+    </keyval>
+    <keyval>
+      <key>OrganSite</key>
+      <val>Lung</val>
+    </keyval>
+    <keyval>
+      <key>CollaborativeGroup</key>
+      <val>Lung and Upper Aerodigestive</val>
+    </keyval>
+    <keyval>
+      <key>PubMedID</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>QAState</key>
+      <val>Under Review</val>
+    </keyval>
+    <keyval>
+      <key>AccessGrantedTo</key>
+      <val>Lung and Upper Aerodigestive</val>
+      <val>Super User</val>
+    </keyval>
+    <keyval>
+      <key>MethodDetails</key>
+      <val>41 cell lines
+Raw SNP array data (CEL files = level 1) were imported and processed in Partek Genomics Suite software. Partek normalization includes background subtraction, probe length adjustment, fragment length adjustment, and GC content adjustment.  Analysis was performed following the &quot;Copy Number&quot; workflow using SNP array data for 72 normal HapMap individuals to create a baseline for copy number.  A matrix of normalized log2 intensity ratios (tumor cell line:HapMap baseline) for each probe in each sample was generated (level 2 data).  Genomic segmentation was performed in Partek to generate a list of segmental copy number alterations in each sample using a 50 marker minimum and a p-value threshold of 10-6 to define copy number altered regions. Segmentation data was parsed into a gene-centric matrix with estimated copy number values for each gene (level 3 data).  A copy number = 2 is copy neutral; copy number &lt; 2 is a loss and copy number &gt; 2 is a copy gain. Genes were mapped using base pair coordinates from a table of RefSeq annotated genes downloaded from the UCSC genome browser (March 2006 genome build). Gene accessions with ambiguous mapping were removed from the RefSeq table. For genes with multiple accessions, the accession with the longest transcript was used for mapping.
 
-<!--
-  =============================================================================
-  MUTATIONS_LEV1
-  =============================================================================
--->
-<type id="urn:edrn:MUTATIONS_LEV1" name="MUTATIONS_LEV1">
-  <repository path="file://[EDRN_REPO_HOME]/archive"/>
-  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
-  <description> TBD </description>
-  <metExtractors>
-    <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-    <configuration>
-      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
-      <property name="nsAware" value="true"  />
-      <property name="elementNs" value="CAS" />
-      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
-    </configuration>
-    </extractor>
-  </metExtractors>
-
-  <metadata>
-    <keyval>
-      <key>datasetName</key>
-      <val>MUTATIONS_LEV1</val>
+60 matched tumor normal pairs
+Raw SNP array data (CEL files = level 1) were imported and processed in Partek Genomics Suite software.  Partek normalization includes background subtraction, probe length adjustment, fragment length adjustment, and GC content adjustment.   Analysis was performed following the &quot;Copy Number&quot; workflow using a paired analysis.  A matrix of normalized log2 intensity ratios (tumor:normal) for each probe in each sample was generated (level 2 data).  Genomic segmentation was performed in Partek to generate a list of segmental copy number alterations in each sample using a 50 marker minimum and a p-value threshold of 10-6 to define copy number altered regions.  This data was parsed into a gene-centric matrix with estimated copy number values for each gene (level 3 data).  A copy number = 2 is copy neutral; copy number &lt; 2 is a loss and copy number &gt; 2 is a copy gain. Genes were mapped using base pair coordinates from a table of RefSeq annotated genes downloaded from the UCSC genome browser (March 2006 genome build). Gene accessions with ambiguous mapping were removed from the RefSeq table. For genes with multiple accessions, the accession with the longest transcript was used for mapping.</val>
     </keyval>
     <keyval>
-      <key>prettyDatasetName</key>
-      <val>MUTATIONS_LEV1 (Data - Mutations - Level 1 (Raw))</val>
+      <key>AnalyticResults</key>
+      <val>This dataset includes copy number data for 60 lung adenocarcinoma tumors and 41 lung cancer cell lines.</val>
     </keyval>
     <keyval>
-      <key>studyName</key>
-      <val>Canary Never Smokers</val>
-    </keyval>
-    <keyval>
-      <key>studyId</key>
-      <val>173</val>
-    </keyval>
-    <keyval>
-      <key>investigatorName</key>
-      <val>Canary</val>
-    </keyval>
-    <keyval>
-      <key>technology</key>
-      <val>Affymetrix</val>
-    </keyval>
-    <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
+      <key>DataDisclaimer</key>
+      <val>Data and information released from the National Cancer Institute (NCI) are provided on an &quot;AS IS&quot; basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
     </keyval>
   </metadata>
 </type>
@@ -2339,358 +2292,670 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 <type id="urn:edrn:COPY_NUMBER_LEV3" name="COPY_NUMBER_LEV3">
   <repository path="file://[EDRN_REPO_HOME]/archive"/>
   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
-  <description> TBD </description>
+  <description> EDRN Tumor Copy Number Data </description>
   <metExtractors>
     <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
     <configuration>
       <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
       <property name="nsAware" value="true"  />
       <property name="elementNs" value="CAS" />
-      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+      <property name="elements"  value="ProductType,ProductReceivedTime,ProductName,ProductId" />
     </configuration>
     </extractor>
   </metExtractors>
 
   <metadata>
     <keyval>
-      <key>datasetName</key>
+      <key>ProtocolID</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>ProtocolName</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>DatasetDescription</key>
+      <val>EDRN Tumor Copy Number Data</val>
+    </keyval>
+    <keyval>
+      <key>DataSetName</key>
       <val>COPY_NUMBER_LEV3</val>
     </keyval>
     <keyval>
-      <key>prettyDatasetName</key>
-      <val>COPY_NUMBER_LEV3 (Data - Copy Number - Level 3 (Gene-centric))</val>
+      <key>DatasetId</key>
+      <val>urn:edrn:COPY_NUMBER_LEV3</val>
     </keyval>
     <keyval>
-      <key>studyName</key>
-      <val>Canary Never Smokers</val>
+      <key>DateDatasetFrozen</key>
+      <val></val>
     </keyval>
     <keyval>
-      <key>studyId</key>
-      <val>173</val>
+      <key>LeadPI</key>
+      <val>Wan Lam</val>
     </keyval>
     <keyval>
-      <key>investigatorName</key>
-      <val>Canary</val>
+      <key>SiteName</key>
+      <val>519</val>
     </keyval>
     <keyval>
-      <key>technology</key>
-      <val>Affymetrix</val>
+      <key>SiteID</key>
+      <val>519</val>
     </keyval>
     <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
+      <key>DataCustodian</key>
+      <val>Kelsie Thu</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodianEmail</key>
+      <val>kthu@bccrc.ca</val>
+    </keyval>
+    <keyval>
+      <key>OrganSite</key>
+      <val>Lung</val>
+    </keyval>
+    <keyval>
+      <key>CollaborativeGroup</key>
+      <val>Lung and Upper Aerodigestive</val>
+    </keyval>
+    <keyval>
+      <key>PubMedID</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>QAState</key>
+      <val>Under Review</val>
+    </keyval>
+    <keyval>
+      <key>AccessGrantedTo</key>
+      <val>Lung and Upper Aerodigestive</val>
+      <val>Super User</val>
+    </keyval>
+    <keyval>
+      <key>MethodDetails</key>
+      <val>41 cell lines
+Raw SNP array data (CEL files = level 1) were imported and processed in Partek Genomics Suite software. Partek normalization includes background subtraction, probe length adjustment, fragment length adjustment, and GC content adjustment.  Analysis was performed following the &quot;Copy Number&quot; workflow using SNP array data for 72 normal HapMap individuals to create a baseline for copy number.  A matrix of normalized log2 intensity ratios (tumor cell line:HapMap baseline) for each probe in each sample was generated (level 2 data).  Genomic segmentation was performed in Partek to generate a list of segmental copy number alterations in each sample using a 50 marker minimum and a p-value threshold of 10-6 to define copy number altered regions. Segmentation data was parsed into a gene-centric matrix with estimated copy number values for each gene (level 3 data).  A copy number = 2 is copy neutral; copy number &lt; 2 is a loss and copy number &gt; 2 is a copy gain. Genes were mapped using base pair coordinates from a table of RefSeq annotated genes downloaded from the UCSC genome browser (March 2006 genome build). Gene accessions with ambiguous mapping were removed from the RefSeq table. For genes with multiple accessions, the accession with the longest transcript was used for mapping.
+
+60 matched tumor normal pairs
+Raw SNP array data (CEL files = level 1) were imported and processed in Partek Genomics Suite software.  Partek normalization includes background subtraction, probe length adjustment, fragment length adjustment, and GC content adjustment.   Analysis was performed following the &quot;Copy Number&quot; workflow using a paired analysis.  A matrix of normalized log2 intensity ratios (tumor:normal) for each probe in each sample was generated (level 2 data).  Genomic segmentation was performed in Partek to generate a list of segmental copy number alterations in each sample using a 50 marker minimum and a p-value threshold of 10-6 to define copy number altered regions.  This data was parsed into a gene-centric matrix with estimated copy number values for each gene (level 3 data).  A copy number = 2 is copy neutral; copy number &lt; 2 is a loss and copy number &gt; 2 is a copy gain. Genes were mapped using base pair coordinates from a table of RefSeq annotated genes downloaded from the UCSC genome browser (March 2006 genome build). Gene accessions with ambiguous mapping were removed from the RefSeq table. For genes with multiple accessions, the accession with the longest transcript was used for mapping.</val>
+    </keyval>
+    <keyval>
+      <key>AnalyticResults</key>
+      <val>This dataset includes copy number data for 60 lung adenocarcinoma tumors and 41 lung cancer cell lines.</val>
+    </keyval>
+    <keyval>
+      <key>DataDisclaimer</key>
+      <val>Data and information released from the National Cancer Institute (NCI) are provided on an &quot;AS IS&quot; basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
     </keyval>
   </metadata>
 </type>
 
 <!--
   =============================================================================
-  MIRNA_EXPRESSION_LEV1
+  DNA_METHYLATION_LEV1
   =============================================================================
 -->
-<type id="urn:edrn:MIRNA_EXPRESSION_LEV1" name="MIRNA_EXPRESSION_LEV1">
+<type id="urn:edrn:DNA_METHYLATION_LEV1" name="DNA_METHYLATION_LEV1">
   <repository path="file://[EDRN_REPO_HOME]/archive"/>
   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
-  <description> TBD </description>
+  <description>  </description>
   <metExtractors>
     <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
     <configuration>
       <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
       <property name="nsAware" value="true"  />
       <property name="elementNs" value="CAS" />
-      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+      <property name="elements"  value="ProductType,ProductReceivedTime,ProductName,ProductId" />
     </configuration>
     </extractor>
   </metExtractors>
 
   <metadata>
     <keyval>
-      <key>datasetName</key>
-      <val>MIRNA_EXPRESSION_LEV1</val>
+      <key>ProtocolID</key>
+      <val>282</val>
     </keyval>
     <keyval>
-      <key>prettyDatasetName</key>
-      <val>MIRNA_EXPRESSION_LEV1 (Data - miRNA Expression - Level 1 (Raw))</val>
+      <key>ProtocolName</key>
+      <val>282</val>
     </keyval>
     <keyval>
-      <key>studyName</key>
-      <val>Canary Never Smokers</val>
+      <key>DatasetDescription</key>
+      <val></val>
     </keyval>
     <keyval>
-      <key>studyId</key>
-      <val>173</val>
+      <key>DataSetName</key>
+      <val>DNA_METHYLATION_LEV1</val>
     </keyval>
     <keyval>
-      <key>investigatorName</key>
-      <val>Canary</val>
+      <key>DatasetId</key>
+      <val>urn:edrn:DNA_METHYLATION_LEV1</val>
     </keyval>
     <keyval>
-      <key>technology</key>
-      <val>Affymetrix</val>
+      <key>DateDatasetFrozen</key>
+      <val></val>
     </keyval>
     <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
+      <key>LeadPI</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>SiteName</key>
+      <val>516</val>
+    </keyval>
+    <keyval>
+      <key>SiteID</key>
+      <val>516</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodian</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>DataCustodianEmail</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>OrganSite</key>
+      <val>Lung</val>
+    </keyval>
+    <keyval>
+      <key>CollaborativeGroup</key>
+      <val>Lung and Upper Aerodigestive</val>
+    </keyval>
+    <keyval>
+      <key>PubMedID</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>QAState</key>
+      <val>Under Review</val>
+    </keyval>
+    <keyval>
+      <key>AccessGrantedTo</key>
+      <val>Lung and Upper Aerodigestive</val>
+      <val>Super User</val>
+    </keyval>
+    <keyval>
+      <key>MethodDetails</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>AnalyticResults</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>DataDisclaimer</key>
+      <val>Data and information released from the National Cancer Institute (NCI) are provided on an &quot;AS IS&quot; basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
     </keyval>
   </metadata>
 </type>
 
 <!--
   =============================================================================
-  MIRNA_EXPRESSION_LEV2
+  DNA_METHYLATION_LEV2
   =============================================================================
 -->
-<type id="urn:edrn:MIRNA_EXPRESSION_LEV2" name="MIRNA_EXPRESSION_LEV2">
+<type id="urn:edrn:DNA_METHYLATION_LEV2" name="DNA_METHYLATION_LEV2">
   <repository path="file://[EDRN_REPO_HOME]/archive"/>
   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
-  <description> TBD </description>
+  <description> Illumina Infinium HumanMethylation 27K  </description>
   <metExtractors>
     <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
     <configuration>
       <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
       <property name="nsAware" value="true"  />
       <property name="elementNs" value="CAS" />
-      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+      <property name="elements"  value="ProductType,ProductReceivedTime,ProductName,ProductId" />
     </configuration>
     </extractor>
   </metExtractors>
 
   <metadata>
     <keyval>
-      <key>datasetName</key>
-      <val>MIRNA_EXPRESSION_LEV2</val>
+      <key>ProtocolID</key>
+      <val>282</val>
     </keyval>
     <keyval>
-      <key>prettyDatasetName</key>
-      <val>MIRNA_EXPRESSION_LEV2 (Data - miRNA Expression - Level 2 (Processed))</val>
+      <key>ProtocolName</key>
+      <val>282</val>
     </keyval>
     <keyval>
-      <key>studyName</key>
-      <val>Canary Never Smokers</val>
+      <key>DatasetDescription</key>
+      <val>Illumina Infinium HumanMethylation 27K </val>
     </keyval>
     <keyval>
-      <key>studyId</key>
-      <val>173</val>
+      <key>DataSetName</key>
+      <val>DNA_METHYLATION_LEV2</val>
     </keyval>
     <keyval>
-      <key>investigatorName</key>
-      <val>Canary</val>
+      <key>DatasetId</key>
+      <val>urn:edrn:DNA_METHYLATION_LEV2</val>
     </keyval>
     <keyval>
-      <key>technology</key>
-      <val>Affymetrix</val>
+      <key>DateDatasetFrozen</key>
+      <val></val>
     </keyval>
     <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
+      <key>LeadPI</key>
+      <val>Ite A. Laird-Offringa</val>
+    </keyval>
+    <keyval>
+      <key>SiteName</key>
+      <val>516</val>
+    </keyval>
+    <keyval>
+      <key>SiteID</key>
+      <val>516</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodian</key>
+      <val>Suhaida Adura Selamat</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodianEmail</key>
+      <val>selamat@usc.edu</val>
+    </keyval>
+    <keyval>
+      <key>OrganSite</key>
+      <val>Lung</val>
+    </keyval>
+    <keyval>
+      <key>CollaborativeGroup</key>
+      <val>Lung and Upper Aerodigestive</val>
+    </keyval>
+    <keyval>
+      <key>PubMedID</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>QAState</key>
+      <val>Under Review</val>
+    </keyval>
+    <keyval>
+      <key>AccessGrantedTo</key>
+      <val>Lung and Upper Aerodigestive</val>
+      <val>Super User</val>
+    </keyval>
+    <keyval>
+      <key>MethodDetails</key>
+      <val>The data was produced at the USC Epigenome Center Core. Genomic DNA samples were bisulfite converted with the Zymo EZ96 DNA methylation kit (Zymo Research, Orange, CA). Bisulfite conversion quality was assessed using four MethyLight reactions (Campan M, Methods Mol Biol., 2009). Bisulfite-converted DNA was then whole-genome amplified, fragmented, then hybridized to the Infinium HumanMethylation27K BeadChips. Each locus has corresponding methylated and un-methylated bead types. Single-base extension using labeled nucleotides is only accomplished upon correct allele-specific primer annealing to the appropriate bead type.</val>
+    </keyval>
+    <keyval>
+      <key>AnalyticResults</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>DataDisclaimer</key>
+      <val>Data and information released from the National Cancer Institute (NCI) are provided on an &quot;AS IS&quot; basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
     </keyval>
   </metadata>
 </type>
 
 <!--
   =============================================================================
-  MIRNA_EXPRESSION_LEV3
+  DNA_METHYLATION_LEV3
   =============================================================================
 -->
-<type id="urn:edrn:MIRNA_EXPRESSION_LEV3" name="MIRNA_EXPRESSION_LEV3">
+<type id="urn:edrn:DNA_METHYLATION_LEV3" name="DNA_METHYLATION_LEV3">
   <repository path="file://[EDRN_REPO_HOME]/archive"/>
   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
-  <description> TBD </description>
+  <description> Illumina Infinium HumanMethylation 27K </description>
   <metExtractors>
     <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
     <configuration>
       <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
       <property name="nsAware" value="true"  />
       <property name="elementNs" value="CAS" />
-      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+      <property name="elements"  value="ProductType,ProductReceivedTime,ProductName,ProductId" />
     </configuration>
     </extractor>
   </metExtractors>
 
   <metadata>
     <keyval>
-      <key>datasetName</key>
-      <val>MIRNA_EXPRESSION_LEV3</val>
+      <key>ProtocolID</key>
+      <val>282</val>
     </keyval>
     <keyval>
-      <key>prettyDatasetName</key>
-      <val>MIRNA_EXPRESSION_LEV3 (Data - miRNA Expression - Level 3 (Gene-centric))</val>
+      <key>ProtocolName</key>
+      <val>282</val>
     </keyval>
     <keyval>
-      <key>studyName</key>
-      <val>Canary Never Smokers</val>
+      <key>DatasetDescription</key>
+      <val>Illumina Infinium HumanMethylation 27K</val>
     </keyval>
     <keyval>
-      <key>studyId</key>
-      <val>173</val>
+      <key>DataSetName</key>
+      <val>DNA_METHYLATION_LEV3</val>
     </keyval>
     <keyval>
-      <key>investigatorName</key>
-      <val>Canary</val>
+      <key>DatasetId</key>
+      <val>urn:edrn:DNA_METHYLATION_LEV3</val>
     </keyval>
     <keyval>
-      <key>technology</key>
-      <val>Affymetrix</val>
+      <key>DateDatasetFrozen</key>
+      <val></val>
     </keyval>
     <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
+      <key>LeadPI</key>
+      <val>Ite A. Laird-Offringa</val>
+    </keyval>
+    <keyval>
+      <key>SiteName</key>
+      <val>516</val>
+    </keyval>
+    <keyval>
+      <key>SiteID</key>
+      <val>516</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodian</key>
+      <val>Suhaida Adura Selamat</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodianEmail</key>
+      <val>selamat@usc.edu</val>
+    </keyval>
+    <keyval>
+      <key>OrganSite</key>
+      <val>Lung</val>
+    </keyval>
+    <keyval>
+      <key>CollaborativeGroup</key>
+      <val>Lung and Upper Aerodigestive</val>
+    </keyval>
+    <keyval>
+      <key>PubMedID</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>QAState</key>
+      <val>Under Review</val>
+    </keyval>
+    <keyval>
+      <key>AccessGrantedTo</key>
+      <val>Lung and Upper Aerodigestive</val>
+      <val>Super User</val>
+    </keyval>
+    <keyval>
+      <key>MethodDetails</key>
+      <val>The data was produced at the USC Epigenome Center Core. Genomic DNA samples were bisulfite converted with the Zymo EZ96 DNA methylation kit (Zymo Research, Orange, CA). Bisulfite conversion quality was assessed using four MethyLight reactions (Campan M, Methods Mol Biol., 2009). Bisulfite-converted DNA was then whole-genome amplified, fragmented, then hybridized to the Infinium HumanMethylation27K BeadChips. Each locus has corresponding methylated and un-methylated bead types. Single-base extension using labeled nucleotides is only accomplished upon correct allele-specific primer annealing to the appropriate bead type.</val>
+    </keyval>
+    <keyval>
+      <key>AnalyticResults</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>DataDisclaimer</key>
+      <val>Data and information released from the National Cancer Institute (NCI) are provided on an &quot;AS IS&quot; basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
     </keyval>
   </metadata>
 </type>
 
 <!--
   =============================================================================
-  PLASMA_PROTEOME_LEV3
+  GENE_EXPRESSION_LEV1
   =============================================================================
 -->
-<type id="urn:edrn:PLASMA_PROTEOME_LEV3" name="PLASMA_PROTEOME_LEV3">
+<type id="urn:edrn:GENE_EXPRESSION_LEV1" name="GENE_EXPRESSION_LEV1">
   <repository path="file://[EDRN_REPO_HOME]/archive"/>
   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
-  <description> TBD </description>
+  <description> 40 NSCLC cell lines / 83 lung adenocarcinoma tumor pair </description>
   <metExtractors>
     <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
     <configuration>
       <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
       <property name="nsAware" value="true"  />
       <property name="elementNs" value="CAS" />
-      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+      <property name="elements"  value="ProductType,ProductReceivedTime,ProductName,ProductId" />
     </configuration>
     </extractor>
   </metExtractors>
 
   <metadata>
     <keyval>
-      <key>datasetName</key>
-      <val>PLASMA_PROTEOME_LEV3</val>
+      <key>ProtocolID</key>
+      <val>282</val>
     </keyval>
     <keyval>
-      <key>prettyDatasetName</key>
-      <val>PLASMA_PROTEOME_LEV3 (Data - Plasma Proteome - Level 3 (Gene-centric))</val>
+      <key>ProtocolName</key>
+      <val>282</val>
     </keyval>
     <keyval>
-      <key>studyName</key>
-      <val>Canary Never Smokers</val>
+      <key>DatasetDescription</key>
+      <val>40 NSCLC cell lines / 83 lung adenocarcinoma tumor pair</val>
     </keyval>
     <keyval>
-      <key>studyId</key>
-      <val>173</val>
+      <key>DataSetName</key>
+      <val>GENE_EXPRESSION_LEV1</val>
     </keyval>
     <keyval>
-      <key>investigatorName</key>
-      <val>Canary</val>
+      <key>DatasetId</key>
+      <val>urn:edrn:GENE_EXPRESSION_LEV1</val>
     </keyval>
     <keyval>
-      <key>technology</key>
-      <val>Affymetrix</val>
+      <key>DateDatasetFrozen</key>
+      <val></val>
     </keyval>
     <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
+      <key>LeadPI</key>
+      <val>Adi Gazdar</val>
+    </keyval>
+    <keyval>
+      <key>SiteName</key>
+      <val>74</val>
+    </keyval>
+    <keyval>
+      <key>SiteID</key>
+      <val>74</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodian</key>
+      <val>Wei Zhang</val>
+      <val>Luc Girard</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodianEmail</key>
+      <val>Wei1.zhang@utsouthwestern.edu</val>
+      <val>luc.girard@utsouthwestern.edu</val>
+    </keyval>
+    <keyval>
+      <key>OrganSite</key>
+      <val>Lung</val>
+    </keyval>
+    <keyval>
+      <key>CollaborativeGroup</key>
+      <val>Lung and Upper Aerodigestive</val>
+    </keyval>
+    <keyval>
+      <key>PubMedID</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>QAState</key>
+      <val>Under Review</val>
+    </keyval>
+    <keyval>
+      <key>AccessGrantedTo</key>
+      <val>Lung and Upper Aerodigestive</val>
+      <val>Super User</val>
+    </keyval>
+    <keyval>
+      <key>MethodDetails</key>
+      <val>Cell lines: 
+
+Forty NSCLC cell lines from Dr. Adi Gazdar's lab  were studied. Among them, twenty were obtained from never or light smokers (defined as less than or equal to 15 pack year smoking history), and twenty from heavy smokers (defined as smokers who had more than or equal to 30 pack year smoking history.)
+
+Tumors:
+
+Eighty-three pairs of lung adenocarcinomas and their adjacent normal lung tissues were provided from British Columbia Cancer Center, Vancouver. Smoking history is available for all the samples.
+
+DNA, RNA and cDNA preparation:
+
+Genomic DNA was obtained from cell lines by using DNeasy Tissue Kit (QIAGEN). Total RNA was extracted from cell lines using RNeasy Plus Mini Kit (QIAGEN). The cDNA was prepared by reverse transcription of RNA  using High-Capacity cDNA Reverse Transcription Kits. (Applied Biosystems).
+
+Mutation analysis:
+	
+Gene mutation status was analyzed by PCR amplification of genomic DNA or cDNA and direct sequencing of the PCR products. Mutational analysis was performed for EGFR (exons 19-21), KRAS (exon 2), p16 (exons1-3) using genomic DNA; p53 (exon1-11), LKB1 (exon1-9), BRG1 (exon3-37) using cDNA. All PCR reactions were performed in 25 uL volumes containing 100 ng of DNA or cDNA using Applied Biosystems GeneAmp PCR System 9700 instrument. PCR products were sequenced using Applied Biosystems Big Dye Terminator 3.1 chemistry and AB capillary instrumentation.
+
+Copy number analysis
+
+Gene copy number was determined by SYBR green real-time PCR method. The reactions were  performed in Bio-rad DNA Engine Thermal Cycler.  The thermal cycling conditions were set to 2 min at 50c,10 min at 95c,followed by 40 cycles of 15 sec at 95c  alternating with 1min at 60C. Standard curves for copy numbers were generated using human genomic DNA as reference. DNA copy number ratios were calculated as the average copy number of target locus divided by the average copy number of the reference locus, and then normalized against human genomic DNA.
+
+Microarray analysis
+
+RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer per manufacturer's protocol. 500 ng of total RNA from each sample was used to label the cRNA probes by Ambion Illumina TotalPrep RNA Amplification kit (Cat# IL1791). 1.5 ug of the amplified and labeled cRNA probes was hybridized to Illumina Human WG-6 v3.0 Expression BeadChip (Cat# BD-101-0203) overnight at 58 degree C, then washed, blocked and detected by streptavidin-Cy3 per manufacturer's protocol. After drying, the chips were scanned by Illumina iScan system. Bead-level data were obtained, and pre-processed using the R package mbcb for background correction and probe summarization. Pre-processed data were then quantile-normalized and log-transformed.</val>
+    </keyval>
+    <keyval>
+      <key>AnalyticResults</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>DataDisclaimer</key>
+      <val>Data and information released from the National Cancer Institute (NCI) are provided on an &quot;AS IS&quot; basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
     </keyval>
   </metadata>
 </type>
 
 <!--
   =============================================================================
-  PROTEIN_ENRICHMENT_LEV2
+  GENE_EXPRESSION_LEV2
   =============================================================================
 -->
-<type id="urn:edrn:PROTEIN_ENRICHMENT_LEV2" name="PROTEIN_ENRICHMENT_LEV2">
+<type id="urn:edrn:GENE_EXPRESSION_LEV2" name="GENE_EXPRESSION_LEV2">
   <repository path="file://[EDRN_REPO_HOME]/archive"/>
   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
-  <description> TBD </description>
+  <description>  </description>
   <metExtractors>
     <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
     <configuration>
       <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
       <property name="nsAware" value="true"  />
       <property name="elementNs" value="CAS" />
-      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+      <property name="elements"  value="ProductType,ProductReceivedTime,ProductName,ProductId" />
     </configuration>
     </extractor>
   </metExtractors>
 
   <metadata>
     <keyval>
-      <key>datasetName</key>
-      <val>PROTEIN_ENRICHMENT_LEV2</val>
+      <key>ProtocolID</key>
+      <val>282</val>
     </keyval>
     <keyval>
-      <key>prettyDatasetName</key>
-      <val>PROTEIN_ENRICHMENT_LEV2 (Data - Protein Enrichment - Level 2 (Processed))</val>
+      <key>ProtocolName</key>
+      <val>282</val>
     </keyval>
     <keyval>
-      <key>studyName</key>
-      <val>Canary Never Smokers</val>
+      <key>DatasetDescription</key>
+      <val></val>
     </keyval>
     <keyval>
-      <key>studyId</key>
-      <val>173</val>
+      <key>DataSetName</key>
+      <val>GENE_EXPRESSION_LEV2</val>
     </keyval>
     <keyval>
-      <key>investigatorName</key>
-      <val>Canary</val>
+      <key>DatasetId</key>
+      <val>urn:edrn:GENE_EXPRESSION_LEV2</val>
     </keyval>
     <keyval>
-      <key>technology</key>
-      <val>Affymetrix</val>
+      <key>DateDatasetFrozen</key>
+      <val></val>
     </keyval>
     <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
+      <key>LeadPI</key>
+      <val>Adi Gazdar</val>
     </keyval>
-  </metadata>
-</type>
+    <keyval>
+      <key>SiteName</key>
+      <val>74</val>
+    </keyval>
+    <keyval>
+      <key>SiteID</key>
+      <val>74</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodian</key>
+      <val>Wei Zhang</val>
+      <val>Luc Girard</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodianEmail</key>
+      <val>Wei1.zhang@utsouthwestern.edu</val>
+      <val>luc.girard@utsouthwestern.edu</val>
+    </keyval>
+    <keyval>
+      <key>OrganSite</key>
+      <val>Lung</val>
+    </keyval>
+    <keyval>
+      <key>CollaborativeGroup</key>
+      <val>Lung and Upper Aerodigestive</val>
+    </keyval>
+    <keyval>
+      <key>PubMedID</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>QAState</key>
+      <val>Under Review</val>
+    </keyval>
+    <keyval>
+      <key>AccessGrantedTo</key>
+      <val>Lung and Upper Aerodigestive</val>
+      <val>Super User</val>
+    </keyval>
+    <keyval>
+      <key>MethodDetails</key>
+      <val>Cell lines: 
 
-<!--
-  =============================================================================
-  PROTEIN_ENRICHMENT_LEV3
-  =============================================================================
--->
-<type id="urn:edrn:PROTEIN_ENRICHMENT_LEV3" name="PROTEIN_ENRICHMENT_LEV3">
-  <repository path="file://[EDRN_REPO_HOME]/archive"/>
-  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
-  <description> TBD </description>
-  <metExtractors>
-    <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-    <configuration>
-      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
-      <property name="nsAware" value="true"  />
-      <property name="elementNs" value="CAS" />
-      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
-    </configuration>
-    </extractor>
-  </metExtractors>
+Forty NSCLC cell lines from Dr. Adi Gazdar's lab  were studied. Among them, twenty were obtained from never or light smokers (defined as less than or equal to 15 pack year smoking history), and twenty from heavy smokers (defined as smokers who had more than or equal to 30 pack year smoking history.)
 
-  <metadata>
-    <keyval>
-      <key>datasetName</key>
-      <val>PROTEIN_ENRICHMENT_LEV3</val>
+Tumors:
+
+Eighty-three pairs of lung adenocarcinomas and their adjacent normal lung tissues were provided from British Columbia Cancer Center, Vancouver. Smoking history is available for all the samples.
+
+DNA, RNA and cDNA preparation:
+
+Genomic DNA was obtained from cell lines by using DNeasy Tissue Kit (QIAGEN). Total RNA was extracted from cell lines using RNeasy Plus Mini Kit (QIAGEN). The cDNA was prepared by reverse transcription of RNA  using High-Capacity cDNA Reverse Transcription Kits. (Applied Biosystems).
+
+Mutation analysis:
+	
+Gene mutation status was analyzed by PCR amplification of genomic DNA or cDNA and direct sequencing of the PCR products. Mutational analysis was performed for EGFR (exons 19-21), KRAS (exon 2), p16 (exons1-3) using genomic DNA; p53 (exon1-11), LKB1 (exon1-9), BRG1 (exon3-37) using cDNA. All PCR reactions were performed in 25 uL volumes containing 100 ng of DNA or cDNA using Applied Biosystems GeneAmp PCR System 9700 instrument. PCR products were sequenced using Applied Biosystems Big Dye Terminator 3.1 chemistry and AB capillary instrumentation.
+
+Copy number analysis
+
+Gene copy number was determined by SYBR green real-time PCR method. The reactions were  performed in Bio-rad DNA Engine Thermal Cycler.  The thermal cycling conditions were set to 2 min at 50c,10 min at 95c,followed by 40 cycles of 15 sec at 95c  alternating with 1min at 60C. Standard curves for copy numbers were generated using human genomic DNA as reference. DNA copy number ratios were calculated as the average copy number of target locus divided by the average copy number of the reference locus, and then normalized against human genomic DNA.
+
+Microarray analysis
+
+RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer per manufacturer's protocol. 500 ng of total RNA from each sample was used to label the cRNA probes by Ambion Illumina TotalPrep RNA Amplification kit (Cat# IL1791). 1.5 ug of the amplified and labeled cRNA probes was hybridized to Illumina Human WG-6 v3.0 Expression BeadChip (Cat# BD-101-0203) overnight at 58 degree C, then washed, blocked and detected by streptavidin-Cy3 per manufacturer's protocol. After drying, the chips were scanned by Illumina iScan system. Bead-level data were obtained, and pre-processed using the R package mbcb for background correction and probe summarization. Pre-processed data were then quantile-normalized and log-transformed.</val>
     </keyval>
     <keyval>
-      <key>prettyDatasetName</key>
-      <val>PROTEIN_ENRICHMENT_LEV3 (Data - Protein Enrichment - Level 3 (Gene-centric))</val>
+      <key>AnalyticResults</key>
+      <val></val>
     </keyval>
     <keyval>
-      <key>studyName</key>
-      <val>Canary Never Smokers</val>
-    </keyval>
-    <keyval>
-      <key>studyId</key>
-      <val>173</val>
-    </keyval>
-    <keyval>
-      <key>investigatorName</key>
-      <val>Canary</val>
-    </keyval>
-    <keyval>
-      <key>technology</key>
-      <val>Affymetrix</val>
-    </keyval>
-    <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
+      <key>DataDisclaimer</key>
+      <val>Data and information released from the National Cancer Institute (NCI) are provided on an &quot;AS IS&quot; basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
     </keyval>
   </metadata>
 </type>
@@ -2703,48 +2968,1001 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 <type id="urn:edrn:GENE_EXPRESSION_LEV3" name="GENE_EXPRESSION_LEV3">
   <repository path="file://[EDRN_REPO_HOME]/archive"/>
   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
-  <description> TBD </description>
+  <description>  </description>
   <metExtractors>
     <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
     <configuration>
       <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
       <property name="nsAware" value="true"  />
       <property name="elementNs" value="CAS" />
-      <property name="elements"  value="ProductReceivedTime,ProductName,ProductId" />
+      <property name="elements"  value="ProductType,ProductReceivedTime,ProductName,ProductId" />
     </configuration>
     </extractor>
   </metExtractors>
 
   <metadata>
     <keyval>
-      <key>datasetName</key>
+      <key>ProtocolID</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>ProtocolName</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>DatasetDescription</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>DataSetName</key>
       <val>GENE_EXPRESSION_LEV3</val>
     </keyval>
     <keyval>
-      <key>prettyDatasetName</key>
-      <val>GENE_EXPRESSION_LEV3 (Data - Gene Expression - Level 3 (Gene-centric))</val>
+      <key>DatasetId</key>
+      <val>urn:edrn:GENE_EXPRESSION_LEV3</val>
     </keyval>
     <keyval>
-      <key>studyName</key>
-      <val>Canary Never Smokers</val>
+      <key>DateDatasetFrozen</key>
+      <val></val>
     </keyval>
     <keyval>
-      <key>studyId</key>
-      <val>173</val>
+      <key>LeadPI</key>
+      <val>Adi Gazdar</val>
     </keyval>
     <keyval>
-      <key>investigatorName</key>
-      <val>Canary</val>
+      <key>SiteName</key>
+      <val>74</val>
     </keyval>
     <keyval>
-      <key>technology</key>
-      <val>Affymetrix</val>
+      <key>SiteID</key>
+      <val>74</val>
     </keyval>
     <keyval>
-      <key>accessGrantedTo</key>
-      <val>Canary</val>
+      <key>DataCustodian</key>
+      <val>Wei Zhang</val>
+      <val>Luc Girard</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodianEmail</key>
+      <val>Wei1.zhang@utsouthwestern.edu</val>
+      <val>luc.girard@utsouthwestern.edu</val>
+    </keyval>
+    <keyval>
+      <key>OrganSite</key>
+      <val>Lung</val>
+    </keyval>
+    <keyval>
+      <key>CollaborativeGroup</key>
+      <val>Lung and Upper Aerodigestive</val>
+    </keyval>
+    <keyval>
+      <key>PubMedID</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>QAState</key>
+      <val>Under Review</val>
+    </keyval>
+    <keyval>
+      <key>AccessGrantedTo</key>
+      <val>Lung and Upper Aerodigestive</val>
+      <val>Super User</val>
+    </keyval>
+    <keyval>
+      <key>MethodDetails</key>
+      <val>Cell lines: 
+
+Forty NSCLC cell lines from Dr. Adi Gazdar's lab  were studied. Among them, twenty were obtained from never or light smokers (defined as less than or equal to 15 pack year smoking history), and twenty from heavy smokers (defined as smokers who had more than or equal to 30 pack year smoking history.)
+
+Tumors:
+
+Eighty-three pairs of lung adenocarcinomas and their adjacent normal lung tissues were provided from British Columbia Cancer Center, Vancouver. Smoking history is available for all the samples.
+
+DNA, RNA and cDNA preparation:
+
+Genomic DNA was obtained from cell lines by using DNeasy Tissue Kit (QIAGEN). Total RNA was extracted from cell lines using RNeasy Plus Mini Kit (QIAGEN). The cDNA was prepared by reverse transcription of RNA  using High-Capacity cDNA Reverse Transcription Kits. (Applied Biosystems).
+
+Mutation analysis:
+	
+Gene mutation status was analyzed by PCR amplification of genomic DNA or cDNA and direct sequencing of the PCR products. Mutational analysis was performed for EGFR (exons 19-21), KRAS (exon 2), p16 (exons1-3) using genomic DNA; p53 (exon1-11), LKB1 (exon1-9), BRG1 (exon3-37) using cDNA. All PCR reactions were performed in 25 uL volumes containing 100 ng of DNA or cDNA using Applied Biosystems GeneAmp PCR System 9700 instrument. PCR products were sequenced using Applied Biosystems Big Dye Terminator 3.1 chemistry and AB capillary instrumentation.
+
+Copy number analysis
+
+Gene copy number was determined by SYBR green real-time PCR method. The reactions were  performed in Bio-rad DNA Engine Thermal Cycler.  The thermal cycling conditions were set to 2 min at 50c,10 min at 95c,followed by 40 cycles of 15 sec at 95c  alternating with 1min at 60C. Standard curves for copy numbers were generated using human genomic DNA as reference. DNA copy number ratios were calculated as the average copy number of target locus divided by the average copy number of the reference locus, and then normalized against human genomic DNA.
+
+Microarray analysis
+
+RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer per manufacturer's protocol. 500 ng of total RNA from each sample was used to label the cRNA probes by Ambion Illumina TotalPrep RNA Amplification kit (Cat# IL1791). 1.5 ug of the amplified and labeled cRNA probes was hybridized to Illumina Human WG-6 v3.0 Expression BeadChip (Cat# BD-101-0203) overnight at 58 degree C, then washed, blocked and detected by streptavidin-Cy3 per manufacturer's protocol. After drying, the chips were scanned by Illumina iScan system. Bead-level data were obtained, and pre-processed using the R package mbcb for background correction and probe summarization. Pre-processed data were then quantile-normalized and log-transformed.</val>
+    </keyval>
+    <keyval>
+      <key>AnalyticResults</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>DataDisclaimer</key>
+      <val>Data and information released from the National Cancer Institute (NCI) are provided on an &quot;AS IS&quot; basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
     </keyval>
   </metadata>
 </type>
 
+<!--
+  =============================================================================
+  MIRNA_EXPRESSION_LEV1
+  =============================================================================
+-->
+<type id="urn:edrn:MIRNA_EXPRESSION_LEV1" name="MIRNA_EXPRESSION_LEV1">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description> miRNA expression by qRT-PCR in lung cancer cell lines </description>
+  <metExtractors>
+    <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductType,ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>
+  </metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>ProtocolID</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>ProtocolName</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>DatasetDescription</key>
+      <val>miRNA expression by qRT-PCR in lung cancer cell lines</val>
+    </keyval>
+    <keyval>
+      <key>DataSetName</key>
+      <val>MIRNA_EXPRESSION_LEV1</val>
+    </keyval>
+    <keyval>
+      <key>DatasetId</key>
+      <val>urn:edrn:MIRNA_EXPRESSION_LEV1</val>
+    </keyval>
+    <keyval>
+      <key>DateDatasetFrozen</key>
+      <val>05/05/2010</val>
+    </keyval>
+    <keyval>
+      <key>LeadPI</key>
+      <val>Muneesh Tewari</val>
+    </keyval>
+    <keyval>
+      <key>SiteName</key>
+      <val>517</val>
+    </keyval>
+    <keyval>
+      <key>SiteID</key>
+      <val>517</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodian</key>
+      <val>Kavita Garg</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodianEmail</key>
+      <val>kgarg@fhcrc.org</val>
+    </keyval>
+    <keyval>
+      <key>OrganSite</key>
+      <val>Lung</val>
+    </keyval>
+    <keyval>
+      <key>CollaborativeGroup</key>
+      <val>Lung and Upper Aerodigestive</val>
+    </keyval>
+    <keyval>
+      <key>PubMedID</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>QAState</key>
+      <val>Under Review</val>
+    </keyval>
+    <keyval>
+      <key>AccessGrantedTo</key>
+      <val>Lung and Upper Aerodigestive</val>
+      <val>Super User</val>
+    </keyval>
+    <keyval>
+      <key>MethodDetails</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>AnalyticResults</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>DataDisclaimer</key>
+      <val>Data and information released from the National Cancer Institute (NCI) are provided on an &quot;AS IS&quot; basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
+    </keyval>
+  </metadata>
+</type>
+
+<!--
+  =============================================================================
+  MIRNA_EXPRESSION_LEV2
+  =============================================================================
+-->
+<type id="urn:edrn:MIRNA_EXPRESSION_LEV2" name="MIRNA_EXPRESSION_LEV2">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description> Normalized miRNA expression </description>
+  <metExtractors>
+    <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductType,ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>
+  </metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>ProtocolID</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>ProtocolName</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>DatasetDescription</key>
+      <val>Normalized miRNA expression</val>
+    </keyval>
+    <keyval>
+      <key>DataSetName</key>
+      <val>MIRNA_EXPRESSION_LEV2</val>
+    </keyval>
+    <keyval>
+      <key>DatasetId</key>
+      <val>urn:edrn:MIRNA_EXPRESSION_LEV2</val>
+    </keyval>
+    <keyval>
+      <key>DateDatasetFrozen</key>
+      <val>08/20/2010</val>
+    </keyval>
+    <keyval>
+      <key>LeadPI</key>
+      <val>Muneesh Tewari</val>
+    </keyval>
+    <keyval>
+      <key>SiteName</key>
+      <val>517</val>
+    </keyval>
+    <keyval>
+      <key>SiteID</key>
+      <val>517</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodian</key>
+      <val>Kavita Garg</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodianEmail</key>
+      <val>kgarg@fhcrc.org</val>
+    </keyval>
+    <keyval>
+      <key>OrganSite</key>
+      <val>Lung</val>
+    </keyval>
+    <keyval>
+      <key>CollaborativeGroup</key>
+      <val>Lung and Upper Aerodigestive</val>
+    </keyval>
+    <keyval>
+      <key>PubMedID</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>QAState</key>
+      <val>Under Review</val>
+    </keyval>
+    <keyval>
+      <key>AccessGrantedTo</key>
+      <val>Lung and Upper Aerodigestive</val>
+      <val>Super User</val>
+    </keyval>
+    <keyval>
+      <key>MethodDetails</key>
+      <val>Normalization</val>
+    </keyval>
+    <keyval>
+      <key>AnalyticResults</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>DataDisclaimer</key>
+      <val>Data and information released from the National Cancer Institute (NCI) are provided on an &quot;AS IS&quot; basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
+    </keyval>
+  </metadata>
+</type>
+
+<!--
+  =============================================================================
+  MIRNA_EXPRESSION_LEV3
+  =============================================================================
+-->
+<type id="urn:edrn:MIRNA_EXPRESSION_LEV3" name="MIRNA_EXPRESSION_LEV3">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description> miRNAs differentially expressed as a function of smoking status and/or specific mutational status </description>
+  <metExtractors>
+    <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductType,ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>
+  </metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>ProtocolID</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>ProtocolName</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>DatasetDescription</key>
+      <val>miRNAs differentially expressed as a function of smoking status and/or specific mutational status</val>
+    </keyval>
+    <keyval>
+      <key>DataSetName</key>
+      <val>MIRNA_EXPRESSION_LEV3</val>
+    </keyval>
+    <keyval>
+      <key>DatasetId</key>
+      <val>urn:edrn:MIRNA_EXPRESSION_LEV3</val>
+    </keyval>
+    <keyval>
+      <key>DateDatasetFrozen</key>
+      <val>08/20/2010</val>
+    </keyval>
+    <keyval>
+      <key>LeadPI</key>
+      <val>Muneesh Tewari</val>
+    </keyval>
+    <keyval>
+      <key>SiteName</key>
+      <val>517</val>
+    </keyval>
+    <keyval>
+      <key>SiteID</key>
+      <val>517</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodian</key>
+      <val>Kavita Garg</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodianEmail</key>
+      <val>kgarg@fhcrc.org</val>
+    </keyval>
+    <keyval>
+      <key>OrganSite</key>
+      <val>Lung</val>
+    </keyval>
+    <keyval>
+      <key>CollaborativeGroup</key>
+      <val>Lung and Upper Aerodigestive</val>
+    </keyval>
+    <keyval>
+      <key>PubMedID</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>QAState</key>
+      <val>Under Review</val>
+    </keyval>
+    <keyval>
+      <key>AccessGrantedTo</key>
+      <val>Lung and Upper Aerodigestive</val>
+      <val>Super User</val>
+    </keyval>
+    <keyval>
+      <key>MethodDetails</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>AnalyticResults</key>
+      <val>No significant difference in miRNA expression between cell lines from non-smokers vs. smokers was observed with the sample sizes used. 
+	Several miRNAs were differentially expressed between EGFR mutant (n=10) and EGFR wild-type (n=30) cell lines:
+- miR-205/miR-141/miR-200c are over-expressed in EGFR mutant cell lines
+A key function of these miRNAs is to maintain the epithelial cell state by suppressing epithelial-to-mesenchymal transition (EMT)
+Expression of these miRNAs was correlated with epithelial markers such as EPCAM and Claudin 7 in gene expression profiling data
+It is consistent with prior reports that lung cancer arising in non-smokers have higher expression of epithelial markers such as E-cadherin
+</val>
+    </keyval>
+    <keyval>
+      <key>DataDisclaimer</key>
+      <val>Data and information released from the National Cancer Institute (NCI) are provided on an &quot;AS IS&quot; basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
+    </keyval>
+  </metadata>
+</type>
+
+<!--
+  =============================================================================
+  MTDNA_QUANTITATION_LEV4
+  =============================================================================
+-->
+<type id="urn:edrn:MTDNA_QUANTITATION_LEV4" name="MTDNA_QUANTITATION_LEV4">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description>  </description>
+  <metExtractors>
+    <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductType,ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>
+  </metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>ProtocolID</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>ProtocolName</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>DatasetDescription</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>DataSetName</key>
+      <val>MTDNA_QUANTITATION_LEV4</val>
+    </keyval>
+    <keyval>
+      <key>DatasetId</key>
+      <val>urn:edrn:MTDNA_QUANTITATION_LEV4</val>
+    </keyval>
+    <keyval>
+      <key>DateDatasetFrozen</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>LeadPI</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>SiteName</key>
+      <val>86</val>
+    </keyval>
+    <keyval>
+      <key>SiteID</key>
+      <val>86</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodian</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>DataCustodianEmail</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>OrganSite</key>
+      <val>Lung</val>
+    </keyval>
+    <keyval>
+      <key>CollaborativeGroup</key>
+      <val>Lung and Upper Aerodigestive</val>
+    </keyval>
+    <keyval>
+      <key>PubMedID</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>QAState</key>
+      <val>Under Review</val>
+    </keyval>
+    <keyval>
+      <key>AccessGrantedTo</key>
+      <val>Lung and Upper Aerodigestive</val>
+      <val>Super User</val>
+    </keyval>
+    <keyval>
+      <key>MethodDetails</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>AnalyticResults</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>DataDisclaimer</key>
+      <val>Data and information released from the National Cancer Institute (NCI) are provided on an &quot;AS IS&quot; basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
+    </keyval>
+  </metadata>
+</type>
+
+<!--
+  =============================================================================
+  MTDNA_SEQUENCING_LEV4
+  =============================================================================
+-->
+<type id="urn:edrn:MTDNA_SEQUENCING_LEV4" name="MTDNA_SEQUENCING_LEV4">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description>  </description>
+  <metExtractors>
+    <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductType,ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>
+  </metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>ProtocolID</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>ProtocolName</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>DatasetDescription</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>DataSetName</key>
+      <val>MTDNA_SEQUENCING_LEV4</val>
+    </keyval>
+    <keyval>
+      <key>DatasetId</key>
+      <val>urn:edrn:MTDNA_SEQUENCING_LEV4</val>
+    </keyval>
+    <keyval>
+      <key>DateDatasetFrozen</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>LeadPI</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>SiteName</key>
+      <val>86</val>
+    </keyval>
+    <keyval>
+      <key>SiteID</key>
+      <val>86</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodian</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>DataCustodianEmail</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>OrganSite</key>
+      <val>Lung</val>
+    </keyval>
+    <keyval>
+      <key>CollaborativeGroup</key>
+      <val>Lung and Upper Aerodigestive</val>
+    </keyval>
+    <keyval>
+      <key>PubMedID</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>QAState</key>
+      <val>Under Review</val>
+    </keyval>
+    <keyval>
+      <key>AccessGrantedTo</key>
+      <val>Lung and Upper Aerodigestive</val>
+      <val>Super User</val>
+    </keyval>
+    <keyval>
+      <key>MethodDetails</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>AnalyticResults</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>DataDisclaimer</key>
+      <val>Data and information released from the National Cancer Institute (NCI) are provided on an &quot;AS IS&quot; basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
+    </keyval>
+  </metadata>
+</type>
+
+<!--
+  =============================================================================
+  PLASMA_PROTEOME_LEV3
+  =============================================================================
+-->
+<type id="urn:edrn:PLASMA_PROTEOME_LEV3" name="PLASMA_PROTEOME_LEV3">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description> Quantitative plasma proteomics of non-smokers and current smokers with lung cancer </description>
+  <metExtractors>
+    <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductType,ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>
+  </metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>ProtocolID</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>ProtocolName</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>DatasetDescription</key>
+      <val>Quantitative plasma proteomics of non-smokers and current smokers with lung cancer</val>
+    </keyval>
+    <keyval>
+      <key>DataSetName</key>
+      <val>PLASMA_PROTEOME_LEV3</val>
+    </keyval>
+    <keyval>
+      <key>DatasetId</key>
+      <val>urn:edrn:PLASMA_PROTEOME_LEV3</val>
+    </keyval>
+    <keyval>
+      <key>DateDatasetFrozen</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>LeadPI</key>
+      <val>Samir Hanash</val>
+    </keyval>
+    <keyval>
+      <key>SiteName</key>
+      <val>151</val>
+    </keyval>
+    <keyval>
+      <key>SiteID</key>
+      <val>151</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodian</key>
+      <val>Samir Hanash</val>
+      <val>Ayumu Taguchi</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodianEmail</key>
+      <val>shanash@fhcrc.org</val>
+      <val>ataguchi@fhcrc.org</val>
+    </keyval>
+    <keyval>
+      <key>OrganSite</key>
+      <val>Lung</val>
+    </keyval>
+    <keyval>
+      <key>CollaborativeGroup</key>
+      <val>Lung and Upper Aerodigestive</val>
+    </keyval>
+    <keyval>
+      <key>PubMedID</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>QAState</key>
+      <val>Under Review</val>
+    </keyval>
+    <keyval>
+      <key>AccessGrantedTo</key>
+      <val>Lung and Upper Aerodigestive</val>
+      <val>Super User</val>
+    </keyval>
+    <keyval>
+      <key>MethodDetails</key>
+      <val>Two pools of samples were used in each experiment - one consisted of a pool of plasma from controls as a reference point, the other a pool of plasma from subjects with lung cancer. Each pooled sample was immunodepleted of the top six most abundant proteins (Albumin, IgG, IgA, Transferrin, Haptoglobin, and R-1-Antitrypsin) prior to further analysis. The two pools were isotopic labeling (cysteine) and mixed before separating by anion-exchange chromatography. A total of 8 pools were collected and further separated by reverse phase chromatography. A total of 96 fractions were collected for each experiment.
+
+Each fraction is trypsinated and analyzed by a LTQ-FT mass spectrometer coupled to a nano-flow chromatography system. Tandem MS analysis was triggered on the 5 most abundant +2 or +3 ions of each MS1 with a dynamic exclusion list.
+
+Acquired data were processed by the Computational Proteomics Analysis System pipeline. This pipeline implements the X!Tandem search algorithm with comet score module plug-in against IPI human v3.13 sequence database. Identified peptides were further validated through PeptideProphet and inferred into proteins via ProteinProphet. A merged database search was also performed on all the spectra collected from 96 fractions of each experiment.
+ 
+The relative quantification for each pair of peptides that contains cysteine residues was computed by Q3ProteinRatioParser. Only peptides with a minimum PeptideProphet score of 0.75, and mass deviation &lt;20 ppm were considered for quantification. Ratios on a logarithmic scale of all quantified peptides were plotted on a histogram and the median of the distribution was centered at zero. All normalized peptide ratios for a specific protein were averaged to compute an overall protein ratio. Statistical significance of the protein quantitative information was obtained via two procedures: for proteins with multiple peptides quantified, a P-value for the mean log-ratio, which has mean zero under the null hypothesis, was calculated using one-sample t-test; and for proteins with a single quantitative event, the probability for the ratio was extrapolated from the distribution of ratios in a baseline-baseline experiment whereby the same sample was split in half and labeled differentially.</val>
+    </keyval>
+    <keyval>
+      <key>AnalyticResults</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>DataDisclaimer</key>
+      <val>Data and information released from the National Cancer Institute (NCI) are provided on an &quot;AS IS&quot; basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
+    </keyval>
+  </metadata>
+</type>
+
+<!--
+  =============================================================================
+  PROTEIN_ENRICHMENT_LEV2
+  =============================================================================
+-->
+<type id="urn:edrn:PROTEIN_ENRICHMENT_LEV2" name="PROTEIN_ENRICHMENT_LEV2">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description>  </description>
+  <metExtractors>
+    <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductType,ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>
+  </metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>ProtocolID</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>ProtocolName</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>DatasetDescription</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>DataSetName</key>
+      <val>PROTEIN_ENRICHMENT_LEV2</val>
+    </keyval>
+    <keyval>
+      <key>DatasetId</key>
+      <val>urn:edrn:PROTEIN_ENRICHMENT_LEV2</val>
+    </keyval>
+    <keyval>
+      <key>DateDatasetFrozen</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>LeadPI</key>
+      <val>Samir Hanash</val>
+    </keyval>
+    <keyval>
+      <key>SiteName</key>
+      <val>151</val>
+    </keyval>
+    <keyval>
+      <key>SiteID</key>
+      <val>151</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodian</key>
+      <val>Samir Hanash</val>
+      <val>Ayumu Taguchi</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodianEmail</key>
+      <val>shanash@fhcrc.org</val>
+      <val>ataguchi@fhcrc.org</val>
+    </keyval>
+    <keyval>
+      <key>OrganSite</key>
+      <val>Lung</val>
+    </keyval>
+    <keyval>
+      <key>CollaborativeGroup</key>
+      <val>Lung and Upper Aerodigestive</val>
+    </keyval>
+    <keyval>
+      <key>PubMedID</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>QAState</key>
+      <val>Under Review</val>
+    </keyval>
+    <keyval>
+      <key>AccessGrantedTo</key>
+      <val>Lung and Upper Aerodigestive</val>
+      <val>Super User</val>
+    </keyval>
+    <keyval>
+      <key>MethodDetails</key>
+      <val>Cell culture
+The lung cancer cells are grown in lysine free media supplemented with 13C6 lysine for 7 passage to insure &gt;90 percent incorporation of isotopic labeled amino acid. 
+
+Secreted or Shed protein
+Media was changed to media with 0.1percent dialyzed FBS and incubated for 48 hours prior to collecting the conditioned media. Cells and debris are removed from media by centrifugation at 5000xg and filtration through a 0.22um filter. The conditioned media is then concentrated with Amicon 3K centrifugal filters. 
+
+Cell surface and membrane proteins
+Cell surface proteins from 2.0x108 cells will be biotinylated with EZ-Link sulfo-NHS-LC-biotin, solubilized in solution containing Igepal CA-630 with cell disruption by sonication followed by centrifugation at 20000xg. Biotinylated proteins are chromatographically isolated by affinity chromatography using 1ml of Ultralink Immobilized NeutrAvidin. Proteins bound to the column are recovered by reduction of the biotinylation reagent with 5ml of a solution containing 65umol of DTT and 1percent octyl-glucoside.
+
+Total cell extracts
+Total cell extracts are obtained by sonication of 2.0x107cells in 1ml of PBS containing 1percent octyl-glucoside and protease inhibitors followed by sonication and centrifugation at 20000xg.  
+
+Conditioned media, cell surface proteins and total cell extract were fractionated by reverse-phase chromatography after reduction and alkylation with iodoacetamide. Each one of the reverse-phase fractions were individually digested in-solution digestion with trypsin and grouped into 24 pools according to chromatographic features. Pools are individually analyzed by LC-MS/MS in a LTQ-ORBITRAP mass spectrometer.
+
+The acquired mass spectrometric data is analyzed by the Computational Proteomics Analysis System (CPAS) analysis pipeline which provides peptide and protein identification. The spectral counting method is used to estimate protein enrichment for each compartment</val>
+    </keyval>
+    <keyval>
+      <key>AnalyticResults</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>DataDisclaimer</key>
+      <val>Data and information released from the National Cancer Institute (NCI) are provided on an &quot;AS IS&quot; basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
+    </keyval>
+  </metadata>
+</type>
+
+<!--
+  =============================================================================
+  PROTEIN_ENRICHMENT_LEV3
+  =============================================================================
+-->
+<type id="urn:edrn:PROTEIN_ENRICHMENT_LEV3" name="PROTEIN_ENRICHMENT_LEV3">
+  <repository path="file://[EDRN_REPO_HOME]/archive"/>
+  <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+  <description>  </description>
+  <metExtractors>
+    <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+    <configuration>
+      <!-- you can optionally include the envReplace tag to turn on/off environment var replacement -->
+      <property name="nsAware" value="true"  />
+      <property name="elementNs" value="CAS" />
+      <property name="elements"  value="ProductType,ProductReceivedTime,ProductName,ProductId" />
+    </configuration>
+    </extractor>
+  </metExtractors>
+
+  <metadata>
+    <keyval>
+      <key>ProtocolID</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>ProtocolName</key>
+      <val>282</val>
+    </keyval>
+    <keyval>
+      <key>DatasetDescription</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>DataSetName</key>
+      <val>PROTEIN_ENRICHMENT_LEV3</val>
+    </keyval>
+    <keyval>
+      <key>DatasetId</key>
+      <val>urn:edrn:PROTEIN_ENRICHMENT_LEV3</val>
+    </keyval>
+    <keyval>
+      <key>DateDatasetFrozen</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>LeadPI</key>
+      <val>Samir Hanash</val>
+    </keyval>
+    <keyval>
+      <key>SiteName</key>
+      <val>151</val>
+    </keyval>
+    <keyval>
+      <key>SiteID</key>
+      <val>151</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodian</key>
+      <val>Samir Hanash</val>
+      <val>Ayumu Taguchi</val>
+    </keyval>
+    <keyval>
+      <key>DataCustodianEmail</key>
+      <val>shanash@fhcrc.org</val>
+      <val>ataguchi@fhcrc.org</val>
+    </keyval>
+    <keyval>
+      <key>OrganSite</key>
+      <val>Lung</val>
+    </keyval>
+    <keyval>
+      <key>CollaborativeGroup</key>
+      <val>Lung and Upper Aerodigestive</val>
+    </keyval>
+    <keyval>
+      <key>PubMedID</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>QAState</key>
+      <val>Under Review</val>
+    </keyval>
+    <keyval>
+      <key>AccessGrantedTo</key>
+      <val>Lung and Upper Aerodigestive</val>
+      <val>Super User</val>
+    </keyval>
+    <keyval>
+      <key>MethodDetails</key>
+      <val>Cell culture
+The lung cancer cells are grown in lysine free media supplemented with 13C6 lysine for 7 passage to insure &gt;90 percent incorporation of isotopic labeled amino acid. 
+
+Secreted or Shed protein
+Media was changed to media with 0.1percent dialyzed FBS and incubated for 48 hours prior to collecting the conditioned media. Cells and debris are removed from media by centrifugation at 5000xg and filtration through a 0.22um filter. The conditioned media is then concentrated with Amicon 3K centrifugal filters. 
+
+Cell surface and membrane proteins
+Cell surface proteins from 2.0x108 cells will be biotinylated with EZ-Link sulfo-NHS-LC-biotin, solubilized in solution containing Igepal CA-630 with cell disruption by sonication followed by centrifugation at 20000xg. Biotinylated proteins are chromatographically isolated by affinity chromatography using 1ml of Ultralink Immobilized NeutrAvidin. Proteins bound to the column are recovered by reduction of the biotinylation reagent with 5ml of a solution containing 65umol of DTT and 1percent octyl-glucoside.
+
+Total cell extracts
+Total cell extracts are obtained by sonication of 2.0x107cells in 1ml of PBS containing 1percent octyl-glucoside and protease inhibitors followed by sonication and centrifugation at 20000xg.  
+
+Conditioned media, cell surface proteins and total cell extract were fractionated by reverse-phase chromatography after reduction and alkylation with iodoacetamide. Each one of the reverse-phase fractions were individually digested in-solution digestion with trypsin and grouped into 24 pools according to chromatographic features. Pools are individually analyzed by LC-MS/MS in a LTQ-ORBITRAP mass spectrometer.
+
+The acquired mass spectrometric data is analyzed by the Computational Proteomics Analysis System (CPAS) analysis pipeline which provides peptide and protein identification. The spectral counting method is used to estimate protein enrichment for each compartment</val>
+    </keyval>
+    <keyval>
+      <key>AnalyticResults</key>
+      <val></val>
+    </keyval>
+    <keyval>
+      <key>DataDisclaimer</key>
+      <val>Data and information released from the National Cancer Institute (NCI) are provided on an &quot;AS IS&quot; basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
+    </keyval>
+  </metadata>
+</type>
 </cas:producttypes>

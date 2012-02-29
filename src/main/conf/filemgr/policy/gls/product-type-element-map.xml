@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- 
+<?xml version="1.0" encoding="UTF-8"?><!-- 
   Copyright (c) 2010 California Institute of Technology.
   ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
-  
-  $Id$
   
   Author(s): Chris A. Mattmann, Andrew Hart
   Description: Core Product Type/Element policy for GLS data.
 -->
 <cas:producttypemap xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
-	<!--  can set the "parent" attribute on types below to allow inheritance of elements between the types -->
 
 <!--
   =============================================================================
@@ -410,13 +406,13 @@
 	   <element id="urn:edrn:SPECIMEN_METADATA_GeneExpressionRawDataZipped"/>
         </type>
 
-
+<!-- New canary product types -->
 <!--
   =============================================================================
-  MTDNA_QUANTITATION_LEV4
+  COPY_NUMBER_LEV1
   =============================================================================
 -->
-        <type id="urn:edrn:MTDNA_QUANTITATION_LEV4" parent="urn:edrn:eCASFile">
+        <type id="urn:edrn:COPY_NUMBER_LEV1" parent="urn:edrn:eCASFile">
            <element id="urn:edrn:sampleId"/>
            <element id="urn:edrn:subjectId"/>
            <element id="urn:edrn:collectedDate"/>
@@ -440,74 +436,7 @@
            <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_TEXT"/>
            <element id="urn:edrn:STUDY_PROTOCOL_SPECIMEN-ID-SITE_TEXT"/>
            <element id="urn:edrn:STUDY_SITE_SPECIMENREC_ID"/>
-           <element id="urn:edrn:SPECIMEN_METADATA_MTDNA_QUANTITATION_LEV4"/>
-           <element id="urn:edrn:PRESENTATION_DATA"/>
-        </type>
-
-
-<!--
-  =============================================================================
-  DNA_METHYLATION_LEV1
-  =============================================================================
--->
-        <type id="urn:edrn:DNA_METHYLATION_LEV1" parent="urn:edrn:eCASFile">
-           <element id="urn:edrn:sampleId"/>
-           <element id="urn:edrn:subjectId"/>
-           <element id="urn:edrn:collectedDate"/>
-           <element id="urn:edrn:collectedId"/>
-           <element id="urn:edrn:banked"/>
-           <element id="urn:edrn:SPECIMEN_AGE-COLLECTED_VALUE"/>
-           <element id="urn:edrn:SPECIMEN_COLLECTION_DATE"/>
-           <element id="urn:edrn:SPECIMEN_FREEZE-THAW-VALUE"/>
-           <element id="urn:edrn:SPECIMEN_PROCESS_TIMECOLLECTTOFINAL_CODE"/>
-           <element id="urn:edrn:SPECIMEN_SPECOLL_LABEL2_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_SPECOLL_SOURCE_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_STORED_CODE"/>
-           <element id="urn:edrn:SPECIMEN_STORED_CODE_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_CCDATACOMMENT_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_COMMENTS_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_CODE"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_CODE"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_CODE"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_TEXT"/>
-           <element id="urn:edrn:STUDY_PROTOCOL_SPECIMEN-ID-SITE_TEXT"/>
-           <element id="urn:edrn:STUDY_SITE_SPECIMENREC_ID"/>
-           <element id="urn:edrn:SPECIMEN_METADATA_DNA_METHYLATION_LEV1"/>
-           <element id="urn:edrn:PRESENTATION_DATA"/>
-        </type>
-
-<!--
-  =============================================================================
-  DNA_METHYLATION_LEV3
-  =============================================================================
--->
-        <type id="urn:edrn:DNA_METHYLATION_LEV3" parent="urn:edrn:eCASFile">
-           <element id="urn:edrn:sampleId"/>
-           <element id="urn:edrn:subjectId"/>
-           <element id="urn:edrn:collectedDate"/>
-           <element id="urn:edrn:collectedId"/>
-           <element id="urn:edrn:banked"/>
-           <element id="urn:edrn:SPECIMEN_AGE-COLLECTED_VALUE"/>
-           <element id="urn:edrn:SPECIMEN_COLLECTION_DATE"/>
-           <element id="urn:edrn:SPECIMEN_FREEZE-THAW-VALUE"/>
-           <element id="urn:edrn:SPECIMEN_PROCESS_TIMECOLLECTTOFINAL_CODE"/>
-           <element id="urn:edrn:SPECIMEN_SPECOLL_LABEL2_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_SPECOLL_SOURCE_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_STORED_CODE"/>
-           <element id="urn:edrn:SPECIMEN_STORED_CODE_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_CCDATACOMMENT_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_COMMENTS_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_CODE"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_CODE"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_CODE"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_TEXT"/>
-           <element id="urn:edrn:STUDY_PROTOCOL_SPECIMEN-ID-SITE_TEXT"/>
-           <element id="urn:edrn:STUDY_SITE_SPECIMENREC_ID"/>
-           <element id="urn:edrn:SPECIMEN_METADATA_DNA_METHYLATION_LEV3"/>
+           <element id="urn:edrn:SPECIMEN_METADATA_COPY_NUMBER_LEV1"/>
            <element id="urn:edrn:PRESENTATION_DATA"/>
         </type>
 
@@ -546,38 +475,6 @@
 
 <!--
   =============================================================================
-  MUTATIONS_LEV1
-  =============================================================================
--->
-        <type id="urn:edrn:MUTATIONS_LEV1" parent="urn:edrn:eCASFile">
-           <element id="urn:edrn:sampleId"/>
-           <element id="urn:edrn:subjectId"/>
-           <element id="urn:edrn:collectedDate"/>
-           <element id="urn:edrn:collectedId"/>
-           <element id="urn:edrn:banked"/>
-           <element id="urn:edrn:SPECIMEN_AGE-COLLECTED_VALUE"/>
-           <element id="urn:edrn:SPECIMEN_COLLECTION_DATE"/>
-           <element id="urn:edrn:SPECIMEN_FREEZE-THAW-VALUE"/>
-           <element id="urn:edrn:SPECIMEN_PROCESS_TIMECOLLECTTOFINAL_CODE"/>
-           <element id="urn:edrn:SPECIMEN_SPECOLL_LABEL2_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_SPECOLL_SOURCE_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_STORED_CODE"/>
-           <element id="urn:edrn:SPECIMEN_STORED_CODE_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_CCDATACOMMENT_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_COMMENTS_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_CODE"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_CODE"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_CODE"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_TEXT"/>
-           <element id="urn:edrn:STUDY_PROTOCOL_SPECIMEN-ID-SITE_TEXT"/>
-           <element id="urn:edrn:STUDY_SITE_SPECIMENREC_ID"/>
-           <element id="urn:edrn:PRESENTATION_DATA"/>
-        </type>
-
-<!--
-  =============================================================================
   COPY_NUMBER_LEV3
   =============================================================================
 -->
@@ -606,6 +503,204 @@
            <element id="urn:edrn:STUDY_PROTOCOL_SPECIMEN-ID-SITE_TEXT"/>
            <element id="urn:edrn:STUDY_SITE_SPECIMENREC_ID"/>
            <element id="urn:edrn:SPECIMEN_METADATA_COPY_NUMBER_LEV3"/>
+           <element id="urn:edrn:PRESENTATION_DATA"/>
+        </type>
+
+<!--
+  =============================================================================
+  DNA_METHYLATION_LEV1
+  =============================================================================
+-->
+        <type id="urn:edrn:DNA_METHYLATION_LEV1" parent="urn:edrn:eCASFile">
+           <element id="urn:edrn:sampleId"/>
+           <element id="urn:edrn:subjectId"/>
+           <element id="urn:edrn:collectedDate"/>
+           <element id="urn:edrn:collectedId"/>
+           <element id="urn:edrn:banked"/>
+           <element id="urn:edrn:SPECIMEN_AGE-COLLECTED_VALUE"/>
+           <element id="urn:edrn:SPECIMEN_COLLECTION_DATE"/>
+           <element id="urn:edrn:SPECIMEN_FREEZE-THAW-VALUE"/>
+           <element id="urn:edrn:SPECIMEN_PROCESS_TIMECOLLECTTOFINAL_CODE"/>
+           <element id="urn:edrn:SPECIMEN_SPECOLL_LABEL2_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_SPECOLL_SOURCE_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STORED_CODE"/>
+           <element id="urn:edrn:SPECIMEN_STORED_CODE_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_CCDATACOMMENT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_COMMENTS_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_TEXT"/>
+           <element id="urn:edrn:STUDY_PROTOCOL_SPECIMEN-ID-SITE_TEXT"/>
+           <element id="urn:edrn:STUDY_SITE_SPECIMENREC_ID"/>
+           <element id="urn:edrn:SPECIMEN_METADATA_DNA_METHYLATION_LEV1"/>
+           <element id="urn:edrn:PRESENTATION_DATA"/>
+        </type>
+
+<!--
+  =============================================================================
+  DNA_METHYLATION_LEV2
+  =============================================================================
+-->
+        <type id="urn:edrn:DNA_METHYLATION_LEV2" parent="urn:edrn:eCASFile">
+           <element id="urn:edrn:sampleId"/>
+           <element id="urn:edrn:subjectId"/>
+           <element id="urn:edrn:collectedDate"/>
+           <element id="urn:edrn:collectedId"/>
+           <element id="urn:edrn:banked"/>
+           <element id="urn:edrn:SPECIMEN_AGE-COLLECTED_VALUE"/>
+           <element id="urn:edrn:SPECIMEN_COLLECTION_DATE"/>
+           <element id="urn:edrn:SPECIMEN_FREEZE-THAW-VALUE"/>
+           <element id="urn:edrn:SPECIMEN_PROCESS_TIMECOLLECTTOFINAL_CODE"/>
+           <element id="urn:edrn:SPECIMEN_SPECOLL_LABEL2_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_SPECOLL_SOURCE_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STORED_CODE"/>
+           <element id="urn:edrn:SPECIMEN_STORED_CODE_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_CCDATACOMMENT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_COMMENTS_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_TEXT"/>
+           <element id="urn:edrn:STUDY_PROTOCOL_SPECIMEN-ID-SITE_TEXT"/>
+           <element id="urn:edrn:STUDY_SITE_SPECIMENREC_ID"/>
+           <element id="urn:edrn:SPECIMEN_METADATA_DNA_METHYLATION_LEV2"/>
+           <element id="urn:edrn:PRESENTATION_DATA"/>
+        </type>
+
+<!--
+  =============================================================================
+  DNA_METHYLATION_LEV3
+  =============================================================================
+-->
+        <type id="urn:edrn:DNA_METHYLATION_LEV3" parent="urn:edrn:eCASFile">
+           <element id="urn:edrn:sampleId"/>
+           <element id="urn:edrn:subjectId"/>
+           <element id="urn:edrn:collectedDate"/>
+           <element id="urn:edrn:collectedId"/>
+           <element id="urn:edrn:banked"/>
+           <element id="urn:edrn:SPECIMEN_AGE-COLLECTED_VALUE"/>
+           <element id="urn:edrn:SPECIMEN_COLLECTION_DATE"/>
+           <element id="urn:edrn:SPECIMEN_FREEZE-THAW-VALUE"/>
+           <element id="urn:edrn:SPECIMEN_PROCESS_TIMECOLLECTTOFINAL_CODE"/>
+           <element id="urn:edrn:SPECIMEN_SPECOLL_LABEL2_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_SPECOLL_SOURCE_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STORED_CODE"/>
+           <element id="urn:edrn:SPECIMEN_STORED_CODE_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_CCDATACOMMENT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_COMMENTS_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_TEXT"/>
+           <element id="urn:edrn:STUDY_PROTOCOL_SPECIMEN-ID-SITE_TEXT"/>
+           <element id="urn:edrn:STUDY_SITE_SPECIMENREC_ID"/>
+           <element id="urn:edrn:SPECIMEN_METADATA_DNA_METHYLATION_LEV3"/>
+           <element id="urn:edrn:PRESENTATION_DATA"/>
+        </type>
+
+<!--
+  =============================================================================
+  GENE_EXPRESSION_LEV1
+  =============================================================================
+-->
+        <type id="urn:edrn:GENE_EXPRESSION_LEV1" parent="urn:edrn:eCASFile">
+           <element id="urn:edrn:sampleId"/>
+           <element id="urn:edrn:subjectId"/>
+           <element id="urn:edrn:collectedDate"/>
+           <element id="urn:edrn:collectedId"/>
+           <element id="urn:edrn:banked"/>
+           <element id="urn:edrn:SPECIMEN_AGE-COLLECTED_VALUE"/>
+           <element id="urn:edrn:SPECIMEN_COLLECTION_DATE"/>
+           <element id="urn:edrn:SPECIMEN_FREEZE-THAW-VALUE"/>
+           <element id="urn:edrn:SPECIMEN_PROCESS_TIMECOLLECTTOFINAL_CODE"/>
+           <element id="urn:edrn:SPECIMEN_SPECOLL_LABEL2_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_SPECOLL_SOURCE_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STORED_CODE"/>
+           <element id="urn:edrn:SPECIMEN_STORED_CODE_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_CCDATACOMMENT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_COMMENTS_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_TEXT"/>
+           <element id="urn:edrn:STUDY_PROTOCOL_SPECIMEN-ID-SITE_TEXT"/>
+           <element id="urn:edrn:STUDY_SITE_SPECIMENREC_ID"/>
+           <element id="urn:edrn:SPECIMEN_METADATA_GENE_EXPRESSION_LEV1"/>
+           <element id="urn:edrn:PRESENTATION_DATA"/>
+        </type>
+
+<!--
+  =============================================================================
+  GENE_EXPRESSION_LEV2
+  =============================================================================
+-->
+        <type id="urn:edrn:GENE_EXPRESSION_LEV2" parent="urn:edrn:eCASFile">
+           <element id="urn:edrn:sampleId"/>
+           <element id="urn:edrn:subjectId"/>
+           <element id="urn:edrn:collectedDate"/>
+           <element id="urn:edrn:collectedId"/>
+           <element id="urn:edrn:banked"/>
+           <element id="urn:edrn:SPECIMEN_AGE-COLLECTED_VALUE"/>
+           <element id="urn:edrn:SPECIMEN_COLLECTION_DATE"/>
+           <element id="urn:edrn:SPECIMEN_FREEZE-THAW-VALUE"/>
+           <element id="urn:edrn:SPECIMEN_PROCESS_TIMECOLLECTTOFINAL_CODE"/>
+           <element id="urn:edrn:SPECIMEN_SPECOLL_LABEL2_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_SPECOLL_SOURCE_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STORED_CODE"/>
+           <element id="urn:edrn:SPECIMEN_STORED_CODE_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_CCDATACOMMENT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_COMMENTS_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_TEXT"/>
+           <element id="urn:edrn:STUDY_PROTOCOL_SPECIMEN-ID-SITE_TEXT"/>
+           <element id="urn:edrn:STUDY_SITE_SPECIMENREC_ID"/>
+           <element id="urn:edrn:SPECIMEN_METADATA_GENE_EXPRESSION_LEV2"/>
+           <element id="urn:edrn:PRESENTATION_DATA"/>
+        </type>
+
+<!--
+  =============================================================================
+  GENE_EXPRESSION_LEV3
+  =============================================================================
+-->
+        <type id="urn:edrn:GENE_EXPRESSION_LEV3" parent="urn:edrn:eCASFile">
+           <element id="urn:edrn:sampleId"/>
+           <element id="urn:edrn:subjectId"/>
+           <element id="urn:edrn:collectedDate"/>
+           <element id="urn:edrn:collectedId"/>
+           <element id="urn:edrn:banked"/>
+           <element id="urn:edrn:SPECIMEN_AGE-COLLECTED_VALUE"/>
+           <element id="urn:edrn:SPECIMEN_COLLECTION_DATE"/>
+           <element id="urn:edrn:SPECIMEN_FREEZE-THAW-VALUE"/>
+           <element id="urn:edrn:SPECIMEN_PROCESS_TIMECOLLECTTOFINAL_CODE"/>
+           <element id="urn:edrn:SPECIMEN_SPECOLL_LABEL2_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_SPECOLL_SOURCE_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STORED_CODE"/>
+           <element id="urn:edrn:SPECIMEN_STORED_CODE_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_CCDATACOMMENT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_COMMENTS_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_TEXT"/>
+           <element id="urn:edrn:STUDY_PROTOCOL_SPECIMEN-ID-SITE_TEXT"/>
+           <element id="urn:edrn:STUDY_SITE_SPECIMENREC_ID"/>
+           <element id="urn:edrn:SPECIMEN_METADATA_GENE_EXPRESSION_LEV3"/>
            <element id="urn:edrn:PRESENTATION_DATA"/>
         </type>
 
@@ -710,6 +805,72 @@
 
 <!--
   =============================================================================
+  MTDNA_QUANTITATION_LEV4
+  =============================================================================
+-->
+        <type id="urn:edrn:MTDNA_QUANTITATION_LEV4" parent="urn:edrn:eCASFile">
+           <element id="urn:edrn:sampleId"/>
+           <element id="urn:edrn:subjectId"/>
+           <element id="urn:edrn:collectedDate"/>
+           <element id="urn:edrn:collectedId"/>
+           <element id="urn:edrn:banked"/>
+           <element id="urn:edrn:SPECIMEN_AGE-COLLECTED_VALUE"/>
+           <element id="urn:edrn:SPECIMEN_COLLECTION_DATE"/>
+           <element id="urn:edrn:SPECIMEN_FREEZE-THAW-VALUE"/>
+           <element id="urn:edrn:SPECIMEN_PROCESS_TIMECOLLECTTOFINAL_CODE"/>
+           <element id="urn:edrn:SPECIMEN_SPECOLL_LABEL2_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_SPECOLL_SOURCE_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STORED_CODE"/>
+           <element id="urn:edrn:SPECIMEN_STORED_CODE_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_CCDATACOMMENT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_COMMENTS_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_TEXT"/>
+           <element id="urn:edrn:STUDY_PROTOCOL_SPECIMEN-ID-SITE_TEXT"/>
+           <element id="urn:edrn:STUDY_SITE_SPECIMENREC_ID"/>
+           <element id="urn:edrn:SPECIMEN_METADATA_MTDNA_QUANTITATION_LEV4"/>
+           <element id="urn:edrn:PRESENTATION_DATA"/>
+        </type>
+
+<!--
+  =============================================================================
+  MTDNA_SEQUENCING_LEV4
+  =============================================================================
+-->
+        <type id="urn:edrn:MTDNA_SEQUENCING_LEV4" parent="urn:edrn:eCASFile">
+           <element id="urn:edrn:sampleId"/>
+           <element id="urn:edrn:subjectId"/>
+           <element id="urn:edrn:collectedDate"/>
+           <element id="urn:edrn:collectedId"/>
+           <element id="urn:edrn:banked"/>
+           <element id="urn:edrn:SPECIMEN_AGE-COLLECTED_VALUE"/>
+           <element id="urn:edrn:SPECIMEN_COLLECTION_DATE"/>
+           <element id="urn:edrn:SPECIMEN_FREEZE-THAW-VALUE"/>
+           <element id="urn:edrn:SPECIMEN_PROCESS_TIMECOLLECTTOFINAL_CODE"/>
+           <element id="urn:edrn:SPECIMEN_SPECOLL_LABEL2_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_SPECOLL_SOURCE_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STORED_CODE"/>
+           <element id="urn:edrn:SPECIMEN_STORED_CODE_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_CCDATACOMMENT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_COMMENTS_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_TEXT"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_CODE"/>
+           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_TEXT"/>
+           <element id="urn:edrn:STUDY_PROTOCOL_SPECIMEN-ID-SITE_TEXT"/>
+           <element id="urn:edrn:STUDY_SITE_SPECIMENREC_ID"/>
+           <element id="urn:edrn:SPECIMEN_METADATA_MTDNA_SEQUENCING_LEV4"/>
+           <element id="urn:edrn:PRESENTATION_DATA"/>
+        </type>
+
+<!--
+  =============================================================================
   PLASMA_PROTEOME_LEV3
   =============================================================================
 -->
@@ -804,39 +965,6 @@
            <element id="urn:edrn:STUDY_PROTOCOL_SPECIMEN-ID-SITE_TEXT"/>
            <element id="urn:edrn:STUDY_SITE_SPECIMENREC_ID"/>
            <element id="urn:edrn:SPECIMEN_METADATA_PROTEIN_ENRICHMENT_LEV3"/>
-           <element id="urn:edrn:PRESENTATION_DATA"/>
-        </type>
-
-<!--
-  =============================================================================
-  GENE_EXPRESSION_LEV3
-  =============================================================================
--->
-        <type id="urn:edrn:GENE_EXPRESSION_LEV3" parent="urn:edrn:eCASFile">
-           <element id="urn:edrn:sampleId"/>
-           <element id="urn:edrn:subjectId"/>
-           <element id="urn:edrn:collectedDate"/>
-           <element id="urn:edrn:collectedId"/>
-           <element id="urn:edrn:banked"/>
-           <element id="urn:edrn:SPECIMEN_AGE-COLLECTED_VALUE"/>
-           <element id="urn:edrn:SPECIMEN_COLLECTION_DATE"/>
-           <element id="urn:edrn:SPECIMEN_FREEZE-THAW-VALUE"/>
-           <element id="urn:edrn:SPECIMEN_PROCESS_TIMECOLLECTTOFINAL_CODE"/>
-           <element id="urn:edrn:SPECIMEN_SPECOLL_LABEL2_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_SPECOLL_SOURCE_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_STORED_CODE"/>
-           <element id="urn:edrn:SPECIMEN_STORED_CODE_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_CCDATACOMMENT_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_STUDY_PROTOCOL_COMMENTS_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_CODE"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_EGFRRESULT_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_CODE"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_KRASRESULT_TEXT"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_CODE"/>
-           <element id="urn:edrn:SPECIMEN_TISSUE_TUMORNORMAL_TEXT"/>
-           <element id="urn:edrn:STUDY_PROTOCOL_SPECIMEN-ID-SITE_TEXT"/>
-           <element id="urn:edrn:STUDY_SITE_SPECIMENREC_ID"/>
-           <element id="urn:edrn:SPECIMEN_METADATA_GENE_EXPRESSION_LEV3"/>
            <element id="urn:edrn:PRESENTATION_DATA"/>
         </type>
 
