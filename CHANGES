@@ -2,6 +2,21 @@ EDRN JIRA site: http://oodt.jpl.nasa.gov/jira/browse/CA
 
 
 
+Release Notes - Early Detection of Cancer - Version eCAS Backend beta 0.5.0 release - 03/09/2012
+
+
+
+** Improvement
+    * [CA-870] - Correcting ExtractAndDownloadGLSUrls to ensure it supports download of latest canary data
+    * [CA-871] - Update Canary eCAS policy to reflect latest understanding of Canary product types
+
+
+** Task
+    * [CA-864] - Ingest WHI data delivered from DMCC
+    * [CA-865] - Ingest Alvin Liu WebDAV data from 2009
+
+
+
 Release Notes - Early Detection of Cancer - Version eCAS Backend beta 0.4.9.3 release - 09/06/2011
 
 
