@@ -2151,6 +2151,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     </keyval>
     <keyval>
       <key>AccessGrantedTo</key>
+      <val>Lam British Columbia Cancer Research Centre/Cancer Genetics and Development Biology</val>
       <val>Lung and Upper Aerodigestive</val>
       <val>Super User</val>
     </keyval>
@@ -2259,6 +2260,7 @@ Raw SNP array data (CEL files = level 1) were imported and processed in Partek G
     </keyval>
     <keyval>
       <key>AccessGrantedTo</key>
+      <val>Lam British Columbia Cancer Research Centre/Cancer Genetics and Development Biology</val>
       <val>Lung and Upper Aerodigestive</val>
       <val>Super User</val>
     </keyval>
@@ -2367,6 +2369,7 @@ Raw SNP array data (CEL files = level 1) were imported and processed in Partek G
     </keyval>
     <keyval>
       <key>AccessGrantedTo</key>
+      <val>Lam British Columbia Cancer Research Centre/Cancer Genetics and Development Biology</val>
       <val>Lung and Upper Aerodigestive</val>
       <val>Super User</val>
     </keyval>
