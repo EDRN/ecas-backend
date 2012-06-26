@@ -2076,7 +2076,7 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
 <type id="urn:edrn:COPY_NUMBER_LEV1" name="COPY_NUMBER_LEV1">
   <repository path="file://[EDRN_REPO_HOME]/archive"/>
   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
-  <description> EDRN Tumor Copy Number Data </description>
+  <description>Lung cancer is the number one cause of cancer death worldwide, with up to 25% of cases arising in never smokers.  Lung cancers in smokers and never smokers have been shown to exhibit specific genetic and clinical features which suggests they are distinct diseases.  Despite these findings, there is still much to learn about lung tumorigenesis in these two groups.  We hypothesized that if smoker and never smoker lung tumors are different diseases, they are likely driven by different molecular mechanisms and therefore likely exhibit different patterns of copy number alterations throughout the genome.  We used Affymetrix SNP 6.0 arrays to generate high resolution copy number profiles for lung adenocarcinomas from 30 smokers and 30 never smokers as well as cell lines derived from 20 smokers and 20 light or never smokers to elucidate global differences in genomic aberrations between these two groups.</description>
   <metExtractors>
     <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
     <configuration>
@@ -2143,15 +2143,14 @@ RNA quality and concentration were checked by the Bio-Rad Experion Bioanalyzer p
     </keyval>
     <keyval>
       <key>PubMedID</key>
-      <val></val>
+      <val>22412972</val>
     </keyval>
     <keyval>
       <key>QAState</key>
-      <val>Under Review</val>
+      <val>Accepted</val>
     </keyval>
     <keyval>
       <key>AccessGrantedTo</key>
-      <val>Lam British Columbia Cancer Research Centre/Cancer Genetics and Development Biology</val>
       <val>Lung and Upper Aerodigestive</val>
       <val>Super User</val>
     </keyval>
