@@ -12,5 +12,6 @@
 	<!--  can set the "parent" attribute on types below to allow inheritance of elements between the types -->
   
        <type id="urn:edrn:VanderbiltLieblerS1Squamous"  parent="urn:edrn:eCASFile"/>
+       <type id="urn:edrn:VanderbiltLieblerS1Adenomas"  parent="urn:edrn:eCASFile"/>
   
 </cas:producttypemap>
