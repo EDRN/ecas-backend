@@ -122,6 +122,124 @@ In accordance with scientific standards, appropriate acknowledgment of NCI shoul
       </keyval>
     </metadata>
   </type>
+
+  <type id="urn:edrn:UWashBladderTranscriptomesAlvinLiu" 
+        name="UWashBladderTranscriptomesAlvinLiu">
+   <repository path="file://[EDRN_REPO_HOME]/archive" />
+   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
+    <description>Characterization of the gene expression profiles of specific cell populations of the human urinary bladder provides an important set of research tools for the study of cellular differentiation and the cancer process. The transcriptome is a definitive identifier of each individual cell types. Surgically resected tissue was digested by collagenase and the different cell types were sorted by antibodies to cluster designation (CD) cell surface antigens. The sorted cells were analyzed by DNA microarrays. The transcriptome datasets were analyzed for differentially expressed genes and plotted on a principal components analysis space for cell lineage relationship. The following bladder cell types were analyzed: CD9+ urothelial, CD104+ basal, CD13+ stromal of lamina propria, CD9+ urothelial carcinoma cancer, and CD13+ urothelial carcinoma-associated stromal. Gene expression differences between the cell types of tumor and their respective non-cancer counterpart provide biomarker candidates. Basal cells of the bladder and prostate, although sharing CD cell surface markers, are quite different in overall gene expression. Furthermore, these cells lack transcript features of stem cell signature of embryonic stem or embryonal carcinoma cells. Cell type-specific transcriptomes are more informative than bulk tissue transcriptomes. The relatedness of different cell types can be determined by transcriptome dataset comparison.
+   </description>
+    <!--  cut and paste job for the most part... -->
+    <metExtractors>
+      <extractor
+        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
+        <configuration>
+          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
+          <property name="nsAware" value="true" />
+          <property name="elementNs" value="CAS" />
+          <property name="elements"
+            value="ProductReceivedTime,ProductName,ProductId" />
+        </configuration>
+      </extractor>
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
+      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
+        <configuration>
+          <!-- this property specifies whether you want the FILE_LOCATION field
+               computed by this extractor to replace any other FILE_LOCATION met 
+               attribute.
+           -->
+           <property name="replace" value="true"/>
+        </configuration>
+      </extractor>   
+    </metExtractors>
+    <!--  fixed for all products of this type = ecas + esis meta excel spreadsheet -->
+    <metadata>
+      <keyval>
+        <key>DataSetName</key>
+        <val>Transcriptomes of human bladder cells and cells in bladder cancer</val>
+      </keyval>
+      <keyval>
+        <key>Date</key>
+        <val>2012-09-26T22:01:00.000Z</val>
+      </keyval>
+      <keyval>
+        <key>LeadPI</key>
+        <val>Alvin Liu</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodian</key>
+        <val>Alvin Liu</val>
+      </keyval>
+      <keyval>
+        <key>DataCustodianEmail</key>
+        <val>aliu@u.washington.edu</val>
+      </keyval>
+      <keyval>
+        <key>MethodDetails</key>
+        <val>TBD</val>
+      </keyval>
+     <keyval>
+        <key>ResultsAndConclusionSummary</key>
+        <val>TBD</val>
+      </keyval>
+      <keyval>
+        <key>CollaborativeGroup</key>
+        <val>Prostate and Urologic</val>
+      </keyval>
+      <keyval>
+        <key>DateDatasetFrozen</key>
+        <val>Unknown</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolName</key>
+        <val>114</val>
+      </keyval>
+      <keyval>
+        <key>ProtocolId</key>
+        <val>114</val>
+      </keyval>
+      <keyval>
+        <key>DatasetId</key>
+        <val>urn:edrn:UWashBladderTranscriptomesAlvinLiu</val>
+      </keyval>
+      <keyval>
+        <key>SiteName</key>
+        <val>192</val>
+      </keyval>
+      <keyval>
+        <key>OrganSite</key>
+        <val>Prostate</val>
+      </keyval>
+    <keyval>
+      <key>DatasetURL</key>
+      <val>http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE30522</val>
+    </keyval>
+    <keyval>
+      <key>PublishState</key>
+      <val>yes</val>
+    </keyval>
+    <keyval> 
+       <key>QAState</key>
+       <val>Accepted</val>
+    </keyval>
+    <keyval type="vector">
+       <key>AccessGrantedTo</key>
+       <val>Prostate and Urologic</val>
+       <val>Super User</val>
+    </keyval>
+      <keyval>
+	<key>DataDisclaimer</key>
+	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
+NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
+NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
+In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
+	  </val>
+      </keyval>
+    </metadata>
+  </type>
+  
+
+
   
   
 </cas:producttypes>

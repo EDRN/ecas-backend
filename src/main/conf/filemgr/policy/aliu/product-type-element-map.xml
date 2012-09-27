@@ -14,4 +14,6 @@
 	<type id="urn:edrn:UWashProstateAlvinLiu" parent="urn:edrn:eCASFile">
 	</type>
   
+        <type id="urn:edrn:UWashBladderTranscriptomesAlvinLiu" parent="urn:edrn:eCASFile"/>
+  
 </cas:producttypemap>
