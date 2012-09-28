@@ -64,6 +64,10 @@
                 <param>src/main/conf/filemgr/policy/barrett</param>
                 <param>src/main/conf/filemgr/policy/prostatepreval</param>
                 <param>src/main/conf/filemgr/policy/gls</param>
+                <param>src/main/conf/filemgr/policy/aliu</param>
+                <param>src/main/conf/filemgr/policy/whicolon</param>
+                <param>src/main/conf/filemgr/policy/whicolonhanash</param>
+                <param>src/main/conf/filemgr/policy/carbone</param>
               </customPolicyDirs>
               <customConfigurationDir>src/main/conf/filemgr/configuration</customConfigurationDir>
               <casInstallationDir>${env.EDRN_ECAS_HOME}/filemgr</casInstallationDir>
