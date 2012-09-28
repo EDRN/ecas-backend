@@ -13,5 +13,6 @@
   
        <type id="urn:edrn:VanderbiltLieblerS1Squamous"  parent="urn:edrn:eCASFile"/>
        <type id="urn:edrn:VanderbiltLieblerS1Adenomas"  parent="urn:edrn:eCASFile"/>
+       <type id="urn:edrn:VanderbiltLieblerNormal2" parent="urn:edrn:eCASFile"/>      
   
 </cas:producttypemap>
