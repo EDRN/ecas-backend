@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+<keyval type="vector">
+  <key>DataStage</key>
+  <val>unprocessed</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductFunction</key>
+  <val>TBD</val>
+</keyval>
+<keyval type="vector">
+  <key>LabAnalyticMethods</key>
+  <val>TBD</val>
+</keyval>
+<keyval type="vector">
+  <key>MethodDetails</key>
+  <val>TBD</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductTitle</key>
+  <val>TBD</val>
+</keyval>
+<keyval type="vector">
+  <key>DateProductFrozen</key>
+  <val>TBD</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductDescription</key>
+  <val>TBD</val>
+</keyval>
+<keyval type="vector">
+  <key>SiteShortName</key>
+  <val>vand</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentId</key>
+  <val>Thermo LTQ-Orbitran</val>
+</keyval>
+<keyval type="vector">
+  <key>InstrumentDetails</key>
+  <val>Thermo LTQ-Orbitran</val>
+</keyval>
+<keyval type="vector">
+  <key>Organism</key>
+  <val>TBD</val>
+</keyval>
+<keyval type="vector">
+  <key>OrganName</key>
+  <val>lung</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenType</key>
+  <val>Tumor</val>
+</keyval>
+<keyval type="vector">
+  <key>SpecimenId</key>
+  <val>Unknown</val>
+</keyval>
+<keyval type="vector">
+  <key>ProductType</key>
+  <val>VanderbiltLieblerS1Adenomas</val>
+</keyval>
+</cas:metadata>

@@ -81,6 +81,35 @@
                                 </patternset>
                         </fileset>
                 </copy>
+                <copy todir="${env.EDRN_ECAS_HOME}/aux/met_def/cas_curator/carbone-s1adenomas">
+                        <fileset dir="${basedir}/src/main/conf/metextraction/carbone-s1ademomas">
+                                <patternset id="carbone.s1-adenomas.met.extraction.conf.files">
+                                        <include name="**/*.xml" />
+                                <include name="**/*.conf" />
+                                        <include name="**/*.properties"/>
+                                </patternset>
+                        </fileset>
+                </copy>
+
+                <copy todir="${env.EDRN_ECAS_HOME}/aux/met_def/cas_curator/carbone-normal1">
+                        <fileset dir="${basedir}/src/main/conf/metextraction/carbone-normal1">
+                                <patternset id="carbone.normal1.met.extraction.conf.files">
+                                        <include name="**/*.xml" />
+                                <include name="**/*.conf" />
+                                        <include name="**/*.properties"/>
+                                </patternset>
+                        </fileset>
+                </copy>
+
+                <copy todir="${env.EDRN_ECAS_HOME}/aux/met_def/cas_curator/carbone-normal2">
+                        <fileset dir="${basedir}/src/main/conf/metextraction/carbone-normal2">
+                                <patternset id="carbone.normal2.met.extraction.conf.files">
+                                        <include name="**/*.xml" />
+                                <include name="**/*.conf" />
+                                        <include name="**/*.properties"/>
+                                </patternset>
+                        </fileset>
+                </copy>
 
 	</target>
 </project>
