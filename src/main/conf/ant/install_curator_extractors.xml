@@ -72,5 +72,15 @@
 				</patternset>
 			</fileset>		
 		</copy>
+                <copy todir="${env.EDRN_ECAS_HOME}/aux/met_def/cas_curator/carbone-s1-squamous">
+                        <fileset dir="${basedir}/src/main/conf/metextraction/carbone-s1-squamous">
+                                <patternset id="carbone.s1-squamous.met.extraction.conf.files">
+                                        <include name="**/*.xml" />
+                                <include name="**/*.conf" />
+                                        <include name="**/*.properties"/>
+                                </patternset>
+                        </fileset>
+                </copy>
+
 	</target>
 </project>
