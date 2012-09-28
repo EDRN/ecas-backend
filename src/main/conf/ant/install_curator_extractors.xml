@@ -82,7 +82,7 @@
                         </fileset>
                 </copy>
                 <copy todir="${env.EDRN_ECAS_HOME}/aux/met_def/cas_curator/carbone-s1adenomas">
-                        <fileset dir="${basedir}/src/main/conf/metextraction/carbone-s1ademomas">
+                        <fileset dir="${basedir}/src/main/conf/metextraction/carbone-s1adenomas">
                                 <patternset id="carbone.s1-adenomas.met.extraction.conf.files">
                                         <include name="**/*.xml" />
                                 <include name="**/*.conf" />
