@@ -99,6 +99,10 @@
         <key>OrganSite</key>
         <val>TBD</val>
       </keyval>
+	<keyval>
+		<key>DatasetURL</key>
+		<val>https://cptacdcc.georgetown.edu/cptac/study/list?scope=Phase+I</val>
+	</keyval>
     <keyval>
     	<key>PublishState</key>
     	<val>TBD</val>
