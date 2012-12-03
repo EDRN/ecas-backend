@@ -17,7 +17,7 @@
         name="CPTACPhase1DavidTabb">
    <repository path="file://[EDRN_REPO_HOME]/archive" />
    <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
-    <description>The Clinical Proteomic Technologies for Cancer Initiative, CPTAC Phase I 2006 - 2011, was developed to address the pre-analytical and analytical variability issues that are major barriers to the field of proteomics. These barriers were: (1) experimental design; (2) technological and technical aspects of protein identification; (3) variability related to biospecimens collection; (4) the processes of data acquisition, analysis, and reporting; (5) the lack of reproducible proteomic technologies; and (6) the lack of highly characterized and standardized reagents.</description>
+    <description>Links to the The Clinical Proteomic Technologies for Cancer Initiative, CPTAC Phase I 2006 - 2011, was developed to address the pre-analytical and analytical variability issues that are major barriers to the field of proteomics. These barriers were: (1) experimental design; (2) technological and technical aspects of protein identification; (3) variability related to biospecimens collection; (4) the processes of data acquisition, analysis, and reporting; (5) the lack of reproducible proteomic technologies; and (6) the lack of highly characterized and standardized reagents.The Clinical Proteomic Technologies for Cancer Initiative, CPTAC Phase I 2006 - 2011, was developed to address the pre-analytical and analytical variability issues that are major barriers to the field of proteomics. These barriers were: (1) experimental design; (2) technological and technical aspects of protein identification; (3) variability related to biospecimens collection; (4) the processes of data acquisition, analysis, and reporting; (5) the lack of reproducible proteomic technologies; and (6) the lack of highly characterized and standardized reagents.</description>
  	<!--  cut and paste job for the most part... -->
     <metExtractors>
       <extractor
@@ -97,7 +97,7 @@
       </keyval>
       <keyval>
         <key>OrganSite</key>
-        <val>TBD</val>
+        <val>Prostate</val>
       </keyval>
 	<keyval>
 		<key>DatasetURL</key>
@@ -113,7 +113,7 @@
     </keyval>
     <keyval type="vector">
        <key>AccessGrantedTo</key>
-	   <val>TBD</val>
+	   <val>Prostate and Urologic</val>
        <val>Super User</val>
     </keyval>
       <keyval>
