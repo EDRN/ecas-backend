@@ -81,7 +81,7 @@
       </keyval>
       <keyval>
         <key>ProtocolName</key>
-        <val>Clinical Proteomic Technologies for Cancer Initiative (CPTAC) Phase 1</val>
+        <val>1002</val>
       </keyval>
       <keyval>
         <key>ProtocolId</key>
@@ -93,7 +93,7 @@
       </keyval>
       <keyval>
         <key>SiteName</key>
-        <val>NCI</val>
+        <val>87</val>
       </keyval>
       <keyval>
         <key>OrganSite</key>
