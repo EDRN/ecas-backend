@@ -53,7 +53,7 @@
       </keyval>
       <keyval>
         <key>LeadPI</key>
-        <val>David Tabb</val>
+        <val>Chris Kinsinger</val>
       </keyval>
       <keyval>
         <key>DataCustodian</key>
@@ -81,7 +81,7 @@
       </keyval>
       <keyval>
         <key>ProtocolName</key>
-        <val>1002</val>
+        <val>Clinical Proteomic Technologies for Cancer Initiative (CPTAC) Phase 1</val>
       </keyval>
       <keyval>
         <key>ProtocolId</key>
@@ -93,7 +93,7 @@
       </keyval>
       <keyval>
         <key>SiteName</key>
-        <val>5002</val>
+        <val>NCI</val>
       </keyval>
       <keyval>
         <key>OrganSite</key>
@@ -113,7 +113,6 @@
     </keyval>
     <keyval type="vector">
        <key>AccessGrantedTo</key>
-	   <val>Prostate and Urologic</val>
        <val>Super User</val>
     </keyval>
       <keyval>
