@@ -5,6 +5,7 @@ EDRN JIRA site: http://oodt.jpl.nasa.gov/jira/browse/CA
 Release Notes - Early Detection of Cancer - Version eCAS Backend beta 0.5.1 release - 12/07/2012
 
 ** Improvement
+	* [CA-1033] - Fix CPTAC ProtocolName and SiteName
 	* [CA-1032] - Update CPTAC Phase 1 Metadata
 	* [CA-1026] - Create new dataset CPTAC Phase 1 linked data
 	* [CA-956]  - Finalize dataset information for and provide non-authenticated access to Canary COPY_NUMBER_LEV1 dataset
