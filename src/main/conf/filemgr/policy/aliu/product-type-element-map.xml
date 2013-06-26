@@ -15,5 +15,8 @@
 	</type>
   
         <type id="urn:edrn:UWashBladderTranscriptomesAlvinLiu" parent="urn:edrn:eCASFile"/>
+
+	<type id="urn:edrn:PacificNorthwestNationalLaboratoryRodlandBasophile-S-oneidensis-HCD-OrbiVelos"
+		parent="urn:edrn:eCASFile"/>
   
 </cas:producttypemap>

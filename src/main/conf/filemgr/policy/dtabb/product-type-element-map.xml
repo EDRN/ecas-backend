@@ -14,6 +14,19 @@
 	<type id="urn:edrn:CPTACPhase1DavidTabb" parent="urn:edrn:eCASFile">
 	</type>
   
-        <type id="urn:edrn:CPTACPhase1DavidTabb" parent="urn:edrn:eCASFile"/>
-  
+    <type id="urn:edrn:CPTACPhase1DavidTabb" parent="urn:edrn:eCASFile"/>
+  	<type id="urn:edrn:PacificNorthwestNationalLaboratoryRodlandBasophile-S-oneidensis-HCD-OrbiVelos"
+  		parent="urn:edrn:eCASFile"/>
+  	<type id="urn:edrn:VanderbiltTabbBasophile-D-discoideum-CID-LTQ"
+  		parent="urn:edrn:eCASFile"/>
+  	<type id="urn:edrn:VanderbiltTabbBasophile-E-coli-HCD-OrbiVelos"
+  		parent="urn:edrn:eCASFile"/>
+  	<type id="urn:edrn:VanderbiltTabbBasophile-S-cerevisiae-CID-Chymotrypsin"
+  		parent="urn:edrn:eCASFile"/>
+  	<type id="urn:edrn:VanderbiltTabbBasophile-S-cerevisiae-CID-LysC"
+  		parent="urn:edrn:eCASFile"/>
+  	<type id="urn:edrn:VanderbiltTabbBasophile-S-cerevisiae-CID-ProteinaseK"
+  		parent="urn:edrn:eCASFile"/>
+  	<type id="urn:edrn:VanderbiltTabbBasophile-S-cerevisiae-CID-Trypsin"
+  		parent="urn:edrn:eCASFile"/>
 </cas:producttypemap>

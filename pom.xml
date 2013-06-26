@@ -68,6 +68,7 @@
                 <param>src/main/conf/filemgr/policy/whicolon</param>
                 <param>src/main/conf/filemgr/policy/whicolonhanash</param>
                 <param>src/main/conf/filemgr/policy/carbone</param>
+                <param>src/main/conf/filemgr/policy/dtabb</param>
               </customPolicyDirs>
               <customConfigurationDir>src/main/conf/filemgr/configuration</customConfigurationDir>
               <casInstallationDir>${env.EDRN_ECAS_HOME}/filemgr</casInstallationDir>
