@@ -1,1098 +1,711 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-  Copyright (c) 2012 California Institute of Technology.
-  ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
-  
-  $Id$
-  
-  Author(s): Michael J. Joyce, Heather L. Kincaid
-  Description: Product Type policy for David Tabb's CPTAC Phase 1 data delivered in 2012
--->
-
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <cas:producttypes xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
-
-  <!--  first type -->
-
-  <type id="urn:edrn:CPTACPhase1DavidTabb"
-        name="CPTACPhase1DavidTabb">
-   <repository path="file://[EDRN_REPO_HOME]/archive" />
-   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
-    <description>Links to the The Clinical Proteomic Technologies for Cancer Initiative, CPTAC Phase I 2006 - 2011, was developed to address the pre-analytical and analytical variability issues that are major barriers to the field of proteomics. These barriers were: (1) experimental design; (2) technological and technical aspects of protein identification; (3) variability related to biospecimens collection; (4) the processes of data acquisition, analysis, and reporting; (5) the lack of reproducible proteomic technologies; and (6) the lack of highly characterized and standardized reagents.The Clinical Proteomic Technologies for Cancer Initiative, CPTAC Phase I 2006 - 2011, was developed to address the pre-analytical and analytical variability issues that are major barriers to the field of proteomics. These barriers were: (1) experimental design; (2) technological and technical aspects of protein identification; (3) variability related to biospecimens collection; (4) the processes of data acquisition, analysis, and reporting; (5) the lack of reproducible proteomic technologies; and (6) the lack of highly characterized and standardized reagents.</description>
- 	<!--  cut and paste job for the most part... -->
-    <metExtractors>
-      <extractor
-        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-        <configuration>
-          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
-          <property name="nsAware" value="true" />
-          <property name="elementNs" value="CAS" />
-          <property name="elements"
-            value="ProductReceivedTime,ProductName,ProductId" />
-        </configuration>
-      </extractor>
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
-        <configuration>
-          <!-- this property specifies whether you want the FILE_LOCATION field
-               computed by this extractor to replace any other FILE_LOCATION met 
-               attribute.
-           -->
-           <property name="replace" value="true"/>
-        </configuration>
-      </extractor>   
-    </metExtractors>
-    <!--  fixed for all products of this type = ecas + esis meta excel spreadsheet -->
-    <metadata>
-      <keyval>
-        <key>DataSetName</key>
-        <val>CPTAC Phase 1 Data</val>
-      </keyval>
-      <keyval>
-        <key>Date</key>
-        <val>2012-11-27T07:26:00.000Z</val>
-      </keyval>
-      <keyval>
-        <key>LeadPI</key>
-        <val>Chris Kinsinger</val>
-      </keyval>
-      <keyval>
-        <key>DataCustodian</key>
-        <val>David Tabb</val>
-      </keyval>
-      <keyval>
-        <key>DataCustodianEmail</key>
-        <val>david.l.tabb@vanderbilt.edu</val>
-      </keyval>
-      <keyval>
-        <key>MethodDetails</key>
-        <val>TBD</val>
-      </keyval>
-     <keyval>
-        <key>ResultsAndConclusionSummary</key>
-        <val>TBD</val>
-      </keyval>
-      <keyval>
-        <key>CollaborativeGroup</key>
-        <val>TBD</val>
-      </keyval>
-      <keyval>
-        <key>DateDatasetFrozen</key>
-        <val>Unknown</val>
-      </keyval>
-      <keyval>
-        <key>ProtocolName</key>
-        <val>1002</val>
-      </keyval>
-      <keyval>
-        <key>ProtocolId</key>
-        <val>1002</val>
-      </keyval>
-      <keyval>
-        <key>DatasetId</key>
-        <val>urn:edrn:CPTACPhase1DavidTabb</val>
-      </keyval>
-      <keyval>
-        <key>SiteName</key>
-        <val>87</val>
-      </keyval>
-      <keyval>
-        <key>OrganSite</key>
-        <val>Prostate</val>
-      </keyval>
-	<keyval>
-		<key>DatasetURL</key>
-		<val>https://cptacdcc.georgetown.edu/cptac/study/list?scope=Phase+I</val>
-	</keyval>
-    <keyval>
-    	<key>PublishState</key>
-    	<val>TBD</val>
-    </keyval>
-    <keyval> 
-       <key>QAState</key>
-       <val>TBD</val>
-    </keyval>
-    <keyval type="vector">
-       <key>AccessGrantedTo</key>
-       <val>Super User</val>
-    </keyval>
-      <keyval>
-      	<key>DataDisclaimer</key>
-      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
-NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
-NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
-In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
-      	</val>
-      </keyval>
-    </metadata>
-  </type>
-  
-  <type id="urn:edrn:PacificNorthwestNationalLaboratoryRodlandBasophile-S-oneidensis-HCD-OrbiVelos" 
-        name="PacificNorthwestNationalLaboratoryRodlandBasophile-S-oneidensis-HCD-OrbiVelos">
-   <repository path="file://[EDRN_REPO_HOME]/archive" />
-   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
-    <description>Basophile-S-oneidensis-HCD-OrbiVelos</description>
-    <!--  cut and paste job for the most part... -->
-    <metExtractors>
-      <extractor
-        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-        <configuration>
-          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
-          <property name="nsAware" value="true" />
-          <property name="elementNs" value="CAS" />
-          <property name="elements"
-            value="ProductReceivedTime,ProductName,ProductId" />
-        </configuration>
-      </extractor>
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
-        <configuration>
-          <!-- this property specifies whether you want the FILE_LOCATION field
-               computed by this extractor to replace any other FILE_LOCATION met 
-               attribute.
-           -->
-           <property name="replace" value="true"/>
-        </configuration>
-      </extractor>   
-    </metExtractors>
-    <metadata>
-        <keyval>
-    <key>DataSetName</key>
-    <val>Basophile-S-oneidensis-HCD-OrbiVelos</val>
-  </keyval>
-
-        <keyval>
-    <key>Date</key>
-    <val>2013-02-28T15:29:01.793Z</val>
-  </keyval>
-
-        <keyval>
-    <key>siteid</key>
-    <val>Pacific Northwest National Laboratory</val>
-  </keyval>
-
-        <keyval>
-    <key>CollaborativeGroup</key>
-    <val>Not Applicable</val>
-  </keyval>
-
-        <keyval>
-    <key>SiteName</key>
-    <val>Pacific Northwest National Laboratory</val>
-  </keyval>
-
-        <keyval>
-    <key>id</key>
-    <val>a237d3d1-81fe-11e2-a4d6-ed0544b0cb9e</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetcomboname</key>
-    <val>Karin Rodland - Basophile-S-oneidensis-HCD-OrbiVelos</val>
-  </keyval>
-
-        <keyval>
-    <key>experimenttype</key>
-    <val>Proteomics</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetpath</key>
-    <val>Karin Rodland/Basophile-S-oneidensis-HCD-OrbiVelos</val>
-  </keyval>
-
-        <keyval>
-    <key>filelocation</key>
-    <val>/data/staging/Xp63o3J2</val>
-  </keyval>
-
-        <keyval>
-    <key>md5hex</key>
-    <val>eca3c09c10e1e6ebd6e090e6e3cd650b</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetaltname</key>
-    <val>dtabb.Karin Rodland.Basophile-S-oneidensis-HCD-OrbiVelos</val>
-  </keyval>
-
-        <keyval>
-    <key>filename</key>
-    <val>QC_Shew_10_01_200ng_200m_c_5Apr10_Hawk_03-10-09p.raw</val>
-  </keyval>
-
-        <keyval>
-    <key>LeadPI</key>
-    <val>Karin Rodland</val>
-  </keyval>
-
-        <keyval>
-    <key>LeadPI_fullname</key>
-    <val>Karin Rodland</val>
-  </keyval>
-
-        <keyval>
-    <key>mimetype</key>
-    <val>image/x-raw-panasonic</val>
-    <val>image</val>
-    <val>x-raw-panasonic</val>
-  </keyval>
-
-        <keyval>
-    <key>uploadedby</key>
-    <val>dtabb</val>
-  </keyval>
-
-        <keyval>
-    <key>AccessGrantedTo</key>
-    <val>Tabb Vanderbilt Medical Center</val>
-    <val>Tabb Vanderbilt Medical Center</val>
-  </keyval>
-
-        <keyval>
-    <key>score</key>
-    <val>3.721932</val>
-  </keyval>
-
-      
-      <keyval>
-      	<key>DataDisclaimer</key>
-      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
-        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
-        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
-        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
-      	</val>
-      </keyval>
-    </metadata>
-  </type>
-  
-  <type id="urn:edrn:VanderbiltTabbBasophile-D-discoideum-CID-LTQ" 
-        name="VanderbiltTabbBasophile-D-discoideum-CID-LTQ">
-   <repository path="file://[EDRN_REPO_HOME]/archive" />
-   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
-    <description>Basophile-D-discoideum-CID-LTQ</description>
-    <!--  cut and paste job for the most part... -->
-    <metExtractors>
-      <extractor
-        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-        <configuration>
-          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
-          <property name="nsAware" value="true" />
-          <property name="elementNs" value="CAS" />
-          <property name="elements"
-            value="ProductReceivedTime,ProductName,ProductId" />
-        </configuration>
-      </extractor>
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
-        <configuration>
-          <!-- this property specifies whether you want the FILE_LOCATION field
-               computed by this extractor to replace any other FILE_LOCATION met 
-               attribute.
-           -->
-           <property name="replace" value="true"/>
-        </configuration>
-      </extractor>   
-    </metExtractors>
-    <metadata>
-        <keyval>
-    <key>DataSetName</key>
-    <val>Basophile-D-discoideum-CID-LTQ</val>
-  </keyval>
-
-        <keyval>
-    <key>Date</key>
-    <val>2013-02-28T14:56:51.969Z</val>
-  </keyval>
-
-        <keyval>
-    <key>siteid</key>
-    <val>Vanderbilt</val>
-  </keyval>
-
-        <keyval>
-    <key>CollaborativeGroup</key>
-    <val>Not Applicable</val>
-  </keyval>
-
-        <keyval>
-    <key>SiteName</key>
-    <val>Vanderbilt</val>
-  </keyval>
-
-        <keyval>
-    <key>id</key>
-    <val>23f63053-81fa-11e2-a4d6-ed0544b0cb9e</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetcomboname</key>
-    <val>David Tabb - Basophile-D-discoideum-CID-LTQ</val>
-  </keyval>
-
-        <keyval>
-    <key>experimenttype</key>
-    <val>Proteomics</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetpath</key>
-    <val>David Tabb/Basophile-D-discoideum-CID-LTQ</val>
-  </keyval>
-
-        <keyval>
-    <key>filelocation</key>
-    <val>/data/staging/WXo5HXW</val>
-  </keyval>
-
-        <keyval>
-    <key>md5hex</key>
-    <val>09c1c7829dac8b4561d1ac6b82f06390</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetaltname</key>
-    <val>dtabb.David Tabb.Basophile-D-discoideum-CID-LTQ</val>
-  </keyval>
-
-        <keyval>
-    <key>filename</key>
-    <val>sh_2189_CC_042011c_VM_racc_PM.RAW</val>
-  </keyval>
-
-        <keyval>
-    <key>LeadPI</key>
-    <val>David Tabb</val>
-  </keyval>
-
-        <keyval>
-    <key>LeadPI_fullname</key>
-    <val>David Tabb</val>
-  </keyval>
-
-        <keyval>
-    <key>mimetype</key>
-    <val>image/x-raw-panasonic</val>
-    <val>image</val>
-    <val>x-raw-panasonic</val>
-  </keyval>
-
-        <keyval>
-    <key>uploadedby</key>
-    <val>dtabb</val>
-  </keyval>
-
-        <keyval>
-    <key>AccessGrantedTo</key>
-    <val>Tabb Vanderbilt University Medical Center</val>
-    <val>Tabb Vanderbilt Medical Center</val>
-  </keyval>
-
-        <keyval>
-    <key>score</key>
-    <val>5.3641596</val>
-  </keyval>
-
-      
-      <keyval>
-      	<key>DataDisclaimer</key>
-      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
-        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
-        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
-        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
-      	</val>
-      </keyval>
-    </metadata>
-  </type>
-  
-  <type id="urn:edrn:VanderbiltTabbBasophile-E-coli-HCD-OrbiVelos" 
-        name="VanderbiltTabbBasophile-E-coli-HCD-OrbiVelos">
-   <repository path="file://[EDRN_REPO_HOME]/archive" />
-   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
-    <description>Basophile-E-coli-HCD-OrbiVelos</description>
-    <!--  cut and paste job for the most part... -->
-    <metExtractors>
-      <extractor
-        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-        <configuration>
-          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
-          <property name="nsAware" value="true" />
-          <property name="elementNs" value="CAS" />
-          <property name="elements"
-            value="ProductReceivedTime,ProductName,ProductId" />
-        </configuration>
-      </extractor>
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
-        <configuration>
-          <!-- this property specifies whether you want the FILE_LOCATION field
-               computed by this extractor to replace any other FILE_LOCATION met 
-               attribute.
-           -->
-           <property name="replace" value="true"/>
-        </configuration>
-      </extractor>   
-    </metExtractors>
-    <metadata>
-        <keyval>
-    <key>DataSetName</key>
-    <val>Basophile-E-coli-HCD-OrbiVelos</val>
-  </keyval>
-
-        <keyval>
-    <key>Date</key>
-    <val>2013-02-28T15:04:13.411Z</val>
-  </keyval>
-
-        <keyval>
-    <key>siteid</key>
-    <val>Vanderbilt</val>
-  </keyval>
-
-        <keyval>
-    <key>CollaborativeGroup</key>
-    <val>Not Applicable</val>
-  </keyval>
-
-        <keyval>
-    <key>SiteName</key>
-    <val>Vanderbilt</val>
-  </keyval>
-
-        <keyval>
-    <key>id</key>
-    <val>2b14bd6c-81fb-11e2-a4d6-ed0544b0cb9e</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetcomboname</key>
-    <val>David Tabb - Basophile-E-coli-HCD-OrbiVelos</val>
-  </keyval>
-
-        <keyval>
-    <key>experimenttype</key>
-    <val>Proteomics</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetpath</key>
-    <val>David Tabb/Basophile-E-coli-HCD-OrbiVelos</val>
-  </keyval>
-
-        <keyval>
-    <key>filelocation</key>
-    <val>/data/staging/sfvKb3l</val>
-  </keyval>
-
-        <keyval>
-    <key>md5hex</key>
-    <val>8c1580c6f32c8789dc3928fabbc399a4</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetaltname</key>
-    <val>dtabb.David Tabb.Basophile-E-coli-HCD-OrbiVelos</val>
-  </keyval>
-
-        <keyval>
-    <key>filename</key>
-    <val>kr_2533_DT_012812_Ecoli_HCD_01.raw</val>
-  </keyval>
-
-        <keyval>
-    <key>LeadPI</key>
-    <val>David Tabb</val>
-  </keyval>
-
-        <keyval>
-    <key>LeadPI_fullname</key>
-    <val>David Tabb</val>
-  </keyval>
-
-        <keyval>
-    <key>mimetype</key>
-    <val>image/x-raw-panasonic</val>
-    <val>image</val>
-    <val>x-raw-panasonic</val>
-  </keyval>
-
-        <keyval>
-    <key>uploadedby</key>
-    <val>dtabb</val>
-  </keyval>
-
-        <keyval>
-    <key>AccessGrantedTo</key>
-    <val>Tabb Vanderbilt Medical Center</val>
-  </keyval>
-
-        <keyval>
-    <key>score</key>
-    <val>5.9031563</val>
-  </keyval>
-
-      
-      <keyval>
-      	<key>DataDisclaimer</key>
-      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
-        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
-        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
-        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
-      	</val>
-      </keyval>
-    </metadata>
-  </type>
-  
-  <type id="urn:edrn:VanderbiltTabbBasophile-S-cerevisiae-CID-Chymotrypsin" 
-        name="VanderbiltTabbBasophile-S-cerevisiae-CID-Chymotrypsin">
-   <repository path="file://[EDRN_REPO_HOME]/archive" />
-   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
-    <description>Basophile-S-cerevisiae-CID-Chymotrypsin</description>
-    <!--  cut and paste job for the most part... -->
-    <metExtractors>
-      <extractor
-        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-        <configuration>
-          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
-          <property name="nsAware" value="true" />
-          <property name="elementNs" value="CAS" />
-          <property name="elements"
-            value="ProductReceivedTime,ProductName,ProductId" />
-        </configuration>
-      </extractor>
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
-        <configuration>
-          <!-- this property specifies whether you want the FILE_LOCATION field
-               computed by this extractor to replace any other FILE_LOCATION met 
-               attribute.
-           -->
-           <property name="replace" value="true"/>
-        </configuration>
-      </extractor>   
-    </metExtractors>
-    <metadata>
-        <keyval>
-    <key>DataSetName</key>
-    <val>Basophile-S-cerevisiae-CID-Chymotrypsin</val>
-  </keyval>
-
-        <keyval>
-    <key>Date</key>
-    <val>2013-02-28T15:05:45.422Z</val>
-  </keyval>
-
-        <keyval>
-    <key>siteid</key>
-    <val>Vanderbilt</val>
-  </keyval>
-
-        <keyval>
-    <key>CollaborativeGroup</key>
-    <val>Not Applicable</val>
-  </keyval>
-
-        <keyval>
-    <key>SiteName</key>
-    <val>Vanderbilt</val>
-  </keyval>
-
-        <keyval>
-    <key>id</key>
-    <val>61eca833-81fb-11e2-a4d6-ed0544b0cb9e</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetcomboname</key>
-    <val>David Tabb - Basophile-S-cerevisiae-CID-Chymotrypsin</val>
-  </keyval>
-
-        <keyval>
-    <key>experimenttype</key>
-    <val>Proteomics</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetpath</key>
-    <val>David Tabb/Basophile-S-cerevisiae-CID-Chymotrypsin</val>
-  </keyval>
-
-        <keyval>
-    <key>filelocation</key>
-    <val>/data/staging/jfYUWMML</val>
-  </keyval>
-
-        <keyval>
-    <key>md5hex</key>
-    <val>68fc863b7961f84b2f414faed4f91419</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetaltname</key>
-    <val>dtabb.David Tabb.Basophile-S-cerevisiae-CID-Chymotrypsin</val>
-  </keyval>
-
-        <keyval>
-    <key>filename</key>
-    <val>mam_20090622n_KChen_Yeast_Chymotrypsin_184min_1.RAW</val>
-  </keyval>
-
-        <keyval>
-    <key>LeadPI</key>
-    <val>David Tabb</val>
-  </keyval>
-
-        <keyval>
-    <key>LeadPI_fullname</key>
-    <val>David Tabb</val>
-  </keyval>
-
-        <keyval>
-    <key>mimetype</key>
-    <val>image/x-raw-panasonic</val>
-    <val>image</val>
-    <val>x-raw-panasonic</val>
-  </keyval>
-
-        <keyval>
-    <key>uploadedby</key>
-    <val>dtabb</val>
-  </keyval>
-
-        <keyval>
-    <key>AccessGrantedTo</key>
-    <val>Tabb Vanderbilt Medical Center</val>
-  </keyval>
-
-        <keyval>
-    <key>score</key>
-    <val>5.7696247</val>
-  </keyval>
-
-      
-      <keyval>
-      	<key>DataDisclaimer</key>
-      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
-        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
-        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
-        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
-      	</val>
-      </keyval>
-    </metadata>
-  </type>
-  
- <type id="urn:edrn:VanderbiltTabbBasophile-S-cerevisiae-CID-LysC" 
-        name="VanderbiltTabbBasophile-S-cerevisiae-CID-LysC">
-   <repository path="file://[EDRN_REPO_HOME]/archive" />
-   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
-    <description>Basophile-S-cerevisiae-CID-LysC</description>
-    <!--  cut and paste job for the most part... -->
-    <metExtractors>
-      <extractor
-        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-        <configuration>
-          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
-          <property name="nsAware" value="true" />
-          <property name="elementNs" value="CAS" />
-          <property name="elements"
-            value="ProductReceivedTime,ProductName,ProductId" />
-        </configuration>
-      </extractor>
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
-        <configuration>
-          <!-- this property specifies whether you want the FILE_LOCATION field
-               computed by this extractor to replace any other FILE_LOCATION met 
-               attribute.
-           -->
-           <property name="replace" value="true"/>
-        </configuration>
-      </extractor>   
-    </metExtractors>
-    <metadata>
-        <keyval>
-    <key>DataSetName</key>
-    <val>Basophile-S-cerevisiae-CID-LysC</val>
-  </keyval>
-
-        <keyval>
-    <key>Date</key>
-    <val>2013-02-28T15:08:50.841Z</val>
-  </keyval>
-
-        <keyval>
-    <key>siteid</key>
-    <val>Vanderbilt</val>
-  </keyval>
-
-        <keyval>
-    <key>CollaborativeGroup</key>
-    <val>Not Applicable</val>
-  </keyval>
-
-        <keyval>
-    <key>SiteName</key>
-    <val>Vanderbilt</val>
-  </keyval>
-
-        <keyval>
-    <key>id</key>
-    <val>d0710bc9-81fb-11e2-a4d6-ed0544b0cb9e</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetcomboname</key>
-    <val>David Tabb - Basophile-S-cerevisiae-CID-LysC</val>
-  </keyval>
-
-        <keyval>
-    <key>experimenttype</key>
-    <val>Proteomics</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetpath</key>
-    <val>David Tabb/Basophile-S-cerevisiae-CID-LysC</val>
-  </keyval>
-
-        <keyval>
-    <key>filelocation</key>
-    <val>/data/staging/RaQ05wi</val>
-  </keyval>
-
-        <keyval>
-    <key>md5hex</key>
-    <val>89708b9a5690992e4b6a221a50e0acb6</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetaltname</key>
-    <val>dtabb.David Tabb.Basophile-S-cerevisiae-CID-LysC</val>
-  </keyval>
-
-        <keyval>
-    <key>filename</key>
-    <val>mam_20090911n_KChen_20090903_Yeast_LysC_Arg_Enr_pH3_10nL_F01.RAW</val>
-  </keyval>
-
-        <keyval>
-    <key>LeadPI</key>
-    <val>David Tabb</val>
-  </keyval>
-
-        <keyval>
-    <key>LeadPI_fullname</key>
-    <val>David Tabb</val>
-  </keyval>
-
-        <keyval>
-    <key>mimetype</key>
-    <val>image/x-raw-panasonic</val>
-    <val>image</val>
-    <val>x-raw-panasonic</val>
-  </keyval>
-
-        <keyval>
-    <key>uploadedby</key>
-    <val>dtabb</val>
-  </keyval>
-
-        <keyval>
-    <key>AccessGrantedTo</key>
-    <val>Tabb Vanderbilt Medical Center</val>
-  </keyval>
-
-        <keyval>
-    <key>score</key>
-    <val>3.9989188</val>
-  </keyval>
-
-      
-      <keyval>
-      	<key>DataDisclaimer</key>
-      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
-        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
-        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
-        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
-      	</val>
-      </keyval>
-    </metadata>
-  </type>
-
-  <type id="urn:edrn:VanderbiltTabbBasophile-S-cerevisiae-CID-ProteinaseK" 
-        name="VanderbiltTabbBasophile-S-cerevisiae-CID-ProteinaseK">
-   <repository path="file://[EDRN_REPO_HOME]/archive" />
-   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
-    <description>Basophile-S-cerevisiae-CID-ProteinaseK</description>
-    <!--  cut and paste job for the most part... -->
-    <metExtractors>
-      <extractor
-        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-        <configuration>
-          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
-          <property name="nsAware" value="true" />
-          <property name="elementNs" value="CAS" />
-          <property name="elements"
-            value="ProductReceivedTime,ProductName,ProductId" />
-        </configuration>
-      </extractor>
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
-        <configuration>
-          <!-- this property specifies whether you want the FILE_LOCATION field
-               computed by this extractor to replace any other FILE_LOCATION met 
-               attribute.
-           -->
-           <property name="replace" value="true"/>
-        </configuration>
-      </extractor>   
-    </metExtractors>
-    <metadata>
-        <keyval>
-    <key>DataSetName</key>
-    <val>Basophile-S-cerevisiae-CID-ProteinaseK</val>
-  </keyval>
-
-        <keyval>
-    <key>Date</key>
-    <val>2013-02-28T15:14:31.982Z</val>
-  </keyval>
-
-        <keyval>
-    <key>siteid</key>
-    <val>Vanderbilt</val>
-  </keyval>
-
-        <keyval>
-    <key>CollaborativeGroup</key>
-    <val>Not Applicable</val>
-  </keyval>
-
-        <keyval>
-    <key>SiteName</key>
-    <val>Vanderbilt</val>
-  </keyval>
-
-        <keyval>
-    <key>id</key>
-    <val>9bc70847-81fc-11e2-a4d6-ed0544b0cb9e</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetcomboname</key>
-    <val>David Tabb - Basophile-S-cerevisiae-CID-ProteinaseK</val>
-  </keyval>
-
-        <keyval>
-    <key>experimenttype</key>
-    <val>Proteomics</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetpath</key>
-    <val>David Tabb/Basophile-S-cerevisiae-CID-ProteinaseK</val>
-  </keyval>
-
-        <keyval>
-    <key>filelocation</key>
-    <val>/data/staging/PJ8DmiB2</val>
-  </keyval>
-
-        <keyval>
-    <key>md5hex</key>
-    <val>bb41aec09703e655be51576f3574b524</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetaltname</key>
-    <val>dtabb.David Tabb.Basophile-S-cerevisiae-CID-ProteinaseK</val>
-  </keyval>
-
-        <keyval>
-    <key>filename</key>
-    <val>kc_0524_yeast_proteinaseK_180ng.RAW</val>
-  </keyval>
-
-        <keyval>
-    <key>LeadPI</key>
-    <val>David Tabb</val>
-  </keyval>
-
-        <keyval>
-    <key>LeadPI_fullname</key>
-    <val>David Tabb</val>
-  </keyval>
-
-        <keyval>
-    <key>mimetype</key>
-    <val>image/x-raw-panasonic</val>
-    <val>image</val>
-    <val>x-raw-panasonic</val>
-  </keyval>
-
-        <keyval>
-    <key>uploadedby</key>
-    <val>dtabb</val>
-  </keyval>
-
-        <keyval>
-    <key>AccessGrantedTo</key>
-    <val>Tabb Vanderbilt Medical Center</val>
-  </keyval>
-
-        <keyval>
-    <key>score</key>
-    <val>4.853334</val>
-  </keyval>
-
-      
-      <keyval>
-      	<key>DataDisclaimer</key>
-      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
-        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
-        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
-        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
-      	</val>
-      </keyval>
-    </metadata>
-  </type>
- 
-  <type id="urn:edrn:VanderbiltTabbBasophile-S-cerevisiae-CID-Trypsin" 
-        name="VanderbiltTabbBasophile-S-cerevisiae-CID-Trypsin">
-   <repository path="file://[EDRN_REPO_HOME]/archive" />
-   <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner" />
-    <description>Basophile-S-cerevisiae-CID-Trypsin</description>
-    <!--  cut and paste job for the most part... -->
-    <metExtractors>
-      <extractor
-        class="org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor">
-        <configuration>
-          <!--  you can optionally include the envReplace tag to turn on/off environment var replacement -->
-          <property name="nsAware" value="true" />
-          <property name="elementNs" value="CAS" />
-          <property name="elements"
-            value="ProductReceivedTime,ProductName,ProductId" />
-        </configuration>
-      </extractor>
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor" />
-      <extractor class="org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor">
-        <configuration>
-          <!-- this property specifies whether you want the FILE_LOCATION field
-               computed by this extractor to replace any other FILE_LOCATION met 
-               attribute.
-           -->
-           <property name="replace" value="true"/>
-        </configuration>
-      </extractor>   
-    </metExtractors>
-    <metadata>
-        <keyval>
-    <key>DataSetName</key>
-    <val>Basophile-S-cerevisiae-CID-Trypsin</val>
-  </keyval>
-
-        <keyval>
-    <key>Date</key>
-    <val>2013-02-28T15:19:24.512Z</val>
-  </keyval>
-
-        <keyval>
-    <key>siteid</key>
-    <val>Vanderbilt</val>
-  </keyval>
-
-        <keyval>
-    <key>CollaborativeGroup</key>
-    <val>Not Applicable</val>
-  </keyval>
-
-        <keyval>
-    <key>SiteName</key>
-    <val>Vanderbilt</val>
-  </keyval>
-
-        <keyval>
-    <key>id</key>
-    <val>4a2406ac-81fd-11e2-a4d6-ed0544b0cb9e</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetcomboname</key>
-    <val>David Tabb - Basophile-S-cerevisiae-CID-Trypsin</val>
-  </keyval>
-
-        <keyval>
-    <key>experimenttype</key>
-    <val>Proteomics</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetpath</key>
-    <val>David Tabb/Basophile-S-cerevisiae-CID-Trypsin</val>
-  </keyval>
-
-        <keyval>
-    <key>filelocation</key>
-    <val>/data/staging/Gd1d9ta</val>
-  </keyval>
-
-        <keyval>
-    <key>md5hex</key>
-    <val>6359c93c7e863a30f59fd67331bff8ae</val>
-  </keyval>
-
-        <keyval>
-    <key>datasetaltname</key>
-    <val>dtabb.David Tabb.Basophile-S-cerevisiae-CID-Trypsin</val>
-  </keyval>
-
-        <keyval>
-    <key>filename</key>
-    <val>mam_20090622n_KChen_Yeast_Trypsin_184min_2.RAW</val>
-  </keyval>
-
-        <keyval>
-    <key>LeadPI</key>
-    <val>David Tabb</val>
-  </keyval>
-
-        <keyval>
-    <key>LeadPI_fullname</key>
-    <val>David Tabb</val>
-  </keyval>
-
-        <keyval>
-    <key>mimetype</key>
-    <val>image/x-raw-panasonic</val>
-    <val>image</val>
-    <val>x-raw-panasonic</val>
-  </keyval>
-
-        <keyval>
-    <key>uploadedby</key>
-    <val>dtabb</val>
-  </keyval>
-
-        <keyval>
-    <key>AccessGrantedTo</key>
-    <val>Tabb Vanderbilt Medical Center</val>
-  </keyval>
-
-        <keyval>
-    <key>score</key>
-    <val>5.7696247</val>
-  </keyval>
-
-      
-      <keyval>
-      	<key>DataDisclaimer</key>
-      	<val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete.
-        NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.
-        NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.
-        In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI. 
-      	</val>
-      </keyval>
-    </metadata>
-  </type>
- 
-
+<type id="urn:edrn:VanderbiltTabbBasophile-S-cerevisiae-CID-Trypsin" name="VanderbiltTabbBasophile-S-cerevisiae-CID-Trypsin">
+<description>Basophile-S-cerevisiae-CID-Trypsin</description>
+<repository path="file://[EDRN_REPO_HOME]/archive"/>
+<versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+<metadata>
+<keyval>
+<key>Date</key>
+<val>2013-02-28T15%3A19%3A24.512Z</val>
+</keyval>
+<keyval>
+<key>PubMedID</key>
+<val>23499924</val>
+</keyval>
+<keyval>
+<key>ProtocolId</key>
+<val>1037</val>
+</keyval>
+<keyval>
+<key>DataCustodian</key>
+<val>David+Tabb</val>
+</keyval>
+<keyval>
+<key>DataDisclaimer</key>
+<val>Data+and+information+released+from+the+National+Cancer+Institute+%28NCI%29+are+provided+on+an+%22AS+IS%22+basis%2C+without+warranty+of+any+kind%2C+including+without+limitation+the+warranties+of+merchantability%2C+fitness+for+a+particular+purpose+and+non-infringement.+Availability+of+this+data+and+information+does+not+constitute+scientific+publication.+Data+and%2For+information+may+contain+errors+or+be+incomplete.%0A++++++++NCI+and+its+employees+make+no+representation+or+warranty%2C+express+or+implied%2C+including+without+limitation+any+warranties+of+merchantability+or+fitness+for+a+particular+purpose+or+warranties+as+to+the+identity+or+ownership+of+data+or+information%2C+the+quality%2C+accuracy+or+completeness+of+data+or+information%2C+or+that+the+use+of+such+data+or+information+will+not+infringe+any+patent%2C+intellectual+property+or+proprietary+rights+of+any+party.%0A++++++++NCI+shall+not+be+liable+for+any+claim+for+any+loss%2C+harm%2C+illness+or+other+damage+or+injury+arising+from+access+to+or+use+of+data+or+information%2C+including+without+limitation+any+direct%2C+indirect%2C+incidental%2C+exemplary%2C+special+or+consequential+damages%2C+even+if+advised+of+the+possibility+of+such+damages.%0A++++++++In+accordance+with+scientific+standards%2C+appropriate+acknowledgment+of+NCI+should+be+made+in+any+publications+or+other+disclosures+concerning+data+or+information+made+available+by+NCI.+%0A++++++%09</val>
+</keyval>
+<keyval>
+<key>OrganSite</key>
+<val>NA</val>
+</keyval>
+<keyval>
+<key>CollaborativeGroup</key>
+<val>Not+Applicable</val>
+</keyval>
+<keyval>
+<key>DatasetId</key>
+<val>urn%3Aedrn%3AVanderbiltTabbBasophile-S-cerevisiae-CID-Trypsin</val>
+</keyval>
+<keyval>
+<key>AccessGrantedTo</key>
+<val>Tabb+Vanderbilt+Medical+Center</val>
+<val>Super+User</val>
+</keyval>
+<keyval>
+<key>SiteName</key>
+<val>598</val>
+</keyval>
+<keyval>
+<key>Species</key>
+<val>Homo+sapiens+-+Taxonomy+ID%3A+9606</val>
+</keyval>
+<keyval>
+<key>QAState</key>
+<val>Accepted</val>
+</keyval>
+<keyval>
+<key>DataCustodianEmail</key>
+<val>david.l.tabb%40vanderbilt.edu</val>
+</keyval>
+<keyval>
+<key>DataSetName</key>
+<val>Basophile-S-cerevisiae-CID-Trypsin</val>
+</keyval>
+<keyval>
+<key>DateDatasetFrozen</key>
+<val>Unknown</val>
+</keyval>
+<keyval>
+<key>LeadPI</key>
+<val>David+Tabb</val>
+</keyval>
+<keyval>
+<key>ProtocolName</key>
+<val>Basophile%3A+Accurate+Fragment+Charge+State+Prediction+Improves+Peptide+Identification+Rates</val>
+</keyval>
+<keyval>
+<key>ResultsAndConclusionSummary</key>
+<val>TBD</val>
+</keyval>
+<keyval>
+<key>MethodDetails</key>
+<val>TBD</val>
+</keyval>
+<keyval>
+<key>PublishState</key>
+<val>yes</val>
+</keyval>
+</metadata>
+</type>
+<type id="urn:edrn:PacificNorthwestNationalLaboratoryRodlandBasophile-S-oneidensis-HCD-OrbiVelos" name="PacificNorthwestNationalLaboratoryRodlandBasophile-S-oneidensis-HCD-OrbiVelos">
+<description>Basophile-S-oneidensis-HCD-OrbiVelos</description>
+<repository path="file://[EDRN_REPO_HOME]/archive"/>
+<versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+<metadata>
+<keyval>
+<key>Date</key>
+<val>2013-02-28T15%3A29%3A01.793Z</val>
+</keyval>
+<keyval>
+<key>PubMedID</key>
+<val>23499924</val>
+</keyval>
+<keyval>
+<key>ProtocolId</key>
+<val>1037</val>
+</keyval>
+<keyval>
+<key>DataCustodian</key>
+<val>David+Tabb</val>
+</keyval>
+<keyval>
+<key>DataDisclaimer</key>
+<val>Data+and+information+released+from+the+National+Cancer+Institute+%28NCI%29+are+provided+on+an+%22AS+IS%22+basis%2C+without+warranty+of+any+kind%2C+including+without+limitation+the+warranties+of+merchantability%2C+fitness+for+a+particular+purpose+and+non-infringement.+Availability+of+this+data+and+information+does+not+constitute+scientific+publication.+Data+and%2For+information+may+contain+errors+or+be+incomplete.%0A++++++++NCI+and+its+employees+make+no+representation+or+warranty%2C+express+or+implied%2C+including+without+limitation+any+warranties+of+merchantability+or+fitness+for+a+particular+purpose+or+warranties+as+to+the+identity+or+ownership+of+data+or+information%2C+the+quality%2C+accuracy+or+completeness+of+data+or+information%2C+or+that+the+use+of+such+data+or+information+will+not+infringe+any+patent%2C+intellectual+property+or+proprietary+rights+of+any+party.%0A++++++++NCI+shall+not+be+liable+for+any+claim+for+any+loss%2C+harm%2C+illness+or+other+damage+or+injury+arising+from+access+to+or+use+of+data+or+information%2C+including+without+limitation+any+direct%2C+indirect%2C+incidental%2C+exemplary%2C+special+or+consequential+damages%2C+even+if+advised+of+the+possibility+of+such+damages.%0A++++++++In+accordance+with+scientific+standards%2C+appropriate+acknowledgment+of+NCI+should+be+made+in+any+publications+or+other+disclosures+concerning+data+or+information+made+available+by+NCI.+%0A++++++%09</val>
+</keyval>
+<keyval>
+<key>OrganSite</key>
+<val>NA</val>
+</keyval>
+<keyval>
+<key>CollaborativeGroup</key>
+<val>Not+Applicable</val>
+</keyval>
+<keyval>
+<key>DatasetId</key>
+<val>urn%3Aedrn%3APacificNorthwestNationalLaboratoryRodlandBasophile-S-oneidensis-HCD-OrbiVelos</val>
+</keyval>
+<keyval>
+<key>AccessGrantedTo</key>
+<val>Tabb+Vanderbilt+Medical+Center</val>
+<val>Super+User</val>
+</keyval>
+<keyval>
+<key>SiteName</key>
+<val>234</val>
+</keyval>
+<keyval>
+<key>Species</key>
+<val>Homo+sapiens+-+Taxonomy+ID%3A+9606</val>
+</keyval>
+<keyval>
+<key>QAState</key>
+<val>Accepted</val>
+</keyval>
+<keyval>
+<key>DataCustodianEmail</key>
+<val>david.l.tabb%40vanderbilt.edu</val>
+</keyval>
+<keyval>
+<key>DataSetName</key>
+<val>Basophile-S-oneidensis-HCD-OrbiVelos</val>
+</keyval>
+<keyval>
+<key>DateDatasetFrozen</key>
+<val>Unknown</val>
+</keyval>
+<keyval>
+<key>LeadPI</key>
+<val>Karin+Rodland</val>
+</keyval>
+<keyval>
+<key>ProtocolName</key>
+<val>Basophile%3A+Accurate+Fragment+Charge+State+Prediction+Improves+Peptide+Identification+Rates</val>
+</keyval>
+<keyval>
+<key>ResultsAndConclusionSummary</key>
+<val>TBD</val>
+</keyval>
+<keyval>
+<key>MethodDetails</key>
+<val>TBD</val>
+</keyval>
+<keyval>
+<key>LeadPI_fullname</key>
+<val>Karin+Rodland</val>
+</keyval>
+<keyval>
+<key>PublishState</key>
+<val>yes</val>
+</keyval>
+</metadata>
+</type>
+<type id="urn:edrn:VanderbiltTabbBasophile-E-coli-HCD-OrbiVelos" name="VanderbiltTabbBasophile-E-coli-HCD-OrbiVelos">
+<description>Basophile-E-coli-HCD-OrbiVelos</description>
+<repository path="file://[EDRN_REPO_HOME]/archive"/>
+<versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+<metadata>
+<keyval>
+<key>Date</key>
+<val>2013-02-28T15%3A04%3A13.411Z</val>
+</keyval>
+<keyval>
+<key>PubMedID</key>
+<val>23499924</val>
+</keyval>
+<keyval>
+<key>ProtocolId</key>
+<val>1037</val>
+</keyval>
+<keyval>
+<key>DataCustodian</key>
+<val>David+Tabb</val>
+</keyval>
+<keyval>
+<key>DataDisclaimer</key>
+<val>Data+and+information+released+from+the+National+Cancer+Institute+%28NCI%29+are+provided+on+an+%22AS+IS%22+basis%2C+without+warranty+of+any+kind%2C+including+without+limitation+the+warranties+of+merchantability%2C+fitness+for+a+particular+purpose+and+non-infringement.+Availability+of+this+data+and+information+does+not+constitute+scientific+publication.+Data+and%2For+information+may+contain+errors+or+be+incomplete.%0A++++++++NCI+and+its+employees+make+no+representation+or+warranty%2C+express+or+implied%2C+including+without+limitation+any+warranties+of+merchantability+or+fitness+for+a+particular+purpose+or+warranties+as+to+the+identity+or+ownership+of+data+or+information%2C+the+quality%2C+accuracy+or+completeness+of+data+or+information%2C+or+that+the+use+of+such+data+or+information+will+not+infringe+any+patent%2C+intellectual+property+or+proprietary+rights+of+any+party.%0A++++++++NCI+shall+not+be+liable+for+any+claim+for+any+loss%2C+harm%2C+illness+or+other+damage+or+injury+arising+from+access+to+or+use+of+data+or+information%2C+including+without+limitation+any+direct%2C+indirect%2C+incidental%2C+exemplary%2C+special+or+consequential+damages%2C+even+if+advised+of+the+possibility+of+such+damages.%0A++++++++In+accordance+with+scientific+standards%2C+appropriate+acknowledgment+of+NCI+should+be+made+in+any+publications+or+other+disclosures+concerning+data+or+information+made+available+by+NCI.+%0A++++++%09</val>
+</keyval>
+<keyval>
+<key>OrganSite</key>
+<val>NA</val>
+</keyval>
+<keyval>
+<key>CollaborativeGroup</key>
+<val>Not+Applicable</val>
+</keyval>
+<keyval>
+<key>DatasetId</key>
+<val>urn%3Aedrn%3AVanderbiltTabbBasophile-E-coli-HCD-OrbiVelos</val>
+</keyval>
+<keyval>
+<key>AccessGrantedTo</key>
+<val>Tabb+Vanderbilt+Medical+Center</val>
+<val>Super+User</val>
+</keyval>
+<keyval>
+<key>SiteName</key>
+<val>598</val>
+</keyval>
+<keyval>
+<key>Species</key>
+<val>Homo+sapiens+-+Taxonomy+ID%3A+9606</val>
+</keyval>
+<keyval>
+<key>QAState</key>
+<val>Accepted</val>
+</keyval>
+<keyval>
+<key>DataCustodianEmail</key>
+<val>david.l.tabb%40vanderbilt.edu</val>
+</keyval>
+<keyval>
+<key>DataSetName</key>
+<val>Basophile-E-coli-HCD-OrbiVelos</val>
+</keyval>
+<keyval>
+<key>DateDatasetFrozen</key>
+<val>Unknown</val>
+</keyval>
+<keyval>
+<key>LeadPI</key>
+<val>David+Tabb</val>
+</keyval>
+<keyval>
+<key>ProtocolName</key>
+<val>Basophile%3A+Accurate+Fragment+Charge+State+Prediction+Improves+Peptide+Identification+Rates</val>
+</keyval>
+<keyval>
+<key>ResultsAndConclusionSummary</key>
+<val>TBD</val>
+</keyval>
+<keyval>
+<key>MethodDetails</key>
+<val>TBD</val>
+</keyval>
+<keyval>
+<key>PublishState</key>
+<val>yes</val>
+</keyval>
+</metadata>
+</type>
+<type id="urn:edrn:CPTACPhase1DavidTabb" name="CPTACPhase1DavidTabb">
+<description>Links to the The Clinical Proteomic Technologies for Cancer Initiative, CPTAC Phase I 2006 - 2011, was developed to address the pre-analytical and analytical variability issues that are major barriers to the field of proteomics. These barriers were: (1) experimental design; (2) technological and technical aspects of protein identification; (3) variability related to biospecimens collection; (4) the processes of data acquisition, analysis, and reporting; (5) the lack of reproducible proteomic technologies; and (6) the lack of highly characterized and standardized reagents.The Clinical Proteomic Technologies for Cancer Initiative, CPTAC Phase I 2006 - 2011, was developed to address the pre-analytical and analytical variability issues that are major barriers to the field of proteomics. These barriers were: (1) experimental design; (2) technological and technical aspects of protein identification; (3) variability related to biospecimens collection; (4) the processes of data acquisition, analysis, and reporting; (5) the lack of reproducible proteomic technologies; and (6) the lack of highly characterized and standardized reagents.</description>
+<repository path="file://[EDRN_REPO_HOME]/archive"/>
+<versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+<metadata>
+<keyval>
+<key>Date</key>
+<val>2012-11-27T07%3A26%3A00.000Z</val>
+</keyval>
+<keyval>
+<key>ProtocolId</key>
+<val>1002</val>
+</keyval>
+<keyval>
+<key>DataCustodian</key>
+<val>David+Tabb</val>
+</keyval>
+<keyval>
+<key>DataDisclaimer</key>
+<val>Data+and+information+released+from+the+National+Cancer+Institute+%28NCI%29+are+provided+on+an+%22AS+IS%22+basis%2C+without+warranty+of+any+kind%2C+including+without+limitation+the+warranties+of+merchantability%2C+fitness+for+a+particular+purpose+and+non-infringement.+Availability+of+this+data+and+information+does+not+constitute+scientific+publication.+Data+and%2For+information+may+contain+errors+or+be+incomplete.%0ANCI+and+its+employees+make+no+representation+or+warranty%2C+express+or+implied%2C+including+without+limitation+any+warranties+of+merchantability+or+fitness+for+a+particular+purpose+or+warranties+as+to+the+identity+or+ownership+of+data+or+information%2C+the+quality%2C+accuracy+or+completeness+of+data+or+information%2C+or+that+the+use+of+such+data+or+information+will+not+infringe+any+patent%2C+intellectual+property+or+proprietary+rights+of+any+party.%0ANCI+shall+not+be+liable+for+any+claim+for+any+loss%2C+harm%2C+illness+or+other+damage+or+injury+arising+from+access+to+or+use+of+data+or+information%2C+including+without+limitation+any+direct%2C+indirect%2C+incidental%2C+exemplary%2C+special+or+consequential+damages%2C+even+if+advised+of+the+possibility+of+such+damages.%0AIn+accordance+with+scientific+standards%2C+appropriate+acknowledgment+of+NCI+should+be+made+in+any+publications+or+other+disclosures+concerning+data+or+information+made+available+by+NCI.+%0A++++++%09</val>
+</keyval>
+<keyval>
+<key>OrganSite</key>
+<val>Prostate</val>
+</keyval>
+<keyval>
+<key>CollaborativeGroup</key>
+<val>TBD</val>
+</keyval>
+<keyval>
+<key>DatasetId</key>
+<val>urn%3Aedrn%3ACPTACPhase1DavidTabb</val>
+</keyval>
+<keyval>
+<key>AccessGrantedTo</key>
+<val>Super+User</val>
+</keyval>
+<keyval>
+<key>SiteName</key>
+<val>87</val>
+</keyval>
+<keyval>
+<key>QAState</key>
+<val>Accepted</val>
+</keyval>
+<keyval>
+<key>DataCustodianEmail</key>
+<val>david.l.tabb%40vanderbilt.edu</val>
+</keyval>
+<keyval>
+<key>DataSetName</key>
+<val>CPTAC+Phase+1+Data</val>
+</keyval>
+<keyval>
+<key>DatasetURL</key>
+<val>&lt;a href=&quot;https%3A%2F%2Fcptacdcc.georgetown.edu%2Fcptac%2Fstudy%2Flist%3Fscope%3DPhase+I&quot;&gt;https%3A%2F%2Fcptacdcc.georgetown.edu%2Fcptac%2Fstudy%2Flist%3Fscope%3DPhase+I&lt;/a&gt;</val>
+</keyval>
+<keyval>
+<key>DateDatasetFrozen</key>
+<val>Unknown</val>
+</keyval>
+<keyval>
+<key>LeadPI</key>
+<val>Chris+Kinsinger</val>
+</keyval>
+<keyval>
+<key>ProtocolName</key>
+<val>1002</val>
+</keyval>
+<keyval>
+<key>ResultsAndConclusionSummary</key>
+<val>TBD</val>
+</keyval>
+<keyval>
+<key>MethodDetails</key>
+<val>TBD</val>
+</keyval>
+<keyval>
+<key>PublishState</key>
+<val>yes</val>
+</keyval>
+</metadata>
+</type>
+<type id="urn:edrn:VanderbiltTabbBasophile-S-cerevisiae-CID-Chymotrypsin" name="VanderbiltTabbBasophile-S-cerevisiae-CID-Chymotrypsin">
+<description>Basophile-S-cerevisiae-CID-Chymotrypsin</description>
+<repository path="file://[EDRN_REPO_HOME]/archive"/>
+<versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+<metadata>
+<keyval>
+<key>Date</key>
+<val>2013-02-28T15%3A05%3A45.422Z</val>
+</keyval>
+<keyval>
+<key>PubMedID</key>
+<val>23499924</val>
+</keyval>
+<keyval>
+<key>ProtocolId</key>
+<val>1037</val>
+</keyval>
+<keyval>
+<key>DataCustodian</key>
+<val>David+Tabb</val>
+</keyval>
+<keyval>
+<key>DataDisclaimer</key>
+<val>Data+and+information+released+from+the+National+Cancer+Institute+%28NCI%29+are+provided+on+an+%22AS+IS%22+basis%2C+without+warranty+of+any+kind%2C+including+without+limitation+the+warranties+of+merchantability%2C+fitness+for+a+particular+purpose+and+non-infringement.+Availability+of+this+data+and+information+does+not+constitute+scientific+publication.+Data+and%2For+information+may+contain+errors+or+be+incomplete.%0A++++++++NCI+and+its+employees+make+no+representation+or+warranty%2C+express+or+implied%2C+including+without+limitation+any+warranties+of+merchantability+or+fitness+for+a+particular+purpose+or+warranties+as+to+the+identity+or+ownership+of+data+or+information%2C+the+quality%2C+accuracy+or+completeness+of+data+or+information%2C+or+that+the+use+of+such+data+or+information+will+not+infringe+any+patent%2C+intellectual+property+or+proprietary+rights+of+any+party.%0A++++++++NCI+shall+not+be+liable+for+any+claim+for+any+loss%2C+harm%2C+illness+or+other+damage+or+injury+arising+from+access+to+or+use+of+data+or+information%2C+including+without+limitation+any+direct%2C+indirect%2C+incidental%2C+exemplary%2C+special+or+consequential+damages%2C+even+if+advised+of+the+possibility+of+such+damages.%0A++++++++In+accordance+with+scientific+standards%2C+appropriate+acknowledgment+of+NCI+should+be+made+in+any+publications+or+other+disclosures+concerning+data+or+information+made+available+by+NCI.+%0A++++++%09</val>
+</keyval>
+<keyval>
+<key>OrganSite</key>
+<val>NA</val>
+</keyval>
+<keyval>
+<key>CollaborativeGroup</key>
+<val>Not+Applicable</val>
+</keyval>
+<keyval>
+<key>DatasetId</key>
+<val>urn%3Aedrn%3AVanderbiltTabbBasophile-S-cerevisiae-CID-Chymotrypsin</val>
+</keyval>
+<keyval>
+<key>AccessGrantedTo</key>
+<val>Tabb+Vanderbilt+Medical+Center</val>
+<val>Super+User</val>
+</keyval>
+<keyval>
+<key>SiteName</key>
+<val>598</val>
+</keyval>
+<keyval>
+<key>Species</key>
+<val>Homo+sapiens+-+Taxonomy+ID%3A+9606</val>
+</keyval>
+<keyval>
+<key>QAState</key>
+<val>Accepted</val>
+</keyval>
+<keyval>
+<key>DataCustodianEmail</key>
+<val>david.l.tabb%40vanderbilt.edu</val>
+</keyval>
+<keyval>
+<key>DataSetName</key>
+<val>Basophile-S-cerevisiae-CID-Chymotrypsin</val>
+</keyval>
+<keyval>
+<key>DateDatasetFrozen</key>
+<val>Unknown</val>
+</keyval>
+<keyval>
+<key>LeadPI</key>
+<val>David+Tabb</val>
+</keyval>
+<keyval>
+<key>ProtocolName</key>
+<val>Basophile%3A+Accurate+Fragment+Charge+State+Prediction+Improves+Peptide+Identification+Rates</val>
+</keyval>
+<keyval>
+<key>ResultsAndConclusionSummary</key>
+<val>TBD</val>
+</keyval>
+<keyval>
+<key>MethodDetails</key>
+<val>TBD</val>
+</keyval>
+<keyval>
+<key>LeadPI_fullname</key>
+<val>David+Tabb</val>
+</keyval>
+<keyval>
+<key>PublishState</key>
+<val>yes</val>
+</keyval>
+</metadata>
+</type>
+<type id="urn:edrn:VanderbiltTabbBasophile-S-cerevisiae-CID-ProteinaseK" name="VanderbiltTabbBasophile-S-cerevisiae-CID-ProteinaseK">
+<description>Basophile-S-cerevisiae-CID-ProteinaseK</description>
+<repository path="file://[EDRN_REPO_HOME]/archive"/>
+<versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+<metadata>
+<keyval>
+<key>Date</key>
+<val>2013-02-28T15%3A14%3A31.982Z</val>
+</keyval>
+<keyval>
+<key>PubMedID</key>
+<val>23499924</val>
+</keyval>
+<keyval>
+<key>ProtocolId</key>
+<val>1037</val>
+</keyval>
+<keyval>
+<key>DataCustodian</key>
+<val>David+Tabb</val>
+</keyval>
+<keyval>
+<key>DataDisclaimer</key>
+<val>Data+and+information+released+from+the+National+Cancer+Institute+%28NCI%29+are+provided+on+an+%22AS+IS%22+basis%2C+without+warranty+of+any+kind%2C+including+without+limitation+the+warranties+of+merchantability%2C+fitness+for+a+particular+purpose+and+non-infringement.+Availability+of+this+data+and+information+does+not+constitute+scientific+publication.+Data+and%2For+information+may+contain+errors+or+be+incomplete.%0A++++++++NCI+and+its+employees+make+no+representation+or+warranty%2C+express+or+implied%2C+including+without+limitation+any+warranties+of+merchantability+or+fitness+for+a+particular+purpose+or+warranties+as+to+the+identity+or+ownership+of+data+or+information%2C+the+quality%2C+accuracy+or+completeness+of+data+or+information%2C+or+that+the+use+of+such+data+or+information+will+not+infringe+any+patent%2C+intellectual+property+or+proprietary+rights+of+any+party.%0A++++++++NCI+shall+not+be+liable+for+any+claim+for+any+loss%2C+harm%2C+illness+or+other+damage+or+injury+arising+from+access+to+or+use+of+data+or+information%2C+including+without+limitation+any+direct%2C+indirect%2C+incidental%2C+exemplary%2C+special+or+consequential+damages%2C+even+if+advised+of+the+possibility+of+such+damages.%0A++++++++In+accordance+with+scientific+standards%2C+appropriate+acknowledgment+of+NCI+should+be+made+in+any+publications+or+other+disclosures+concerning+data+or+information+made+available+by+NCI.+%0A++++++%09</val>
+</keyval>
+<keyval>
+<key>OrganSite</key>
+<val>NA</val>
+</keyval>
+<keyval>
+<key>CollaborativeGroup</key>
+<val>Not+Applicable</val>
+</keyval>
+<keyval>
+<key>DatasetId</key>
+<val>urn%3Aedrn%3AVanderbiltTabbBasophile-S-cerevisiae-CID-ProteinaseK</val>
+</keyval>
+<keyval>
+<key>AccessGrantedTo</key>
+<val>Tabb+Vanderbilt+Medical+Center</val>
+<val>Super+User</val>
+</keyval>
+<keyval>
+<key>SiteName</key>
+<val>598</val>
+</keyval>
+<keyval>
+<key>Species</key>
+<val>Homo+sapiens+-+Taxonomy+ID%3A+9606</val>
+</keyval>
+<keyval>
+<key>QAState</key>
+<val>Accepted</val>
+</keyval>
+<keyval>
+<key>DataCustodianEmail</key>
+<val>david.l.tabb%40vanderbilt.edu</val>
+</keyval>
+<keyval>
+<key>DataSetName</key>
+<val>Basophile-S-cerevisiae-CID-ProteinaseK</val>
+</keyval>
+<keyval>
+<key>DateDatasetFrozen</key>
+<val>Unknown</val>
+</keyval>
+<keyval>
+<key>LeadPI</key>
+<val>David+Tabb</val>
+</keyval>
+<keyval>
+<key>ProtocolName</key>
+<val>Basophile%3A+Accurate+Fragment+Charge+State+Prediction+Improves+Peptide+Identification+Rates</val>
+</keyval>
+<keyval>
+<key>ResultsAndConclusionSummary</key>
+<val>TBD</val>
+</keyval>
+<keyval>
+<key>MethodDetails</key>
+<val>TBD</val>
+</keyval>
+<keyval>
+<key>PublishState</key>
+<val>yes</val>
+</keyval>
+</metadata>
+</type>
+<type id="urn:edrn:VanderbiltTabbBasophile-S-cerevisiae-CID-LysC" name="VanderbiltTabbBasophile-S-cerevisiae-CID-LysC">
+<description>Basophile-S-cerevisiae-CID-LysC</description>
+<repository path="file://[EDRN_REPO_HOME]/archive"/>
+<versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+<metadata>
+<keyval>
+<key>Date</key>
+<val>2013-02-28T15%3A08%3A50.841Z</val>
+</keyval>
+<keyval>
+<key>PubMedID</key>
+<val>23499924</val>
+</keyval>
+<keyval>
+<key>ProtocolId</key>
+<val>1037</val>
+</keyval>
+<keyval>
+<key>DataCustodian</key>
+<val>David+Tabb</val>
+</keyval>
+<keyval>
+<key>DataDisclaimer</key>
+<val>Data+and+information+released+from+the+National+Cancer+Institute+%28NCI%29+are+provided+on+an+%22AS+IS%22+basis%2C+without+warranty+of+any+kind%2C+including+without+limitation+the+warranties+of+merchantability%2C+fitness+for+a+particular+purpose+and+non-infringement.+Availability+of+this+data+and+information+does+not+constitute+scientific+publication.+Data+and%2For+information+may+contain+errors+or+be+incomplete.%0A++++++++NCI+and+its+employees+make+no+representation+or+warranty%2C+express+or+implied%2C+including+without+limitation+any+warranties+of+merchantability+or+fitness+for+a+particular+purpose+or+warranties+as+to+the+identity+or+ownership+of+data+or+information%2C+the+quality%2C+accuracy+or+completeness+of+data+or+information%2C+or+that+the+use+of+such+data+or+information+will+not+infringe+any+patent%2C+intellectual+property+or+proprietary+rights+of+any+party.%0A++++++++NCI+shall+not+be+liable+for+any+claim+for+any+loss%2C+harm%2C+illness+or+other+damage+or+injury+arising+from+access+to+or+use+of+data+or+information%2C+including+without+limitation+any+direct%2C+indirect%2C+incidental%2C+exemplary%2C+special+or+consequential+damages%2C+even+if+advised+of+the+possibility+of+such+damages.%0A++++++++In+accordance+with+scientific+standards%2C+appropriate+acknowledgment+of+NCI+should+be+made+in+any+publications+or+other+disclosures+concerning+data+or+information+made+available+by+NCI.+%0A++++++%09</val>
+</keyval>
+<keyval>
+<key>OrganSite</key>
+<val>NA</val>
+</keyval>
+<keyval>
+<key>CollaborativeGroup</key>
+<val>Not+Applicable</val>
+</keyval>
+<keyval>
+<key>DatasetId</key>
+<val>urn%3Aedrn%3AVanderbiltTabbBasophile-S-cerevisiae-CID-LysC</val>
+</keyval>
+<keyval>
+<key>AccessGrantedTo</key>
+<val>Tabb+Vanderbilt+Medical+Center</val>
+<val>Super+User</val>
+</keyval>
+<keyval>
+<key>SiteName</key>
+<val>598</val>
+</keyval>
+<keyval>
+<key>Species</key>
+<val>Homo+sapiens+-+Taxonomy+ID%3A+9606</val>
+</keyval>
+<keyval>
+<key>QAState</key>
+<val>Accepted</val>
+</keyval>
+<keyval>
+<key>DataCustodianEmail</key>
+<val>david.l.tabb%40vanderbilt.edu</val>
+</keyval>
+<keyval>
+<key>DataSetName</key>
+<val>Basophile-S-cerevisiae-CID-LysC</val>
+</keyval>
+<keyval>
+<key>DateDatasetFrozen</key>
+<val>Unknown</val>
+</keyval>
+<keyval>
+<key>LeadPI</key>
+<val>David+Tabb</val>
+</keyval>
+<keyval>
+<key>ProtocolName</key>
+<val>Basophile%3A+Accurate+Fragment+Charge+State+Prediction+Improves+Peptide+Identification+Rates</val>
+</keyval>
+<keyval>
+<key>ResultsAndConclusionSummary</key>
+<val>TBD</val>
+</keyval>
+<keyval>
+<key>MethodDetails</key>
+<val>TBD</val>
+</keyval>
+<keyval>
+<key>PublishState</key>
+<val>yes</val>
+</keyval>
+</metadata>
+</type>
+<type id="urn:edrn:VanderbiltTabbBasophile-D-discoideum-CID-LTQ" name="VanderbiltTabbBasophile-D-discoideum-CID-LTQ">
+<description>Basophile-D-discoideum-CID-LTQ</description>
+<repository path="file://[EDRN_REPO_HOME]/archive"/>
+<versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+<metadata>
+<keyval>
+<key>Date</key>
+<val>2013-02-28T14%3A56%3A51.969Z</val>
+</keyval>
+<keyval>
+<key>PubMedID</key>
+<val>23499924</val>
+</keyval>
+<keyval>
+<key>ProtocolId</key>
+<val>1037</val>
+</keyval>
+<keyval>
+<key>DataCustodian</key>
+<val>David+Tabb</val>
+</keyval>
+<keyval>
+<key>DataDisclaimer</key>
+<val>Data+and+information+released+from+the+National+Cancer+Institute+%28NCI%29+are+provided+on+an+%22AS+IS%22+basis%2C+without+warranty+of+any+kind%2C+including+without+limitation+the+warranties+of+merchantability%2C+fitness+for+a+particular+purpose+and+non-infringement.+Availability+of+this+data+and+information+does+not+constitute+scientific+publication.+Data+and%2For+information+may+contain+errors+or+be+incomplete.%0A++++++++NCI+and+its+employees+make+no+representation+or+warranty%2C+express+or+implied%2C+including+without+limitation+any+warranties+of+merchantability+or+fitness+for+a+particular+purpose+or+warranties+as+to+the+identity+or+ownership+of+data+or+information%2C+the+quality%2C+accuracy+or+completeness+of+data+or+information%2C+or+that+the+use+of+such+data+or+information+will+not+infringe+any+patent%2C+intellectual+property+or+proprietary+rights+of+any+party.%0A++++++++NCI+shall+not+be+liable+for+any+claim+for+any+loss%2C+harm%2C+illness+or+other+damage+or+injury+arising+from+access+to+or+use+of+data+or+information%2C+including+without+limitation+any+direct%2C+indirect%2C+incidental%2C+exemplary%2C+special+or+consequential+damages%2C+even+if+advised+of+the+possibility+of+such+damages.%0A++++++++In+accordance+with+scientific+standards%2C+appropriate+acknowledgment+of+NCI+should+be+made+in+any+publications+or+other+disclosures+concerning+data+or+information+made+available+by+NCI.+%0A++++++%09</val>
+</keyval>
+<keyval>
+<key>OrganSite</key>
+<val>NA</val>
+</keyval>
+<keyval>
+<key>CollaborativeGroup</key>
+<val>Not+Applicable</val>
+</keyval>
+<keyval>
+<key>DatasetId</key>
+<val>urn%3Aedrn%3AVanderbiltTabbBasophile-D-discoideum-CID-LTQ</val>
+</keyval>
+<keyval>
+<key>AccessGrantedTo</key>
+<val>Tabb+Vanderbilt+University+Medical+Center</val>
+<val>Tabb+Vanderbilt+Medical+Center</val>
+<val>Super+User</val>
+</keyval>
+<keyval>
+<key>SiteName</key>
+<val>598</val>
+</keyval>
+<keyval>
+<key>Species</key>
+<val>Homo+sapiens+-+Taxonomy+ID%3A+9606</val>
+</keyval>
+<keyval>
+<key>QAState</key>
+<val>Accepted</val>
+</keyval>
+<keyval>
+<key>DataCustodianEmail</key>
+<val>david.l.tabb%40vanderbilt.edu</val>
+</keyval>
+<keyval>
+<key>DataSetName</key>
+<val>Basophile-D-discoideum-CID-LTQ</val>
+</keyval>
+<keyval>
+<key>DateDatasetFrozen</key>
+<val>Unknown</val>
+</keyval>
+<keyval>
+<key>LeadPI</key>
+<val>David+Tabb</val>
+</keyval>
+<keyval>
+<key>ProtocolName</key>
+<val>Basophile%3A+Accurate+Fragment+Charge+State+Prediction+Improves+Peptide+Identification+Rates</val>
+</keyval>
+<keyval>
+<key>ResultsAndConclusionSummary</key>
+<val>TBD</val>
+</keyval>
+<keyval>
+<key>MethodDetails</key>
+<val>TBD</val>
+</keyval>
+<keyval>
+<key>PublishState</key>
+<val>yes</val>
+</keyval>
+</metadata>
+</type>
 </cas:producttypes>
