@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Copyright (c) 2015 California Institute of Technology.
+  ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+  
+  $Id$
+  
+        Author: Heather L. Kincaid, Luca Cinquini
+        Description: Element policy for Sidransky's data (2014).
+-->
+<cas:producttypemap xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+
+	<type id="urn:edrn:GSTP1_Methylation" parent="urn:edrn:eCASFile">
+	</type>
+  
+</cas:producttypemap>
