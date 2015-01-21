@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+        <keyval type="vector">
+                <key>DatasetId</key>
+                <val>urn:edrn:GSTP1_Methylation</val>
+        </keyval>
+       <keyval type="vector">
+                <key>ProtocolId</key>
+                <val>397</val>
+        </keyval>
 	<keyval type="vector">
 		<key>FileLocation</key>
 		<val>%2Fdata%2Fingest%2Fsidransky</val>
@@ -10,7 +18,7 @@
 	</keyval>
 	<keyval type="vector">
 		<key>ProductTitle</key>
-		<val>Methylation SAS data</val>
+		<val>Methylation Data Codebook</val>
 	</keyval>
 	<keyval type="vector">
 		<key>LabAnalyticMethods</key>
@@ -26,7 +34,7 @@
 	</keyval>
 	<keyval type="vector">
 		<key>ProductFunction</key>
-		<val>SAS data</val>
+		<val>Variable Definitions</val>
 	</keyval>
 	<keyval type="vector">
 		<key>SpecimenId</key>
@@ -34,7 +42,7 @@
 	</keyval>
 	<keyval type="vector">
 		<key>Filename</key>
-		<val>methylation_data_2.sas7bdat</val>
+		<val>Methylation%20Data%20Codebook(2).docx</val>
 	</keyval>
 	<keyval type="vector">
 		<key>OrganName</key>
@@ -46,7 +54,7 @@
 	</keyval>
 	<keyval type="vector">
 		<key>ProductDescription</key>
-		<val>Methylation SAS data</val>
+		<val>Methylation Data Codebook</val>
 	</keyval>
 	<keyval type="vector">
 		<key>MethodDetails</key>

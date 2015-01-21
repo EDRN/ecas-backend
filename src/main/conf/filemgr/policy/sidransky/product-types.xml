@@ -77,6 +77,10 @@ y claim for any loss, harm, illness or other damage or injury arising from acces
             <key>SiteName</key>
             <val>Johns Hopkins University School of Medicine</val>
          </keyval>
+        <keyval>
+          <key>PubMedID</key>
+          <val>http://www.ncbi.nlm.nih.gov/pubmed/24769028</val>
+        </keyval>
          <keyval>
             <key>QAState</key>
             <val>Under Review</val>
@@ -91,7 +95,7 @@ y claim for any loss, harm, illness or other damage or injury arising from acces
          </keyval>
          <keyval>
             <key>DatasetURL</key>
-            <val/>
+            <val>http://www.ncbi.nlm.nih.gov/pubmed/18794547</val>
          </keyval>
          <keyval>
             <key>DateDatasetFrozen</key>
@@ -103,7 +107,7 @@ y claim for any loss, harm, illness or other damage or injury arising from acces
          </keyval>
          <keyval>
             <key>ProtocolName</key>
-            <val>GSTP1 Methylation</val>
+            <val>397</val>
          </keyval>
          <keyval>
             <key>ResultsAndConclusionSummary</key>
