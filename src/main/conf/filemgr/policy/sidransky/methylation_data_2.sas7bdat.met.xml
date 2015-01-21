@@ -14,15 +14,15 @@
 	</keyval>
 	<keyval type="vector">
 		<key>LabAnalyticMethods</key>
-		<val>TBD</val>
+		<val>NA</val>
 	</keyval>
 	<keyval type="vector">
 		<key>DateProductFrozen</key>
-		<val>TBD</val>
+		<val>NA</val>
 	</keyval>
 	<keyval type="vector">
 		<key>SiteShortName</key>
-		<val>TBD</val>
+		<val>JHUSOM</val>
 	</keyval>
 	<keyval type="vector">
 		<key>ProductFunction</key>
@@ -50,11 +50,11 @@
 	</keyval>
 	<keyval type="vector">
 		<key>MethodDetails</key>
-		<val>TBD</val>
+		<val>NA</val>
 	</keyval>
 	<keyval type="vector">
 		<key>InstrumentId</key>
-		<val>TBD</val>
+		<val>NA</val>
 	</keyval>
 	<keyval type="vector">
 		<key>SpecimenType</key>

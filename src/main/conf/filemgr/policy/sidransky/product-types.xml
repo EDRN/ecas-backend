@@ -59,7 +59,7 @@ y claim for any loss, harm, illness or other damage or injury arising from acces
          </keyval>
          <keyval>
             <key>CollaborativeGroup</key>
-            <val>Prostate &amp; Urologic</val>
+            <val>Prostate and Urologic</val>
          </keyval>
          <keyval>
             <key>DatasetId</key>
@@ -67,16 +67,19 @@ y claim for any loss, harm, illness or other damage or injury arising from acces
          </keyval>
          <keyval>
             <key>AccessGrantedTo</key>
-            <val>GI and Other Associated</val>
+            <val>Sidransky Johns Hopkins University School of Medicine</val>
+            <val>Feng Fred Hutchinson Cancer Research Center</val>
+            <val>Crichton JPL</val>
+	    	<val>Srivastava National Cancer Institute</val>
             <val>Super User</val>
          </keyval>
          <keyval>
             <key>SiteName</key>
-            <val>TBD</val>
+            <val>Johns Hopkins University School of Medicine</val>
          </keyval>
          <keyval>
             <key>QAState</key>
-            <val>Accepted</val>
+            <val>Under Review</val>
          </keyval>
          <keyval>
             <key>DataCustodianEmail</key>
