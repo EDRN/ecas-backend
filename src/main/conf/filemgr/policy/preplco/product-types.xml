@@ -143,10 +143,14 @@
         <key>OrganSite</key>
         <val>Ovary</val>
       </keyval>
-    <keyval> 
+      <keyval>
        <key>QAState</key>
-       <val>Under Review</val>
-    </keyval>
+       <val>Accepted</val>
+      </keyval>
+      <keyval>
+        <key>PublishState</key>
+        <val>yes</val>
+      </keyval>
     <keyval type="vector">
        <key>AccessGrantedTo</key>
        <val>Breast and Gynecologic</val>

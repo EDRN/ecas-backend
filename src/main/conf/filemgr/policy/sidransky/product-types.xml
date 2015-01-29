@@ -30,12 +30,16 @@
       with the risk of recurrence in patients with early prostate cancer. 
       This suggests that GSTP1 promoter methylation may be a potential tissue based recurrence marker.
       </description>
-      <repository path="file://[EDRN_ECAS_HOME]/archive"/>
+      <repository path="file://[EDRN_REPO_HOME]/archive"/>
       <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
       <metadata>
          <keyval>
             <key>Date</key>
             <val>01/22/2015</val>
+         </keyval>
+         <keyval>
+            <key>ProtocolId</key>
+            <val>397</val>
          </keyval>
          <keyval>
             <key>ProtocolId</key>
@@ -75,11 +79,11 @@ y claim for any loss, harm, illness or other damage or injury arising from acces
          </keyval>
          <keyval>
             <key>SiteName</key>
-            <val>Johns Hopkins University School of Medicine</val>
+            <val>500</val>
          </keyval>
         <keyval>
           <key>PubMedID</key>
-          <val>http://www.ncbi.nlm.nih.gov/pubmed/24769028</val>
+          <val>24769028</val>
         </keyval>
          <keyval>
             <key>QAState</key>
@@ -95,7 +99,7 @@ y claim for any loss, harm, illness or other damage or injury arising from acces
          </keyval>
          <keyval>
             <key>DatasetURL</key>
-            <val>http://www.ncbi.nlm.nih.gov/pubmed/18794547</val>
+            <val></val>
          </keyval>
          <keyval>
             <key>DateDatasetFrozen</key>
