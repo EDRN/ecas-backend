@@ -9,8 +9,6 @@ Release Notes - Early Detection of Cancer - Version eCAS Backend beta 0.5.1 rele
 	* [CA-956]  - Finalize dataset information for and provide non-authenticated access to Canary COPY_NUMBER_LEV1 dataset
 	* [CA-930]  - Add Kelsie Thu and associated permission to GLS copy number datasets
 
-
-
 Release Notes - Early Detection of Cancer - Version eCAS Backend beta 0.5.0 release - 03/09/2012
 
 
