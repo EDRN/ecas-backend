@@ -42,10 +42,6 @@
             <val>397</val>
          </keyval>
          <keyval>
-            <key>ProtocolId</key>
-            <val>397</val>
-         </keyval>
-         <keyval>
             <key>DataCustodian</key>
             <val>David Sidransky, M.D.</val>
          </keyval>
@@ -79,7 +75,7 @@ y claim for any loss, harm, illness or other damage or injury arising from acces
          </keyval>
          <keyval>
             <key>SiteName</key>
-            <val>500</val>
+            <val>86</val>
          </keyval>
         <keyval>
           <key>PubMedID</key>
@@ -87,7 +83,7 @@ y claim for any loss, harm, illness or other damage or injury arising from acces
         </keyval>
          <keyval>
             <key>QAState</key>
-            <val>Under Review</val>
+            <val>Accepted</val>
          </keyval>
          <keyval>
             <key>DataCustodianEmail</key>
@@ -134,6 +130,10 @@ y claim for any loss, harm, illness or other damage or injury arising from acces
          <keyval>
             <key>Discipline</key>
             <val>Epigenomics</val>
+         </keyval>
+         <keyval>
+            <key>RecommendedSoftware</key>
+            <val>SAS universal viewer 1.4</val>
          </keyval>
       </metadata>
    </type>

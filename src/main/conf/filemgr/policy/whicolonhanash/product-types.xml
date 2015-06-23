@@ -99,6 +99,10 @@
         <key>OrganSite</key>
         <val>Colon</val>
       </keyval>
+      <keyval>
+         <key>PubMedID</key>
+         <val>22277732</val>
+      </keyval>
     <keyval>
     	<key>PublishState</key>
     	<val>yes</val>
