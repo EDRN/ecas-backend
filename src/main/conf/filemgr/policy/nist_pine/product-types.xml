@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+	Copyright (c) 2015 California Institute of Technology.
+	ALL RIGHTS RESERVED. U.S. Government Sponsorship acknowledged.
+	
+	$Id$
+	
+	Author: Heather L. Kincaid, Luca Cinquini
+	Description: Element policy for Sidransky's data (2014).
+-->
+<cas:producttypes xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+   <type id="urn:edrn:GSTP1_Methylation" name="GSTP1_Methylation">
+      <description>
+      Purpose: Recurrent prostate cancer remains a major problem. 
+      Staging, grading and prostate specific antigen level at surgery are helpful but still imperfect predictors of recurrence. 
+      For this reason there is an imperative need for additional biomarkers that add to the prediction of currently used prognostic factors. 
+      Materials and Methods: We evaluated the extent of promoter methylation of genes previously reported as aberrantly methylated in prostate cancer 
+      (AIM1, APC, CCND2, GPX3, GSTP1, MCAM, RARβ2, SSBP2 and TIMP3) 
+      by quantitative fluorogenic methylation-specific polymerase chain reaction. 
+      We used cancer tissue from a nested case-control study of 452 patients surgically treated for prostate cancer. 
+      Recurrence cases and controls were compared and the association between methylation extent and recurrence risk 
+      was estimated by logistic regression adjusting for patient age at prostatectomy, prostatectomy year, stage, grade, surgical margins 
+      and preprostatectomy prostate specific antigen. 
+      All statistical tests were 2-sided with p &lt;= 0.05 considered statistically significant. 
+      Results: The extent of GSTP1 methylation was higher in patients with recurrence than in controls (p = 0.01), 
+      especially patients with early disease, ie organ confined or limited extraprostatic extension (p = 0.001). 
+      After multivariate adjustment GSTP1 promoter methylation at or above the median was associated with an increased risk of recurrence, 
+      including in men with early disease (each p = 0.05).
+      Conclusions: Greater GSTP1 promoter methylation in cancer tissue was independently associated 
+      with the risk of recurrence in patients with early prostate cancer. 
+      This suggests that GSTP1 promoter methylation may be a potential tissue based recurrence marker.
+      </description>
+      <repository path="file://[EDRN_REPO_HOME]/archive"/>
+      <versioner class="gov.nasa.jpl.edrn.ecas.versioning.EDRNProductVersioner"/>
+      <metadata>
+         <keyval>
+            <key>Date</key>
+            <val>01/22/2015</val>
+         </keyval>
+         <keyval>
+            <key>ProtocolId</key>
+            <val>397</val>
+         </keyval>
+         <keyval>
+            <key>DataCustodian</key>
+            <val>David Sidransky, M.D.</val>
+         </keyval>
+         <keyval>
+            <key>DataDisclaimer</key>
+            <val>Data and information released from the National Cancer Institute (NCI) are provided on an "AS IS" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this d\
+ata and information does not constitute scientific publication. For information may contain errors or be incomplete.NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose \
+or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party.NCI shall not be liable for an\
+y claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages.In accordance with\
+ scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI.</val>
+         </keyval>
+         <keyval>
+            <key>OrganSite</key>
+            <val>Prostate</val>
+         </keyval>
+         <keyval>
+            <key>CollaborativeGroup</key>
+            <val>Prostate and Urologic</val>
+         </keyval>
+         <keyval>
+            <key>DatasetId</key>
+            <val>urn:edrn:GSTP1_Methylation</val>
+         </keyval>
+         <keyval>
+            <key>AccessGrantedTo</key>
+            <val>Sidransky Johns Hopkins University School of Medicine</val>
+            <val>Feng Fred Hutchinson Cancer Research Center</val>
+            <val>Crichton JPL</val>
+	    	<val>Srivastava National Cancer Institute</val>
+            <val>Super User</val>
+         </keyval>
+         <keyval>
+            <key>SiteName</key>
+            <val>86</val>
+         </keyval>
+        <keyval>
+          <key>PubMedID</key>
+          <val>24769028</val>
+        </keyval>
+         <keyval>
+            <key>QAState</key>
+            <val>Accepted</val>
+         </keyval>
+         <keyval>
+            <key>DataCustodianEmail</key>
+            <val>dsidrans@jhmi.edu</val>
+         </keyval>
+         <keyval>
+            <key>DataSetName</key>
+            <val>GSTP1 Methylation</val>
+         </keyval>
+         <keyval>
+            <key>DatasetURL</key>
+            <val></val>
+         </keyval>
+         <keyval>
+            <key>DateDatasetFrozen</key>
+            <val/>
+         </keyval>
+         <keyval>
+            <key>LeadPI</key>
+            <val>David Sidransky</val>
+         </keyval>
+         <keyval>
+            <key>ProtocolName</key>
+            <val>397</val>
+         </keyval>
+         <keyval>
+            <key>ResultsAndConclusionSummary</key>
+            <val>
+            Greater GSTP1 promoter methylation in cancer tissue was independently associated with the risk of recurrence in patients with early prostate cancer. 
+            This suggests that GSTP1 promoter methylation may be a potential tissue based recurrence marker.
+            </val>
+         </keyval>
+         <keyval>
+            <key>MethodDetails</key>
+            <val>
+            We evaluated the extent of promoter methylation of genes previously reported as aberrantly methylated in prostate cancer (AIM1, APC, CCND2, GPX3, GSTP1, MCAM, RARβ2, SSBP2 and TIMP3) by quantitative fluorogenic methylation-specific polymerase chain reaction. We used cancer tissue from a nested case-control study of 452 patients surgically treated for prostate cancer. Recurrence cases and controls were compared and the association between methylation extent and recurrence risk was estimated by logistic regression adjusting for patient age at prostatectomy, prostatectomy year, stage, grade, surgical margins and preprostatectomy prostate specific antigen. 
+            All statistical tests were 2-sided with p &lt;= 0.05 considered statistically significant.
+            </val>
+         </keyval>
+         <keyval>
+            <key>PublishState</key>
+            <val>yes</val>
+         </keyval>
+         <keyval>
+            <key>Discipline</key>
+            <val>Epigenomics</val>
+         </keyval>
+         <keyval>
+            <key>RecommendedSoftware</key>
+            <val>SAS universal viewer 1.4</val>
+         </keyval>
+      </metadata>
+   </type>
+</cas:producttypes>
