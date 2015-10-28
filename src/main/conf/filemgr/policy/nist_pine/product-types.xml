@@ -6,7 +6,7 @@
 	$Id$
 	
 	Author: Heather L. Kincaid, Luca Cinquini
-	Description: Element policy for Sidransky's data (2014).
+	Description: Element policy for NIST Scott Pine data.
 -->
 <cas:producttypes xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
    <type id="urn:edrn:GSTP1_Methylation" name="GSTP1_Methylation">
