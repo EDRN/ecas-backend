@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+        <keyval type="vector">
+                <key>DatasetId</key>
+                <val>urn:edrn:GSTP1_Methylation</val>
+        </keyval>
+       <keyval type="vector">
+                <key>ProtocolId</key>
+                <val>397</val>
+        </keyval>
+	<keyval type="vector">
+		<key>FileLocation</key>
+		<val>%2Fdata%2Fingest%2Fsidransky</val>
+	</keyval>
+	<keyval type="vector">
+		<key>DataStage</key>
+		<val>Processed</val>
+	</keyval>
+	<keyval type="vector">
+		<key>ProductTitle</key>
+		<val>Methylation SAS data</val>
+	</keyval>
+	<keyval type="vector">
+		<key>LabAnalyticMethods</key>
+		<val>NA</val>
+	</keyval>
+	<keyval type="vector">
+		<key>DateProductFrozen</key>
+		<val>NA</val>
+	</keyval>
+	<keyval type="vector">
+		<key>SiteShortName</key>
+		<val>JHUSOM</val>
+	</keyval>
+	<keyval type="vector">
+		<key>ProductFunction</key>
+		<val>SAS data</val>
+	</keyval>
+	<keyval type="vector">
+		<key>SpecimenId</key>
+		<val>Tissue paraffin block</val>
+	</keyval>
+	<keyval type="vector">
+		<key>Filename</key>
+		<val>methylation_data_2.sas7bdat</val>
+	</keyval>
+	<keyval type="vector">
+		<key>OrganName</key>
+		<val>Prostate</val>
+	</keyval>
+	<keyval type="vector">
+		<key>ProductType</key>
+		<val>GSTP1_Methylation</val>
+	</keyval>
+	<keyval type="vector">
+		<key>ProductDescription</key>
+		<val>Methylation SAS data</val>
+	</keyval>
+	<keyval type="vector">
+		<key>MethodDetails</key>
+		<val>NA</val>
+	</keyval>
+	<keyval type="vector">
+		<key>InstrumentId</key>
+		<val>NA</val>
+	</keyval>
+	<keyval type="vector">
+		<key>SpecimenType</key>
+		<val>Tissue paraffin block</val>
+	</keyval>
+	<keyval type="vector">
+		<key>Organism</key>
+		<val>Prostate</val>
+	</keyval>
+	<keyval type="vector">
+		<key>InstrumentDetails</key>
+		<val>
+		7900HT sequence detector (Applied Biosystems®). 
+		SDS 2.4 software for methylation analysis. 
+		All statistical analysis was done with SAS®, version 9.2.
+		</val>
+	</keyval>
+</cas:metadata>
