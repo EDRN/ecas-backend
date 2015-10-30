@@ -2,11 +2,11 @@
 <cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
         <keyval type="vector">
                 <key>DatasetId</key>
-                <val>urn:edrn:GSTP1_Methylation</val>
+                <val>urn:edrn:miRNAStudyPine</val>
         </keyval>
        <keyval type="vector">
                 <key>ProtocolId</key>
-                <val>397</val>
+                <val>410</val>
         </keyval>
 	<keyval type="vector">
 		<key>FileLocation</key>
@@ -14,11 +14,11 @@
 	</keyval>
 	<keyval type="vector">
 		<key>DataStage</key>
-		<val>Processed</val>
+		<val>Unprocessed</val>
 	</keyval>
 	<keyval type="vector">
 		<key>ProductTitle</key>
-		<val>Methylation SAS data</val>
+		<val>Lab 01, Round 01, Platform A</val>
 	</keyval>
 	<keyval type="vector">
 		<key>LabAnalyticMethods</key>
@@ -30,31 +30,31 @@
 	</keyval>
 	<keyval type="vector">
 		<key>SiteShortName</key>
-		<val>JHUSOM</val>
+		<val>NIST</val>
 	</keyval>
 	<keyval type="vector">
 		<key>ProductFunction</key>
-		<val>SAS data</val>
+		<val>Raw PCR BioRad instrument values</val>
 	</keyval>
 	<keyval type="vector">
 		<key>SpecimenId</key>
-		<val>Tissue paraffin block</val>
+		<val>Tissue section</val>
 	</keyval>
 	<keyval type="vector">
 		<key>Filename</key>
-		<val>methylation_data_2.sas7bdat</val>
+		<val>Lab001_A_R01.txt</val>
 	</keyval>
 	<keyval type="vector">
 		<key>OrganName</key>
-		<val>Prostate</val>
+		<val>Described at dataset level</val>
 	</keyval>
 	<keyval type="vector">
 		<key>ProductType</key>
-		<val>GSTP1_Methylation</val>
+		<val>miRNAStudyPine</val>
 	</keyval>
 	<keyval type="vector">
 		<key>ProductDescription</key>
-		<val>Methylation SAS data</val>
+		<val>NIST miRNA Lab01, Round01 Platform A</val>
 	</keyval>
 	<keyval type="vector">
 		<key>MethodDetails</key>
@@ -62,22 +62,20 @@
 	</keyval>
 	<keyval type="vector">
 		<key>InstrumentId</key>
-		<val>NA</val>
+		<val>PCR BioRad</val>
 	</keyval>
 	<keyval type="vector">
 		<key>SpecimenType</key>
-		<val>Tissue paraffin block</val>
+		<val>Tissue section</val>
 	</keyval>
 	<keyval type="vector">
 		<key>Organism</key>
-		<val>Prostate</val>
+		<val>NA</val>
 	</keyval>
 	<keyval type="vector">
 		<key>InstrumentDetails</key>
 		<val>
-		7900HT sequence detector (Applied Biosystems®). 
-		SDS 2.4 software for methylation analysis. 
-		All statistical analysis was done with SAS®, version 9.2.
+		PCR BioRad
 		</val>
 	</keyval>
 </cas:metadata>
