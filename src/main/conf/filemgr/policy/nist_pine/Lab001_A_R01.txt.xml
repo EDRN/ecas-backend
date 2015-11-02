@@ -21,14 +21,6 @@
 		<val>Lab 01, Round 01, Platform A</val>
 	</keyval>
 	<keyval type="vector">
-		<key>LabAnalyticMethods</key>
-		<val>NA</val>
-	</keyval>
-	<keyval type="vector">
-		<key>DateProductFrozen</key>
-		<val>NA</val>
-	</keyval>
-	<keyval type="vector">
 		<key>SiteShortName</key>
 		<val>NIST</val>
 	</keyval>
@@ -67,10 +59,6 @@
 	<keyval type="vector">
 		<key>SpecimenType</key>
 		<val>Tissue section</val>
-	</keyval>
-	<keyval type="vector">
-		<key>Organism</key>
-		<val>NA</val>
 	</keyval>
 	<keyval type="vector">
 		<key>InstrumentDetails</key>
