@@ -38,7 +38,7 @@
 	</keyval>
 	<keyval type="vector">
 		<key>OrganName</key>
-		<val>LiverPlacentaBrain</val>
+		<val>Liver_Placenta_Brain</val>
 	</keyval>
 	<keyval type="vector">
 		<key>ProductType</key>
