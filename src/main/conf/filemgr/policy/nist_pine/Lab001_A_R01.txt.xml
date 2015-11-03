@@ -54,7 +54,7 @@
 	</keyval>
 	<keyval type="vector">
 		<key>InstrumentId</key>
-		<val>PCR BioRad</val>
+		<val>PCR_BioRad</val>
 	</keyval>
 	<keyval type="vector">
 		<key>SpecimenType</key>
