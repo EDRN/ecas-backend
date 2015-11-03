@@ -10,7 +10,7 @@
         </keyval>
 	<keyval type="vector">
 		<key>FileLocation</key>
-		<val>%2Fdata%2Fingest%2Fsidransky</val>
+		<val>%2Fdata%2Fingest%2Fnist_pine</val>
 	</keyval>
 	<keyval type="vector">
 		<key>DataStage</key>

@@ -10,7 +10,7 @@
 -->
 <cas:producttypemap xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
 
-	<type id="urn:edrn:GSTP1_Methylation" parent="urn:edrn:eCASFile">
+	<type id="urn:edrn:miRNAStudyPine" parent="urn:edrn:eCASFile">
 	</type>
   
 </cas:producttypemap>

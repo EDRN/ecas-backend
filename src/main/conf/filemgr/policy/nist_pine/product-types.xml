@@ -9,7 +9,7 @@
 	Description: Element policy for NIST Scott Pine data.
 -->
 <cas:producttypes xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
-   <type id="urn:edrn:GSTP1_Methylation" name="GSTP1_Methylation">
+   <type id="urn:edrn:miRNAStudyPine" name="miRNAStudyPine">
       <description>
       Reference Samples to Assess Reproducibility of miRNA Measurements.
       </description>
@@ -46,7 +46,7 @@ y claim for any loss, harm, illness or other damage or injury arising from acces
          </keyval>
          <keyval>
             <key>DatasetId</key>
-            <val>urn:edrn:GSTP1_Methylation</val>
+            <val>urn:edrn:miRNAStudyPine</val>
          </keyval>
          <keyval>
             <key>AccessGrantedTo</key>
