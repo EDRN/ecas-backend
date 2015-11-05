@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+        <keyval type="vector">
+                <key>DatasetId</key>
+                <val>urn:edrn:miRNAStudyPine</val>
+        </keyval>
+       <keyval type="vector">
+                <key>ProtocolId</key>
+                <val>410</val>
+        </keyval>
+	<keyval type="vector">
+		<key>FileLocation</key>
+		<val>%2Fdata%2Fingest%2Fnist_pine</val>
+	</keyval>
+	<keyval type="vector">
+		<key>DataStage</key>
+		<val>Unprocessed</val>
+	</keyval>
+	<keyval type="vector">
+		<key>ProductTitle</key>
+		<val>Lab 05, Round 03, Platform A</val>
+	</keyval>
+	<keyval type="vector">
+		<key>SiteShortName</key>
+		<val>NIST</val>
+	</keyval>
+	<keyval type="vector">
+		<key>ProductFunction</key>
+		<val>Raw PCR BioRad instrument values</val>
+	</keyval>
+	<keyval type="vector">
+		<key>SpecimenId</key>
+		<val>Tissue section</val>
+	</keyval>
+	<keyval type="vector">
+		<key>Filename</key>
+		<val>Lab005_A_R03.txt</val>
+	</keyval>
+	<keyval type="vector">
+		<key>OrganName</key>
+		<val>Liver_Placenta_Brain</val>
+	</keyval>
+	<keyval type="vector">
+		<key>ProductType</key>
+		<val>miRNAStudyPine</val>
+	</keyval>
+	<keyval type="vector">
+		<key>ProductDescription</key>
+		<val>NIST miRNA Lab05, Round03 Platform A</val>
+	</keyval>
+	<keyval type="vector">
+		<key>MethodDetails</key>
+		<val>NA</val>
+	</keyval>
+	<keyval type="vector">
+		<key>InstrumentId</key>
+		<val>PCR_BioRad</val>
+	</keyval>
+	<keyval type="vector">
+		<key>SpecimenType</key>
+		<val>Tissue section</val>
+	</keyval>
+	<keyval type="vector">
+		<key>InstrumentDetails</key>
+		<val>
+		PCR BioRad
+		</val>
+	</keyval>
+</cas:metadata>
