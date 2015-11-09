@@ -46,7 +46,7 @@
 	</keyval>
 	<keyval type="vector">
 		<key>ProductDescription</key>
-		<val>Sample number with associate tissue type and replicate</val>
+		<val>Sample number with associate tissue type and replicates for round 1</val>
 	</keyval>
 	<keyval type="vector">
 		<key>MethodDetails</key>
