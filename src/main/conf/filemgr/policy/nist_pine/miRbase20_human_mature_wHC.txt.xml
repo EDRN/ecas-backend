@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+        <keyval type="vector">
+                <key>DatasetId</key>
+                <val>urn:edrn:miRNAStudyPine</val>
+        </keyval>
+       <keyval type="vector">
+                <key>ProtocolId</key>
+                <val>410</val>
+        </keyval>
+	<keyval type="vector">
+		<key>FileLocation</key>
+		<val>%2Fdata%2Fingest%2Fnist_pine</val>
+	</keyval>
+	<keyval type="vector">
+		<key>DataStage</key>
+		<val>Processed</val>
+	</keyval>
+	<keyval type="vector">
+		<key>ProductTitle</key>
+		<val>miRBase20 Human Mature</val>
+	</keyval>
+	<keyval type="vector">
+		<key>SiteShortName</key>
+		<val>NIST</val>
+	</keyval>
+	<keyval type="vector">
+		<key>ProductFunction</key>
+		<val>Database of published miRNA sequences and annotation</val>
+	</keyval>
+	<keyval type="vector">
+		<key>SpecimenId</key>
+		<val>NA</val>
+	</keyval>
+	<keyval type="vector">
+		<key>Filename</key>
+		<val>miRbase20_human_mature_wHC.txt</val>
+	</keyval>
+	<keyval type="vector">
+		<key>OrganName</key>
+		<val>NA</val>
+	</keyval>
+	<keyval type="vector">
+		<key>ProductType</key>
+		<val>miRNAStudyPine</val>
+	</keyval>
+	<keyval type="vector">
+		<key>ProductDescription</key>
+		<val>The miRBase database is a searchable database of published miRNA sequences and annotation. Each entry in the miRBase Sequence database represents a predicted hairpin portion of a miRNA transcript (termed mir in the database), with information on the location and sequence of the mature miRNA sequence (termed miR). Both hairpin and mature sequences are available for searching and browsing, and entries can also be retrieved by name, keyword, references and annotation. All sequence and annotation data are also available for download. http://www.mirbase.org/
+miRBase is managed by the Griffiths-Jones lab at the Faculty of Life Sciences, University of Manchester with funding from the BBSRC. miRBase was previously hosted and supported by the Wellcome Trust Sanger Institute.
+</val>
+	</keyval>
+	<keyval type="vector">
+		<key>MethodDetails</key>
+		<val>NA</val>
+	</keyval>
+	<keyval type="vector">
+		<key>InstrumentId</key>
+		<val>NA</val>
+	</keyval>
+	<keyval type="vector">
+		<key>SpecimenType</key>
+		<val>NA</val>
+	</keyval>
+	<keyval type="vector">
+		<key>InstrumentDetails</key>
+		<val>
+		NA
+		</val>
+	</keyval>
+</cas:metadata>
