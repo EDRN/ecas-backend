@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+        <keyval type="vector">
+                <key>DatasetId</key>
+                <val>urn:edrn:miRNAStudyPine</val>
+        </keyval>
+       <keyval type="vector">
+                <key>ProtocolId</key>
+                <val>410</val>
+        </keyval>
+	<keyval type="vector">
+		<key>FileLocation</key>
+		<val>%2Fdata%2Fingest%2Fnist_pine</val>
+	</keyval>
+	<keyval type="vector">
+		<key>DataStage</key>
+		<val>Processed</val>
+	</keyval>
+	<keyval type="vector">
+		<key>ProductTitle</key>
+		<val>Site replicate key for round 1</val>
+	</keyval>
+	<keyval type="vector">
+		<key>SiteShortName</key>
+		<val>NIST</val>
+	</keyval>
+	<keyval type="vector">
+		<key>ProductFunction</key>
+		<val>Sample replicate key file</val>
+	</keyval>
+	<keyval type="vector">
+		<key>SpecimenId</key>
+		<val>NA</val>
+	</keyval>
+	<keyval type="vector">
+		<key>Filename</key>
+		<val>Round1_Key.txt</val>
+	</keyval>
+	<keyval type="vector">
+		<key>OrganName</key>
+		<val>NA</val>
+	</keyval>
+	<keyval type="vector">
+		<key>ProductType</key>
+		<val>miRNAStudyPine</val>
+	</keyval>
+	<keyval type="vector">
+		<key>ProductDescription</key>
+		<val>Sample number with associate tissue type and replicate</val>
+	</keyval>
+	<keyval type="vector">
+		<key>MethodDetails</key>
+		<val>NA</val>
+	</keyval>
+	<keyval type="vector">
+		<key>InstrumentId</key>
+		<val>NA</val>
+	</keyval>
+	<keyval type="vector">
+		<key>SpecimenType</key>
+		<val>NA</val>
+	</keyval>
+	<keyval type="vector">
+		<key>InstrumentDetails</key>
+		<val>
+		NA
+		</val>
+	</keyval>
+</cas:metadata>
