@@ -26,7 +26,7 @@
 	</keyval>
 	<keyval type="vector">
 		<key>ProductFunction</key>
-		<val>Raw PCR BioRad instrument values</val>
+		<val>Raw NGS HiSeq instrument values</val>
 	</keyval>
 	<keyval type="vector">
 		<key>SpecimenId</key>
@@ -54,7 +54,7 @@
 	</keyval>
 	<keyval type="vector">
 		<key>InstrumentId</key>
-		<val>PCR_BioRad</val>
+		<val>NGS_HiSeq</val>
 	</keyval>
 	<keyval type="vector">
 		<key>SpecimenType</key>
@@ -63,7 +63,7 @@
 	<keyval type="vector">
 		<key>InstrumentDetails</key>
 		<val>
-		PCR BioRad
+		NGS HiSeq
 		</val>
 	</keyval>
 </cas:metadata>
